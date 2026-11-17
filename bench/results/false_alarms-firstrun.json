@@ -1,0 +1,285 @@
+{
+  "sample": {
+    "f3d": 400,
+    "us": 100
+  },
+  "seed": 20261117,
+  "opinions": 500,
+  "citations": 28554,
+  "verdicts": {
+    "VERIFIED": 18930,
+    "UNVERIFIABLE": 9587,
+    "FABRICATED": 37
+  },
+  "fabricated": 37,
+  "fabricated_rate": 0.0013,
+  "by_problem": {
+    "inside_other_case": 11,
+    "wrong_name": 15,
+    "past_last_page": 2,
+    "series_not_in_print": 4,
+    "no_such_series": 5
+  },
+  "seconds": 134.9,
+  "flagged": [
+    {
+      "opinion": "Rookaird v. BNSF Ry. Co., 908 F.3d (0451-01)",
+      "citation": "883 F.3d 797",
+      "problem": "inside_other_case",
+      "reason": "Page 797 of 883 F.3d is inside Native Ecosystems Council v. Marten, 883 F.3d 783 (9th Cir. 2018), which runs from page 783 to 797. No case named Packing is in volume 883.",
+      "context": "r element of his FRSA retaliation claim. We review de novo a district court's grant of summary judgment. S & H Packing & Sales Co. v. Tanimura Distrib., Inc. , 883 F.3d 797, 801 (9th Cir. 2018). Summary judgment is appropriate when"
+    },
+    {
+      "opinion": "Momentive Performance Materials Inc. v. BOKF, NA, 874 F.3d (0787-01)",
+      "citation": "10 F.3d 944",
+      "problem": "wrong_name",
+      "reason": "10 F.3d 944 is Frito-Lay, Inc. v. LTV Steel Co., 10 F.3d 944 (2d Cir. 1993), not the case named in the brief (\"\").",
+      "context": "zation for every transaction that has taken place and create an unmanageable, uncontrollable situation for the Bankruptcy Court.’ ” Id. (quoting Chateaugay II, 10 F.3d 944, 953 (2d Cir. 1993)). A special emphasis on this factor is"
+    },
+    {
+      "opinion": "Smith v. Sushka, 117 F.3d (0965-01)",
+      "citation": "97 F.3d 1586",
+      "problem": "past_last_page",
+      "reason": "Volume 97 of F.3d ends at page 1584; page 1586 does not exist.",
+      "context": "or the other test is clearly and directly applicable, the other is not independently necessary, although it may be somewhat informative. See McCloud v. Testa, 97 F.3d 1586, 1561 (6th Cir.1996). And while Faughender states that a co"
+    },
+    {
+      "opinion": "Thomas v. Durastanti, 607 F.3d (0655-01)",
+      "citation": "584 F.3d at 894",
+      "problem": "series_not_in_print",
+      "reason": "F.3d began in 1993, and the earliest case printed in it was decided in 1990; a 1865 F.3d citation cannot exist.",
+      "context": ", and courts have long recognized that the reasonableness of a seizure depends not just on why or when it is made, but also on how it is accomplished.” Fisher, 584 F.3d at 894 (citing Graham, 490 U.S. at 395, 109 S.Ct. 1865). To sta"
+    },
+    {
+      "opinion": "United States v. Graham, 643 F.3d (0885-01)",
+      "citation": "820 F.3d 1213",
+      "problem": "inside_other_case",
+      "reason": "Page 1213 of 820 F.3d is inside Slater v. U.S. Steel Corp., 820 F.3d 1193 (11th Cir. 2016), which runs from page 1193 to 1256. No case named Tampa is in volume 820.",
+      "context": "business, even if the witness is not qualified as an expert under Federal Rule of Evidence 702. See Tampa Bay Shipbuilding & Repair Co. v. Cedar Shipping Co., 820 F.3d 1213, 1223 (11th Cir.2003) (“Tampa Bay’s witnesses testified bas"
+    },
+    {
+      "opinion": "United States v. Wingo, 789 F.3d (1226-01)",
+      "citation": "147 F.8d 1344",
+      "problem": "no_such_series",
+      "reason": "There is no F.8d: the Federal Reporter was published as F., F.2d, F.3d and F.4th.",
+      "context": "if defense counsel did not first raise it. But “we avoid statutory constructions that render provisions meaningless.” Bouchard Transp. Co., Inc. v. Updegraff, 147 F.8d 1344, 1351 (11th Cir.1998) (citation omitted). Though cases wher"
+    },
+    {
+      "opinion": "United States v. Nunemacher, 362 F.3d (0682-01)",
+      "citation": "333 F.3d 669",
+      "problem": "wrong_name",
+      "reason": "333 F.3d 669 is United States v. Camejo, 333 F.3d 669 (6th Cir. 2003), not the case named in the brief (\"United States v. Cornejo\").",
+      "context": "t sentenced [the defendant], but the written statement it furnished [was] sufficient ... to allow review of the decision to depart”). United States v. Cornejo, 333 F.3d 669, 676 n. 2 (6th Cir.2003). . We note that post-PROTECT Act,"
+    },
+    {
+      "opinion": "United States v. García-Ortiz, 528 F.3d (0074-01)",
+      "citation": "49 F.3d 36",
+      "problem": "wrong_name",
+      "reason": "49 F.3d 36 is United States v. Muniz, 49 F.3d 36 (1st Cir. 1995), not the case named in the brief (\"United States v. Muñiz\").",
+      "context": ". 3. Meaning of “Victim” in Sentencing Guidelines This court reviews the district court’s application of law at sentencing de novo. See United States v. Muñiz, 49 F.3d 36, 41 (1st Cir.1995) (citing United States v. Brewster, 1 F.3"
+    },
+    {
+      "opinion": "Gates v. Syrian Arab Republic, 755 F.3d (0568-01)",
+      "citation": "189 L.Ed.3d 234",
+      "problem": "no_such_series",
+      "reason": "There is no L.Ed.3d: the Lawyer's Edition was published as L. Ed. and L. Ed. 2d.",
+      "context": "s governing claims of immunity in every civil action against a foreign state.” Republic of Argentina v. NML Capital, Ltd., 573 U.S. -, -, 134 S.Ct. 2250, 2255, 189 L.Ed.3d 234, 2014 WL 2675854 (2014) (slip op. at 6), quoting Verlinden"
+    },
+    {
+      "opinion": "Grant v. Lockett, 709 F.3d (0224-01)",
+      "citation": "895 F.3d 92",
+      "problem": "inside_other_case",
+      "reason": "Page 92 of 895 F.3d is inside Del. Dep't of Natural Res. & Envtl. Control v. Envtl. Prot. Agency, 895 F.3d 90 (D.C. Cir. 2018), which runs from page 90 to 102. No case named Jacobs is in volume 895.",
+      "context": "ikely than not altered the outcome of the case’ — rather he must show only ‘a probability sufficient to undermine confidence in the outcome.’ ” Jacobs v. Horn, 895 F.3d 92, 105 (3d Cir.2005) (quoting Strickland, 466 U.S. at 693-94,"
+    },
+    {
+      "opinion": "Browning v. Clinton, 292 F.3d (0235-01)",
+      "citation": "16 F.8d 1271",
+      "problem": "no_such_series",
+      "reason": "There is no F.8d: the Federal Reporter was published as F., F.2d, F.3d and F.4th.",
+      "context": "ing the complaint liberally and giving appellant the “benefit of all inferences that can be derived from the facts alleged,” Kowal v. MCI Communications Corp., 16 F.8d 1271, 1276 (D.C.Cir.1994), we affirm as to all appellees except"
+    },
+    {
+      "opinion": "United States v. Cordova, 157 F.3d (0587-01)",
+      "citation": "34 F.3d 1405",
+      "problem": "wrong_name",
+      "reason": "34 F.3d 1405 is United States v. McMurray, 34 F.3d 1405 (8th Cir. 1994), not the case named in the brief (\"United States v. Lomax\").",
+      "context": "stence of a conspiracy is established, slight evidence connecting a defendant to the conspiracy is sufficient to support a conviction.” United States v. Lomax, 34 F.3d 1405, 1412 (1994), cert. denied, 513 U.S. 1179, 115 S.Ct. 1164,"
+    },
+    {
+      "opinion": "United States v. Clark, 435 F.3d (1100-01)",
+      "citation": "312 F.3d 419",
+      "problem": "wrong_name",
+      "reason": "312 F.3d 419 is United States v. Neil, 312 F.3d 419 (9th Cir. 2002), not the case named in the brief (\"United States v. Neü\").",
+      "context": "law.”) (citing McCulloch v. Sociedad Nacional de Marineros de Honduras, 372 U.S. 10, 21-22, 83 S.Ct. 671, 9 L.Ed.2d 547 (1963)); see also United States v. Neü, 312 F.3d 419, 421 (9th Cir.2002). Of the five general principles that pe"
+    },
+    {
+      "opinion": "United States v. Hemphill, 748 F.3d (0666-01)",
+      "citation": "489 F.8d 366",
+      "problem": "no_such_series",
+      "reason": "There is no F.8d: the Federal Reporter was published as F., F.2d, F.3d and F.4th.",
+      "context": "nts and explanation for it; they suggested, at the very least, the agreements that would be acceptable”). Hemphill’s case is similar to United States v. Baker, 489 F.8d 366 (D.C.Cir. 2007). Like the district court here, the district"
+    },
+    {
+      "opinion": "Rosillo-Puga v. Holder, 580 F.3d (1147-01)",
+      "citation": "499 F.3d at 335",
+      "problem": "series_not_in_print",
+      "reason": "F.3d began in 1993, and the earliest case printed in it was decided in 1990; a 1741 F.3d citation cannot exist.",
+      "context": "ty to the agency, ‘the agency’s regulation is given controlling weight unless [it is] arbitrary, capricious, or manifestly contrary to the statute.’ ” William, 499 F.3d at 335 (quoting Household Credit Servs., Inc., 541 U.S. at 239,"
+    },
+    {
+      "opinion": "Thomlison v. City of Omaha, 63 F.3d (0786-01)",
+      "citation": "48 F.8d 1056",
+      "problem": "no_such_series",
+      "reason": "There is no F.8d: the Federal Reporter was published as F., F.2d, F.3d and F.4th.",
+      "context": "” We apply a deferential standard when reviewing a district court’s jury in-struetions, reversing only for an abuse of discretion. Hoselton v. Metz Baking Co., 48 F.8d 1056, 1062 (8th Cir.1995). “In considering the failure of a dist"
+    },
+    {
+      "opinion": "Boyce v. Ashcroft, 251 F.3d (0911-01)",
+      "citation": "115 F.3d at 811",
+      "problem": "series_not_in_print",
+      "reason": "F.3d began in 1993, and the earliest case printed in it was decided in 1990; a 1827 F.3d citation cannot exist.",
+      "context": "erson in custody upon the legality of that custody,” and noted that “the traditional function of the writ is to secure release from illegal custody.” McIntosh, 115 F.3d at 811 (quoting Preiser, 411 U.S. at 484, 93 S.Ct. 1827). In do"
+    },
+    {
+      "opinion": "Robbins v. Wilkie, 433 F.3d (0755-01)",
+      "citation": "44 U.S. 164",
+      "problem": "inside_other_case",
+      "reason": "Page 164 of 44 U.S. is inside Searight v. Stokes, 44 U.S. 151 (N.Y. Sup. Ct. 1845), which runs from page 151 to 186. No case named Kaiser is in volume 44.",
+      "context": "nd regulation of Robbins’ property for certain purposes, Robbins has no right to exclude the BLM. The Supreme Court, however, rejected this argument in Kaiser, 44 U.S. 164, 100 S.Ct. 383. The government claimed a public right of ac"
+    },
+    {
+      "opinion": "Opportunity Finance, LLC v. Kelley, 822 F.3d (0451-01)",
+      "citation": "764 F.3d 1821",
+      "problem": "past_last_page",
+      "reason": "Volume 764 of F.3d ends at page 1411; page 1821 does not exist.",
+      "context": "hat strips a party’s defenses does not make the party a person aggrieved either. To reach this conclusion, the majority relies on In re Ernie Haire Ford, Inc., 764 F.3d 1821, 1325 (11th Cir.2014) cert. denied sub nom. Atkinson v. Ern"
+    },
+    {
+      "opinion": "Merck Sharp & Dohme Corp. v. Amneal Pharmaceuticals LLC, 881 F.3d (1376-01)",
+      "citation": "365 F.3d 1064",
+      "problem": "wrong_name",
+      "reason": "365 F.3d 1064 is Communications Vending Corp. of Arizona, Inc. v. Federal Communications Commission, 365 F.3d 1064 (D.C. Cir. 2004), not the case named in the brief (\"Golden Blount, Inc. v. Robert H. Peterson Co\").",
+      "context": "a bench trial, we review the district court’s conclusions .of law de novo and its fact-findings fpr clear error. Golden Blount, Inc. v. Robert H. Peterson Co., 365 F.3d 1064, 1058 (Fed. Cir. 2004). The ultimate determination of infri"
+    },
+    {
+      "opinion": "United States v. Johnson, 200 F.3d (0529-01)",
+      "citation": "7 F.3d 679",
+      "problem": "wrong_name",
+      "reason": "7 F.3d 679 is United States v. Marin, 7 F.3d 679 (7th Cir. 1993), not the case named in the brief (\"United States v. Mann\").",
+      "context": "ome reasonable basis for concluding that the statement in question furthered the conspiracy in some respect. Stephenson, 53 F.3d at 845; United States v. Mann, 7 F.3d 679, 690 (7th Cir.1993). Here, Blake’s statement, “J.J. had the"
+    },
+    {
+      "opinion": "Ecology Center, Inc. v. United States Forest Service, 192 F.3d (0922-01)",
+      "citation": "160 F.3d 1132",
+      "problem": "inside_other_case",
+      "reason": "Page 1132 of 160 F.3d is inside Herbert v. Billy, 160 F.3d 1131 (6th Cir. 1998), which runs from page 1131 to 1139. No case named ONRC is in volume 160.",
+      "context": "r § 706(1) for each oversight, we would discourage the Forest Service from producing ambitious forest plans. See also ONRC Action v. Bureau of Land Management, 160 F.3d 1132, 1139 (9th Cir.1998) (holding that agency interpretation of"
+    },
+    {
+      "opinion": "Gammoh v. City of La Habra, 395 F.3d (1114-02)",
+      "citation": "336 F.3d at 1164",
+      "problem": "series_not_in_print",
+      "reason": "F.3d began in 1993, and the earliest case printed in it was decided in 1990; a 1728 F.3d citation cannot exist.",
+      "context": "peech that is sexual or pornographic in nature; and 2) the primary motivation behind the regulation is to prevent secondary effects. Ctr. for Fair Pub. Policy, 336 F.3d at 1164-65 (citing Alameda Books, 535 U.S. at 434, 448, 122 S.C"
+    },
+    {
+      "opinion": "Keeton v. Anderson-Wiley, 664 F.3d (0865-01)",
+      "citation": "428 F.3d 1247",
+      "problem": "inside_other_case",
+      "reason": "Page 1247 of 428 F.3d is inside Native Ecosystems Council v. United States Forest Service, 428 F.3d 1233 (9th Cir. 2005), which runs from page 1233 to 1251. No case named Bennett is in volume 428.",
+      "context": "ected the protected speech; and third, that there is a causal connection between the retaliatory actions and the adverse effect on speech.” Bennett v. Hendrix, 428 F.3d 1247, 1250 (11th Cir.2005). “In order to establish a causal conn"
+    },
+    {
+      "opinion": "United States v. Wallace, 429 F.3d (0969-01)",
+      "citation": "107 F.3d 810",
+      "problem": "wrong_name",
+      "reason": "107 F.3d 810 is United States v. Wilson, 107 F.3d 810 (10th Cir. 1997), not the case named in the brief (\"United States v. Elliott\").",
+      "context": "“a reasonable person under the circumstances would believe he was free to leave or disregard the officer’s request for information.” United States v. Elliott, 107 F.3d 810, 814 (10th Cir.1997) (citation omitted). Once such a consen"
+    },
+    {
+      "opinion": "United States v. Wallace, 429 F.3d (0969-01)",
+      "citation": "107 F.3d 819",
+      "problem": "wrong_name",
+      "reason": "107 F.3d 819 is United States v. Hinojos, 107 F.3d 819 (10th Cir. 1997), not the case named in the brief (\"United States v. Toro-Pelaez\").",
+      "context": "vinced a hidden compartment. Such evidence of a concealed compartment can give rise to reasonable suspicion of criminal activity. United States v. Toro-Pelaez, 107 F.3d 819, 825 (10th Cir.1997); United States v. Orrego-Fernandez, 78"
+    },
+    {
+      "opinion": "United States v. Watson, 650 F.3d (1084-01)",
+      "citation": "618 F.3d 765",
+      "problem": "inside_other_case",
+      "reason": "Page 765 of 618 F.3d is inside Curtis Lumber Co. v. Louisiana Pacific Corp., 618 F.3d 762 (8th Cir. 2010), which runs from page 762 to 789. United States v. Zierke is 618 F.3d 755.",
+      "context": "Watson’s argument is without merit. “The trial court has broad discretion in determining the relevancy and admissibility of evidence.” United States v. Zierke, 618 F.3d 765, 759 (8th Cir.2010). In this case, Williams’s statements to"
+    },
+    {
+      "opinion": "City of Erie v. Pap's A. M., 529 U.S. (0277-01)",
+      "citation": "469 U. S. 288",
+      "problem": "inside_other_case",
+      "reason": "Page 288 of 469 U.S. is inside Alexander v. Choate, 469 U.S. 287 (1985), which runs from page 287 to 309. National Labor Relations Board v. Action Automotive, Inc. is 469 U.S. 490.",
+      "context": "pril 1999, even though, as Justice Scalia points out, Kandyland was closed and that property sold in 1998. See Board of License Comm’rs of Tiverton v. Pastore, 469 U. S. 288, 240 (1985) (per curiam). Pap’s only raised the issue after"
+    },
+    {
+      "opinion": "Daniels v. United States, 532 U.S. (0374-01)",
+      "citation": "195 F. 3d 501",
+      "problem": "wrong_name",
+      "reason": "195 F.3d 501 is United States v. Daniels, 195 F.3d 501 (9th Cir. 1999), not the case named in the brief (\"\").",
+      "context": "n of the ACCA. Cf. Brief for Petitioner 13. The District Court denied the §2255 motion, App. 58-67, and a panel of the Ninth Circuit Court of Appeals affirmed, 195 F. 3d 501 (1999). The court held that our decision in Custis “bar[s]"
+    },
+    {
+      "opinion": "Brown v. Sanders, 546 U.S. (0212-01)",
+      "citation": "500 U. S. 948",
+      "problem": "wrong_name",
+      "reason": "500 U.S. 948 is Fernandez v. United States, 500 U.S. 948 (1991), not the case named in the brief (\"Sanders v. California\").",
+      "context": "471, 520, 797 P. 2d 561, 589-590 (1990) (in bank). It affirmed the conviction and sentence in all other respects. We denied certiorari. Sanders v. California, 500 U. S. 948 (1991). Sanders then filed a petition for a writ of habeas"
+    },
+    {
+      "opinion": "Florida Prepaid Postsecondary Education Expense Board v. College Savings Bank, 527 U.S. (0627-01)",
+      "citation": "148 F. 3d 1348",
+      "problem": "inside_other_case",
+      "reason": "Page 1348 of 148 F.3d is inside College Savings Bank v. Florida Prepaid Postsecondary Education Expense Board, 148 F.3d 1343 (Fed. Cir. 1998), which runs from page 1343 to 1355. Noram Gas Transmission Co. v. Federal Energy Regulatory Commission is 148 F.3d 1158.",
+      "context": "Agreeing with College Savings, the District Court denied Florida Prepaid’s motion to dismiss, 948 F. Supp. 400 (N. J. 1996), and the Federal Circuit affirmed, 148 F. 3d 1348 (1998). The Federal Circuit held that Congress had clearly"
+    },
+    {
+      "opinion": "Board of Trustees v. Garrett, 531 U.S. (0356-01)",
+      "citation": "193 F. 3d 1214",
+      "problem": "wrong_name",
+      "reason": "193 F.3d 1214 is Garrett v. University of Alabama at Birmingham Board of Trustees, 193 F.3d 1214 (11th Cir. 1999), not the case named in the brief (\"\").",
+      "context": "ranted their motions for summary judgment. See id., at 1410,1412. The cases were consolidated on appeal to the Eleventh Circuit. The Court of Appeals reversed, 193 F. 3d 1214 (1999), adhering to its intervening decision in Kimel v. St"
+    },
+    {
+      "opinion": "F.T.C. v. Actavis, Inc., 570 U.S. (0136-01)",
+      "citation": "283 U.S. 163",
+      "problem": "wrong_name",
+      "reason": "283 U.S. 163 is Standard Oil Co. v. United States, 283 U.S. 163 (1931), not the case named in the brief (\"\").",
+      "context": "le, Inc., 342 U.S. 371, 378, 72 S.Ct. 350, 96 L.Ed. 417 (1952) (applying antitrust scrutiny to patent settlement); Standard Oil Co. (Indiana) v. United States, 283 U.S. 163, 51 S.Ct. 421, 75 L.Ed. 926 (1931) (same). Similarly, both"
+    },
+    {
+      "opinion": "F.T.C. v. Actavis, Inc., 570 U.S. (0136-01)",
+      "citation": "283 U.S. 163",
+      "problem": "wrong_name",
+      "reason": "283 U.S. 163 is Standard Oil Co. v. United States, 283 U.S. 163 (1931), not the case named in the brief (\"\").",
+      "context": "n, we have long recognized that the settlement of patent litigation does not by itself violate the antitrust laws. Standard Oil Co. (Indiana) v. United States, 283 U.S. 163, 171, 51 S.Ct. 421, 75 L.Ed. 926 (1931) (\"Where there are l"
+    },
+    {
+      "opinion": "Kloeckner v. Solis, 568 U.S. (0041-01)",
+      "citation": "565 U. S. 1152",
+      "problem": "inside_other_case",
+      "reason": "Page 1152 of 565 U.S. is inside Cavazos v. Smith, 565 U.S. 1149 (2012), which runs from page 1149 to 1152.",
+      "context": "§ 7703(b)(2) were those the MSPB had decided on the merits. The Eighth Circuit affirmed on the same reasoning. See 639 F. 3d 834 (2011). We granted certiorari, 565 U. S. 1152 (2012), to resolve a • Circuit split on whether an employee"
+    },
+    {
+      "opinion": "United States v. Virginia, 518 U.S. (0515-01)",
+      "citation": "44 F. 3d 1229",
+      "problem": "wrong_name",
+      "reason": "44 F.3d 1229 is United States v. Virginia, 44 F.3d 1229 (4th Cir. 1995), not the case named in the brief (\"\").",
+      "context": "* * * For the reasons stated, the initial judgment of the Court of Appeals, 976 F. 2d 890 (CA4 1992), is affirmed, the final judgment of the Court of Appeals, 44 F. 3d 1229 (CA4 1995), is reversed, and the case is remanded for furth"
+    },
+    {
+      "opinion": "Beard v. Banks, 548 U.S. (0521-01)",
+      "citation": "447 U. S. 317",
+      "problem": "inside_other_case",
+      "reason": "Page 317 of 447 U.S. is inside Diamond v. Chakrabarty, 447 U.S. 303 (1980), which runs from page 303 to 322. No case named Celotex is in volume 447.",
+      "context": "answers to interrogatories, admissions, affidavits and the like, has demonstrated “the absence of a genuine issue of material fact,” Celotex Corp. v. Catrett, 447 U. S. 317, 323 (1986), and his entitlement to judgment as a matter of"
+    }
+  ]
+}

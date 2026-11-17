@@ -1,0 +1,222 @@
+{
+  "dataset": "LePhantomCite aux_train split (Liu, Stammbach & Henderson 2026), CC BY 4.0",
+  "excerpts": 910,
+  "seconds": 13.33,
+  "ms_per_excerpt": 14.6,
+  "citations_checked": 3250,
+  "verdicts": {
+    "UNVERIFIABLE": 1326,
+    "VERIFIED": 1782,
+    "FABRICATED": 142
+  },
+  "flags": {
+    "true_positive": 134,
+    "source_error": 8
+  },
+  "precision": 0.9437,
+  "precision_with_source_errors": 1.0,
+  "source_errors": [
+    {
+      "excerpt": "j-jordan-v-robert-flexton_22737529_part8.pdf",
+      "citation": "447 U.S. 242",
+      "evidence": "Anderson v. Liberty Lobby, Inc. is 477 U.S. 242 (1986) in the store; the brief cites volume 447."
+    },
+    {
+      "excerpt": "david-harvey-v-leon-mohammed_1289365_part21.pdf",
+      "citation": "89 U.S. 189",
+      "evidence": "DeShaney v. Winnebago County is 489 U.S. 189 (1989) in the store; the brief cites volume 89 with the year 1989."
+    },
+    {
+      "excerpt": "enrique-acosta-v-michael-nelson_1281930_part20.pdf",
+      "citation": "553 U.S. 194",
+      "evidence": "Saucier v. Katz is 533 U.S. 194 (2001) in the store; the brief cites volume 553 with the year 2001."
+    },
+    {
+      "excerpt": "fortres-grand-corporation-v-warner-brothers-entertainment_644433_part21.pdf",
+      "citation": "494 U.S. 469",
+      "evidence": "Board of Trustees v. Fox is 492 U.S. 469 (1989) in the store; the brief cites volume 494."
+    },
+    {
+      "excerpt": "prime-time-international-comp-v-agri_1287237_part30.pdf",
+      "citation": "817 F.3d 844",
+      "evidence": "Cited as F.3d with the year 1987, when F.3d did not exist; the citation cannot be right as written (likely 817 F.2d 844)."
+    },
+    {
+      "excerpt": "durant-tisdale-v-city-of-philadelphia_12277015_part4.pdf",
+      "citation": "535 U.S. 730",
+      "evidence": "Hope v. Pelzer is 536 U.S. 730 (2002) in the store; the brief cites volume 535."
+    },
+    {
+      "excerpt": "allen-v-hays_374608555_part23.pdf",
+      "citation": "482 U.S. 635",
+      "evidence": "Anderson v. Creighton is 483 U.S. 635 (1987) in the store; the brief cites volume 482."
+    },
+    {
+      "excerpt": "united-states-v-jessica-medina_665876_part18.pdf",
+      "citation": "774 F.3d 1482",
+      "evidence": "Cited as F.3d with the year 1985, when F.3d did not exist; the citation cannot be right as written (likely 774 F.2d 1482)."
+    }
+  ],
+  "clean_excerpts": 365,
+  "clean_excerpts_with_a_flag": 4,
+  "recall_by_type": {
+    "non_existent_citation": {
+      "caught": 104,
+      "total": 119,
+      "caught_in_scope": 104,
+      "in_scope": 104
+    },
+    "case_name_mismatch": {
+      "caught": 22,
+      "total": 117,
+      "caught_in_scope": 22,
+      "in_scope": 47
+    },
+    "wrong_pincite": {
+      "caught": 0,
+      "total": 123,
+      "caught_in_scope": 0,
+      "in_scope": 91
+    },
+    "misquote": {
+      "caught": 3,
+      "total": 125,
+      "caught_in_scope": 3,
+      "in_scope": 83
+    },
+    "content_misrepresentation": {
+      "caught": 0,
+      "total": 279,
+      "caught_in_scope": 0,
+      "in_scope": 142
+    }
+  },
+  "false_alarms": [],
+  "misses_in_scope": [
+    {
+      "excerpt": "allen-v-hays_374608555_part15.pdf",
+      "citation": "184 f3d 155",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-clifton-mclean_20527485_part23.pdf",
+      "citation": "356 us 373",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "crystallex-international-corp-v-petroleos-de-venezuela-sa_21013483_part25.pdf",
+      "citation": "754 f3d 135",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "gutierrez-v-saenz_366399388_part4.pdf",
+      "citation": "521 us 241",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "maria-gomez-v-bank-of-america-na_669974_part28.pdf",
+      "citation": "751 f3d 994",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "peta-lindsay-v-debra-bowen_663512_part9.pdf",
+      "citation": "550 us 557",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "pulse-network-v-visa_431038882_part16.pdf",
+      "citation": "130 f3d 443",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "in-re-josue-romero-v-provide-commerce-inc_20816343_part8.pdf",
+      "citation": "134 f3d 368",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "kevin-mccarthy-v-patricia-fuller_238053664_part5.pdf",
+      "citation": "511 us 548",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "maher-terminals-llc-v-fmc_427555968_part19.pdf",
+      "citation": "162 us 4",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "eon-corp-ip-holdings-llc-v-att-mobility-llc_1424156_part17.pdf",
+      "citation": "517 us 226",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-eme-homer-city-generation-lp_570156_part22.pdf",
+      "citation": "231 f3d 39",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-clifton-mclean_20527485_part21.pdf",
+      "citation": "356 us 373",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-mendoza_378894982_part5.pdf",
+      "citation": "68 f3d 6",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "in-re-josue-romero-v-provide-commerce-inc_20816343_part10.pdf",
+      "citation": "47 f3d 431",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "intercollegiate-broadcasting-v-crb_440679057_part20.pdf",
+      "citation": "75 f3d 709",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-thanh-cao_415319041_part39.pdf",
+      "citation": "564 f3d 1026",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-clifton-mclean_20527485_part17.pdf",
+      "citation": "356 us 373",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "enrique-acosta-v-michael-nelson_1281930_part17.pdf",
+      "citation": "475 us 319",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "aldmyr-systems-inc-v-stephen-friedman_9330688_part9.pdf",
+      "citation": "550 us 251",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-sugar-corp-v-epa_1275723_part19.pdf",
+      "citation": "129 f3d 35",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "ragsdell-v-regional-housing-alliance_523076_part5.pdf",
+      "citation": "604 f3d 1149",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-sugar-corp-v-epa_1275723_part32.pdf",
+      "citation": "556 us 515",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-bostic_434309441_part3.pdf",
+      "citation": "552 us 4",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-bostic_434309441_part2.pdf",
+      "citation": "552 us 4",
+      "type": "case_name_mismatch"
+    }
+  ]
+}

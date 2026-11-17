@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redline</title>
+<meta name="description" content="Catch fabricated and overruled case citations before you file.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23172033'/%3E%3Cpath d='M7 17h18' stroke='%23e23d3d' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="bar">
+  <div class="brand">
+    <span class="mark" aria-hidden="true"></span>
+    <h1>Redline</h1>
+    <p class="tag">Catch fabricated and overruled case citations before you file.</p>
+  </div>
+  <p class="store" id="store">Loading the store…</p>
+</header>
+
+<main class="layout">
+  <section class="pane brief" aria-labelledby="brief-h">
+    <div class="pane-head">
+      <h2 id="brief-h">Brief</h2>
+      <div class="samples" role="group" aria-label="Sample briefs" id="samples"></div>
+    </div>
+    <div class="doc-wrap">
+      <textarea id="text" spellcheck="false" aria-label="Brief text"></textarea>
+      <div id="doc" class="doc" hidden></div>
+    </div>
+    <div class="actions">
+      <button id="check" class="primary" type="button">Check citations</button>
+      <button id="edit" class="ghost" type="button" hidden>Edit text</button>
+      <span class="hint" id="hint">Paste a brief or pick a sample. Runs on this machine; nothing is sent anywhere.</span>
+    </div>
+  </section>
+
+  <section class="pane results" aria-labelledby="res-h">
+    <div class="pane-head">
+      <h2 id="res-h">Citations</h2>
+      <div class="summary" id="summary"></div>
+    </div>
+    <ol class="list" id="list"></ol>
+    <div class="empty" id="empty">
+      <p>Each citation gets one of three verdicts.</p>
+      <dl class="legend">
+        <div><dt><span class="chip v-fab">Fabricated</span></dt><dd>Points into a volume Redline holds in full, and cannot be right.</dd></div>
+        <div><dt><span class="chip v-ok">Verified</span></dt><dd>The case exists. Then: good law, caution (it rests on an overruled case), or overruled.</dd></div>
+        <div><dt><span class="chip v-unk">Unverifiable</span></dt><dd>Outside Redline's data. Never called fake.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="pane detail" id="detail" aria-labelledby="det-h" hidden>
+    <div class="pane-head">
+      <h2 id="det-h">Evidence</h2>
+      <button class="ghost small" id="close" type="button" aria-label="Close evidence">Close</button>
+    </div>
+    <div id="detail-body"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  Data: Caselaw Access Project, Harvard Law School Library; overrulings from Wikipedia (CC BY-SA 4.0).
+  Graph: Relate by Neo4j, opened read-only. Verdicts come from graph queries, never from a language model.
+</footer>
+
+<script src="/static/samples.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

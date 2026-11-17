@@ -1,0 +1,75 @@
+{
+ "about": "Errors in the original briefs that LePhantomCite does not label. Each was confirmed against the store or against the same excerpt. Redline flags on these are reported as source errors, never as true positives.",
+ "errors": [
+  {
+   "excerpt": "mark-abbey-v-united-states_1418349_part20.pdf",
+   "citation": "216 F.3d 659",
+   "evidence": "Vela v. City of Houston is 276 F.3d 659 (5th Cir. 2001) in the store; the brief cites volume 216."
+  },
+  {
+   "excerpt": "aldmyr-systems-inc-v-stephen-friedman_9330688_part11.pdf",
+   "citation": "122 F.3d 191",
+   "evidence": "Jordahl v. Democratic Party of Va. is 122 F.3d 192 (4th Cir. 1997) in the store; the brief cites page 191 and the year 2002."
+  },
+  {
+   "excerpt": "aldmyr-systems-inc-v-stephen-friedman_9330688_part11.pdf",
+   "citation": "127 F.3d at 731",
+   "evidence": "The same excerpt cites Plyler v. Moore, 129 F.3d 728, 731, then writes 'Plyler, 127 F.3d at 731'."
+  },
+  {
+   "excerpt": "prime-time-international-comp-v-agri_1287237_part25.pdf",
+   "citation": "362 F.3d at 797",
+   "evidence": "The same excerpt cites Peter Pan Bus Lines, 471 F.3d 1350; 362 F.3d 786 is PDK Laboratories v. DEA, which the brief also discusses."
+  },
+  {
+   "excerpt": "david-harvey-v-leon-mohammed_1289365_part21.pdf",
+   "citation": "89 U.S. 189",
+   "evidence": "DeShaney v. Winnebago County is 489 U.S. 189 (1989) in the store; the brief cites volume 89 with the year 1989."
+  },
+  {
+   "excerpt": "enrique-acosta-v-michael-nelson_1281930_part20.pdf",
+   "citation": "553 U.S. 194",
+   "evidence": "Saucier v. Katz is 533 U.S. 194 (2001) in the store; the brief cites volume 553 with the year 2001."
+  },
+  {
+   "excerpt": "fortres-grand-corporation-v-warner-brothers-entertainment_644433_part21.pdf",
+   "citation": "494 U.S. 469",
+   "evidence": "Board of Trustees v. Fox is 492 U.S. 469 (1989) in the store; the brief cites volume 494."
+  },
+  {
+   "excerpt": "durant-tisdale-v-city-of-philadelphia_12277015_part4.pdf",
+   "citation": "535 U.S. 730",
+   "evidence": "Hope v. Pelzer is 536 U.S. 730 (2002) in the store; the brief cites volume 535."
+  },
+  {
+   "excerpt": "evolutionary-intelligence-llc-v-sprint-nextel-corporation_12751028_part50.pdf",
+   "citation": "561 U.S. 393",
+   "evidence": "Bilski v. Kappos is 561 U.S. 593 (2010) in the store; the brief cites page 393."
+  },
+  {
+   "excerpt": "allen-v-hays_374608555_part23.pdf",
+   "citation": "482 U.S. 635",
+   "evidence": "Anderson v. Creighton is 483 U.S. 635 (1987) in the store; the brief cites volume 482."
+  },
+  {
+   "excerpt": "allen-v-hays_374608555_part23.pdf",
+   "citation": "482 U.S. at 640",
+   "evidence": "Short form of the same mis-cited Anderson v. Creighton (483 U.S. 635)."
+  },
+  {
+   "excerpt": "prime-time-international-comp-v-agri_1287237_part30.pdf",
+   "citation": "817 F.3d 844",
+   "evidence": "Cited as F.3d with the year 1987, when F.3d did not exist; the citation cannot be right as written (likely 817 F.2d 844)."
+  },
+  {
+   "excerpt": "united-states-v-jessica-medina_665876_part18.pdf",
+   "citation": "774 F.3d 1482",
+   "evidence": "Cited as F.3d with the year 1985, when F.3d did not exist; the citation cannot be right as written (likely 774 F.2d 1482)."
+  },
+  {
+   "excerpt": "j-jordan-v-robert-flexton_22737529_part8.pdf",
+   "citation": "447 U.S. 242",
+   "evidence": "Anderson v. Liberty Lobby, Inc. is 477 U.S. 242 (1986) in the store; the brief cites volume 447."
+  }
+ ]
+}

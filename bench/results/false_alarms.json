@@ -1,0 +1,155 @@
+{
+  "sample": {
+    "f3d": 400,
+    "us": 100
+  },
+  "seed": 20261117,
+  "opinions": 500,
+  "citations": 28554,
+  "verdicts": {
+    "VERIFIED": 18946,
+    "UNVERIFIABLE": 9592,
+    "FABRICATED": 16
+  },
+  "fabricated": 16,
+  "fabricated_rate": 0.00056,
+  "by_problem": {
+    "wrong_name": 4,
+    "inside_other_case": 7,
+    "no_such_series": 5
+  },
+  "text_errors": 16,
+  "redline_errors": 0,
+  "redline_error_rate": 0.0,
+  "seconds": 105.8,
+  "flagged": [
+    {
+      "opinion": "United States v. Moreno-Gonzalez, 662 F.3d (0369-01)",
+      "citation": "246 F.3d 451",
+      "problem": "wrong_name",
+      "reason": "246 F.3d 451 is United States v. Garcia-Flores, 246 F.3d 451 (5th Cir. 2001), not the case named in the brief (\"United States v. Garda-Flores\").",
+      "context": "jury is allowed to infer knowledge based on the quantity of drugs involved, “as long as other evidence supports the inference.” United States v. Garda-Flores, 246 F.3d 451, 455 (5th Cir.2001). We must therefore weigh other evidence",
+      "text_error": "OCR garbled the name: the text reads 'Garda-Flores'; 246 F.3d 451 is United States v. Garcia-Flores in the store."
+    },
+    {
+      "opinion": "E.T. v. Cantil-Sakauye, 657 F.3d (0902-01)",
+      "citation": "61 F.3d 573",
+      "problem": "wrong_name",
+      "reason": "61 F.3d 573 is Lucien v. Johnson, 61 F.3d 573 (7th Cir. 1995), not the case named in the brief (\"Luden v. Johnson\").",
+      "context": "e, 466 F.3d at 86; S1 Foster Children v. Bush, 329 F.3d 1255, 1276 (11th Cir.2003); Joseph A. v. Ingram, 275 F.3d 1253, 1271 (10th Cir.2002); Luden v. Johnson, 61 F.3d 573, 576 (7th Cir.1995); Parker v. Turner, 626 F.2d 1, 7 (6th C",
+      "text_error": "OCR garbled the name: the text reads 'Luden v. Johnson'; 61 F.3d 573 is Lucien v. Johnson in the store."
+    },
+    {
+      "opinion": "United States v. Graham, 643 F.3d (0885-01)",
+      "citation": "820 F.3d 1213",
+      "problem": "inside_other_case",
+      "reason": "Page 1213 of 820 F.3d is inside Slater v. U.S. Steel Corp., 820 F.3d 1193 (11th Cir. 2016), which runs from page 1193 to 1256. No case named Tampa is in volume 820.",
+      "context": "business, even if the witness is not qualified as an expert under Federal Rule of Evidence 702. See Tampa Bay Shipbuilding & Repair Co. v. Cedar Shipping Co., 820 F.3d 1213, 1223 (11th Cir.2003) (“Tampa Bay’s witnesses testified bas",
+      "text_error": "OCR read 3 as 8: Tampa Bay Shipbuilding v. Cedar Shipping is 320 F.3d 1213 (2003) in the store."
+    },
+    {
+      "opinion": "United States v. Wingo, 789 F.3d (1226-01)",
+      "citation": "147 F.8d 1344",
+      "problem": "no_such_series",
+      "reason": "There is no F.8d: the Federal Reporter was published as F., F.2d, F.3d and F.4th.",
+      "context": "if defense counsel did not first raise it. But “we avoid statutory constructions that render provisions meaningless.” Bouchard Transp. Co., Inc. v. Updegraff, 147 F.8d 1344, 1351 (11th Cir.1998) (citation omitted). Though cases wher",
+      "text_error": "OCR read 3 as 8: Bouchard Transportation Co. v. Updegraff is 147 F.3d 1344 in the store."
+    },
+    {
+      "opinion": "Gates v. Syrian Arab Republic, 755 F.3d (0568-01)",
+      "citation": "189 L.Ed.3d 234",
+      "problem": "no_such_series",
+      "reason": "There is no L.Ed.3d: the Lawyer's Edition was published as L. Ed. and L. Ed. 2d.",
+      "context": "s governing claims of immunity in every civil action against a foreign state.” Republic of Argentina v. NML Capital, Ltd., 573 U.S. -, -, 134 S.Ct. 2250, 2255, 189 L.Ed.3d 234, 2014 WL 2675854 (2014) (slip op. at 6), quoting Verlinden",
+      "text_error": "There is no L. Ed. 3d; Republic of Argentina v. NML Capital is 189 L. Ed. 2d 234 (OCR or typo in the text)."
+    },
+    {
+      "opinion": "Grant v. Lockett, 709 F.3d (0224-01)",
+      "citation": "895 F.3d 92",
+      "problem": "inside_other_case",
+      "reason": "Page 92 of 895 F.3d is inside Del. Dep't of Natural Res. & Envtl. Control v. Envtl. Prot. Agency, 895 F.3d 90 (D.C. Cir. 2018), which runs from page 90 to 102. No case named Jacobs is in volume 895.",
+      "context": "ikely than not altered the outcome of the case’ — rather he must show only ‘a probability sufficient to undermine confidence in the outcome.’ ” Jacobs v. Horn, 895 F.3d 92, 105 (3d Cir.2005) (quoting Strickland, 466 U.S. at 693-94,",
+      "text_error": "OCR read 3 as 8: Jacobs v. Horn is 395 F.3d 92 (2005) in the store."
+    },
+    {
+      "opinion": "Browning v. Clinton, 292 F.3d (0235-01)",
+      "citation": "16 F.8d 1271",
+      "problem": "no_such_series",
+      "reason": "There is no F.8d: the Federal Reporter was published as F., F.2d, F.3d and F.4th.",
+      "context": "ing the complaint liberally and giving appellant the “benefit of all inferences that can be derived from the facts alleged,” Kowal v. MCI Communications Corp., 16 F.8d 1271, 1276 (D.C.Cir.1994), we affirm as to all appellees except",
+      "text_error": "OCR read 3 as 8: Kowal v. MCI Communications Corp. is 16 F.3d 1271 in the store."
+    },
+    {
+      "opinion": "United States v. Clark, 435 F.3d (1100-01)",
+      "citation": "312 F.3d 419",
+      "problem": "wrong_name",
+      "reason": "312 F.3d 419 is United States v. Neil, 312 F.3d 419 (9th Cir. 2002), not the case named in the brief (\"United States v. Neü\").",
+      "context": "law.”) (citing McCulloch v. Sociedad Nacional de Marineros de Honduras, 372 U.S. 10, 21-22, 83 S.Ct. 671, 9 L.Ed.2d 547 (1963)); see also United States v. Neü, 312 F.3d 419, 421 (9th Cir.2002). Of the five general principles that pe",
+      "text_error": "OCR garbled the name: the text reads 'United States v. Neü'; 312 F.3d 419 is United States v. Neil."
+    },
+    {
+      "opinion": "United States v. Hemphill, 748 F.3d (0666-01)",
+      "citation": "489 F.8d 366",
+      "problem": "no_such_series",
+      "reason": "There is no F.8d: the Federal Reporter was published as F., F.2d, F.3d and F.4th.",
+      "context": "nts and explanation for it; they suggested, at the very least, the agreements that would be acceptable”). Hemphill’s case is similar to United States v. Baker, 489 F.8d 366 (D.C.Cir. 2007). Like the district court here, the district",
+      "text_error": "OCR read 3 as 8: United States v. Baker is 489 F.3d 366 in the store."
+    },
+    {
+      "opinion": "Thomlison v. City of Omaha, 63 F.3d (0786-01)",
+      "citation": "48 F.8d 1056",
+      "problem": "no_such_series",
+      "reason": "There is no F.8d: the Federal Reporter was published as F., F.2d, F.3d and F.4th.",
+      "context": "” We apply a deferential standard when reviewing a district court’s jury in-struetions, reversing only for an abuse of discretion. Hoselton v. Metz Baking Co., 48 F.8d 1056, 1062 (8th Cir.1995). “In considering the failure of a dist",
+      "text_error": "OCR read 3 as 8: Hoselton v. Metz Baking Co. is 48 F.3d 1056 in the store."
+    },
+    {
+      "opinion": "Merck Sharp & Dohme Corp. v. Amneal Pharmaceuticals LLC, 881 F.3d (1376-01)",
+      "citation": "365 F.3d 1064",
+      "problem": "wrong_name",
+      "reason": "365 F.3d 1064 is Communications Vending Corp. of Arizona, Inc. v. Federal Communications Commission, 365 F.3d 1064 (D.C. Cir. 2004), not the case named in the brief (\"Golden Blount, Inc. v. Robert H. Peterson Co\").",
+      "context": "a bench trial, we review the district court’s conclusions .of law de novo and its fact-findings fpr clear error. Golden Blount, Inc. v. Robert H. Peterson Co., 365 F.3d 1064, 1058 (Fed. Cir. 2004). The ultimate determination of infri",
+      "text_error": "Golden Blount, Inc. v. Robert H. Peterson Co. is 365 F.3d 1054 in the store; the text has 1064 (its own pin cite is 1058)."
+    },
+    {
+      "opinion": "Ecology Center, Inc. v. United States Forest Service, 192 F.3d (0922-01)",
+      "citation": "160 F.3d 1132",
+      "problem": "inside_other_case",
+      "reason": "Page 1132 of 160 F.3d is inside Herbert v. Billy, 160 F.3d 1131 (6th Cir. 1998), which runs from page 1131 to 1139. No case named ONRC is in volume 160.",
+      "context": "r § 706(1) for each oversight, we would discourage the Forest Service from producing ambitious forest plans. See also ONRC Action v. Bureau of Land Management, 160 F.3d 1132, 1139 (9th Cir.1998) (holding that agency interpretation of",
+      "text_error": "ONRC Action v. Bureau of Land Management is 150 F.3d 1132 (1998) in the store; the text has 160."
+    },
+    {
+      "opinion": "Keeton v. Anderson-Wiley, 664 F.3d (0865-01)",
+      "citation": "428 F.3d 1247",
+      "problem": "inside_other_case",
+      "reason": "Page 1247 of 428 F.3d is inside Native Ecosystems Council v. United States Forest Service, 428 F.3d 1233 (9th Cir. 2005), which runs from page 1233 to 1251. No case named Bennett is in volume 428.",
+      "context": "ected the protected speech; and third, that there is a causal connection between the retaliatory actions and the adverse effect on speech.” Bennett v. Hendrix, 428 F.3d 1247, 1250 (11th Cir.2005). “In order to establish a causal conn",
+      "text_error": "OCR read 3 as 8: Bennett v. Hendrix is 423 F.3d 1247 (2005) in the store."
+    },
+    {
+      "opinion": "United States v. Watson, 650 F.3d (1084-01)",
+      "citation": "618 F.3d 765",
+      "problem": "inside_other_case",
+      "reason": "Page 765 of 618 F.3d is inside Curtis Lumber Co. v. Louisiana Pacific Corp., 618 F.3d 762 (8th Cir. 2010), which runs from page 762 to 789. United States v. Zierke is 618 F.3d 755.",
+      "context": "Watson’s argument is without merit. “The trial court has broad discretion in determining the relevancy and admissibility of evidence.” United States v. Zierke, 618 F.3d 765, 759 (8th Cir.2010). In this case, Williams’s statements to",
+      "text_error": "United States v. Zierke is 618 F.3d 755 in the store; the text has 765 (its own pin cite is 759)."
+    },
+    {
+      "opinion": "City of Erie v. Pap's A. M., 529 U.S. (0277-01)",
+      "citation": "469 U. S. 288",
+      "problem": "inside_other_case",
+      "reason": "Page 288 of 469 U.S. is inside Alexander v. Choate, 469 U.S. 287 (1985), which runs from page 287 to 309. Board of License Commissioners v. Pastore is 469 U.S. 238.",
+      "context": "pril 1999, even though, as Justice Scalia points out, Kandyland was closed and that property sold in 1998. See Board of License Comm’rs of Tiverton v. Pastore, 469 U. S. 288, 240 (1985) (per curiam). Pap’s only raised the issue after",
+      "text_error": "Board of License Commissioners v. Pastore is 469 U.S. 238 in the store; the text has 288 (its pin cite is 240)."
+    },
+    {
+      "opinion": "Beard v. Banks, 548 U.S. (0521-01)",
+      "citation": "447 U. S. 317",
+      "problem": "inside_other_case",
+      "reason": "Page 317 of 447 U.S. is inside Diamond v. Chakrabarty, 447 U.S. 303 (1980), which runs from page 303 to 322. No case named Celotex is in volume 447.",
+      "context": "answers to interrogatories, admissions, affidavits and the like, has demonstrated “the absence of a genuine issue of material fact,” Celotex Corp. v. Catrett, 447 U. S. 317, 323 (1986), and his entitlement to judgment as a matter of",
+      "text_error": "Celotex Corp. v. Catrett is 477 U.S. 317 (1986) in the store; the text has 447."
+    }
+  ]
+}

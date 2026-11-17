@@ -1,0 +1,292 @@
+{
+  "dataset": "LePhantomCite aux_train split (Liu, Stammbach & Henderson 2026), CC BY 4.0",
+  "excerpts": 910,
+  "seconds": 16.0,
+  "ms_per_excerpt": 17.6,
+  "citations_checked": 3250,
+  "verdicts": {
+    "UNVERIFIABLE": 1305,
+    "VERIFIED": 1767,
+    "FABRICATED": 178
+  },
+  "flags": {
+    "true_positive": 148,
+    "false_positive": 30
+  },
+  "precision": 0.8315,
+  "precision_with_source_errors": 0.8315,
+  "source_errors": [],
+  "clean_excerpts": 365,
+  "clean_excerpts_with_a_flag": 12,
+  "recall_by_type": {
+    "non_existent_citation": {
+      "caught": 104,
+      "total": 119,
+      "caught_in_scope": 0,
+      "in_scope": 0
+    },
+    "case_name_mismatch": {
+      "caught": 30,
+      "total": 117,
+      "caught_in_scope": 30,
+      "in_scope": 47
+    },
+    "wrong_pincite": {
+      "caught": 2,
+      "total": 123,
+      "caught_in_scope": 2,
+      "in_scope": 91
+    },
+    "misquote": {
+      "caught": 3,
+      "total": 125,
+      "caught_in_scope": 3,
+      "in_scope": 83
+    },
+    "content_misrepresentation": {
+      "caught": 4,
+      "total": 279,
+      "caught_in_scope": 4,
+      "in_scope": 142
+    }
+  },
+  "false_alarms": [
+    {
+      "excerpt": "keith-thomas-v-eric-holder-jr_1282028_part20.pdf",
+      "citation": "132 F.3d at 1296",
+      "reason": "Page 1296 of 132 F.3d is inside Atchison, Topeka & Santa Fe Railway Co. v. Brown & Bryant, Inc., 132 F.3d 1295 (9th Cir. 1997), which runs from page 1295 to 1303. No case named Tucker is in volume 132."
+    },
+    {
+      "excerpt": "bnsf-railway-company-v-stb_1280127_part10.pdf",
+      "citation": "453 F.3d at 483",
+      "reason": "Page 483 of 453 F.3d is inside BNSF Railway Co. v. Surface Transportation Board, 453 F.3d 473 (D.C. Cir. 2006), which runs from page 473 to 487. No case named Xcel is in volume 453."
+    },
+    {
+      "excerpt": "bnsf-railway-company-v-stb_1280127_part10.pdf",
+      "citation": "453 F.3d at 483",
+      "reason": "Page 483 of 453 F.3d is inside BNSF Railway Co. v. Surface Transportation Board, 453 F.3d 473 (D.C. Cir. 2006), which runs from page 473 to 487. No case named Xcel is in volume 453."
+    },
+    {
+      "excerpt": "united-states-v-jeffrey-boyd_385543577_part19.pdf",
+      "citation": "614 F.3d 85",
+      "reason": "614 F.3d 85 is United States v. Marzzarella, 614 F.3d 85 (3d Cir. 2010), not the case named in the brief (\"United States v. Mazzarella\")."
+    },
+    {
+      "excerpt": "john-king-v-united-states-government_9316656_part13.pdf",
+      "citation": "728 F.3d at 799",
+      "reason": "Page 799 of 728 F.3d is inside United States v. City of St. Paul, 728 F.3d 791 (8th Cir. 2013), which runs from page 791 to 800. No case named Newell is in volume 728."
+    },
+    {
+      "excerpt": "john-king-v-united-states-government_9316656_part13.pdf",
+      "citation": "501 F.3d at 522",
+      "reason": "Page 522 of 501 F.3d is inside United States v. Community Health Systems, Inc., 501 F.3d 493 (6th Cir. 2007), which runs from page 493 to 524. No case named Bledsoe is in volume 501."
+    },
+    {
+      "excerpt": "dynamic-3d-geosolutions-llc-v-schlumberger-limited_1439557_part21.pdf",
+      "citation": "587 F.3d 296",
+      "reason": "587 F.3d 296 is Kennedy v. Mindprint, 587 F.3d 296 (5th Cir. 2009), not the case named in the brief (\"In re ProEducation Intern., Inc.*\")."
+    },
+    {
+      "excerpt": "united-states-v-jeffrey-sila_441799682_part26.pdf",
+      "citation": "792 F.3d 200",
+      "reason": "792 F.3d 200 is United States v. McLellan, 792 F.3d 200 (1st Cir. 2015), not the case named in the brief (\"States v. McClellan*\")."
+    },
+    {
+      "excerpt": "j-jordan-v-robert-flexton_22737529_part8.pdf",
+      "citation": "447 U.S. 242",
+      "reason": "Page 242 of 447 U.S. is inside Jenkins v. Anderson, 447 U.S. 231 (1980), which runs from page 231 to 254. No case named Liberty is in volume 447."
+    },
+    {
+      "excerpt": "david-harvey-v-leon-mohammed_1289365_part21.pdf",
+      "citation": "89 U.S. 189",
+      "reason": "Page 189 of 89 U.S. is inside Elgee Cotton Cases, 89 U.S. 180 (1874), which runs from page 180 to 198. No case named Winnebago is in volume 89."
+    },
+    {
+      "excerpt": "enrique-acosta-v-michael-nelson_1281930_part20.pdf",
+      "citation": "553 U.S. 194",
+      "reason": "Page 194 of 553 U.S. is inside Crawford v. Marion County Election Board, 553 U.S. 181 (2008), which runs from page 181 to 241. No case named Saucier is in volume 553."
+    },
+    {
+      "excerpt": "state-natl-bank-of-big-spring-v-jacob-lew_1287675_part26.pdf",
+      "citation": "721 F.3d at 672",
+      "reason": "Page 672 of 721 F.3d is inside Association of American Railroads v. United States Department of Transportation, 721 F.3d 666 (D.C. Cir. 2013), which runs from page 666 to 677. No case named Ass’n is in volume 721."
+    },
+    {
+      "excerpt": "batista-v-cooperativa-de-vivienda_518599_part12.pdf",
+      "citation": "620 F.3d 62",
+      "reason": "620 F.3d 62 is Astralis Condominium Ass'n v. Secretary, United States Department of Housing & Urban Development ex rel. García-Guillén, 620 F.3d 62 (1st Cir. 2010), not the case named in the brief (\"Assoc. v. Velez-Aviles*\")."
+    },
+    {
+      "excerpt": "fortres-grand-corporation-v-warner-brothers-entertainment_644433_part21.pdf",
+      "citation": "494 U.S. 469",
+      "reason": "Page 469 of 494 U.S. is inside McKoy v. North Carolina, 494 U.S. 433 (1990), which runs from page 433 to 471. No case named Trustees is in volume 494."
+    },
+    {
+      "excerpt": "company-doe-v-public-citizen_583521_part38.pdf",
+      "citation": "162 F.3d 503",
+      "reason": "162 F.3d 503 is United States v. Ladd, 162 F.3d 503 (7th Cir. 1998), not the case named in the brief (\"In re Associated Press\")."
+    },
+    {
+      "excerpt": "in-re-josue-romero-v-provide-commerce-inc_20816343_part8.pdf",
+      "citation": "588 F.3d 24",
+      "reason": "588 F.3d 24 is Howe v. Townsend, 588 F.3d 24 (1st Cir. 2009), not the case named in the brief (\"In re Pharm. Indus. Average Wholesale Price Litig.*\")."
+    },
+    {
+      "excerpt": "in-re-josue-romero-v-provide-commerce-inc_20816343_part8.pdf",
+      "citation": "677 F.3d 21",
+      "reason": "677 F.3d 21 is Rohn v. TAP Pharmaceutical Products, Inc., 677 F.3d 21 (1st Cir. 2012), not the case named in the brief (\"In re Lupron Mktg. & Sales Practices Litig.*\")."
+    },
+    {
+      "excerpt": "prime-time-international-comp-v-agri_1287237_part30.pdf",
+      "citation": "817 F.3d 844",
+      "reason": "F.3d began in 1993, and the earliest case printed in it was decided in 1990; a 1987 F.3d citation cannot exist."
+    },
+    {
+      "excerpt": "durant-tisdale-v-city-of-philadelphia_12277015_part4.pdf",
+      "citation": "535 U.S. 730",
+      "reason": "Page 730 of 535 U.S. is inside Festo Corp. v. Shoketsu Kinzoku Kogyo Kabushiki Co., 535 U.S. 722 (2002), which runs from page 722 to 742. No case named Hope is in volume 535."
+    },
+    {
+      "excerpt": "stephen-mckean-v-nationwide-insurance-co_574140_part28.pdf",
+      "citation": "35 F.3d at 742",
+      "reason": "Page 742 of 35 F.3d is inside Brown v. Southeastern Pennsylvania Transportation Authority, 35 F.3d 717 (3d Cir. 1994), which runs from page 717 to 799. No case named Paoli is in volume 35."
+    },
+    {
+      "excerpt": "stephen-mckean-v-nationwide-insurance-co_574140_part28.pdf",
+      "citation": "35 F.3d at 748",
+      "reason": "Page 748 of 35 F.3d is inside Brown v. Southeastern Pennsylvania Transportation Authority, 35 F.3d 717 (3d Cir. 1994), which runs from page 717 to 799. No case named Paoli is in volume 35."
+    },
+    {
+      "excerpt": "stephen-mckean-v-nationwide-insurance-co_574140_part28.pdf",
+      "citation": "35 F.3d at 742",
+      "reason": "Page 742 of 35 F.3d is inside Brown v. Southeastern Pennsylvania Transportation Authority, 35 F.3d 717 (3d Cir. 1994), which runs from page 717 to 799. No case named Paoli is in volume 35."
+    },
+    {
+      "excerpt": "in-re-blood-reagents-antitrus_571399_part37.pdf",
+      "citation": "305 F.3d 145",
+      "reason": "305 F.3d 145 is Winoff Industries, Inc. v. Stone Container Corp., 305 F.3d 145 (3d Cir. 2002), not the case named in the brief (\"In re Linerboard Antitrust Litigation*\")."
+    },
+    {
+      "excerpt": "evolutionary-intelligence-llc-v-sprint-nextel-corporation_12751028_part50.pdf",
+      "citation": "561 U.S. 393",
+      "reason": "Page 393 of 561 U.S. is inside Skilling v. United States, 561 U.S. 358 (2010), which runs from page 358 to 464. Bilski v. Kappos is 561 U.S. 593."
+    },
+    {
+      "excerpt": "lightspeed-media-corporation-v-anthony-smith_645481_part13.pdf",
+      "citation": "514 U.S. at 101",
+      "reason": "Page 101 of 514 U.S. is inside Shalala v. Guernsey Memorial Hospital, 514 U.S. 87 (1995), which runs from page 87 to 114. No case named Gurnsey is in volume 514."
+    },
+    {
+      "excerpt": "stephen-mckean-v-nationwide-insurance-co_574140_part27.pdf",
+      "citation": "35 F.3d 717",
+      "reason": "35 F.3d 717 is Brown v. Southeastern Pennsylvania Transportation Authority, 35 F.3d 717 (3d Cir. 1994), not the case named in the brief (\"171 Pineda v. Ford Motor Co., 520 F.3d 237, 247 (citing In re Paoli\")."
+    },
+    {
+      "excerpt": "allen-v-hays_374608555_part23.pdf",
+      "citation": "482 U.S. 635",
+      "reason": "Page 635 of 482 U.S. is inside Edwards v. Aguillard, 482 U.S. 578 (1987), which runs from page 578 to 640. No case named Anderson is in volume 482."
+    },
+    {
+      "excerpt": "allen-v-hays_374608555_part23.pdf",
+      "citation": "482 U.S. at 640",
+      "reason": "Page 640 of 482 U.S. is inside Edwards v. Aguillard, 482 U.S. 578 (1987), which runs from page 578 to 640. No case named Anderson is in volume 482."
+    },
+    {
+      "excerpt": "united-states-v-jessica-medina_665876_part18.pdf",
+      "citation": "774 F.3d 1482",
+      "reason": "F.3d began in 1993, and the earliest case printed in it was decided in 1990; a 1985 F.3d citation cannot exist."
+    },
+    {
+      "excerpt": "united-states-sugar-corp-v-epa_1275723_part23.pdf",
+      "citation": "734 F.3d at 1131",
+      "reason": "Page 1131 of 734 F.3d is inside National Ass'n of Clean Water Agencies v. Environmental Protection Agency, 734 F.3d 1115 (D.C. Cir. 2013), which runs from page 1115 to 1161. No case named NAWCA is in volume 734."
+    }
+  ],
+  "misses_in_scope": [
+    {
+      "excerpt": "united-states-v-clifton-mclean_20527485_part23.pdf",
+      "citation": "356 us 373",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "gutierrez-v-saenz_366399388_part4.pdf",
+      "citation": "521 us 241",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "pulse-network-v-visa_431038882_part16.pdf",
+      "citation": "130 f3d 443",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "in-re-josue-romero-v-provide-commerce-inc_20816343_part8.pdf",
+      "citation": "134 f3d 368",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "kevin-mccarthy-v-patricia-fuller_238053664_part5.pdf",
+      "citation": "511 us 548",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "maher-terminals-llc-v-fmc_427555968_part19.pdf",
+      "citation": "162 us 4",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "eon-corp-ip-holdings-llc-v-att-mobility-llc_1424156_part17.pdf",
+      "citation": "517 us 226",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-eme-homer-city-generation-lp_570156_part22.pdf",
+      "citation": "231 f3d 39",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-clifton-mclean_20527485_part21.pdf",
+      "citation": "356 us 373",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-mendoza_378894982_part5.pdf",
+      "citation": "68 f3d 6",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "in-re-josue-romero-v-provide-commerce-inc_20816343_part10.pdf",
+      "citation": "47 f3d 431",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "intercollegiate-broadcasting-v-crb_440679057_part20.pdf",
+      "citation": "75 f3d 709",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-thanh-cao_415319041_part39.pdf",
+      "citation": "564 f3d 1026",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-clifton-mclean_20527485_part17.pdf",
+      "citation": "356 us 373",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "enrique-acosta-v-michael-nelson_1281930_part17.pdf",
+      "citation": "475 us 319",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "ragsdell-v-regional-housing-alliance_523076_part5.pdf",
+      "citation": "604 f3d 1149",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-sugar-corp-v-epa_1275723_part32.pdf",
+      "citation": "556 us 515",
+      "type": "case_name_mismatch"
+    }
+  ]
+}

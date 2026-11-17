@@ -1,0 +1,245 @@
+{
+  "sample": {
+    "f3d": 400,
+    "us": 100
+  },
+  "seed": 20261118,
+  "opinions": 495,
+  "citations": 31877,
+  "verdicts": {
+    "VERIFIED": 21313,
+    "UNVERIFIABLE": 10537,
+    "FABRICATED": 27
+  },
+  "fabricated": 27,
+  "fabricated_rate": 0.00085,
+  "by_problem": {
+    "no_such_series": 2,
+    "inside_other_case": 10,
+    "past_last_page": 5,
+    "wrong_name": 8,
+    "series_not_in_print": 2
+  },
+  "text_errors": 0,
+  "redline_errors": 27,
+  "redline_error_rate": 0.000847,
+  "seconds": 116.4,
+  "flagged": [
+    {
+      "opinion": "Burgh v. Borough Council of Montrose, 251 F.3d (0465-01)",
+      "citation": "60 F.8d 1010",
+      "problem": "no_such_series",
+      "reason": "There is no F.8d: the Federal Reporter was published as F., F.2d, F.3d and F.4th.",
+      "context": "states and imposed them in both § 1981 claims, see Zubi v. AT & T Corp., 219 F.3d 220, 222 (3d Cir.2000), and § 1983 claims. See Nelson v. County of Allegheny, 60 F.8d 1010, 1012 (3d Cir.1995). Where, however, Congress explicitly pr",
+      "text_error": null
+    },
+    {
+      "opinion": "United States v. Bush, 405 F.3d (0909-01)",
+      "citation": "388 F.3d 1194",
+      "problem": "inside_other_case",
+      "reason": "Page 1194 of 388 F.3d is inside Newton v. Diamond, 388 F.3d 1189 (9th Cir. 2003), which runs from page 1189 to 1199. No case named Cruz-Alcala is in volume 388.",
+      "context": "a district court’s interpretation and application of the sentencing guidelines de novo, and its factual findings for clear error. United States v. Cruz-Alcala, 388 F.3d 1194, 1196 (10th Cir.2003). Because Mr. Bush did not raise this",
+      "text_error": null
+    },
+    {
+      "opinion": "United States v. Ochoa, 861 F.3d (1010-01)",
+      "citation": "799 F.8d at 123",
+      "problem": "no_such_series",
+      "reason": "There is no F.8d: the Federal Reporter was published as F., F.2d, F.3d and F.4th.",
+      "context": "uits do not appear to consider such failures to be due process violations. Id. The First Circuit has now adopted the majority position as well. See Soto-Mateo, 799 F.8d at 123 (joining “a majority of circuits [that] have rejected the p",
+      "text_error": null
+    },
+    {
+      "opinion": "Hidden Village, LLC v. City of Lakewood, 734 F.3d (0519-01)",
+      "citation": "252 F.3d 1355",
+      "problem": "past_last_page",
+      "reason": "Volume 252 of F.3d ends at page 1354; page 1355 does not exist.",
+      "context": "y.” Just the opposite. By 2007, the Fifth Circuit had held that a violation of §§ 3603-3606 is indispensable to a § 3617 claim. See McZeal v. Ocwen Fin. Corp., 252 F.3d 1355 (5th Cir.2001) (unpublished). The Seventh Circuit had twice",
+      "text_error": null
+    },
+    {
+      "opinion": "United States v. Cope, 506 F.3d (0908-01)",
+      "citation": "258 F.3d 1053",
+      "problem": "wrong_name",
+      "reason": "258 F.3d 1053 is United States v. Lopez, 258 F.3d 1053 (9th Cir. 2001), not the case named in the brief (\"United States v. Lopez, where we noted that the Guidelines specifically contemplated participation in a mental health program\").",
+      "context": "s therefore distinguishable from United States v. Lopez, where we noted that the Guidelines specifically contemplated participation in a mental health program. 258 F.3d 1053, 1055-56 (9th Cir.2001). . In this context of sexual offend",
+      "text_error": null
+    },
+    {
+      "opinion": "Maine School Administrative District No. 35 v. Mr. & Mrs. R., 321 F.3d (0009-01)",
+      "citation": "216 F.3d 52",
+      "problem": "inside_other_case",
+      "reason": "Page 52 of 216 F.3d is inside American Petroleum Institute v. United States Environmental Protection Agency, 216 F.3d 50 (D.C. Cir. 2000), which runs from page 50 to 69. No case named Frazier is in volume 216.",
+      "context": "istrict court. Although parents ordinarily must exhaust their administrative remedies before appealing to a federal court, see Frazier v. Fairhaven Sch. Comm., 216 F.3d 52, 59, 63 (1st Cir.2002), the appellants’ failure to raise a",
+      "text_error": null
+    },
+    {
+      "opinion": "Sutton v. United Air Lines, Inc., 130 F.3d (0893-01)",
+      "citation": "123 F.3d 55",
+      "problem": "inside_other_case",
+      "reason": "Page 55 of 123 F.3d is inside Elewski v. City of Syracuse, 123 F.3d 51 (2d Cir. 1997), which runs from page 51 to 61. No case named Ennis is in volume 123.",
+      "context": "the individual. Runnebaum v. NationsBank of Md., N.A., 123 F.3d 156, 166 (4th Cir.1997) (en banc) (citing Ennis v. National Ass’n of Bus. & Educ. Radio, Inc., 123 F.3d 55, 59-60 (4th Cir.1995) (collecting cases holding that a find",
+      "text_error": null
+    },
+    {
+      "opinion": "In re Grand Jury, 103 F.3d (1140-01)",
+      "citation": "486 F.3d 85",
+      "problem": "series_not_in_print",
+      "reason": "F.3d began in 1993, and the earliest case printed in it was decided in 1990; a 1973 F.3d citation cannot exist.",
+      "context": "that the government failed to make the minimum disclosure of the grand jury’s purpose required by our decisions in In re Grand Jury Proceedings (Schofield I), 486 F.3d 85 (3d Cir.1973), and In re Grand Jury Proceedings (Schofield",
+      "text_error": null
+    },
+    {
+      "opinion": "Dupree v. Hardy, 859 F.3d (0458-01)",
+      "citation": "656 F.3d 557",
+      "problem": "wrong_name",
+      "reason": "656 F.3d 557 is Rasalo v. Harris & Harris, Ltd., 656 F.3d 557 (7th Cir. 2011), not the case named in the brief (\"Kasalo v. Harris & Harris, Ltd\").",
+      "context": ". The district judges in these cases showed more patience than we require, and they had ample reason to dismiss the suits. See Kasalo v. Harris & Harris, Ltd., 656 F.3d 557, 561 (7th Cir. 2011). The judges tolerated repeated and sub",
+      "text_error": null
+    },
+    {
+      "opinion": "Baker v. Exxon Mobile Corp., 472 F.3d (0600-01)",
+      "citation": "312 F.3d 998",
+      "problem": "wrong_name",
+      "reason": "312 F.3d 998 is White v. Ford Motor Co., 312 F.3d 998 (9th Cir. 2002), not the case named in the brief (\"BMW v. Gore\").",
+      "context": "nduct (plaintiffs lawyer had made a “send them a message” argument addressing nationwide conduct) violated principles of federalism established in BMW v. Gore. 312 F.3d 998, 1013-14 (9th Cir.2002). These cases do not prohibit consid",
+      "text_error": null
+    },
+    {
+      "opinion": "United States v. Glover, 104 F.3d (1570-01)",
+      "citation": "11 F.3d 1653",
+      "problem": "past_last_page",
+      "reason": "Volume 11 of F.3d ends at page 1585; page 1653 does not exist.",
+      "context": "findings that Kozak and Glover voluntarily consented to the search of their home; those findings are, therefore, not clearly erroneous. United States v. Iribe, 11 F.3d 1653, 1557 (10th Cir.1993) (clearly erroneous standard applies t",
+      "text_error": null
+    },
+    {
+      "opinion": "Allen v. Secretary, Florida Department of Corrections, 611 F.3d (0740-01)",
+      "citation": "236 F.3d 1215",
+      "problem": "wrong_name",
+      "reason": "236 F.3d 1215 is Battenfield v. Gibson, 236 F.3d 1215 (10th Cir. 2001), not the case named in the brief (\"n, a Tenth Circuit decision, in support of his argument that an inadequate pre-waiver investigation renders his waiver of mitigation invalid\").",
+      "context": "ttenfield v. Gibson, a Tenth Circuit decision, in support of his argument that an inadequate pre-waiver investigation renders his waiver of mitigation invalid. 236 F.3d 1215, 1234 (10th Cir.2001). The Tenth Circuit, however, did not",
+      "text_error": null
+    },
+    {
+      "opinion": "United States v. Lee, 358 F.3d (0315-01)",
+      "citation": "356 F.3d 261",
+      "problem": "wrong_name",
+      "reason": "356 F.3d 261 is United States v. Stultz, 356 F.3d 261 (2d Cir. 2004), not the case named in the brief (\"E.g., United States v. Stidtz\").",
+      "context": "ether the district court’s departure was based on any one of the three impermissible grounds listed in § 3742(e)(3)(B)(i)-(iii). E.g., United States v. Stidtz, 356 F.3d 261, 2004 WL 64958, *2 (2d Cir. Jan. 15, 2004) (observing that",
+      "text_error": null
+    },
+    {
+      "opinion": "Jobs, Training & Services, Inc. v. East Texas Council of Governments, 50 F.3d (1318-01)",
+      "citation": "902 F.3d 1561",
+      "problem": "past_last_page",
+      "reason": "Volume 902 of F.3d ends at page 1382; page 1561 does not exist.",
+      "context": "nistrative proceedings are pending between DOL and the state. See Northwest Pennsylvania Training Partnership Consortium, Inc. v. United States Dep’t of Labor, 902 F.3d 1561 (3d Cir.1990) (sub-state grantee was not a recipient and ha",
+      "text_error": null
+    },
+    {
+      "opinion": "Mejia v. Sessions, 881 F.3d (0421-01)",
+      "citation": "280 F.3d 167",
+      "problem": "inside_other_case",
+      "reason": "Page 167 of 280 F.3d is inside Perry v. McDonald, 280 F.3d 159 (2d Cir. 2001), which runs from page 159 to 175. No case named Hill is in volume 280.",
+      "context": "jurisdiction, on its own motion if necessary.” Green Tree Servicing, L.L.C. v. Charles, 872 F.3d 637, 639 (5th Cir. 2017) (citing Hill v. City of Seven Points, 280 F.3d 167, 169 (5th Cir. 2000)). Under this court’s precedent, we lac",
+      "text_error": null
+    },
+    {
+      "opinion": "Communications Workers of America v. New Jersey Department of Personnel, 282 F.3d (0213-01)",
+      "citation": "897 F.3d at 1509",
+      "problem": "past_last_page",
+      "reason": "Volume 897 of F.3d ends at page 1383; page 1509 does not exist.",
+      "context": "ing to challenge the merits of a settlement agreement when they have voluntarily refrained from participating in the negotiations. Pan Am. World Airways, Inc., 897 F.3d at 1509. The Local unilaterally chose to play no part in the enforc",
+      "text_error": null
+    },
+    {
+      "opinion": "Glenn Defense Marine (Asia) PTE Ltd. v. United States, 720 F.3d (0901-01)",
+      "citation": "404 F.3d at 1851",
+      "problem": "past_last_page",
+      "reason": "Volume 404 of F.3d ends at page 1358; page 1851 does not exist.",
+      "context": ", as opposed to a “Satisfactory” rating. To prevail in a bid protest case, the protestor must show that it was prejudiced by the government’s actions. Ban-num, 404 F.3d at 1851. To establish prejudice, GDMA must show that there was a su",
+      "text_error": null
+    },
+    {
+      "opinion": "Bear, Stearns & Co. v. 1109580 Ontario, Inc., 409 F.3d (0087-01)",
+      "citation": "108 F.3d 9",
+      "problem": "inside_other_case",
+      "reason": "Page 9 of 108 F.3d is inside Sargent v. Tenaska, Inc., 108 F.3d 5 (1st Cir. 1997), which runs from page 5 to 10. No case named Willemijn is in volume 108.",
+      "context": "of Ontario’s motion to apply collateral estoppel. No such explanation is required, however. See Willemijn Houdstermaatschappij, BV v. Standard Microsys. Corp., 108 F.3d 9, 12 (2d Cir.1997). Absent an explanation, the reviewing cou",
+      "text_error": null
+    },
+    {
+      "opinion": "United States v. Williams, 760 F.3d (0811-01)",
+      "citation": "368 F.3d 715",
+      "problem": "inside_other_case",
+      "reason": "Page 715 of 368 F.3d is inside Hoffman v. Caterpillar, Inc., 368 F.3d 709 (7th Cir. 2004), which runs from page 709 to 720. No case named LeBrun is in volume 368.",
+      "context": "rcive police activity and he loses the capacity for self-determination. See United States v. Vinton, 631 F.3d 476, 482 (8th Cir.2011); United States v. LeBrun, 368 F.3d 715, 724 (8th Cir.2004) (en banc). The district court suppresse",
+      "text_error": null
+    },
+    {
+      "opinion": "United States v. Begay, 934 F.3d (1033-01)",
+      "citation": "704 F.3d 1219",
+      "problem": "wrong_name",
+      "reason": "704 F.3d 1219 is United States v. J.J., 704 F.3d 1219 (9th Cir. 2013), not the case named in the brief (\"United States v. JJ\").",
+      "context": "e reviewed a district court's decision to try a juvenile as an adult under the Federal Juvenile Delinquency Act, 18 U.S.C. § 5031 et seq. United States v. JJ , 704 F.3d 1219 (9th Cir. 2013). In JJ , the question of whether \"second-de",
+      "text_error": null
+    },
+    {
+      "opinion": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice, 846 F.3d (1235-01)",
+      "citation": "88 F.3d 1191",
+      "problem": "series_not_in_print",
+      "reason": "F.3d began in 1993, and the earliest case printed in it was decided in 1990; a 1700 F.3d citation cannot exist.",
+      "context": "1389, 1395 n.7 (D.C. Cir. 1996) (en banc); see Joint Reply Br. Ken-necott Utah Copper Corp. and Industry and Sanitation District Petitioners at 13, Kennecott, 88 F.3d 1191 (No. 93-1700). To sum up, then, CREW may, in a FOIA suit to",
+      "text_error": null
+    },
+    {
+      "opinion": "Scheidler v. National Organization for Women, Inc., 537 U.S. (0393-01)",
+      "citation": "495 U. S. 575",
+      "problem": "wrong_name",
+      "reason": "495 U.S. 575 is Taylor v. United States, 495 U.S. 575 (1990), not the case named in the brief (\"Nardello and Taylor v. United States\").",
+      "context": "fear, or threats.’ ” Id., at 34 (quoting Nardello, 393 U. S., at 290). This concession is in accord with our decisions in Nardello and Taylor v. United States, 495 U. S. 575 (1990). In Nardello, we held that the Travel Act’s prohibit",
+      "text_error": null
+    },
+    {
+      "opinion": "Alleyne v. United States, 570 U.S. (0099-01)",
+      "citation": "536 U.S. 545",
+      "problem": "wrong_name",
+      "reason": "536 U.S. 545 is Harris v. United States, 536 U.S. 545 (2002), not the case named in the brief (\"If Harris v. United States\").",
+      "context": "111 S.Ct. 2597, 115 L.Ed.2d 720 (1991). Nevertheless, the Court ought to be consistent in its willingness to reconsider precedent. If Harris v. United States, 536 U.S. 545, 122 S.Ct. 2406, 153 L.Ed.2d 524 (2002), and McMillan v. Pe",
+      "text_error": null
+    },
+    {
+      "opinion": "Bray v. Alexandria Women's Health Clinic, 506 U.S. (0263-01)",
+      "citation": "378 U. S. 163",
+      "problem": "inside_other_case",
+      "reason": "Page 163 of 378 U.S. is inside States v. Penn-Olin Chemical Co., 378 U.S. 158 (1964), which runs from page 158 to 183. Robinson v. Florida is 378 U.S. 153.",
+      "context": "of Columbia, 378 U. S. 347, 348 (1964) (“two Negro college students”); Bell v. Maryland, 378 U. S. 226, 227 (1964) (“12 Negro students”); Robinson v. Florida, 378 U. S. 163 (1964) (an integrated group of 18 blacks and whites); Barr",
+      "text_error": null
+    },
+    {
+      "opinion": "Custis v. United States, 511 U.S. (0485-01)",
+      "citation": "372 U. S. 355",
+      "problem": "inside_other_case",
+      "reason": "Page 355 of 372 U.S. is inside Douglas v. California, 372 U.S. 353 (1963), which runs from page 353 to 367. Gideon v. Wainwright is 372 U.S. 335.",
+      "context": "ere (that a prior conviction resulted from an invalid guilty plea), the Court did not hold Burgett inapposite as involving a violation of Gideon v. Wainwright, 372 U. S. 355 (1963), but rather accepted Burgett’s applicability and dis",
+      "text_error": null
+    },
+    {
+      "opinion": "City of Boerne v. Flores, 521 U.S. (0507-01)",
+      "citation": "465 U. S. 252",
+      "problem": "inside_other_case",
+      "reason": "Page 252 of 465 U.S. is inside McCain v. Lybrand, 465 U.S. 236 (1984), which runs from page 236 to 258.",
+      "context": "4 (citing Hernandez v. Commissioner, 490 U. S. 680, 699 (1989); Hobbie v. Unemployment Appeals Comm’n of Fla., 480 U. S. 136, 141 (1987); United States v. Lee, 465 U. S. 252, 257-258 (1982); McDaniel v. Paty, 435 U. S. 618, 626-629 (",
+      "text_error": null
+    },
+    {
+      "opinion": "Johnson v. United States, 529 U.S. (0694-01)",
+      "citation": "189 F. 3d 636",
+      "problem": "inside_other_case",
+      "reason": "Page 636 of 189 F.3d is inside Federation of Advertising Industry Representatives, Inc. v. City of Chicago, 189 F.3d 633 (7th Cir. 1999), which runs from page 633 to 640. United States v. Eske is 189 F.3d 536.",
+      "context": "ourts such power. See United States v. O’Neil, 11 F. 3d 292 (CA1 1993); United States v. Schrader, 973 F. 2d 623 (CA8 1992). See, e. g., United States v. Eske, 189 F. 3d 636, 539 (CA7 1999); United States v. Lominac, 144 F. 3d 308, 3",
+      "text_error": null
+    }
+  ]
+}

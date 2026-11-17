@@ -1,0 +1,132 @@
+{
+  "dataset": "LePhantomCite eval split (Liu, Stammbach & Henderson 2026), CC BY 4.0",
+  "excerpts": 390,
+  "seconds": 6.42,
+  "ms_per_excerpt": 16.5,
+  "citations_checked": 1350,
+  "verdicts": {
+    "VERIFIED": 724,
+    "UNVERIFIABLE": 585,
+    "FABRICATED": 41
+  },
+  "flags": {
+    "true_positive": 39,
+    "source_error": 2
+  },
+  "precision": 0.9512,
+  "precision_with_source_errors": 1.0,
+  "source_errors": [
+    {
+      "excerpt": "aldmyr-systems-inc-v-stephen-friedman_9330688_part11.pdf",
+      "citation": "122 F.3d 191",
+      "evidence": "Jordahl v. Democratic Party of Va. is 122 F.3d 192 (4th Cir. 1997) in the store; the brief cites page 191 and the year 2002."
+    },
+    {
+      "excerpt": "mark-abbey-v-united-states_1418349_part20.pdf",
+      "citation": "216 F.3d 659",
+      "evidence": "Vela v. City of Houston is 276 F.3d 659 (5th Cir. 2001) in the store; the brief cites volume 216."
+    }
+  ],
+  "clean_excerpts": 178,
+  "clean_excerpts_with_a_flag": 0,
+  "recall_by_type": {
+    "non_existent_citation": {
+      "caught": 25,
+      "total": 31,
+      "caught_in_scope": 25,
+      "in_scope": 25
+    },
+    "case_name_mismatch": {
+      "caught": 11,
+      "total": 59,
+      "caught_in_scope": 11,
+      "in_scope": 24
+    },
+    "wrong_pincite": {
+      "caught": 1,
+      "total": 53,
+      "caught_in_scope": 1,
+      "in_scope": 44
+    },
+    "misquote": {
+      "caught": 0,
+      "total": 40,
+      "caught_in_scope": 0,
+      "in_scope": 26
+    },
+    "content_misrepresentation": {
+      "caught": 0,
+      "total": 129,
+      "caught_in_scope": 0,
+      "in_scope": 57
+    }
+  },
+  "false_alarms": [],
+  "misses_in_scope": [
+    {
+      "excerpt": "david-harvey-v-leon-mohammed_1289365_part44.pdf",
+      "citation": "610 f3d 451",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "robert-henson-v-us-foodservice-inc_573290_part11.pdf",
+      "citation": "493 us 1023",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "bristol-myers-squibb-company-v-teva-pharmaceuticals-usa-inc_1411832_part33.pdf",
+      "citation": "424 f3d 1",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "kevin-mccarthy-v-patricia-fuller_238053664_part12.pdf",
+      "citation": "511 us 548",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "eon-corp-ip-holdings-llc-v-att-mobility-llc_1424156_part33.pdf",
+      "citation": "344 f3d 1211",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "in-re-blaine-milam_412594115_part17.pdf",
+      "citation": "587 us 460",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "serra-v-quantum-servicing-corp_518553_part32.pdf",
+      "citation": "693 f3d 99",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-rodriguez-cruz_385024413_part9.pdf",
+      "citation": "551 us 120",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "united-states-v-eme-homer-city-generation-lp_570156_part39.pdf",
+      "citation": "535 f3d 678",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "kim-westberg-v-fdic_1286680_part15.pdf",
+      "citation": "624 f3d 1144",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "owner-operator-independent-dr-v-dot_384359493_part22.pdf",
+      "citation": "847 f3d 1042",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "inclusive-communities-project-v-tx-dept-of-housing_430827291_part22.pdf",
+      "citation": "138 f3d 955",
+      "type": "case_name_mismatch"
+    },
+    {
+      "excerpt": "basf-plant-science-lp-v-commonwealth-scientific_451923637_part39.pdf",
+      "citation": "871 f3d 256",
+      "type": "case_name_mismatch"
+    }
+  ]
+}

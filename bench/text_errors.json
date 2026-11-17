@@ -1,0 +1,157 @@
+{
+ "about": "Errors in the digitized text of published opinions (OCR or the court's own typo), each confirmed against the store. The citation as written cannot be right; the printed opinion is.",
+ "errors": [
+  {
+   "citation": "147 F.8d 1344",
+   "evidence": "OCR read 3 as 8: Bouchard Transportation Co. v. Updegraff is 147 F.3d 1344 in the store."
+  },
+  {
+   "citation": "16 F.8d 1271",
+   "evidence": "OCR read 3 as 8: Kowal v. MCI Communications Corp. is 16 F.3d 1271 in the store."
+  },
+  {
+   "citation": "489 F.8d 366",
+   "evidence": "OCR read 3 as 8: United States v. Baker is 489 F.3d 366 in the store."
+  },
+  {
+   "citation": "48 F.8d 1056",
+   "evidence": "OCR read 3 as 8: Hoselton v. Metz Baking Co. is 48 F.3d 1056 in the store."
+  },
+  {
+   "citation": "189 L.Ed.3d 234",
+   "evidence": "There is no L. Ed. 3d; Republic of Argentina v. NML Capital is 189 L. Ed. 2d 234 (OCR or typo in the text)."
+  },
+  {
+   "citation": "895 F.3d 92",
+   "evidence": "OCR read 3 as 8: Jacobs v. Horn is 395 F.3d 92 (2005) in the store."
+  },
+  {
+   "citation": "428 F.3d 1247",
+   "evidence": "OCR read 3 as 8: Bennett v. Hendrix is 423 F.3d 1247 (2005) in the store."
+  },
+  {
+   "citation": "820 F.3d 1213",
+   "evidence": "OCR read 3 as 8: Tampa Bay Shipbuilding v. Cedar Shipping is 320 F.3d 1213 (2003) in the store."
+  },
+  {
+   "citation": "160 F.3d 1132",
+   "evidence": "ONRC Action v. Bureau of Land Management is 150 F.3d 1132 (1998) in the store; the text has 160."
+  },
+  {
+   "citation": "618 F.3d 765",
+   "evidence": "United States v. Zierke is 618 F.3d 755 in the store; the text has 765 (its own pin cite is 759)."
+  },
+  {
+   "citation": "97 F.3d 1586",
+   "evidence": "OCR read 3 as 8: McCloud v. Testa is 97 F.3d 1536 in the store (the text's pin cite is 1561)."
+  },
+  {
+   "citation": "764 F.3d 1821",
+   "evidence": "OCR read 3 as 8: Atkinson v. Ernie Haire Ford is 764 F.3d 1321 in the store (the text's pin cite is 1325)."
+  },
+  {
+   "citation": "469 U. S. 288",
+   "evidence": "Board of License Commissioners v. Pastore is 469 U.S. 238 in the store; the text has 288 (its pin cite is 240)."
+  },
+  {
+   "citation": "447 U. S. 317",
+   "evidence": "Celotex Corp. v. Catrett is 477 U.S. 317 (1986) in the store; the text has 447."
+  },
+  {
+   "citation": "312 F.3d 419",
+   "evidence": "OCR garbled the name: the text reads 'United States v. Neü'; 312 F.3d 419 is United States v. Neil."
+  },
+  {
+   "citation": "44 U.S. 164",
+   "evidence": "Kaiser Aetna v. United States is 444 U.S. 164 in the store; the text has 44."
+  },
+  {
+   "citation": "246 F.3d 451",
+   "evidence": "OCR garbled the name: the text reads 'Garda-Flores'; 246 F.3d 451 is United States v. Garcia-Flores in the store."
+  },
+  {
+   "citation": "61 F.3d 573",
+   "evidence": "OCR garbled the name: the text reads 'Luden v. Johnson'; 61 F.3d 573 is Lucien v. Johnson in the store."
+  },
+  {
+   "citation": "439 U. S. 128",
+   "evidence": "OCR garbled the name: the text reads 'Bakas v. Illinois'; 439 U.S. 128 is Rakas v. Illinois in the store."
+  },
+  {
+   "citation": "365 F.3d 1064",
+   "evidence": "Golden Blount, Inc. v. Robert H. Peterson Co. is 365 F.3d 1054 in the store; the text has 1064 (its own pin cite is 1058)."
+  },
+  {
+   "citation": "60 F.8d 1010",
+   "evidence": "OCR read 3 as 8: Nelson v. County of Allegheny is 60 F.3d 1010 in the store."
+  },
+  {
+   "citation": "799 F.8d at 123",
+   "evidence": "OCR read 3 as 8: United States v. Soto-Mateo is 799 F.3d 117 in the store."
+  },
+  {
+   "citation": "388 F.3d 1194",
+   "evidence": "OCR read 3 as 8: United States v. Cruz-Alcala is 338 F.3d 1194 in the store."
+  },
+  {
+   "citation": "216 F.3d 52",
+   "evidence": "Frazier v. Fairhaven School Committee is 276 F.3d 52 in the store; the text has 216."
+  },
+  {
+   "citation": "123 F.3d 55",
+   "evidence": "Ennis v. National Ass'n of Business & Educational Radio is 53 F.3d 55 in the store; the text has 123."
+  },
+  {
+   "citation": "280 F.3d 167",
+   "evidence": "OCR read 3 as 8: Hill v. City of Seven Points is 230 F.3d 167 in the store."
+  },
+  {
+   "citation": "108 F.3d 9",
+   "evidence": "OCR read 3 as 8: Willemijn Houdstermaatschappij v. Standard Microsystems is 103 F.3d 9 in the store."
+  },
+  {
+   "citation": "368 F.3d 715",
+   "evidence": "OCR read 3 as 8: United States v. LeBrun is 363 F.3d 715 in the store."
+  },
+  {
+   "citation": "378 U. S. 163",
+   "evidence": "Robinson v. Florida is 378 U.S. 153 in the store; the text has 163."
+  },
+  {
+   "citation": "372 U. S. 355",
+   "evidence": "Gideon v. Wainwright is 372 U.S. 335 in the store; the text has 355."
+  },
+  {
+   "citation": "465 U. S. 252",
+   "evidence": "United States v. Lee is 455 U.S. 252 (1982) in the store; the text has 465."
+  },
+  {
+   "citation": "189 F. 3d 636",
+   "evidence": "United States v. Eske is 189 F.3d 536 in the store; the text has 636 (its pin cite is 539)."
+  },
+  {
+   "citation": "11 F.3d 1653",
+   "evidence": "United States v. Iribe is 11 F.3d 1553 in the store; the text has 1653 (its pin cite is 1557)."
+  },
+  {
+   "citation": "356 F.3d 261",
+   "evidence": "OCR garbled the name: the text reads 'Stidtz'; 356 F.3d 261 is United States v. Stultz."
+  },
+  {
+   "citation": "404 F.3d at 1851",
+   "evidence": "Bannum, Inc. v. United States is 404 F.3d 1346 in the store; the text has 1851 (likely 1351)."
+  },
+  {
+   "citation": "486 F.3d 85",
+   "evidence": "Cited as F.3d with the year 1973, when F.3d did not exist; In re Grand Jury Proceedings (Schofield I) is 486 F.2d 85."
+  },
+  {
+   "citation": "902 F.3d 1561",
+   "evidence": "Cited as F.3d with the year 1990; volume 902 of F.3d is from 2018 and ends at page 1382 (likely 902 F.2d 1561)."
+  },
+  {
+   "citation": "897 F.3d at 1509",
+   "evidence": "Volume 897 of F.3d ends at page 1383; the Pan Am. World Airways case cited is in F.2d."
+  }
+ ]
+}

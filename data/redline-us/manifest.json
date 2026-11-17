@@ -1,0 +1,259 @@
+{
+  "format_version": 5,
+  "next_node_id": 219772,
+  "next_rel_id": 1374372,
+  "checkpoint_lsn": 336,
+  "commit_ts": 336,
+  "node_parts": [
+    {
+      "path": "nodes/0-262144-08ccace2ed4bb017df93e497df0bcd57.parquet",
+      "id_lo": 0,
+      "id_hi": 262144,
+      "rows": 219772,
+      "bytes": 21855767
+    }
+  ],
+  "rel_parts": [
+    {
+      "path": "relationships/0-906240-d859b9d1b3501cf2e3e6c075a070047b.parquet",
+      "id_lo": 0,
+      "id_hi": 906240,
+      "rows": 906240,
+      "bytes": 10889413
+    },
+    {
+      "path": "relationships/906240-1000000-bb79bc731a36d97854eeb1fc6322e4c5.parquet",
+      "id_lo": 906240,
+      "id_hi": 1000000,
+      "rows": 93760,
+      "bytes": 1179300
+    },
+    {
+      "path": "relationships/1000000-2000000-c915f3eb680ec00824b1f901b83c7cb3.parquet",
+      "id_lo": 1000000,
+      "id_hi": 2000000,
+      "rows": 374372,
+      "bytes": 17690084
+    }
+  ],
+  "bytes_per_node": 101.27362315491784,
+  "bytes_per_rel": 18.27037017669383,
+  "codec": "parquet",
+  "indexes": [
+    {
+      "name": "case_id",
+      "label": "Case",
+      "property": "id#RANGE#case_id"
+    },
+    {
+      "name": "case_name",
+      "label": "Case",
+      "property": "name#FULLTEXT#case_name"
+    },
+    {
+      "name": "case_status",
+      "label": "Case",
+      "property": "status"
+    },
+    {
+      "name": "citation_text",
+      "label": "Citation",
+      "property": "text#RANGE#citation_text"
+    },
+    {
+      "name": "court_id",
+      "label": "Court",
+      "property": "id#RANGE#court_id"
+    },
+    {
+      "name": "reporter_abbr",
+      "label": "Reporter",
+      "property": "abbr#RANGE#reporter_abbr"
+    },
+    {
+      "name": "volume_key",
+      "label": "Volume",
+      "property": "key#RANGE#volume_key"
+    }
+  ],
+  "constraints": [
+    {
+      "name": "case_id",
+      "relationship": false,
+      "label": "Case",
+      "properties": [
+        "id"
+      ],
+      "kind": "unique",
+      "property_type": null
+    },
+    {
+      "name": "citation_text",
+      "relationship": false,
+      "label": "Citation",
+      "properties": [
+        "text"
+      ],
+      "kind": "unique",
+      "property_type": null
+    },
+    {
+      "name": "court_id",
+      "relationship": false,
+      "label": "Court",
+      "properties": [
+        "id"
+      ],
+      "kind": "unique",
+      "property_type": null
+    },
+    {
+      "name": "reporter_abbr",
+      "relationship": false,
+      "label": "Reporter",
+      "properties": [
+        "abbr"
+      ],
+      "kind": "unique",
+      "property_type": null
+    },
+    {
+      "name": "volume_key",
+      "relationship": false,
+      "label": "Volume",
+      "properties": [
+        "key"
+      ],
+      "kind": "unique",
+      "property_type": null
+    }
+  ],
+  "theater": {
+    "databases": {
+      "neo4j": [
+        25,
+        false
+      ],
+      "system": [
+        25,
+        false
+      ],
+      "system_ontologies": [
+        25,
+        false
+      ]
+    },
+    "index_details": {
+      "case_id": {
+        "kind": "Range",
+        "relationship": false,
+        "labels": [
+          "Case"
+        ],
+        "properties": [
+          "id"
+        ],
+        "with_properties": []
+      },
+      "case_name": {
+        "kind": "Fulltext",
+        "relationship": false,
+        "labels": [
+          "Case"
+        ],
+        "properties": [
+          "name"
+        ],
+        "with_properties": []
+      },
+      "case_status": {
+        "kind": "Range",
+        "relationship": false,
+        "labels": [
+          "Case"
+        ],
+        "properties": [
+          "status"
+        ],
+        "with_properties": []
+      },
+      "citation_text": {
+        "kind": "Range",
+        "relationship": false,
+        "labels": [
+          "Citation"
+        ],
+        "properties": [
+          "text"
+        ],
+        "with_properties": []
+      },
+      "court_id": {
+        "kind": "Range",
+        "relationship": false,
+        "labels": [
+          "Court"
+        ],
+        "properties": [
+          "id"
+        ],
+        "with_properties": []
+      },
+      "reporter_abbr": {
+        "kind": "Range",
+        "relationship": false,
+        "labels": [
+          "Reporter"
+        ],
+        "properties": [
+          "abbr"
+        ],
+        "with_properties": []
+      },
+      "volume_key": {
+        "kind": "Range",
+        "relationship": false,
+        "labels": [
+          "Volume"
+        ],
+        "properties": [
+          "key"
+        ],
+        "with_properties": []
+      }
+    },
+    "index_options": {
+      "case_id": {},
+      "case_name": {
+        "indexConfig": {
+          "t": "map",
+          "v": {
+            "fulltext.analyzer": {
+              "t": "string",
+              "v": "standard-no-stop-words"
+            },
+            "fulltext.eventually_consistent": {
+              "t": "bool",
+              "v": false
+            }
+          }
+        }
+      },
+      "case_status": {},
+      "citation_text": {},
+      "court_id": {},
+      "reporter_abbr": {},
+      "volume_key": {}
+    },
+    "graph_types": {},
+    "current_graph_type": {
+      "node_types": [],
+      "edge_types": [],
+      "constraints": [],
+      "drop_constraint_names": []
+    },
+    "derived_constraints": {}
+  },
+  "query_engine": "in-memory",
+  "write_engine": "local"
+}

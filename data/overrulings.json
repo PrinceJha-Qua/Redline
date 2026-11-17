@@ -1,0 +1,2598 @@
+{
+ "source": "Wikipedia, List of overruled United States Supreme Court decisions (CC BY-SA 4.0)",
+ "url": "https://en.wikipedia.org/wiki/List_of_overruled_United_States_Supreme_Court_decisions",
+ "rows": [
+  {
+   "overruled": {
+    "name": "Paul v. Virginia",
+    "vol": 75,
+    "page": 168,
+    "year": 1869,
+    "partial": false
+   },
+   "overruling": {
+    "name": "United States v. South-Eastern Underwriters Ass'n",
+    "vol": 322,
+    "page": 533,
+    "year": 1944,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Commerce Clause"
+  },
+  {
+   "overruled": {
+    "name": "Hammer v. Dagenhart",
+    "vol": 247,
+    "page": 251,
+    "year": 1918,
+    "partial": false
+   },
+   "overruling": {
+    "name": "United States v. Darby Lumber Co.",
+    "vol": 312,
+    "page": 100,
+    "year": 1941,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Commerce Clause"
+  },
+  {
+   "overruled": {
+    "name": "Puget Sound Stevedoring Co. v. State Tax Commission",
+    "vol": 302,
+    "page": 90,
+    "year": 1937,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Department of Revenue v. Washington Stevedoring Cos.",
+    "vol": 435,
+    "page": 734,
+    "year": 1978,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Commerce Clause"
+  },
+  {
+   "overruled": {
+    "name": "Joseph v. Carter & Weekes Stevedoring Co.",
+    "vol": 330,
+    "page": 422,
+    "year": 1947,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Department of Revenue v. Washington Stevedoring Cos.",
+    "vol": 435,
+    "page": 734,
+    "year": 1978,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Commerce Clause"
+  },
+  {
+   "overruled": {
+    "name": "Spector Motor Service v. O'Connor",
+    "vol": 340,
+    "page": 602,
+    "year": 1951,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Complete Auto Transit v. Brady",
+    "vol": 430,
+    "page": 274,
+    "year": 1977,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Commerce Clause"
+  },
+  {
+   "overruled": {
+    "name": "Joseph E. Seagram & Sons v. Hostetter",
+    "vol": 384,
+    "page": 35,
+    "year": 1966,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Healy v. Beer Institute",
+    "vol": 491,
+    "page": 324,
+    "year": 1989,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Commerce Clause"
+  },
+  {
+   "overruled": {
+    "name": "National Bellas Hess, Inc. v. Department of Revenue of Ill.",
+    "vol": 386,
+    "page": 753,
+    "year": 1967,
+    "partial": false
+   },
+   "overruling": {
+    "name": "South Dakota v. Wayfair, Inc.",
+    "vol": 585,
+    "page": 162,
+    "year": 2018,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Commerce Clause"
+  },
+  {
+   "overruled": {
+    "name": "National League of Cities v. Usery",
+    "vol": 426,
+    "page": 833,
+    "year": 1976,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Garcia v. San Antonio Metropolitan Transit Authority",
+    "vol": 469,
+    "page": 528,
+    "year": 1985,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Commerce Clause"
+  },
+  {
+   "overruled": {
+    "name": "Quill Corp. v. North Dakota",
+    "vol": 504,
+    "page": 298,
+    "year": 1992,
+    "partial": false
+   },
+   "overruling": {
+    "name": "South Dakota v. Wayfair, Inc.",
+    "vol": 585,
+    "page": 162,
+    "year": 2018,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Commerce Clause"
+  },
+  {
+   "overruled": {
+    "name": "Kring v. Missouri",
+    "vol": 107,
+    "page": 221,
+    "year": 1883,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Collins v. Youngblood",
+    "vol": 497,
+    "page": 37,
+    "year": 1990,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Ex post facto"
+  },
+  {
+   "overruled": {
+    "name": "Thompson v. Utah",
+    "vol": 170,
+    "page": 343,
+    "year": 1898,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Collins v. Youngblood",
+    "vol": 497,
+    "page": 37,
+    "year": 1990,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Ex post facto"
+  },
+  {
+   "overruled": {
+    "name": "Pollock v. Farmers' Loan & Trust Co.",
+    "vol": 157,
+    "page": 429,
+    "year": 1895,
+    "partial": true
+   },
+   "overruling": {
+    "name": "South Carolina v. Baker",
+    "vol": 485,
+    "page": 505,
+    "year": 1988,
+    "partial": false
+   },
+   "partial": true,
+   "topic": "Article One / Federal tax"
+  },
+  {
+   "overruled": {
+    "name": "Low v. Austin",
+    "vol": 80,
+    "page": 29,
+    "year": 1872,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Michelin Tire Corp. v. Wages",
+    "vol": 423,
+    "page": 276,
+    "year": 1976,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / State import/export tax"
+  },
+  {
+   "overruled": {
+    "name": "Hooven & Allison Co. v. Evatt",
+    "vol": 324,
+    "page": 652,
+    "year": 1945,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Limbach v. Hooven & Allison Co.",
+    "vol": 466,
+    "page": 353,
+    "year": 1984,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / State import/export tax"
+  },
+  {
+   "overruled": {
+    "name": "Ex parte Bakelite Corp.",
+    "vol": 279,
+    "page": 438,
+    "year": 1929,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Glidden Co. v. Zdanok",
+    "vol": 370,
+    "page": 530,
+    "year": 1962,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Article One courts"
+  },
+  {
+   "overruled": {
+    "name": "Williams v. United States",
+    "vol": 289,
+    "page": 553,
+    "year": 1933,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Glidden Co. v. Zdanok",
+    "vol": 370,
+    "page": 530,
+    "year": 1962,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Article One courts"
+  },
+  {
+   "overruled": {
+    "name": "O'Callahan v. Parker",
+    "vol": 395,
+    "page": 258,
+    "year": 1969,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Solorio v. United States",
+    "vol": 483,
+    "page": 435,
+    "year": 1987,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article One / Article One courts"
+  },
+  {
+   "overruled": {
+    "name": "Humphrey's Executor v. United States",
+    "vol": 295,
+    "page": 602,
+    "year": 1935,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Trump v. Slaughter",
+    "vol": 609,
+    "page": null,
+    "year": 2026,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article Two"
+  },
+  {
+   "overruled": {
+    "name": "Swift v. Tyson",
+    "vol": 41,
+    "page": 1,
+    "year": 1842,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Erie Railroad Co. v. Tompkins",
+    "vol": 304,
+    "page": 64,
+    "year": 1938,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article Three"
+  },
+  {
+   "overruled": {
+    "name": "Durham v. United States",
+    "vol": 401,
+    "page": 481,
+    "year": 1971,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Dove v. United States",
+    "vol": 423,
+    "page": 325,
+    "year": 1976,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article Three"
+  },
+  {
+   "overruled": {
+    "name": "Evans v. Gore",
+    "vol": 253,
+    "page": 245,
+    "year": 1920,
+    "partial": false
+   },
+   "overruling": {
+    "name": "United States v. Hatter",
+    "vol": 532,
+    "page": 557,
+    "year": 2001,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article Three / Compensation Clause"
+  },
+  {
+   "overruled": {
+    "name": "Miles v. Graham",
+    "vol": 268,
+    "page": 501,
+    "year": 1925,
+    "partial": false
+   },
+   "overruling": {
+    "name": "O'Malley v. Woodrough",
+    "vol": 307,
+    "page": 277,
+    "year": 1939,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article Three / Compensation Clause"
+  },
+  {
+   "overruled": {
+    "name": "Kentucky v. Dennison",
+    "vol": 65,
+    "page": 66,
+    "year": 1861,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Puerto Rico v. Branstad",
+    "vol": 483,
+    "page": 219,
+    "year": 1987,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article Four / Extradition Clause"
+  },
+  {
+   "overruled": {
+    "name": "Bonelli Cattle Co. v. Arizona",
+    "vol": 414,
+    "page": 313,
+    "year": 1973,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Oregon ex rel. State Land Board v. Corvallis Sand & Gravel Co.",
+    "vol": 429,
+    "page": 363,
+    "year": 1977,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article Four / Equal footing doctrine"
+  },
+  {
+   "overruled": {
+    "name": "Thompson v. Thompson",
+    "vol": 226,
+    "page": 551,
+    "year": 1919,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Vanderbilt v. Vanderbilt",
+    "vol": 354,
+    "page": 416,
+    "year": 1957,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article Four / Full Faith and Credit"
+  },
+  {
+   "overruled": {
+    "name": "Nevada v. Hall",
+    "vol": 440,
+    "page": 410,
+    "year": 1979,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Franchise Tax Board of California v. Hyatt",
+    "vol": 587,
+    "page": 230,
+    "year": 2019,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article Four / Full Faith and Credit"
+  },
+  {
+   "overruled": {
+    "name": "Reitz v. Mealey",
+    "vol": 314,
+    "page": 33,
+    "year": 1941,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Perez v. Campbell",
+    "vol": 402,
+    "page": 637,
+    "year": 1971,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article Six / Supremacy Clause"
+  },
+  {
+   "overruled": {
+    "name": "Kesler v. Department of Public Safety",
+    "vol": 369,
+    "page": 153,
+    "year": 1962,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Perez v. Campbell",
+    "vol": 402,
+    "page": 637,
+    "year": 1971,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Article Six / Supremacy Clause"
+  },
+  {
+   "overruled": {
+    "name": "Lemon v. Kurtzman",
+    "vol": 403,
+    "page": 602,
+    "year": 1971,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Kennedy v. Bremerton School District",
+    "vol": 597,
+    "page": 507,
+    "year": 2022,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Establishment Clause"
+  },
+  {
+   "overruled": {
+    "name": "Meek v. Pittinger",
+    "vol": 421,
+    "page": 349,
+    "year": 1975,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Mitchell v. Helms",
+    "vol": 530,
+    "page": 793,
+    "year": 2000,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Establishment Clause"
+  },
+  {
+   "overruled": {
+    "name": "Wolman v. Walter",
+    "vol": 433,
+    "page": 229,
+    "year": 1977,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Mitchell v. Helms",
+    "vol": 530,
+    "page": 793,
+    "year": 2000,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Establishment Clause"
+  },
+  {
+   "overruled": {
+    "name": "School District of City of Grand Rapids v. Ball",
+    "vol": 473,
+    "page": 373,
+    "year": 1985,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Agostini v. Felton",
+    "vol": 521,
+    "page": 203,
+    "year": 1997,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Establishment Clause"
+  },
+  {
+   "overruled": {
+    "name": "Aguilar v. Felton",
+    "vol": 473,
+    "page": 402,
+    "year": 1985,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Agostini v. Felton",
+    "vol": 521,
+    "page": 203,
+    "year": 1997,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Establishment Clause"
+  },
+  {
+   "overruled": {
+    "name": "Whitney v. California",
+    "vol": 274,
+    "page": 357,
+    "year": 1927,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Brandenburg v. Ohio",
+    "vol": 395,
+    "page": 444,
+    "year": 1969,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Free speech clause"
+  },
+  {
+   "overruled": {
+    "name": "Minersville School District v. Gobitis",
+    "vol": 310,
+    "page": 586,
+    "year": 1940,
+    "partial": false
+   },
+   "overruling": {
+    "name": "West Virginia State Board of Education v. Barnette",
+    "vol": 319,
+    "page": 624,
+    "year": 1943,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Free speech clause"
+  },
+  {
+   "overruled": {
+    "name": "Valentine v. Chrestensen",
+    "vol": 316,
+    "page": 52,
+    "year": 1942,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Virginia State Pharmacy Board v. Virginia Citizens Consumer Council",
+    "vol": 425,
+    "page": 748,
+    "year": 1976,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Free speech clause"
+  },
+  {
+   "overruled": {
+    "name": "Roth v. United States",
+    "vol": 354,
+    "page": 476,
+    "year": 1957,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Miller v. California",
+    "vol": 413,
+    "page": 15,
+    "year": 1973,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Free speech clause"
+  },
+  {
+   "overruled": {
+    "name": "Amalgamated Food Employees Union Local 590 v. Logan Valley Plaza",
+    "vol": 391,
+    "page": 308,
+    "year": 1968,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Hudgens v. National Labor Relations Board",
+    "vol": 424,
+    "page": 507,
+    "year": 1976,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Free speech clause"
+  },
+  {
+   "overruled": {
+    "name": "Abood v. Detroit Board of Education",
+    "vol": 431,
+    "page": 209,
+    "year": 1977,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Janus v. AFSCME",
+    "vol": 585,
+    "page": 878,
+    "year": 2018,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Free speech clause"
+  },
+  {
+   "overruled": {
+    "name": "Austin v. Michigan Chamber of Commerce",
+    "vol": 494,
+    "page": 652,
+    "year": 1990,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Citizens United v. FEC",
+    "vol": 558,
+    "page": 310,
+    "year": 2010,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Free speech clause"
+  },
+  {
+   "overruled": {
+    "name": "FEC v. Colorado Republican Federal Campaign Committee",
+    "vol": 533,
+    "page": 431,
+    "year": 2001,
+    "partial": false
+   },
+   "overruling": {
+    "name": "National Republican Senatorial Committee v. FEC",
+    "vol": 609,
+    "page": null,
+    "year": 2026,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "First Amendment / Free speech clause"
+  },
+  {
+   "overruled": {
+    "name": "McConnell v. Federal Election Commission",
+    "vol": 540,
+    "page": 93,
+    "year": 2003,
+    "partial": true
+   },
+   "overruling": {
+    "name": "Citizens United v. FEC",
+    "vol": 558,
+    "page": 310,
+    "year": 2010,
+    "partial": false
+   },
+   "partial": true,
+   "topic": "First Amendment / Free speech clause"
+  },
+  {
+   "overruled": {
+    "name": "United States v. Cruikshank",
+    "vol": 92,
+    "page": 542,
+    "year": 1876,
+    "partial": false
+   },
+   "overruling": {
+    "name": "McDonald v. City of Chicago",
+    "vol": 561,
+    "page": 742,
+    "year": 2010,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Second Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Presser v. Illinois",
+    "vol": 116,
+    "page": 252,
+    "year": 1886,
+    "partial": false
+   },
+   "overruling": {
+    "name": "McDonald v. City of Chicago",
+    "vol": 561,
+    "page": 742,
+    "year": 2010,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Second Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Miller v. Texas",
+    "vol": 153,
+    "page": 535,
+    "year": 1894,
+    "partial": false
+   },
+   "overruling": {
+    "name": "McDonald v. City of Chicago",
+    "vol": 561,
+    "page": 742,
+    "year": 2010,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Second Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Olmstead v. United States",
+    "vol": 277,
+    "page": 438,
+    "year": 1928,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Katz v. United States",
+    "vol": 389,
+    "page": 347,
+    "year": 1967,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Harris v. United States",
+    "vol": 331,
+    "page": 145,
+    "year": 1947,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Chimel v. California",
+    "vol": 395,
+    "page": 752,
+    "year": 1969,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Wolf v. Colorado",
+    "vol": 338,
+    "page": 25,
+    "year": 1949,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Mapp v. Ohio",
+    "vol": 367,
+    "page": 643,
+    "year": 1961,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Lustig v. United States",
+    "vol": 338,
+    "page": 74,
+    "year": 1949,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Elkins v. United States",
+    "vol": 364,
+    "page": 206,
+    "year": 1960,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "United States v. Rabinowitz",
+    "vol": 339,
+    "page": 56,
+    "year": 1950,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Chimel v. California",
+    "vol": 395,
+    "page": 752,
+    "year": 1969,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Jones v. United States",
+    "vol": 362,
+    "page": 257,
+    "year": 1960,
+    "partial": false
+   },
+   "overruling": {
+    "name": "United States v. Salvucci",
+    "vol": 448,
+    "page": 83,
+    "year": 1980,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Aguilar v. Texas",
+    "vol": 378,
+    "page": 108,
+    "year": 1964,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Illinois v. Gates",
+    "vol": 462,
+    "page": 213,
+    "year": 1983,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Spinelli v. United States",
+    "vol": 393,
+    "page": 410,
+    "year": 1969,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Illinois v. Gates",
+    "vol": 462,
+    "page": 213,
+    "year": 1983,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Arkansas v. Sanders",
+    "vol": 442,
+    "page": 753,
+    "year": 1979,
+    "partial": false
+   },
+   "overruling": {
+    "name": "California v. Acevedo",
+    "vol": 500,
+    "page": 565,
+    "year": 1991,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Robbins v. California",
+    "vol": 453,
+    "page": 420,
+    "year": 1981,
+    "partial": false
+   },
+   "overruling": {
+    "name": "United States v. Ross",
+    "vol": 456,
+    "page": 798,
+    "year": 1982,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Ex parte Bain",
+    "vol": 121,
+    "page": 1,
+    "year": 1887,
+    "partial": false
+   },
+   "overruling": {
+    "name": "United States v. Miller (1985)",
+    "vol": 471,
+    "page": 130,
+    "year": 1985,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Grand jury"
+  },
+  {
+   "overruled": {
+    "name": "Coffey v. United States",
+    "vol": 116,
+    "page": 436,
+    "year": 1886,
+    "partial": false
+   },
+   "overruling": {
+    "name": "United States v. One Assortment of 89 Firearms",
+    "vol": 465,
+    "page": 354,
+    "year": 1984,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Double jeopardy"
+  },
+  {
+   "overruled": {
+    "name": "Brantley v. Georgia",
+    "vol": 217,
+    "page": 284,
+    "year": 1910,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Price v. Georgia",
+    "vol": 398,
+    "page": 323,
+    "year": 1970,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Double jeopardy"
+  },
+  {
+   "overruled": {
+    "name": "Palko v. Connecticut",
+    "vol": 302,
+    "page": 319,
+    "year": 1937,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Benton v. Maryland",
+    "vol": 395,
+    "page": 784,
+    "year": 1969,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Double jeopardy"
+  },
+  {
+   "overruled": {
+    "name": "Bryan v. United States",
+    "vol": 338,
+    "page": 552,
+    "year": 1950,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Burks v. United States",
+    "vol": 437,
+    "page": 1,
+    "year": 1978,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Double jeopardy"
+  },
+  {
+   "overruled": {
+    "name": "Sapir v. United States",
+    "vol": 348,
+    "page": 373,
+    "year": 1955,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Burks v. United States",
+    "vol": 437,
+    "page": 1,
+    "year": 1978,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Double jeopardy"
+  },
+  {
+   "overruled": {
+    "name": "Yates v. United States",
+    "vol": 354,
+    "page": 298,
+    "year": 1957,
+    "partial": true
+   },
+   "overruling": {
+    "name": "Burks v. United States",
+    "vol": 437,
+    "page": 1,
+    "year": 1978,
+    "partial": false
+   },
+   "partial": true,
+   "topic": "Fifth Amendment / Double jeopardy"
+  },
+  {
+   "overruled": {
+    "name": "Hoag v. New Jersey",
+    "vol": 356,
+    "page": 464,
+    "year": 1958,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Ashe v. Swenson",
+    "vol": 397,
+    "page": 436,
+    "year": 1970,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Double jeopardy"
+  },
+  {
+   "overruled": {
+    "name": "Forman v. United States",
+    "vol": 361,
+    "page": 416,
+    "year": 1960,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Burks v. United States",
+    "vol": 437,
+    "page": 1,
+    "year": 1978,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Double jeopardy"
+  },
+  {
+   "overruled": {
+    "name": "United States v. Jenkins",
+    "vol": 420,
+    "page": 358,
+    "year": 1975,
+    "partial": false
+   },
+   "overruling": {
+    "name": "United States v. Scott",
+    "vol": 437,
+    "page": 82,
+    "year": 1978,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Double jeopardy"
+  },
+  {
+   "overruled": {
+    "name": "United States v. Halper",
+    "vol": 490,
+    "page": 435,
+    "year": 1989,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Hudson v. United States",
+    "vol": 522,
+    "page": 93,
+    "year": 1997,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Double jeopardy"
+  },
+  {
+   "overruled": {
+    "name": "Grady v. Corbin",
+    "vol": 495,
+    "page": 508,
+    "year": 1990,
+    "partial": false
+   },
+   "overruling": {
+    "name": "United States v. Dixon",
+    "vol": 509,
+    "page": 688,
+    "year": 1993,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Double jeopardy"
+  },
+  {
+   "overruled": {
+    "name": "Twining v. New Jersey",
+    "vol": 211,
+    "page": 78,
+    "year": 1908,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Malloy v. Hogan",
+    "vol": 378,
+    "page": 1,
+    "year": 1964,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Self-incrimination"
+  },
+  {
+   "overruled": {
+    "name": "Cohen v. Hurley",
+    "vol": 366,
+    "page": 117,
+    "year": 1961,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Spevack v. Klein",
+    "vol": 385,
+    "page": 511,
+    "year": 1967,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Self-incrimination"
+  },
+  {
+   "overruled": {
+    "name": "Adkins v. Children's Hospital",
+    "vol": 261,
+    "page": 525,
+    "year": 1923,
+    "partial": false
+   },
+   "overruling": {
+    "name": "West Coast Hotel Co. v. Parrish",
+    "vol": 300,
+    "page": 379,
+    "year": 1937,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Due process"
+  },
+  {
+   "overruled": {
+    "name": "Korematsu v. United States",
+    "vol": 323,
+    "page": 214,
+    "year": 1944,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Trump v. Hawaii",
+    "vol": 585,
+    "page": 667,
+    "year": 2018,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Due process"
+  },
+  {
+   "overruled": {
+    "name": "Williamson County Regional Planning Comm'n v. Hamilton Bank of Johnson City",
+    "vol": 473,
+    "page": 172,
+    "year": 1985,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Knick v. Township of Scott",
+    "vol": 588,
+    "page": 180,
+    "year": 2019,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fifth Amendment / Takings Clause"
+  },
+  {
+   "overruled": {
+    "name": "Sinclair v. United States",
+    "vol": 279,
+    "page": 263,
+    "year": 1929,
+    "partial": false
+   },
+   "overruling": {
+    "name": "United States v. Gaudin",
+    "vol": 515,
+    "page": 506,
+    "year": 1995,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Sixth Amendment / Jury right"
+  },
+  {
+   "overruled": {
+    "name": "Apodaca v. Oregon",
+    "vol": 406,
+    "page": 404,
+    "year": 1972,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Ramos v. Louisiana",
+    "vol": 590,
+    "page": 83,
+    "year": 2020,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Sixth Amendment / Jury right"
+  },
+  {
+   "overruled": {
+    "name": "Walton v. Arizona",
+    "vol": 497,
+    "page": 639,
+    "year": 1990,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Ring v. Arizona",
+    "vol": 536,
+    "page": 584,
+    "year": 2002,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Sixth Amendment / Jury right"
+  },
+  {
+   "overruled": {
+    "name": "Harris v. United States",
+    "vol": 536,
+    "page": 545,
+    "year": 2002,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Alleyne v. United States",
+    "vol": 570,
+    "page": 99,
+    "year": 2013,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Sixth Amendment / Jury right"
+  },
+  {
+   "overruled": {
+    "name": "Delli Paoli v. United States",
+    "vol": 352,
+    "page": 232,
+    "year": 1957,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Bruton v. United States",
+    "vol": 391,
+    "page": 123,
+    "year": 1968,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Sixth Amendment / Confrontation Clause"
+  },
+  {
+   "overruled": {
+    "name": "Ohio v. Roberts",
+    "vol": 448,
+    "page": 56,
+    "year": 1980,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Crawford v. Washington",
+    "vol": 541,
+    "page": 36,
+    "year": 2004,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Sixth Amendment / Confrontation Clause"
+  },
+  {
+   "overruled": {
+    "name": "Betts v. Brady",
+    "vol": 316,
+    "page": 455,
+    "year": 1942,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Gideon v. Wainwright",
+    "vol": 372,
+    "page": 335,
+    "year": 1963,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Sixth Amendment / Right to counsel"
+  },
+  {
+   "overruled": {
+    "name": "Baldasar v. Illinois",
+    "vol": 446,
+    "page": 222,
+    "year": 1980,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Nichols v. United States",
+    "vol": 511,
+    "page": 738,
+    "year": 1994,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Sixth Amendment / Right to counsel"
+  },
+  {
+   "overruled": {
+    "name": "Michigan v. Jackson",
+    "vol": 475,
+    "page": 625,
+    "year": 1986,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Montejo v. Louisiana",
+    "vol": 556,
+    "page": 778,
+    "year": 2009,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Sixth Amendment / Right to counsel"
+  },
+  {
+   "overruled": {
+    "name": "Booth v. Maryland",
+    "vol": 482,
+    "page": 496,
+    "year": 1987,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Payne v. Tennessee",
+    "vol": 501,
+    "page": 808,
+    "year": 1991,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Eighth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "South Carolina v. Gathers",
+    "vol": 490,
+    "page": 805,
+    "year": 1989,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Payne v. Tennessee",
+    "vol": 501,
+    "page": 808,
+    "year": 1991,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Eighth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Penry v. Lynaugh",
+    "vol": 492,
+    "page": 302,
+    "year": 1989,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Atkins v. Virginia",
+    "vol": 536,
+    "page": 304,
+    "year": 2002,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Eighth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Stanford v. Kentucky",
+    "vol": 492,
+    "page": 361,
+    "year": 1989,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Roper v. Simmons",
+    "vol": 543,
+    "page": 551,
+    "year": 2005,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Eighth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "National League of Cities v. Usery",
+    "vol": 426,
+    "page": 833,
+    "year": 1976,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Garcia v. San Antonio Metropolitan Transit Authority",
+    "vol": 469,
+    "page": 528,
+    "year": 1985,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Tenth Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Ford Motor Co. v. Department of Treasury",
+    "vol": 323,
+    "page": 459,
+    "year": 1945,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Lapides v. Board of Regents of University System of Georgia",
+    "vol": 535,
+    "page": 613,
+    "year": 2002,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Eleventh Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Parden v. Terminal Railroad Co. of Alabama Docks Department",
+    "vol": 377,
+    "page": 184,
+    "year": 1964,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Welch v. Texas Department of Highways & Transportation",
+    "vol": 483,
+    "page": 468,
+    "year": 1987,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Eleventh Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Parden v. Terminal Railroad Co. of Alabama Docks Department",
+    "vol": 377,
+    "page": 184,
+    "year": 1964,
+    "partial": false
+   },
+   "overruling": {
+    "name": "College Savings Bank v. Florida Prepaid Postsecondary Education Expense Board",
+    "vol": 527,
+    "page": 666,
+    "year": 1999,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Eleventh Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Shapiro v. Thompson",
+    "vol": 394,
+    "page": 618,
+    "year": 1969,
+    "partial": true
+   },
+   "overruling": {
+    "name": "Edelman v. Jordan",
+    "vol": 415,
+    "page": 651,
+    "year": 1974,
+    "partial": false
+   },
+   "partial": true,
+   "topic": "Eleventh Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Wyman v. Bowens",
+    "vol": 397,
+    "page": 49,
+    "year": 1970,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Edelman v. Jordan",
+    "vol": 415,
+    "page": 651,
+    "year": 1974,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Eleventh Amendment"
+  },
+  {
+   "overruled": {
+    "name": "State Department of Health & Rehabilitation Services. v. Zarate",
+    "vol": 407,
+    "page": 918,
+    "year": 1972,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Edelman v. Jordan",
+    "vol": 415,
+    "page": 651,
+    "year": 1974,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Eleventh Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Sterrett v. Mothers’ & Children’s Rights Organization",
+    "vol": 409,
+    "page": 809,
+    "year": 1973,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Edelman v. Jordan",
+    "vol": 415,
+    "page": 651,
+    "year": 1974,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Eleventh Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Pennsylvania v. Union Gas Co.",
+    "vol": 491,
+    "page": 1,
+    "year": 1989,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Seminole Tribe of Florida v. Florida",
+    "vol": 517,
+    "page": 44,
+    "year": 1997,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Eleventh Amendment"
+  },
+  {
+   "overruled": {
+    "name": "Simpson v. Rice",
+    "vol": 395,
+    "page": 711,
+    "year": 1969,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Alabama v. Smith",
+    "vol": 490,
+    "page": 794,
+    "year": 1989,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Procedural due process"
+  },
+  {
+   "overruled": {
+    "name": "Arnett v. Kennedy",
+    "vol": 416,
+    "page": 134,
+    "year": 1974,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Cleveland Board of Education v. Loudermill",
+    "vol": 470,
+    "page": 532,
+    "year": 1985,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Procedural due process"
+  },
+  {
+   "overruled": {
+    "name": "Parratt v. Taylor",
+    "vol": 451,
+    "page": 527,
+    "year": 1981,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Daniels v. Williams",
+    "vol": 474,
+    "page": 327,
+    "year": 1986,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Procedural due process"
+  },
+  {
+   "overruled": {
+    "name": "Liggett Co. v. Baldridge",
+    "vol": 278,
+    "page": 105,
+    "year": 1928,
+    "partial": false
+   },
+   "overruling": {
+    "name": "North Dakota Pharmacy Board v. Snyder’s Drug Stores",
+    "vol": 414,
+    "page": 156,
+    "year": 1973,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Substantive due process"
+  },
+  {
+   "overruled": {
+    "name": "Roe v. Wade",
+    "vol": 410,
+    "page": 113,
+    "year": 1973,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Dobbs v. Jackson Women’s Health Organization",
+    "vol": 597,
+    "page": 215,
+    "year": 2022,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Substantive due process"
+  },
+  {
+   "overruled": {
+    "name": "City of Akron v. Akron Center for Reproductive Health",
+    "vol": 462,
+    "page": 416,
+    "year": 1983,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Planned Parenthood v. Casey",
+    "vol": 505,
+    "page": 833,
+    "year": 1992,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Substantive due process"
+  },
+  {
+   "overruled": {
+    "name": "Thornburgh v. American College of Obstetricians & Gynecologists",
+    "vol": 476,
+    "page": 747,
+    "year": 1986,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Planned Parenthood v. Casey",
+    "vol": 505,
+    "page": 833,
+    "year": 1992,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Substantive due process"
+  },
+  {
+   "overruled": {
+    "name": "Bowers v. Hardwick",
+    "vol": 478,
+    "page": 186,
+    "year": 1986,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Lawrence v. Texas",
+    "vol": 539,
+    "page": 558,
+    "year": 2003,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Substantive due process"
+  },
+  {
+   "overruled": {
+    "name": "Planned Parenthood v. Casey",
+    "vol": 505,
+    "page": 833,
+    "year": 1992,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Dobbs v. Jackson Women’s Health Organization",
+    "vol": 597,
+    "page": 215,
+    "year": 2022,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Substantive due process"
+  },
+  {
+   "overruled": {
+    "name": "Pace v. Alabama",
+    "vol": 106,
+    "page": 583,
+    "year": 1883,
+    "partial": false
+   },
+   "overruling": {
+    "name": "McLaughlin v. Florida",
+    "vol": 379,
+    "page": 184,
+    "year": 1964,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Equal protection"
+  },
+  {
+   "overruled": {
+    "name": "Plessy v. Ferguson",
+    "vol": 163,
+    "page": 537,
+    "year": 1896,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Brown v. Board of Education",
+    "vol": 347,
+    "page": 483,
+    "year": 1954,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Equal protection"
+  },
+  {
+   "overruled": {
+    "name": "Quaker City Cab Co. v. Pennsylvania",
+    "vol": 277,
+    "page": 389,
+    "year": 1928,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Lehnhausen v. Lake Shore Auto Parts Co.",
+    "vol": 410,
+    "page": 356,
+    "year": 1973,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Equal protection"
+  },
+  {
+   "overruled": {
+    "name": "Breedlove v. Suttles",
+    "vol": 302,
+    "page": 277,
+    "year": 1937,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Harper v. Virginia State Board of Elections",
+    "vol": 383,
+    "page": 663,
+    "year": 1966,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Equal protection"
+  },
+  {
+   "overruled": {
+    "name": "Goesaert v. Cleary",
+    "vol": 335,
+    "page": 464,
+    "year": 1948,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Craig v. Boren",
+    "vol": 429,
+    "page": 190,
+    "year": 1976,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Equal protection"
+  },
+  {
+   "overruled": {
+    "name": "Morey v. Doud",
+    "vol": 354,
+    "page": 457,
+    "year": 1957,
+    "partial": false
+   },
+   "overruling": {
+    "name": "City of New Orleans v. Dukes",
+    "vol": 427,
+    "page": 297,
+    "year": 1976,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Equal protection"
+  },
+  {
+   "overruled": {
+    "name": "Hoyt v. Florida",
+    "vol": 368,
+    "page": 57,
+    "year": 1961,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Taylor v. Louisiana",
+    "vol": 419,
+    "page": 522,
+    "year": 1975,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Equal protection"
+  },
+  {
+   "overruled": {
+    "name": "Swain v. Alabama",
+    "vol": 380,
+    "page": 202,
+    "year": 1965,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Batson v. Kentucky",
+    "vol": 476,
+    "page": 79,
+    "year": 1986,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Equal protection"
+  },
+  {
+   "overruled": {
+    "name": "Baker v. Nelson",
+    "vol": 409,
+    "page": 810,
+    "year": 1972,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Obergefell v. Hodges",
+    "vol": 576,
+    "page": 644,
+    "year": 2015,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Equal protection"
+  },
+  {
+   "overruled": {
+    "name": "Metro Broadcasting, Inc. v. FCC",
+    "vol": 497,
+    "page": 547,
+    "year": 1990,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Adarand Constructors, Inc. v. Peña",
+    "vol": 515,
+    "page": 200,
+    "year": 1995,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Equal protection"
+  },
+  {
+   "overruled": {
+    "name": "Perez v. Brownell",
+    "vol": 356,
+    "page": 44,
+    "year": 1958,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Afroyim v. Rusk",
+    "vol": 387,
+    "page": 253,
+    "year": 1967,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Fourteenth Amendment / Citizenship"
+  },
+  {
+   "overruled": {
+    "name": "Collins v. Hardyman",
+    "vol": 341,
+    "page": 651,
+    "year": 1951,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Griffin v. Breckenridge",
+    "vol": 403,
+    "page": 88,
+    "year": 1971,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "42 U.S.C. § 1983"
+  },
+  {
+   "overruled": {
+    "name": "Monroe v. Pape",
+    "vol": 365,
+    "page": 167,
+    "year": 1961,
+    "partial": true
+   },
+   "overruling": {
+    "name": "Monell v. Department of Social Services of the City of New York",
+    "vol": 436,
+    "page": 658,
+    "year": 1978,
+    "partial": false
+   },
+   "partial": true,
+   "topic": "42 U.S.C. § 1983"
+  },
+  {
+   "overruled": {
+    "name": "Chevron U.S.A., Inc. v. Natural Resources Defense Council, Inc.",
+    "vol": 467,
+    "page": 837,
+    "year": 1984,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Loper Bright Enterprises v. Raimondo",
+    "vol": 603,
+    "page": 369,
+    "year": 2024,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Administrative"
+  },
+  {
+   "overruled": {
+    "name": "Dr. Miles Medical Co. v. John D. Park & Sons Co.",
+    "vol": 220,
+    "page": 373,
+    "year": 1911,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Leegin Creative Leather Products, Inc. v. PSKS, Inc.",
+    "vol": 551,
+    "page": 877,
+    "year": 2007,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Antitrust"
+  },
+  {
+   "overruled": {
+    "name": "United States v. Yellow Cab Co.",
+    "vol": 332,
+    "page": 218,
+    "year": 1947,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Copperweld Corp. v. Independence Tube Corp.",
+    "vol": 467,
+    "page": 752,
+    "year": 1984,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Antitrust"
+  },
+  {
+   "overruled": {
+    "name": "Kiefer-Stewart Co. v. Jos. E. Seagram & Sons",
+    "vol": 340,
+    "page": 211,
+    "year": 1951,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Copperweld Corp. v. Independence Tube Corp.",
+    "vol": 467,
+    "page": 752,
+    "year": 1984,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Antitrust"
+  },
+  {
+   "overruled": {
+    "name": "United States v. Arnold, Schwinn & Co.",
+    "vol": 388,
+    "page": 365,
+    "year": 1967,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Continental Television, Inc. v. GTE Sylvania, Inc.",
+    "vol": 433,
+    "page": 36,
+    "year": 1977,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Antitrust"
+  },
+  {
+   "overruled": {
+    "name": "Albrecht v. Herald Co.",
+    "vol": 390,
+    "page": 145,
+    "year": 1968,
+    "partial": false
+   },
+   "overruling": {
+    "name": "State Oil Co. v. Khan",
+    "vol": 522,
+    "page": 3,
+    "year": 1997,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Antitrust"
+  },
+  {
+   "overruled": {
+    "name": "Wilko v. Swan",
+    "vol": 346,
+    "page": 427,
+    "year": 1953,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Rodriguez de Quijas v. Shearson/American Express Inc.",
+    "vol": 490,
+    "page": 477,
+    "year": 1989,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Arbitration"
+  },
+  {
+   "overruled": {
+    "name": "Ward v. Race Horse",
+    "vol": 163,
+    "page": 504,
+    "year": 1896,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Herrera v. Wyoming",
+    "vol": 587,
+    "page": 329,
+    "year": 2019,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Federal crime"
+  },
+  {
+   "overruled": {
+    "name": "United States v. Bramblett",
+    "vol": 348,
+    "page": 503,
+    "year": 1955,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Hubbard v. United States",
+    "vol": 514,
+    "page": 695,
+    "year": 1995,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Federal crime"
+  },
+  {
+   "overruled": {
+    "name": "Baker v. Grice",
+    "vol": 169,
+    "page": 284,
+    "year": 1898,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Hensley v. Municipal Court",
+    "vol": 411,
+    "page": 345,
+    "year": 1973,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Habeas"
+  },
+  {
+   "overruled": {
+    "name": "Johnson v. Hoy",
+    "vol": 227,
+    "page": 245,
+    "year": 1913,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Hensley v. Municipal Court",
+    "vol": 411,
+    "page": 345,
+    "year": 1973,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Habeas"
+  },
+  {
+   "overruled": {
+    "name": "Stallings v. Splain",
+    "vol": 253,
+    "page": 339,
+    "year": 1920,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Hensley v. Municipal Court",
+    "vol": 411,
+    "page": 345,
+    "year": 1973,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Habeas"
+  },
+  {
+   "overruled": {
+    "name": "McNally v. Hill",
+    "vol": 293,
+    "page": 131,
+    "year": 1934,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Peyton v. Rowe",
+    "vol": 391,
+    "page": 54,
+    "year": 1968,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Habeas"
+  },
+  {
+   "overruled": {
+    "name": "Ahrens v. Clark",
+    "vol": 335,
+    "page": 188,
+    "year": 1948,
+    "partial": true
+   },
+   "overruling": {
+    "name": "Braden v. 30th Judicial Circuit Court of Kentucky",
+    "vol": 410,
+    "page": 484,
+    "year": 1973,
+    "partial": false
+   },
+   "partial": true,
+   "topic": "Habeas"
+  },
+  {
+   "overruled": {
+    "name": "Parker v. Ellis",
+    "vol": 362,
+    "page": 574,
+    "year": 1960,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Carafas v. LaVallee",
+    "vol": 391,
+    "page": 234,
+    "year": 1968,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Habeas"
+  },
+  {
+   "overruled": {
+    "name": "Fay v. Noia",
+    "vol": 372,
+    "page": 391,
+    "year": 1963,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Coleman v. Thompson",
+    "vol": 501,
+    "page": 722,
+    "year": 1991,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Habeas"
+  },
+  {
+   "overruled": {
+    "name": "Teague v. Lane (in part)",
+    "vol": 489,
+    "page": 288,
+    "year": 1989,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Edwards v. Vannoy",
+    "vol": 593,
+    "page": 255,
+    "year": 2021,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Habeas"
+  },
+  {
+   "overruled": {
+    "name": "Moore v. Illinois Central Railroad",
+    "vol": 312,
+    "page": 630,
+    "year": 1941,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Andrews v. Louisville & Nashville Railroad",
+    "vol": 406,
+    "page": 320,
+    "year": 1972,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Labor"
+  },
+  {
+   "overruled": {
+    "name": "United Auto Workers v. Wisconsin Employment Relations Board",
+    "vol": 336,
+    "page": 245,
+    "year": 1949,
+    "partial": false
+   },
+   "overruling": {
+    "name": "International Ass'n of Machinists & Aerospace Workers v. Wisconsin Employment Relations Commission",
+    "vol": 427,
+    "page": 132,
+    "year": 1976,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Labor"
+  },
+  {
+   "overruled": {
+    "name": "Sinclair Refining Co. v. Atkinson",
+    "vol": 370,
+    "page": 195,
+    "year": 1962,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Boys Markets, Inc. v. Retail Clerks Union",
+    "vol": 398,
+    "page": 235,
+    "year": 1970,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Labor"
+  },
+  {
+   "overruled": {
+    "name": "Saucier v. Katz",
+    "vol": 533,
+    "page": 194,
+    "year": 2001,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Pearson v. Callahan",
+    "vol": 555,
+    "page": 223,
+    "year": 2009,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Absolute and qualified immunity"
+  },
+  {
+   "overruled": {
+    "name": "Rose v. Himley",
+    "vol": 8,
+    "page": 241,
+    "year": 1808,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Hudson v. Guestier",
+    "vol": 10,
+    "page": 281,
+    "year": 1810,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Admiralty"
+  },
+  {
+   "overruled": {
+    "name": "The Thomas Jefferson v. District Court of Kentucky",
+    "vol": 23,
+    "page": 428,
+    "year": 1825,
+    "partial": false
+   },
+   "overruling": {
+    "name": "The Genesee Chief v. Fitzhugh",
+    "vol": 53,
+    "page": 443,
+    "year": 1851,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Admiralty"
+  },
+  {
+   "overruled": {
+    "name": "The Schooner Catherine v. Dickinson",
+    "vol": 58,
+    "page": 170,
+    "year": 1854,
+    "partial": false
+   },
+   "overruling": {
+    "name": "United States v. Reliable Transfer Co.",
+    "vol": 421,
+    "page": 397,
+    "year": 1975,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Admiralty"
+  },
+  {
+   "overruled": {
+    "name": "Minturn v. Maynard",
+    "vol": 58,
+    "page": 476,
+    "year": 1855,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Exxon Corp. v. Central Gulf Lines Inc.",
+    "vol": 500,
+    "page": 603,
+    "year": 1991,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Admiralty"
+  },
+  {
+   "overruled": {
+    "name": "The Harrisburg",
+    "vol": 119,
+    "page": 199,
+    "year": 1886,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Moragne v. States Marine Lines, Inc.",
+    "vol": 398,
+    "page": 375,
+    "year": 1970,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Admiralty"
+  },
+  {
+   "overruled": {
+    "name": "Sheehy v. Mandeville",
+    "vol": 10,
+    "page": 253,
+    "year": 1810,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Mason v. Eldred",
+    "vol": 73,
+    "page": 231,
+    "year": 1868,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "Contract"
+  },
+  {
+   "overruled": {
+    "name": "Triplett v. Lowell",
+    "vol": 297,
+    "page": 638,
+    "year": 1936,
+    "partial": false
+   },
+   "overruling": {
+    "name": "Blonder-Tongue Labs v. University of Illinois Foundation",
+    "vol": 402,
+    "page": 313,
+    "year": 1971,
+    "partial": false
+   },
+   "partial": false,
+   "topic": "''Res judicata''"
+  }
+ ]
+}
