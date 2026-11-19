@@ -59,7 +59,7 @@ for example *Dobbs* (597 U.S. 215) and *Loper Bright* (603 U.S. 369). They are s
 | Appeals court → Supreme Court citations | 689,038 | same |
 | Appeals court → appeals court citations | — | 1,195,937 |
 | Total citations | 983,247 | 2,179,184 |
-| Size on disk | 51.6 MB | 77.4 MB |
+| Size on disk | 51.6 MB | 65.3 MB |
 | Parentheticals | all of the above | all |
 
 Both are Relate **directory stores**. The same graph written as a single `.rl` file measured
