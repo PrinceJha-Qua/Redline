@@ -1,0 +1,243 @@
+{
+  "experiment": "memory",
+  "model": "sonnet",
+  "judge_model": null,
+  "arms": {
+    "A": {
+      "runs": 34,
+      "relies": 0,
+      "any_fabricated": 3,
+      "fabricated_citations": 5,
+      "citations": 572,
+      "verified": 526,
+      "unverifiable": 41,
+      "cites_overruled_case": 0,
+      "judge_unparsed": 34,
+      "cost_usd": 1.84,
+      "either": 3,
+      "fabricated_real_case_wrong_cite": 0
+    },
+    "B": {
+      "runs": 33,
+      "relies": 0,
+      "any_fabricated": 4,
+      "fabricated_citations": 4,
+      "citations": 487,
+      "verified": 452,
+      "unverifiable": 31,
+      "cites_overruled_case": 0,
+      "judge_unparsed": 33,
+      "cost_usd": 1.62,
+      "either": 4,
+      "fabricated_real_case_wrong_cite": 0
+    },
+    "C": {
+      "runs": 31,
+      "relies": 0,
+      "any_fabricated": 0,
+      "fabricated_citations": 0,
+      "citations": 495,
+      "verified": 486,
+      "unverifiable": 9,
+      "cites_overruled_case": 0,
+      "judge_unparsed": 31,
+      "cost_usd": 2.69,
+      "either": 0,
+      "fabricated_real_case_wrong_cite": 0
+    }
+  },
+  "sign_tests": {
+    "relies:AvsC": {
+      "tasks_worse_in_A": 0,
+      "tasks_worse_in_C": 0,
+      "ties": 11,
+      "p_two_sided": 1.0
+    },
+    "relies:BvsC": {
+      "tasks_worse_in_B": 0,
+      "tasks_worse_in_C": 0,
+      "ties": 11,
+      "p_two_sided": 1.0
+    },
+    "relies:AvsB": {
+      "tasks_worse_in_A": 0,
+      "tasks_worse_in_B": 0,
+      "ties": 11,
+      "p_two_sided": 1.0
+    },
+    "fabricated:AvsC": {
+      "tasks_worse_in_A": 1,
+      "tasks_worse_in_C": 0,
+      "ties": 10,
+      "p_two_sided": 1.0
+    },
+    "fabricated:BvsC": {
+      "tasks_worse_in_B": 2,
+      "tasks_worse_in_C": 0,
+      "ties": 9,
+      "p_two_sided": 0.5
+    },
+    "fabricated:AvsB": {
+      "tasks_worse_in_A": 0,
+      "tasks_worse_in_B": 1,
+      "ties": 10,
+      "p_two_sided": 1.0
+    },
+    "either:AvsC": {
+      "tasks_worse_in_A": 1,
+      "tasks_worse_in_C": 0,
+      "ties": 10,
+      "p_two_sided": 1.0
+    },
+    "either:BvsC": {
+      "tasks_worse_in_B": 2,
+      "tasks_worse_in_C": 0,
+      "ties": 9,
+      "p_two_sided": 0.5
+    },
+    "either:AvsB": {
+      "tasks_worse_in_A": 0,
+      "tasks_worse_in_B": 1,
+      "ties": 10,
+      "p_two_sided": 1.0
+    }
+  },
+  "relies_by_doctrine": {},
+  "fabrications": [
+    {
+      "text": "430 F.3d 439",
+      "name": "Ruggerio Ambulance Serv., Inc. v. Nat'l Grange Ins. Co",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 439 of 430 F.3d is inside Goodman v. Illinois Department of Financial & Professional Regulation, 430 F.3d 432 (7th Cir. 2005), which runs from page 432 to 440. No case named Ruggerio is in volume 430.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      },
+      "task": "m02",
+      "arm": "A",
+      "rep": 1
+    },
+    {
+      "text": "460 F.3d 51",
+      "name": "Metro. Prop. & Cas. Ins. Co. v. Morrison",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      },
+      "task": "m02",
+      "arm": "A",
+      "rep": 1
+    },
+    {
+      "text": "477 F.3d 6",
+      "name": "Mount Vernon Fire Ins. Co. v. Visionaid, Inc",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 6 of 477 F.3d is inside DCC Operating, Inc. v. Siaca, 477 F.3d 1 (1st Cir. 2007), which runs from page 1 to 17. Mount Royal Joint Venture v. Kempthorne is 477 F.3d 745.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      },
+      "task": "m02",
+      "arm": "A",
+      "rep": 2
+    },
+    {
+      "text": "460 F.3d 52",
+      "name": "Metro. Prop. & Cas. Ins. Co. v. Morrison",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 52 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      },
+      "task": "m02",
+      "arm": "A",
+      "rep": 2
+    },
+    {
+      "text": "564 F.3d 1",
+      "name": "Peerless Ins. Co. v. Brennon",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "564 F.3d 1 is In re Sony BMG Music Entertainment, 564 F.3d 1 (1st Cir. 2009), not the case named in the brief (\"Peerless Ins. Co. v. Brennon\").",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      },
+      "task": "m02",
+      "arm": "A",
+      "rep": 3
+    },
+    {
+      "text": "460 F.3d 51",
+      "name": "Metro. Prop. & Cas. Ins. Co. v. Morrison",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      },
+      "task": "m02",
+      "arm": "B",
+      "rep": 1
+    },
+    {
+      "text": "460 F.3d 51",
+      "name": "Metro. Prop. & Cas. Ins. Co. v. Morrison",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      },
+      "task": "m02",
+      "arm": "B",
+      "rep": 2
+    },
+    {
+      "text": "460 F.3d 51",
+      "name": "Metro. Prop. & Cas. Ins. Co. v. Morrison",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      },
+      "task": "m02",
+      "arm": "B",
+      "rep": 3
+    },
+    {
+      "text": "817 F.3d 743",
+      "name": "Fraser v. Merrill Lynch, Pierce, Fenner & Smith, Inc",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 743 of 817 F.3d is inside Justice v. United States, Treasury Department, 817 F.3d 738 (11th Cir. 2016), which runs from page 738 to 747. No case named Fraser is in volume 817.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      },
+      "task": "m08",
+      "arm": "B",
+      "rep": 1
+    }
+  ]
+}

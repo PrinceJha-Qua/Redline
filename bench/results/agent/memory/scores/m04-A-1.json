@@ -1,0 +1,123 @@
+{
+  "task": "m04",
+  "arm": "A",
+  "rep": 1,
+  "summary": {
+    "citations": 13,
+    "verified": 13,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 4
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "331 F.3d 297",
+      "name": "Secaida-Rosales v. INS",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Secaida-Rosales v. Immigration & Naturalization Service, 331 F.3d 297 (2d Cir. 2003). No overruling found in Redline's data.",
+      "case": "Secaida-Rosales v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "232 F.3d 279",
+      "name": "Diallo v. INS",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Diallo v. Immigration & Naturalization Service, 232 F.3d 279 (2d Cir. 2000). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Diallo v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "357 F.3d 169",
+      "name": "Ramsameachire v. Ashcroft",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Ramsameachire v. Ashcroft, 357 F.3d 169 (2d Cir. 2004). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Ramsameachire v. Ashcroft"
+    },
+    {
+      "text": "534 F.3d 162",
+      "name": "Xiu Xia Lin v. Mukasey",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Xiu Xia Lin v. Mukasey, 534 F.3d 162 (2d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Xiu Xia Lin v. Mukasey"
+    },
+    {
+      "text": "529 F.3d 141",
+      "name": "Shunfu Li v. Mukasey",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Shunfu Li v. Mukasey, 529 F.3d 141 (2d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Shunfu Li v. Mukasey"
+    },
+    {
+      "text": "428 F.3d 391",
+      "name": "Cao He Lin v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cao He Lin v. United States Department of Justice, 428 F.3d 391 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Cao He Lin v. United States Department of Justice"
+    },
+    {
+      "text": "357 F.3d at 178",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Ramsameachire v. Ashcroft, 357 F.3d 169 (2d Cir. 2004). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Ramsameachire v. Ashcroft"
+    },
+    {
+      "text": "430 F.3d 77",
+      "name": "Majidi v. Gonzales",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Majidi v. Gonzales, 430 F.3d 77 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Majidi v. Gonzales"
+    },
+    {
+      "text": "430 F.3d at 81",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Majidi v. Gonzales, 430 F.3d 77 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Majidi v. Gonzales"
+    },
+    {
+      "text": "446 F.3d 395",
+      "name": "Tu Lin v. Gonzales",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Tu Lin v. Gonzales, 446 F.3d 395 (2d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Tu Lin v. Gonzales"
+    },
+    {
+      "text": "534 F.3d at 167",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Xiu Xia Lin v. Mukasey, 534 F.3d 162 (2d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Xiu Xia Lin v. Mukasey"
+    },
+    {
+      "text": "232 F.3d at 288",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Diallo v. Immigration & Naturalization Service, 232 F.3d 279 (2d Cir. 2000). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Diallo v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "331 F.3d at 308",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Secaida-Rosales v. Immigration & Naturalization Service, 331 F.3d 297 (2d Cir. 2003). No overruling found in Redline's data.",
+      "case": "Secaida-Rosales v. Immigration & Naturalization Service"
+    }
+  ],
+  "judge": {},
+  "words": 764
+}

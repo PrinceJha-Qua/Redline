@@ -1,0 +1,155 @@
+{
+  "task": "m04",
+  "arm": "A",
+  "rep": 3,
+  "summary": {
+    "citations": 17,
+    "verified": 17,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 6
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "331 F.3d 297",
+      "name": "Secaida-Rosales v. INS",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Secaida-Rosales v. Immigration & Naturalization Service, 331 F.3d 297 (2d Cir. 2003). No overruling found in Redline's data.",
+      "case": "Secaida-Rosales v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "386 F.3d 66",
+      "name": "Zhou Yun Zhang v. INS",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Zhang v. United States Immigration & Naturalization Service, 386 F.3d 66 (2d Cir. 2004). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Zhang v. United States Immigration & Naturalization Service"
+    },
+    {
+      "text": "494 F.3d 296",
+      "name": "Shi Liang Lin v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Shi Liang Lin v. United States Department of Justice, 494 F.3d 296 (2d Cir. 2007). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Shi Liang Lin v. United States Department of Justice"
+    },
+    {
+      "text": "446 F.3d 395",
+      "name": "Tu Lin v. Gonzales",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Tu Lin v. Gonzales, 446 F.3d 395 (2d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Tu Lin v. Gonzales"
+    },
+    {
+      "text": "534 F.3d 162",
+      "name": "Xiu Xia Lin v. Mukasey",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Xiu Xia Lin v. Mukasey, 534 F.3d 162 (2d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Xiu Xia Lin v. Mukasey"
+    },
+    {
+      "text": "891 F.3d 67",
+      "name": "Hong Fei Gao v. Sessions",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gao v. Sessions, 891 F.3d 67 (2nd Cir. 2018). No overruling found in Redline's data.",
+      "case": "Gao v. Sessions"
+    },
+    {
+      "text": "428 F.3d 391",
+      "name": "Cao He Lin v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cao He Lin v. United States Department of Justice, 428 F.3d 391 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Cao He Lin v. United States Department of Justice"
+    },
+    {
+      "text": "357 F.3d 169",
+      "name": "Ramsameachire v. Ashcroft",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Ramsameachire v. Ashcroft, 357 F.3d 169 (2d Cir. 2004). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Ramsameachire v. Ashcroft"
+    },
+    {
+      "text": "428 F.3d at 400",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cao He Lin v. United States Department of Justice, 428 F.3d 391 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Cao He Lin v. United States Department of Justice"
+    },
+    {
+      "text": "357 F.3d at 178",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Ramsameachire v. Ashcroft, 357 F.3d 169 (2d Cir. 2004). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Ramsameachire v. Ashcroft"
+    },
+    {
+      "text": "331 F.3d at 307",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Secaida-Rosales v. Immigration & Naturalization Service, 331 F.3d 297 (2d Cir. 2003). No overruling found in Redline's data.",
+      "case": "Secaida-Rosales v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "430 F.3d 77",
+      "name": "Majidi v. Gonzales",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Majidi v. Gonzales, 430 F.3d 77 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Majidi v. Gonzales"
+    },
+    {
+      "text": "232 F.3d 279",
+      "name": "Diallo v. INS",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Diallo v. Immigration & Naturalization Service, 232 F.3d 279 (2d Cir. 2000). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Diallo v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "430 F.3d at 80",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Majidi v. Gonzales, 430 F.3d 77 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Majidi v. Gonzales"
+    },
+    {
+      "text": "386 F.3d at 74",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Zhang v. United States Immigration & Naturalization Service, 386 F.3d 66 (2d Cir. 2004). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Zhang v. United States Immigration & Naturalization Service"
+    },
+    {
+      "text": "446 F.3d at 400",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Tu Lin v. Gonzales, 446 F.3d 395 (2d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Tu Lin v. Gonzales"
+    },
+    {
+      "text": "891 F.3d at 76",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gao v. Sessions, 891 F.3d 67 (2nd Cir. 2018). No overruling found in Redline's data.",
+      "case": "Gao v. Sessions"
+    }
+  ],
+  "judge": {},
+  "words": 755
+}

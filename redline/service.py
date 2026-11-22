@@ -40,7 +40,7 @@ def get_case(case_id):
     overrules = s.query("MATCH (c:Case {id: $id})-[r:OVERRULES]->(o:Case) RETURN o.id AS id, o.name AS name, "
                         "o.cite AS cite, o.year AS year, r.partial AS partial", {"id": case_id})
     return {"case": case, "status": st["status"], "reason": st["reason"], "overruled_by": st["overruled_by"],
-            "overrules": overrules, "stands_on": st["stands_on"], "cites": cites, "cited_by": cited_by}
+            "overrules": overrules, "stands_on": st["stands_on"], "mentions": st.get("mentions", []), "cites": cites, "cited_by": cited_by}
 
 
 def search(q, limit=10):

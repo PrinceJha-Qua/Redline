@@ -1,0 +1,171 @@
+{
+  "task": "m04",
+  "arm": "C",
+  "rep": 3,
+  "summary": {
+    "citations": 19,
+    "verified": 19,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "331 F.3d 297",
+      "name": "Secaida-Rosales v. INS",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Secaida-Rosales v. Immigration & Naturalization Service, 331 F.3d 297 (2d Cir. 2003). No overruling found in Redline's data.",
+      "case": "Secaida-Rosales v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "428 F.3d 391",
+      "name": "Cao He Lin v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cao He Lin v. United States Department of Justice, 428 F.3d 391 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Cao He Lin v. United States Department of Justice"
+    },
+    {
+      "text": "446 F.3d 395",
+      "name": "Tu Lin v. Gonzales",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Tu Lin v. Gonzales, 446 F.3d 395 (2d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Tu Lin v. Gonzales"
+    },
+    {
+      "text": "331 F.3d at 307",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Secaida-Rosales v. Immigration & Naturalization Service, 331 F.3d 297 (2d Cir. 2003). No overruling found in Redline's data.",
+      "case": "Secaida-Rosales v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "428 F.3d at 400",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cao He Lin v. United States Department of Justice, 428 F.3d 391 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Cao He Lin v. United States Department of Justice"
+    },
+    {
+      "text": "446 F.3d at 400",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Tu Lin v. Gonzales, 446 F.3d 395 (2d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Tu Lin v. Gonzales"
+    },
+    {
+      "text": "430 F.3d 103",
+      "name": "Latifi v. Gonzales",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Latifi v. Gonzales, 430 F.3d 103 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Latifi v. Gonzales"
+    },
+    {
+      "text": "430 F.3d 77",
+      "name": "Majidi v. Gonzales",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Majidi v. Gonzales, 430 F.3d 77 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Majidi v. Gonzales"
+    },
+    {
+      "text": "430 F.3d at 80",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Majidi v. Gonzales, 430 F.3d 77 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Majidi v. Gonzales"
+    },
+    {
+      "text": "439 F.3d 111",
+      "name": "Ming Shi Xue v. BIA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ming Shi Xue v. Board of Immigration Appeals, 439 F.3d 111 (2d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Ming Shi Xue v. Board of Immigration Appeals"
+    },
+    {
+      "text": "534 F.3d 162",
+      "name": "Xiu Xia Lin v. Mukasey",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Xiu Xia Lin v. Mukasey, 534 F.3d 162 (2d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Xiu Xia Lin v. Mukasey"
+    },
+    {
+      "text": "529 F.3d 141",
+      "name": "Shunfu Li v. Mukasey",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Shunfu Li v. Mukasey, 529 F.3d 141 (2d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Shunfu Li v. Mukasey"
+    },
+    {
+      "text": "428 F.3d at 400",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cao He Lin v. United States Department of Justice, 428 F.3d 391 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Cao He Lin v. United States Department of Justice"
+    },
+    {
+      "text": "446 F.3d at 400",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Tu Lin v. Gonzales, 446 F.3d 395 (2d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Tu Lin v. Gonzales"
+    },
+    {
+      "text": "430 F.3d at 105",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Latifi v. Gonzales, 430 F.3d 103 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Latifi v. Gonzales"
+    },
+    {
+      "text": "430 F.3d at 80",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Majidi v. Gonzales, 430 F.3d 77 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Majidi v. Gonzales"
+    },
+    {
+      "text": "439 F.3d at 121",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ming Shi Xue v. Board of Immigration Appeals, 439 F.3d 111 (2d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Ming Shi Xue v. Board of Immigration Appeals"
+    },
+    {
+      "text": "534 F.3d at 167",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Xiu Xia Lin v. Mukasey, 534 F.3d 162 (2d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Xiu Xia Lin v. Mukasey"
+    },
+    {
+      "text": "529 F.3d at 146",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Shunfu Li v. Mukasey, 529 F.3d 141 (2d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Shunfu Li v. Mukasey"
+    }
+  ],
+  "judge": {},
+  "words": 726
+}

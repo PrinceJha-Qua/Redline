@@ -1,0 +1,92 @@
+{
+  "task": "m02",
+  "arm": "B",
+  "rep": 3,
+  "summary": {
+    "citations": 7,
+    "verified": 6,
+    "fabricated": 1,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [
+    {
+      "text": "460 F.3d 51",
+      "name": "Metro. Prop. & Cas. Ins. Co. v. Morrison",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    }
+  ],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "260 F.3d 54",
+      "name": "Liberty Mut. Ins. Co. v. Metro. Life Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "307 F.3d 11",
+      "name": "Open Software Found., Inc. v. U.S. Fid. & Guar. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "460 F.3d 51",
+      "name": "Metro. Prop. & Cas. Ins. Co. v. Morrison",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    },
+    {
+      "text": "732 F.3d 37",
+      "name": "Vt. Mut. Ins. Co. v. Zamsky",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "426 F.3d 491",
+      "name": "Federal Ins. Co. v. Raytheon Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Federal Insurance v. Raytheon Co., 426 F.3d 491 (1st Cir. 2005). No overruling found in Redline's data.",
+      "case": "Federal Insurance v. Raytheon Co."
+    },
+    {
+      "text": "572 F.3d 45",
+      "name": "Gargano v. Liberty Int'l Underwriters, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gargano v. Liberty International Underwriters, Inc., 572 F.3d 45 (1st Cir. 2009). No overruling found in Redline's data.",
+      "case": "Gargano v. Liberty International Underwriters, Inc."
+    },
+    {
+      "text": "717 F.3d 242",
+      "name": "Stor/Gard, Inc. v. Strathmore Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Stor/Gard, Inc. v. Strathmore Insurance, 717 F.3d 242 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Stor/Gard, Inc. v. Strathmore Insurance"
+    }
+  ],
+  "judge": {},
+  "words": 842
+}

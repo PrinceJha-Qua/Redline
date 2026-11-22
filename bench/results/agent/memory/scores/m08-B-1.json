@@ -1,0 +1,164 @@
+{
+  "task": "m08",
+  "arm": "B",
+  "rep": 1,
+  "summary": {
+    "citations": 16,
+    "verified": 11,
+    "fabricated": 1,
+    "unverifiable": 4,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [
+    {
+      "text": "817 F.3d 743",
+      "name": "Fraser v. Merrill Lynch, Pierce, Fenner & Smith, Inc",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 743 of 817 F.3d is inside Justice v. United States, Treasury Department, 817 F.3d 738 (11th Cir. 2016), which runs from page 738 to 747. No case named Fraser is in volume 817.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    }
+  ],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "596 U.S. 411",
+      "name": "Morgan v. Sundance, Inc",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 596 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "96 F.3d 88",
+      "name": "Am. Recovery Corp. v. Computerized Thermal Imaging, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Recovery Corp. v. Computerized Thermal Imaging, Inc., 96 F.3d 88 (4th Cir. 1996). No overruling found in Redline's data.",
+      "case": "American Recovery Corp. v. Computerized Thermal Imaging, Inc."
+    },
+    {
+      "text": "380 F.3d 200",
+      "name": "Patten Grading & Paving, Inc. v. Skanska USA Bldg., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Patten Grading & Paving, Inc. v. Skanska USA Building, Inc., 380 F.3d 200 (4th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Patten Grading & Paving, Inc. v. Skanska USA Building, Inc."
+    },
+    {
+      "text": "553 F.3d 340",
+      "name": "Forrester v. Penn Lyon Homes, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Forrester v. Penn Lyon Homes, Inc., 553 F.3d 340 (4th Cir. 2009). No overruling found in Redline's data.",
+      "case": "Forrester v. Penn Lyon Homes, Inc."
+    },
+    {
+      "text": "596 U.S. at 419",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 596 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "700 F.3d 690",
+      "name": "Rota-McLarty v. Santander Consumer USA, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rota-McLarty v. Santander Consumer USA, Inc., 700 F.3d 690 (4th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Rota-McLarty v. Santander Consumer USA, Inc."
+    },
+    {
+      "text": "807 F.3d 553",
+      "name": "Chorley Enters., Inc. v. Dickey's Barbecue Rests., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Chorley Enterprises, Inc. v. Dickey's Barbecue Restaurants, Inc., 807 F.3d 553 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Chorley Enterprises, Inc. v. Dickey's Barbecue Restaurants, Inc."
+    },
+    {
+      "text": "817 F.3d 743",
+      "name": "Fraser v. Merrill Lynch, Pierce, Fenner & Smith, Inc",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 743 of 817 F.3d is inside Justice v. United States, Treasury Department, 817 F.3d 738 (11th Cir. 2016), which runs from page 738 to 747. No case named Fraser is in volume 817.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    },
+    {
+      "text": "553 F.3d at 343",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Forrester v. Penn Lyon Homes, Inc., 553 F.3d 340 (4th Cir. 2009). No overruling found in Redline's data.",
+      "case": "Forrester v. Penn Lyon Homes, Inc."
+    },
+    {
+      "text": "96 F.3d at 95",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Recovery Corp. v. Computerized Thermal Imaging, Inc., 96 F.3d 88 (4th Cir. 1996). No overruling found in Redline's data.",
+      "case": "American Recovery Corp. v. Computerized Thermal Imaging, Inc."
+    },
+    {
+      "text": "596 U.S. at 419",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 596 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "96 F.3d at 95",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Recovery Corp. v. Computerized Thermal Imaging, Inc., 96 F.3d 88 (4th Cir. 1996). No overruling found in Redline's data.",
+      "case": "American Recovery Corp. v. Computerized Thermal Imaging, Inc."
+    },
+    {
+      "text": "380 F.3d at 205",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Patten Grading & Paving, Inc. v. Skanska USA Building, Inc., 380 F.3d 200 (4th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Patten Grading & Paving, Inc. v. Skanska USA Building, Inc."
+    },
+    {
+      "text": "700 F.3d at 701",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rota-McLarty v. Santander Consumer USA, Inc., 700 F.3d 690 (4th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Rota-McLarty v. Santander Consumer USA, Inc."
+    },
+    {
+      "text": "596 U.S. at 418",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 596 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "807 F.3d at 563",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Chorley Enterprises, Inc. v. Dickey's Barbecue Restaurants, Inc., 807 F.3d 553 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Chorley Enterprises, Inc. v. Dickey's Barbecue Restaurants, Inc."
+    }
+  ],
+  "judge": {},
+  "words": 738
+}

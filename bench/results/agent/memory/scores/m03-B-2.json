@@ -1,0 +1,123 @@
+{
+  "task": "m03",
+  "arm": "B",
+  "rep": 2,
+  "summary": {
+    "citations": 13,
+    "verified": 13,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "485 U.S. 224",
+      "name": "Basic Inc. v. Levinson",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Basic Inc. v. Levinson, 485 U.S. 224 (1988). No overruling found in Redline's data.",
+      "case": "Basic Inc. v. Levinson"
+    },
+    {
+      "text": "426 U.S. 438",
+      "name": "TSC Indus., Inc. v. Northway, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "TSC Industries, Inc. v. Northway, Inc., 426 U.S. 438 (1976). No overruling found in Redline's data.",
+      "case": "TSC Industries, Inc. v. Northway, Inc."
+    },
+    {
+      "text": "553 F.3d 187",
+      "name": "Local 134 IBEW Joint Pension Tr. of Chi. v. JP Morgan Chase Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co., 553 F.3d 187 (2d Cir. 2009). No overruling found in Redline's data.",
+      "case": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co."
+    },
+    {
+      "text": "85 F.3d 55",
+      "name": "Lasker v. N.Y. State Elec. & Gas Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lasker v. New York State Electric & Gas Corp., 85 F.3d 55 (2d Cir. 1996). No overruling found in Redline's data.",
+      "case": "Lasker v. New York State Electric & Gas Corp."
+    },
+    {
+      "text": "75 F.3d 801",
+      "name": "San Leandro Emergency Med. Grp. Profit Sharing Plan v. Philip Morris Cos",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "San Leandro Emergency Medical Group Profit Sharing Plan v. Philip Morris Companies, Inc., 75 F.3d 801 (2d Cir. 1996). No overruling found in Redline's data.",
+      "case": "San Leandro Emergency Medical Group Profit Sharing Plan v. Philip Morris Companies, Inc."
+    },
+    {
+      "text": "9 F.3d 259",
+      "name": "In re Time Warner Inc. Sec. Litig",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ZVI Trading Corp. Employees' Money Purchase Pension Plan & Trust v. Ross, 9 F.3d 259 (2d Cir. 1993). No overruling found in Redline's data.",
+      "case": "ZVI Trading Corp. Employees' Money Purchase Pension Plan & Trust v. Ross"
+    },
+    {
+      "text": "355 F.3d 164",
+      "name": "Rombach v. Chang",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rombach v. Chang, 355 F.3d 164 (2d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Rombach v. Chang"
+    },
+    {
+      "text": "216 F.3d 300",
+      "name": "Likewise, in Novak v. Kasaks",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Novak v. Kasaks, 216 F.3d 300 (2d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Novak v. Kasaks"
+    },
+    {
+      "text": "553 F.3d at 206",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co., 553 F.3d 187 (2d Cir. 2009). No overruling found in Redline's data.",
+      "case": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co."
+    },
+    {
+      "text": "752 F.3d 173",
+      "name": "City of Pontiac Policemen's & Firemen's Retirement System v. UBS AG",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "City of Pontiac Policemen's & Firemen's Retirement System v. UBS AG, 752 F.3d 173 (2d Cir. 2014). No overruling found in Redline's data.",
+      "case": "City of Pontiac Policemen's & Firemen's Retirement System v. UBS AG"
+    },
+    {
+      "text": "918 F.3d 57",
+      "name": "Singh v. Cigna Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Singh v. Cigna Corp., 918 F.3d 57 (2nd Cir. 2019). No overruling found in Redline's data.",
+      "case": "Singh v. Cigna Corp."
+    },
+    {
+      "text": "75 F.3d at 811",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "San Leandro Emergency Medical Group Profit Sharing Plan v. Philip Morris Companies, Inc., 75 F.3d 801 (2d Cir. 1996). No overruling found in Redline's data.",
+      "case": "San Leandro Emergency Medical Group Profit Sharing Plan v. Philip Morris Companies, Inc."
+    },
+    {
+      "text": "9 F.3d at 267",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ZVI Trading Corp. Employees' Money Purchase Pension Plan & Trust v. Ross, 9 F.3d 259 (2d Cir. 1993). No overruling found in Redline's data.",
+      "case": "ZVI Trading Corp. Employees' Money Purchase Pension Plan & Trust v. Ross"
+    }
+  ],
+  "judge": {},
+  "words": 724
+}

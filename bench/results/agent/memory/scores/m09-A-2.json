@@ -1,0 +1,147 @@
+{
+  "task": "m09",
+  "arm": "A",
+  "rep": 2,
+  "summary": {
+    "citations": 16,
+    "verified": 16,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "545 F.3d 304",
+      "name": "In re Volkswagen of Am., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen of America, Inc., 545 F.3d 304 (5th Cir. 2008). No overruling found in Redline's data.",
+      "case": "In re Volkswagen of America, Inc."
+    },
+    {
+      "text": "330 U.S. 501",
+      "name": "Gulf Oil Corp. v. Gilbert",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gulf Oil Corp. v. Gilbert, 330 U.S. 501 (1947). No overruling found in Redline's data.",
+      "case": "Gulf Oil Corp. v. Gilbert"
+    },
+    {
+      "text": "545 F.3d at 315",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen of America, Inc., 545 F.3d 304 (5th Cir. 2008). No overruling found in Redline's data.",
+      "case": "In re Volkswagen of America, Inc."
+    },
+    {
+      "text": "571 U.S. 49",
+      "name": "Atl. Marine Constr. Co. v. U.S. Dist. Ct",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex., 571 U.S. 49 (2013). No overruling found in Redline's data.",
+      "case": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex."
+    },
+    {
+      "text": "371 F.3d 201",
+      "name": "In re Volkswagen AG",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen AG, 371 F.3d 201 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "In re Volkswagen AG"
+    },
+    {
+      "text": "545 F.3d at 317",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen of America, Inc., 545 F.3d 304 (5th Cir. 2008). No overruling found in Redline's data.",
+      "case": "In re Volkswagen of America, Inc."
+    },
+    {
+      "text": "545 F.3d at 316",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen of America, Inc., 545 F.3d 304 (5th Cir. 2008). No overruling found in Redline's data.",
+      "case": "In re Volkswagen of America, Inc."
+    },
+    {
+      "text": "720 F.3d 285",
+      "name": "In re Radmax, Ltd",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Radmax, Ltd., 720 F.3d 285 (5th Cir. 2013). No overruling found in Redline's data.",
+      "case": "In re Radmax, Ltd."
+    },
+    {
+      "text": "545 F.3d at 317",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen of America, Inc., 545 F.3d 304 (5th Cir. 2008). No overruling found in Redline's data.",
+      "case": "In re Volkswagen of America, Inc."
+    },
+    {
+      "text": "330 U.S. at 508",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gulf Oil Corp. v. Gilbert, 330 U.S. 501 (1947). No overruling found in Redline's data.",
+      "case": "Gulf Oil Corp. v. Gilbert"
+    },
+    {
+      "text": "545 F.3d at 310",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen of America, Inc., 545 F.3d 304 (5th Cir. 2008). No overruling found in Redline's data.",
+      "case": "In re Volkswagen of America, Inc."
+    },
+    {
+      "text": "720 F.3d at 288",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Radmax, Ltd., 720 F.3d 285 (5th Cir. 2013). No overruling found in Redline's data.",
+      "case": "In re Radmax, Ltd."
+    },
+    {
+      "text": "343 F.3d 311",
+      "name": "In re Avantel, S.A",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Avantel, S.A., 343 F.3d 311 (5th Cir. 2003). No overruling found in Redline's data.",
+      "case": "In re Avantel, S.A."
+    },
+    {
+      "text": "148 F.3d 283",
+      "name": "In re Prudential Ins. Co. of Am",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Krell v. Prudential Insurance, 148 F.3d 283 (3d Cir. 1998). No overruling found in Redline's data.",
+      "case": "Krell v. Prudential Insurance"
+    },
+    {
+      "text": "371 F.3d at 203",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen AG, 371 F.3d 201 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "In re Volkswagen AG"
+    },
+    {
+      "text": "337 F.3d 429",
+      "name": "In re Horseshoe Entm't",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Horseshoe Entertainment, 337 F.3d 429 (5th Cir. 2003). No overruling found in Redline's data.",
+      "case": "In re Horseshoe Entertainment"
+    }
+  ],
+  "judge": {},
+  "words": 815
+}

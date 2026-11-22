@@ -1,0 +1,110 @@
+{
+  "task": "chevron-1",
+  "doctrine": "chevron",
+  "arm": "C",
+  "rep": 1,
+  "summary": {
+    "citations": 11,
+    "verified": 6,
+    "fabricated": 0,
+    "unverifiable": 5,
+    "overruled": 1,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [
+    {
+      "text": "467 U.S. 837",
+      "verdict": "VERIFIED",
+      "status": "overruled",
+      "reason": "Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837 (1984). Overruled by Loper Bright Enterprises v. Raimondo, 603 U.S. 369 (2024).",
+      "case": "Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc."
+    }
+  ],
+  "citations": [
+    {
+      "text": "603 U.S. 369",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Loper Bright Enterprises v. Raimondo, 603 U.S. 369 (2024). Decided after Redline's Supreme Court data ends (2014): the case is known from the overruling record, its own citations are not checked. No overruling found in Redline's data.",
+      "case": "Loper Bright Enterprises v. Raimondo"
+    },
+    {
+      "text": "463 U.S. 29",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Motor Vehicle Manufacturers Ass'n v. State Farm Mutual Automobile Insurance, 463 U.S. 29 (1983). No overruling found in Redline's data.",
+      "case": "Motor Vehicle Manufacturers Ass'n v. State Farm Mutual Automobile Insurance"
+    },
+    {
+      "text": "592 U.S. 414",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 592 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "467 U.S. 837",
+      "verdict": "VERIFIED",
+      "status": "overruled",
+      "reason": "Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837 (1984). Overruled by Loper Bright Enterprises v. Raimondo, 603 U.S. 369 (2024).",
+      "case": "Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc."
+    },
+    {
+      "text": "603 U.S. at 412",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 603 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "603 U.S. at 394",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 603 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "463 U.S. at 43",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Motor Vehicle Manufacturers Ass'n v. State Farm Mutual Automobile Insurance, 463 U.S. 29 (1983). No overruling found in Redline's data.",
+      "case": "Motor Vehicle Manufacturers Ass'n v. State Farm Mutual Automobile Insurance"
+    },
+    {
+      "text": "603 U.S. at 388",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 603 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "323 U.S. 134",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Skidmore v. Swift & Co., 323 U.S. 134 (1944). No overruling found in Redline's data.",
+      "case": "Skidmore v. Swift & Co."
+    },
+    {
+      "text": "323 U.S. at 140",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Skidmore v. Swift & Co., 323 U.S. 134 (1944). No overruling found in Redline's data.",
+      "case": "Skidmore v. Swift & Co."
+    },
+    {
+      "text": "597 U.S. 697",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 597 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    }
+  ],
+  "judge": {
+    "relies": false,
+    "acknowledges_overruling": true,
+    "quote": "*Loper Bright* overruled *Chevron U.S.A. Inc. v. NRDC*, 467 U.S. 837 (1984), and held that courts \"must exercise their independent judgment in deciding whether an agency has acted within its statutory authority.\""
+  },
+  "judge_model": "sonnet",
+  "words": 1036
+}

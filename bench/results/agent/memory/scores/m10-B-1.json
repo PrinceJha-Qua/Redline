@@ -1,0 +1,187 @@
+{
+  "task": "m10",
+  "arm": "B",
+  "rep": 1,
+  "summary": {
+    "citations": 21,
+    "verified": 21,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "491 F.3d 278",
+      "name": "Gasch v. Hartford Accident & Indem. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gasch ex rel. Z.G. v. Hartford Accident & Indemnity Co., 491 F.3d 278 (5th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Gasch ex rel. Z.G. v. Hartford Accident & Indemnity Co."
+    },
+    {
+      "text": "648 F.3d 242",
+      "name": "Cuevas v. BAC Home Loans Servicing, LP",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cuevas v. Bac Home Loans Servicing, LP, 648 F.3d 242 (5th Cir. 2011). No overruling found in Redline's data.",
+      "case": "Cuevas v. Bac Home Loans Servicing, LP"
+    },
+    {
+      "text": "385 F.3d 568",
+      "name": "Smallwood v. Ill. Cent. R.R. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    },
+    {
+      "text": "509 F.3d 665",
+      "name": "Campbell v. Stone Ins., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Campbell v. Stone Insurance, 509 F.3d 665 (5th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Campbell v. Stone Insurance"
+    },
+    {
+      "text": "326 F.3d 644",
+      "name": "Travis v. Irby",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Travis v. Irby, 326 F.3d 644 (5th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Travis v. Irby"
+    },
+    {
+      "text": "385 F.3d at 571",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    },
+    {
+      "text": "818 F.3d 193",
+      "name": "Int'l Energy Ventures Mgmt., L.L.C. v. United Energy Grp., Ltd",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "International Energy Ventures Management, L.L.C. v. United Energy Group, Ltd., 818 F.3d 193 (5th Cir. 2016). No overruling found in Redline's data.",
+      "case": "International Energy Ventures Management, L.L.C. v. United Energy Group, Ltd."
+    },
+    {
+      "text": "326 F.3d at 649",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Travis v. Irby, 326 F.3d 644 (5th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Travis v. Irby"
+    },
+    {
+      "text": "408 F.3d 177",
+      "name": "McDonal v. Abbott Labs",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McDonal ex rel. McDonal v. Abbott Laboratories, 408 F.3d 177 (5th Cir. 2005). No overruling found in Redline's data.",
+      "case": "McDonal ex rel. McDonal v. Abbott Laboratories"
+    },
+    {
+      "text": "648 F.3d at 249",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cuevas v. Bac Home Loans Servicing, LP, 648 F.3d 242 (5th Cir. 2011). No overruling found in Redline's data.",
+      "case": "Cuevas v. Bac Home Loans Servicing, LP"
+    },
+    {
+      "text": "326 F.3d at 649",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Travis v. Irby, 326 F.3d 644 (5th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Travis v. Irby"
+    },
+    {
+      "text": "648 F.3d at 249",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cuevas v. Bac Home Loans Servicing, LP, 648 F.3d 242 (5th Cir. 2011). No overruling found in Redline's data.",
+      "case": "Cuevas v. Bac Home Loans Servicing, LP"
+    },
+    {
+      "text": "181 F.3d 694",
+      "name": "Griggs v. State Farm Lloyds",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Griggs v. State Farm Lloyds, 181 F.3d 694 (5th Cir. 1999). No overruling found in Redline's data.",
+      "case": "Griggs v. State Farm Lloyds"
+    },
+    {
+      "text": "385 F.3d at 573",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    },
+    {
+      "text": "818 F.3d at 208",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "International Energy Ventures Management, L.L.C. v. United Energy Group, Ltd., 818 F.3d 193 (5th Cir. 2016). No overruling found in Redline's data.",
+      "case": "International Energy Ventures Management, L.L.C. v. United Energy Group, Ltd."
+    },
+    {
+      "text": "385 F.3d at 573",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    },
+    {
+      "text": "199 F.3d 239",
+      "name": "Hart v. Bayer Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Hart v. Bayer Corp., 199 F.3d 239 (5th Cir. 2000). No overruling found in Redline's data.",
+      "case": "Hart v. Bayer Corp."
+    },
+    {
+      "text": "385 F.3d at 574",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    },
+    {
+      "text": "326 F.3d at 649",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Travis v. Irby, 326 F.3d 644 (5th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Travis v. Irby"
+    },
+    {
+      "text": "648 F.3d at 249",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cuevas v. Bac Home Loans Servicing, LP, 648 F.3d 242 (5th Cir. 2011). No overruling found in Redline's data.",
+      "case": "Cuevas v. Bac Home Loans Servicing, LP"
+    },
+    {
+      "text": "385 F.3d at 573",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    }
+  ],
+  "judge": {},
+  "words": 850
+}

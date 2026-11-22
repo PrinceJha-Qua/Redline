@@ -19,6 +19,69 @@ AGENTS = {"GPT-5 agent": {"non_existent_citation": 100.0, "case_name_mismatch": 
           "Claude Code (Opus 4.8)": {"non_existent_citation": 93.5, "case_name_mismatch": 83.8, "fp": 10.9}}
 
 
+def agent_section(w):
+    """bench/agent_experiment.py: does Redline change what a model files?"""
+    base = RES / "agent"
+    mem = base / "memory" / "summary.json"
+    if not mem.exists():
+        return
+    m = json.loads(mem.read_text())
+    a = m["arms"]
+    names = {"A": "Task only", "B": "+ \"verify your citations\" warning", "C": "+ warning + Redline over MCP"}
+    w("## 6. Does Redline change what a model files?\n")
+    w(f"`bench/agent_experiment.py`. Model: Claude {m['model'].capitalize()}, run through the `claude` CLI in an "
+      "empty directory with no built-in tools, no settings and no other MCP servers. Each of 24 tasks asks for an "
+      "argument citing at least six F.3d decisions of a named circuit, with no research packet: the situation in "
+      "*Mata v. Avianca*. Every prompt and answer is in `bench/results/agent/memory/`.\n")
+    w("| Arm | Briefs | Briefs with a citation Redline proves wrong | Wrong citations | Citations | Unverifiable | Cost |")
+    w("|---|---:|---:|---:|---:|---:|---:|")
+    for k in ("A", "B", "C"):
+        if k in a:
+            x = a[k]
+            w(f"| {k}: {names[k]} | {x['runs']} | **{x['any_fabricated']}** ({pct(x['any_fabricated'], x['runs'])}) | "
+              f"{x['fabricated_citations']} | {x['citations']} | {x['unverifiable']} | ${x['cost_usd']} |")
+    w("")
+    t = m["sign_tests"]
+    for key in ("fabricated:AvsC", "fabricated:BvsC"):
+        x, y = key.split(":")[1].split("vs")
+        v = t[key]
+        w(f"- Sign test {x} vs {y}, per task: {v['tasks_worse_in_' + x]} tasks worse in {x}, "
+          f"{v['tasks_worse_in_' + y]} worse in {y}, {v['ties']} ties; two-sided p = {v['p_two_sided']}.")
+    fabs = m.get("fabrications", [])
+    real = sum(f["audit"]["kind"].startswith("real") for f in fabs)
+    unclear = sum(f["audit"]["kind"].startswith("name too") for f in fabs)
+    w(f"- Every one of the {len(fabs)} flagged citations was looked up by name in the store: {real} are real cases "
+      f"cited at the wrong place, {len(fabs) - real - unclear} name no case in Redline's data, and {unclear} have names "
+      f"too generic to look up (\"Metro. Prop. & Cas. Ins. Co.\").\n")
+    if fabs:
+        w("| Arm | Task | Cited | Redline's evidence | The real case |")
+        w("|---|---|---|---|---|")
+        for f in fabs:
+            w(f"| {f['arm']} | {f['task']} | `{f['text']}` {f.get('name') or ''} | {f['reason'][:160]} | "
+              f"{f['audit']['real'] or '—'} |")
+        w("")
+    w("Caveats: one model; tasks were written by us; the outcome counts only errors Redline can prove (U.S. Reports "
+      "and F.3d), so arm C is scored by the tool it used. The flagged citations are listed above so anyone can "
+      "check them by hand.\n")
+    pk = base / "packet" / "summary.json"
+    if pk.exists():
+        p = json.loads(pk.read_text())["arms"]
+        n = sum(x["runs"] for x in p.values())
+        r = sum(x["relies"] for x in p.values())
+        w(f"**A null result.** A pilot copied the design of [Precedent](https://github.com/ZNLong2203/precedent), another entry: drafting in eight famous overruled doctrines "
+          f"(*Chevron*, *Saucier*, *Abood*…) with a research packet of the overruled case and F.3d opinions leaning on "
+          f"it. A blinded judge found the brief relying on the overruled rule in {r} of {n} runs, in every arm: the "
+          f"model already knows these overrulings. That design cannot show a difference, so it was not scaled up.\n")
+    kn = base / "knowledge.json"
+    if kn.exists():
+        k = json.loads(kn.read_text())["summary"]
+        w(f"**What the model knows without tools.** Asked whether each of the {k['overruled_cases']} overruled "
+          f"Supreme Court cases in the store has been overruled, it said no for {k['model_says_good_law']}; those "
+          f"are cited by {k['missed_cited_by_f3d']} F.3d cases. Of {k['controls']} frequently cited cases no "
+          f"overruling names, it called {k['controls_model_says_overruled']} overruled. Details: "
+          f"`bench/results/agent/knowledge.json`.\n")
+
+
 def load(name):
     p = RES / f"{name}.json"
     return json.loads(p.read_text()) if p.exists() else None
@@ -178,6 +241,8 @@ def main():
         w(f"- {line}")
     w("")
 
+    agent_section(w)
+
     w("## Adjudicated errors in the sources\n")
     w("A flag on one of these counts as correct only because the evidence shows the text really is wrong.\n")
     w("Typos in the original briefs (LePhantomCite does not label them):\n")
@@ -199,8 +264,6 @@ def main():
         judged = sum(1 for r in csv.DictReader(audit.open()) if (r.get("auditor_agrees") or "").strip())
     w(f"- **Hand audit.** `bench/audit.csv` holds a stratified sample of Redline verdicts on real opinions for a "
       f"person to judge; {judged} judged so far.")
-    w("- **Agent experiment.** The same drafting task given to an agent with and without the Redline MCP tool. "
-      "Needs an API key; not run yet.")
     w("- **Supreme Court after 2014.** Coverage ends with volume 572; later cases appear only as overruling records.")
     OUT.write_text("\n".join(L) + "\n")
     print(f"wrote {OUT.relative_to(ROOT)}")

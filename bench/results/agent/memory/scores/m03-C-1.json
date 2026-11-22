@@ -1,0 +1,123 @@
+{
+  "task": "m03",
+  "arm": "C",
+  "rep": 1,
+  "summary": {
+    "citations": 13,
+    "verified": 13,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "228 F.3d 154",
+      "name": "Ganino v. Citizens Utils. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ganino v. Citizens Utilities Co., 228 F.3d 154 (2d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Ganino v. Citizens Utilities Co."
+    },
+    {
+      "text": "85 F.3d 55",
+      "name": "Lasker v. N.Y. State Elec. & Gas Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lasker v. New York State Electric & Gas Corp., 85 F.3d 55 (2d Cir. 1996). No overruling found in Redline's data.",
+      "case": "Lasker v. New York State Electric & Gas Corp."
+    },
+    {
+      "text": "355 F.3d 164",
+      "name": "Rombach v. Chang",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rombach v. Chang, 355 F.3d 164 (2d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Rombach v. Chang"
+    },
+    {
+      "text": "216 F.3d 300",
+      "name": "Novak v. Kasaks",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Novak v. Kasaks, 216 F.3d 300 (2d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Novak v. Kasaks"
+    },
+    {
+      "text": "9 F.3d 259",
+      "name": "In re Time Warner Inc. Sec. Litig",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ZVI Trading Corp. Employees' Money Purchase Pension Plan & Trust v. Ross, 9 F.3d 259 (2d Cir. 1993). No overruling found in Redline's data.",
+      "case": "ZVI Trading Corp. Employees' Money Purchase Pension Plan & Trust v. Ross"
+    },
+    {
+      "text": "553 F.3d 187",
+      "name": "ECA & Local 134 IBEW Joint Pension Trust v. JP Morgan Chase Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co., 553 F.3d 187 (2d Cir. 2009). No overruling found in Redline's data.",
+      "case": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co."
+    },
+    {
+      "text": "752 F.3d 173",
+      "name": "City of Pontiac Policemen's & Firemen's Retirement System v. UBS AG",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "City of Pontiac Policemen's & Firemen's Retirement System v. UBS AG, 752 F.3d 173 (2d Cir. 2014). No overruling found in Redline's data.",
+      "case": "City of Pontiac Policemen's & Firemen's Retirement System v. UBS AG"
+    },
+    {
+      "text": "783 F.3d 383",
+      "name": "No. 58 Pension Trust Fund & Annuity Fund v. Royal Bank of Scotland Group, PLC",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "IBEW Local Union No. 58 Pension Trust Fund & Annuity Fund v. Royal Bank of Scotland Group, PLC, 783 F.3d 383 (2d Cir. 2015). No overruling found in Redline's data.",
+      "case": "IBEW Local Union No. 58 Pension Trust Fund & Annuity Fund v. Royal Bank of Scotland Group, PLC"
+    },
+    {
+      "text": "918 F.3d 57",
+      "name": "Id. And in Singh v. Cigna Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Singh v. Cigna Corp., 918 F.3d 57 (2nd Cir. 2019). No overruling found in Redline's data.",
+      "case": "Singh v. Cigna Corp."
+    },
+    {
+      "text": "9 F.3d at 267",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ZVI Trading Corp. Employees' Money Purchase Pension Plan & Trust v. Ross, 9 F.3d 259 (2d Cir. 1993). No overruling found in Redline's data.",
+      "case": "ZVI Trading Corp. Employees' Money Purchase Pension Plan & Trust v. Ross"
+    },
+    {
+      "text": "355 F.3d at 174",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rombach v. Chang, 355 F.3d 164 (2d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Rombach v. Chang"
+    },
+    {
+      "text": "216 F.3d at 315",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Novak v. Kasaks, 216 F.3d 300 (2d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Novak v. Kasaks"
+    },
+    {
+      "text": "85 F.3d at 59",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lasker v. New York State Electric & Gas Corp., 85 F.3d 55 (2d Cir. 1996). No overruling found in Redline's data.",
+      "case": "Lasker v. New York State Electric & Gas Corp."
+    }
+  ],
+  "judge": {},
+  "words": 656
+}

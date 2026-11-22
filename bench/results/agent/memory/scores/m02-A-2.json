@@ -1,0 +1,180 @@
+{
+  "task": "m02",
+  "arm": "A",
+  "rep": 2,
+  "summary": {
+    "citations": 16,
+    "verified": 9,
+    "fabricated": 2,
+    "unverifiable": 5,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [
+    {
+      "text": "477 F.3d 6",
+      "name": "Mount Vernon Fire Ins. Co. v. Visionaid, Inc",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 6 of 477 F.3d is inside DCC Operating, Inc. v. Siaca, 477 F.3d 1 (1st Cir. 2007), which runs from page 1 to 17. Mount Royal Joint Venture v. Kempthorne is 477 F.3d 745.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    },
+    {
+      "text": "460 F.3d 52",
+      "name": "Metro. Prop. & Cas. Ins. Co. v. Morrison",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 52 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    }
+  ],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "936 N.E.2d 408",
+      "name": "Billings v. Commerce Ins. Co",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "N.E.2d is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    },
+    {
+      "text": "545 N.E.2d 1156",
+      "name": "Boston Symphony Orchestra, Inc. v. Commercial Union Ins. Co",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "N.E.2d is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    },
+    {
+      "text": "307 F.3d 11",
+      "name": "Open Software Found., Inc. v. U.S. Fid. & Guar. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "260 F.3d 54",
+      "name": "Liberty Mut. Ins. Co. v. Metro. Life Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "143 F.3d 5",
+      "name": "Merchants Ins. Co. of N.H. v. U.S. Fid. & Guar. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Merchants Insurance Co. of New Hampshire, Inc. v. United States Fidelity & Guaranty Co., 143 F.3d 5 (1st Cir. 1998). No overruling found in Redline's data.",
+      "case": "Merchants Insurance Co. of New Hampshire, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "477 F.3d 6",
+      "name": "Mount Vernon Fire Ins. Co. v. Visionaid, Inc",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 6 of 477 F.3d is inside DCC Operating, Inc. v. Siaca, 477 F.3d 1 (1st Cir. 2007), which runs from page 1 to 17. Mount Royal Joint Venture v. Kempthorne is 477 F.3d 745.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    },
+    {
+      "text": "460 F.3d 52",
+      "name": "Metro. Prop. & Cas. Ins. Co. v. Morrison",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 52 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    },
+    {
+      "text": "240 F.3d 1",
+      "name": "Ferrara & DiMercurio, Inc. v. St. Paul Mercury Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ferrara & DiMercurio v. St. Paul Mercury Insurance, 240 F.3d 1 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Ferrara & DiMercurio v. St. Paul Mercury Insurance"
+    },
+    {
+      "text": "936 N.E.2d at 414",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "N.E.2d is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    },
+    {
+      "text": "307 F.3d at 14",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "260 F.3d at 61",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "460 F.3d at 59",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Page 59 of 460 F.3d is in City of Tacoma v. Federal Energy Regulatory Commission, 460 F.3d 53 (D.C. Cir. 2006). Redline cannot match \"Morrison\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+      "case": null
+    },
+    {
+      "text": "477 F.3d at 10",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Page 10 of 477 F.3d is in DCC Operating, Inc. v. Siaca, 477 F.3d 1 (1st Cir. 2007). Redline cannot match \"Visionaid\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+      "case": null
+    },
+    {
+      "text": "143 F.3d at 8",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Merchants Insurance Co. of New Hampshire, Inc. v. United States Fidelity & Guaranty Co., 143 F.3d 5 (1st Cir. 1998). No overruling found in Redline's data.",
+      "case": "Merchants Insurance Co. of New Hampshire, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "260 F.3d at 61",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "307 F.3d at 15",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    }
+  ],
+  "judge": {},
+  "words": 803
+}

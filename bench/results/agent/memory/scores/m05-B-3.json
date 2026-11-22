@@ -1,0 +1,203 @@
+{
+  "task": "m05",
+  "arm": "B",
+  "rep": 3,
+  "summary": {
+    "citations": 23,
+    "verified": 23,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "464 F.3d 450",
+      "name": "Brown v. Card Serv. Ctr",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Brown v. Card Service Center, 464 F.3d 450 (3d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Brown v. Card Service Center"
+    },
+    {
+      "text": "709 F.3d 142",
+      "name": "Caprio v. Healthcare Revenue Recovery Grp., LLC",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Caprio v. Healthcare Revenue Recovery Group, LLC, 709 F.3d 142 (3d Cir. 2013). No overruling found in Redline's data.",
+      "case": "Caprio v. Healthcare Revenue Recovery Group, LLC"
+    },
+    {
+      "text": "225 F.3d 350",
+      "name": "Wilson v. Quadramed Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wilson v. Quadramed Corp., 225 F.3d 350 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Wilson v. Quadramed Corp."
+    },
+    {
+      "text": "539 F.3d 218",
+      "name": "Rosenau v. Unifund Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rosenau v. Unifund Corp., 539 F.3d 218 (3d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Rosenau v. Unifund Corp."
+    },
+    {
+      "text": "550 F.3d 294",
+      "name": "Campuzano-Burgos v. Midland Credit Mgmt., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Campuzano-Burgos v. Midland Credit Management., Inc., 550 F.3d 294 (3d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Campuzano-Burgos v. Midland Credit Management., Inc."
+    },
+    {
+      "text": "464 F.3d at 453",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Brown v. Card Service Center, 464 F.3d 450 (3d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Brown v. Card Service Center"
+    },
+    {
+      "text": "225 F.3d at 354",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wilson v. Quadramed Corp., 225 F.3d 350 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Wilson v. Quadramed Corp."
+    },
+    {
+      "text": "225 F.3d at 354",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wilson v. Quadramed Corp., 225 F.3d 350 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Wilson v. Quadramed Corp."
+    },
+    {
+      "text": "539 F.3d at 221",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rosenau v. Unifund Corp., 539 F.3d 218 (3d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Rosenau v. Unifund Corp."
+    },
+    {
+      "text": "225 F.3d at 354",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wilson v. Quadramed Corp., 225 F.3d 350 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Wilson v. Quadramed Corp."
+    },
+    {
+      "text": "74 F.3d 30",
+      "name": "Russell v. Equifax A.R.S",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Russell v. Equifax A.R.S., 74 F.3d 30 (2d Cir. 1996). No overruling found in Redline's data.",
+      "case": "Russell v. Equifax A.R.S."
+    },
+    {
+      "text": "539 F.3d at 222",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rosenau v. Unifund Corp., 539 F.3d 218 (3d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Rosenau v. Unifund Corp."
+    },
+    {
+      "text": "709 F.3d at 149",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Caprio v. Healthcare Revenue Recovery Group, LLC, 709 F.3d 142 (3d Cir. 2013). No overruling found in Redline's data.",
+      "case": "Caprio v. Healthcare Revenue Recovery Group, LLC"
+    },
+    {
+      "text": "225 F.3d at 354",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wilson v. Quadramed Corp., 225 F.3d 350 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Wilson v. Quadramed Corp."
+    },
+    {
+      "text": "464 F.3d at 454",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Brown v. Card Service Center, 464 F.3d 450 (3d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Brown v. Card Service Center"
+    },
+    {
+      "text": "650 F.3d 993",
+      "name": "Lesher v. Law Offices of Mitchell N. Kay, PC",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lesher v. Law Offices of Mitchell N. Kay, PC, 650 F.3d 993 (3d Cir. 2011). No overruling found in Redline's data.",
+      "case": "Lesher v. Law Offices of Mitchell N. Kay, PC"
+    },
+    {
+      "text": "225 F.3d at 354",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wilson v. Quadramed Corp., 225 F.3d 350 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Wilson v. Quadramed Corp."
+    },
+    {
+      "text": "916 F.3d 260",
+      "name": "Barbato v. Greystone All., LLC",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Barbato v. Greystone Alliance, LLC, 916 F.3d 260 (3rd Cir. 2019). No overruling found in Redline's data.",
+      "case": "Barbato v. Greystone Alliance, LLC"
+    },
+    {
+      "text": "791 F.3d 413",
+      "name": "Jensen v. Pressler & Pressler",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jensen v. Pressler & Pressler, 791 F.3d 413 (3d Cir. 2015). No overruling found in Redline's data.",
+      "case": "Jensen v. Pressler & Pressler"
+    },
+    {
+      "text": "539 F.3d at 222",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rosenau v. Unifund Corp., 539 F.3d 218 (3d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Rosenau v. Unifund Corp."
+    },
+    {
+      "text": "709 F.3d at 149",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Caprio v. Healthcare Revenue Recovery Group, LLC, 709 F.3d 142 (3d Cir. 2013). No overruling found in Redline's data.",
+      "case": "Caprio v. Healthcare Revenue Recovery Group, LLC"
+    },
+    {
+      "text": "791 F.3d at 421",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jensen v. Pressler & Pressler, 791 F.3d 413 (3d Cir. 2015). No overruling found in Redline's data.",
+      "case": "Jensen v. Pressler & Pressler"
+    },
+    {
+      "text": "916 F.3d at 265",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Barbato v. Greystone Alliance, LLC, 916 F.3d 260 (3rd Cir. 2019). No overruling found in Redline's data.",
+      "case": "Barbato v. Greystone Alliance, LLC"
+    }
+  ],
+  "judge": {},
+  "words": 817
+}

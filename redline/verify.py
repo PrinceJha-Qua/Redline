@@ -101,6 +101,7 @@ def _verified(store, cite, case, warnings, note=""):
             "warnings": warnings, "case": {k: case[k] for k in ("id", "name", "cite", "court", "year")},
             "overruled_by": st["overruled_by"], "stands_on": st["stands_on"],
             "stands_on_total": st.get("stands_on_total", len(st["stands_on"])),
+            "mentions": st.get("mentions", []),
             "evidence": {"nodes": uniq, "edges": edges, "query": _query(STANDS_ON, id=case["id"])}}
 
 

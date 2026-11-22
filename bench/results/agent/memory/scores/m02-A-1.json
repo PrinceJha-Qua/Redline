@@ -1,0 +1,180 @@
+{
+  "task": "m02",
+  "arm": "A",
+  "rep": 1,
+  "summary": {
+    "citations": 16,
+    "verified": 8,
+    "fabricated": 2,
+    "unverifiable": 6,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [
+    {
+      "text": "430 F.3d 439",
+      "name": "Ruggerio Ambulance Serv., Inc. v. Nat'l Grange Ins. Co",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 439 of 430 F.3d is inside Goodman v. Illinois Department of Financial & Professional Regulation, 430 F.3d 432 (7th Cir. 2005), which runs from page 432 to 440. No case named Ruggerio is in volume 430.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    },
+    {
+      "text": "460 F.3d 51",
+      "name": "Metro. Prop. & Cas. Ins. Co. v. Morrison",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    }
+  ],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "307 F.3d 11",
+      "name": "Open Software Found., Inc. v. U.S. Fid. & Guar. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "260 F.3d 54",
+      "name": "Liberty Mut. Ins. Co. v. Metro. Life Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "458 Mass. 194",
+      "name": "Billings v. Commerce Ins. Co",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Mass. is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    },
+    {
+      "text": "430 F.3d 439",
+      "name": "Ruggerio Ambulance Serv., Inc. v. Nat'l Grange Ins. Co",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 439 of 430 F.3d is inside Goodman v. Illinois Department of Financial & Professional Regulation, 430 F.3d 432 (7th Cir. 2005), which runs from page 432 to 440. No case named Ruggerio is in volume 430.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    },
+    {
+      "text": "460 F.3d 51",
+      "name": "Metro. Prop. & Cas. Ins. Co. v. Morrison",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    },
+    {
+      "text": "732 F.3d 37",
+      "name": "Vermont Mut. Ins. Co. v. Zamsky",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "572 F.3d 45",
+      "name": "Gargano v. Liberty Int'l Underwriters, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gargano v. Liberty International Underwriters, Inc., 572 F.3d 45 (1st Cir. 2009). No overruling found in Redline's data.",
+      "case": "Gargano v. Liberty International Underwriters, Inc."
+    },
+    {
+      "text": "430 F.3d at 443",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Page 443 of 430 F.3d is in FPL Energy Marcus Hook, L.P. v. Federal Energy Regulatory Commission, 430 F.3d 441 (D.D.C. 2005). Redline cannot match \"Ruggerio Ambulance\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+      "case": null
+    },
+    {
+      "text": "460 F.3d at 55",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Page 55 of 460 F.3d is in City of Tacoma v. Federal Energy Regulatory Commission, 460 F.3d 53 (D.C. Cir. 2006). Redline cannot match \"Morrison\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+      "case": null
+    },
+    {
+      "text": "732 F.3d at 41",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "307 F.3d at 14",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "260 F.3d at 61",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "458 Mass. at 200",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Mass. is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    },
+    {
+      "text": "572 F.3d at 49",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gargano v. Liberty International Underwriters, Inc., 572 F.3d 45 (1st Cir. 2009). No overruling found in Redline's data.",
+      "case": "Gargano v. Liberty International Underwriters, Inc."
+    },
+    {
+      "text": "460 F.3d at 55",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Page 55 of 460 F.3d is in City of Tacoma v. Federal Energy Regulatory Commission, 460 F.3d 53 (D.C. Cir. 2006). Redline cannot match \"Morrison\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+      "case": null
+    },
+    {
+      "text": "430 F.3d at 443",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Page 443 of 430 F.3d is in FPL Energy Marcus Hook, L.P. v. Federal Energy Regulatory Commission, 430 F.3d 441 (D.D.C. 2005). Redline cannot match \"Ruggerio Ambulance\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+      "case": null
+    }
+  ],
+  "judge": {},
+  "words": 721
+}

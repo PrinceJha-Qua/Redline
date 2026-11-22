@@ -1,0 +1,123 @@
+{
+  "task": "m01",
+  "arm": "B",
+  "rep": 3,
+  "summary": {
+    "citations": 13,
+    "verified": 13,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 1
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "411 U.S. 792",
+      "name": "Powerful Evidence of Pretext. Under McDonnell Douglas Corp. v. Green",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McDonnell Douglas Corp. v. Green, 411 U.S. 792 (1973). No overruling found in Redline's data.",
+      "case": "McDonnell Douglas Corp. v. Green"
+    },
+    {
+      "text": "450 U.S. 248",
+      "name": "Tex. Dep't of Cmty. Affs. v. Burdine",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Texas Department of Community Affairs v. Burdine, 450 U.S. 248 (1981). No overruling found in Redline's data.",
+      "case": "Texas Department of Community Affairs v. Burdine"
+    },
+    {
+      "text": "530 U.S. 133",
+      "name": "Reeves v. Sanderson Plumbing Prods., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133 (2000). No overruling found in Redline's data.",
+      "case": "Reeves v. Sanderson Plumbing Products, Inc."
+    },
+    {
+      "text": "183 F.3d 38",
+      "name": "Thomas v. Eastman Kodak Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Thomas v. Eastman Kodak Co., 183 F.3d 38 (1st Cir. 1999). No overruling found in Redline's data.",
+      "case": "Thomas v. Eastman Kodak Co."
+    },
+    {
+      "text": "202 F.3d 424",
+      "name": "Domínguez-Cruz v. Suttle Caribe, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Domínguez-Cruz v. Suttle Caribe, Inc., 202 F.3d 424 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Domínguez-Cruz v. Suttle Caribe, Inc."
+    },
+    {
+      "text": "626 F.3d 654",
+      "name": "Gómez-González v. Rural Opportunities, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gómez-González v. Rural Opportunities, Inc., 626 F.3d 654 (1st Cir. 2010). No overruling found in Redline's data.",
+      "case": "Gómez-González v. Rural Opportunities, Inc."
+    },
+    {
+      "text": "144 F.3d 151",
+      "name": "Hodgens v. Gen. Dynamics Corp",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Hodgens v. General Dynamics Corp., 144 F.3d 151 (1st Cir. 1998). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Hodgens v. General Dynamics Corp."
+    },
+    {
+      "text": "217 F.3d 46",
+      "name": "Santiago-Ramos v. Centennial Puerto Rico Wireless Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Santiago-Ramos v. Centennial P.R. Wireless Corp., 217 F.3d 46 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Santiago-Ramos v. Centennial P.R. Wireless Corp."
+    },
+    {
+      "text": "150 F.3d 21",
+      "name": "Likewise, Brennan v. GTE Government Systems Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Brennan v. GTE Government Systems Corp., 150 F.3d 21 (1st Cir. 1998). No overruling found in Redline's data.",
+      "case": "Brennan v. GTE Government Systems Corp."
+    },
+    {
+      "text": "342 F.3d 31",
+      "name": "Che v. Mass. Bay Transp. Auth",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Che v. Massachusetts Bay Transportation Authority, 342 F.3d 31 (1st Cir. 2003). No overruling found in Redline's data.",
+      "case": "Che v. Massachusetts Bay Transportation Authority"
+    },
+    {
+      "text": "183 F.3d at 61",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Thomas v. Eastman Kodak Co., 183 F.3d 38 (1st Cir. 1999). No overruling found in Redline's data.",
+      "case": "Thomas v. Eastman Kodak Co."
+    },
+    {
+      "text": "202 F.3d at 431",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Domínguez-Cruz v. Suttle Caribe, Inc., 202 F.3d 424 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Domínguez-Cruz v. Suttle Caribe, Inc."
+    },
+    {
+      "text": "626 F.3d at 662",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gómez-González v. Rural Opportunities, Inc., 626 F.3d 654 (1st Cir. 2010). No overruling found in Redline's data.",
+      "case": "Gómez-González v. Rural Opportunities, Inc."
+    }
+  ],
+  "judge": {},
+  "words": 751
+}

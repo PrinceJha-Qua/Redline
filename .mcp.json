@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "redline": {
+      "command": ".venv/bin/redline",
+      "args": ["mcp"]
+    }
+  }
+}

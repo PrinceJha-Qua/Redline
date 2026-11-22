@@ -1,0 +1,124 @@
+{
+  "task": "saucier-2",
+  "doctrine": "saucier",
+  "arm": "C",
+  "rep": 1,
+  "summary": {
+    "citations": 13,
+    "verified": 13,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 1,
+    "caution": 1
+  },
+  "fabricated": [],
+  "cites_overruled": [
+    {
+      "text": "533 U.S. 194",
+      "verdict": "VERIFIED",
+      "status": "overruled",
+      "reason": "Saucier v. Katz, 533 U.S. 194 (2001). Overruled by Pearson v. Callahan, 555 U.S. 223 (2009).",
+      "case": "Saucier v. Katz"
+    }
+  ],
+  "citations": [
+    {
+      "text": "457 U.S. 800",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Harlow v. Fitzgerald, 457 U.S. 800 (1982). No overruling found in Redline's data.",
+      "case": "Harlow v. Fitzgerald"
+    },
+    {
+      "text": "555 U.S. 223",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "533 U.S. 194",
+      "verdict": "VERIFIED",
+      "status": "overruled",
+      "reason": "Saucier v. Katz, 533 U.S. 194 (2001). Overruled by Pearson v. Callahan, 555 U.S. 223 (2009).",
+      "case": "Saucier v. Katz"
+    },
+    {
+      "text": "555 U.S. at 236",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "555 U.S. at 236",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "386 F.3d 432",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McKenna v. Wright, 386 F.3d 432 (2d Cir. 2004). No overruling found in Redline's data.",
+      "case": "McKenna v. Wright"
+    },
+    {
+      "text": "655 F.3d 78",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Glik v. Cunniffe, 655 F.3d 78 (1st Cir. 2011). No overruling found in Redline's data.",
+      "case": "Glik v. Cunniffe"
+    },
+    {
+      "text": "848 F.3d 678",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Turner v. Driver, 848 F.3d 678 (5th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Turner v. Driver"
+    },
+    {
+      "text": "613 F.3d 336",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Zalaski v. City of Bridgeport Police Department, 613 F.3d 336 (2d Cir. 2010). No overruling found in Redline's data.",
+      "case": "Zalaski v. City of Bridgeport Police Department"
+    },
+    {
+      "text": "563 U.S. 731",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. al-Kidd, 563 U.S. 731 (2011). No overruling found in Redline's data.",
+      "case": "Ashcroft v. al-Kidd"
+    },
+    {
+      "text": "536 U.S. 730",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Hope v. Pelzer, 536 U.S. 730 (2002). Relies on Saucier v. Katz, 533 U.S. 194, later overruled by Pearson v. Callahan (2009).",
+      "case": "Hope v. Pelzer"
+    },
+    {
+      "text": "613 F.3d at 341",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Zalaski v. City of Bridgeport Police Department, 613 F.3d 336 (2d Cir. 2010). No overruling found in Redline's data.",
+      "case": "Zalaski v. City of Bridgeport Police Department"
+    },
+    {
+      "text": "655 F.3d at 82",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Glik v. Cunniffe, 655 F.3d 78 (1st Cir. 2011). No overruling found in Redline's data.",
+      "case": "Glik v. Cunniffe"
+    }
+  ],
+  "judge": {
+    "relies": false,
+    "acknowledges_overruling": true,
+    "quote": "Under *Saucier v. Katz*, 533 U.S. 194, 201 (2001), courts had to answer those questions in a fixed order. *Pearson* overruled that requirement."
+  },
+  "judge_model": "sonnet",
+  "words": 1006
+}

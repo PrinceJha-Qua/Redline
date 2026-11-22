@@ -1,0 +1,222 @@
+{
+  "task": "saucier-2",
+  "doctrine": "saucier",
+  "arm": "B",
+  "rep": 1,
+  "summary": {
+    "citations": 27,
+    "verified": 22,
+    "fabricated": 0,
+    "unverifiable": 5,
+    "overruled": 1,
+    "caution": 2
+  },
+  "fabricated": [],
+  "cites_overruled": [
+    {
+      "text": "533 U.S. 194",
+      "verdict": "VERIFIED",
+      "status": "overruled",
+      "reason": "Saucier v. Katz, 533 U.S. 194 (2001). Overruled by Pearson v. Callahan, 555 U.S. 223 (2009).",
+      "case": "Saucier v. Katz"
+    }
+  ],
+  "citations": [
+    {
+      "text": "457 U.S. 800",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Harlow v. Fitzgerald, 457 U.S. 800 (1982). No overruling found in Redline's data.",
+      "case": "Harlow v. Fitzgerald"
+    },
+    {
+      "text": "555 U.S. 223",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "533 U.S. 194",
+      "verdict": "VERIFIED",
+      "status": "overruled",
+      "reason": "Saucier v. Katz, 533 U.S. 194 (2001). Overruled by Pearson v. Callahan, 555 U.S. 223 (2009).",
+      "case": "Saucier v. Katz"
+    },
+    {
+      "text": "555 U.S. at 236",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "563 U.S. 692",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Camreta v. Greene ex rel. S. G., 563 U.S. 692 (2011). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Camreta v. Greene ex rel. S. G."
+    },
+    {
+      "text": "555 U.S. at 236",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "386 F.3d 432",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McKenna v. Wright, 386 F.3d 432 (2d Cir. 2004). No overruling found in Redline's data.",
+      "case": "McKenna v. Wright"
+    },
+    {
+      "text": "556 U.S. 662",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. Iqbal, 556 U.S. 662 (2009). No overruling found in Redline's data.",
+      "case": "Ashcroft v. Iqbal"
+    },
+    {
+      "text": "572 U.S. 650",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Tolan v. Cotton, 572 U.S. 650 (2014). No overruling found in Redline's data.",
+      "case": "Tolan v. Cotton"
+    },
+    {
+      "text": "655 F.3d 78",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Glik v. Cunniffe, 655 F.3d 78 (1st Cir. 2011). No overruling found in Redline's data.",
+      "case": "Glik v. Cunniffe"
+    },
+    {
+      "text": "862 F.3d 353",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Fields v. City of Philadelphia, 862 F.3d 353 (3d Cir. 2017). No overruling found in Redline's data.",
+      "case": "Fields v. City of Philadelphia"
+    },
+    {
+      "text": "212 F.3d 1332",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smith v. City of Cumming, 212 F.3d 1332 (11th Cir. 2000). No overruling found in Redline's data.",
+      "case": "Smith v. City of Cumming"
+    },
+    {
+      "text": "587 U.S. 391",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 587 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "723 F.3d 382",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Zalaski v. City of Hartford, 723 F.3d 382 (2d Cir. 2013). No overruling found in Redline's data.",
+      "case": "Zalaski v. City of Hartford"
+    },
+    {
+      "text": "587 U.S. at 406",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 587 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "563 U.S. 731",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. al-Kidd, 563 U.S. 731 (2011). No overruling found in Redline's data.",
+      "case": "Ashcroft v. al-Kidd"
+    },
+    {
+      "text": "583 U.S. 48",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 583 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "563 U.S. at 741",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. al-Kidd, 563 U.S. 731 (2011). No overruling found in Redline's data.",
+      "case": "Ashcroft v. al-Kidd"
+    },
+    {
+      "text": "536 U.S. 730",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Hope v. Pelzer, 536 U.S. 730 (2002). Relies on Saucier v. Katz, 533 U.S. 194, later overruled by Pearson v. Callahan (2009).",
+      "case": "Hope v. Pelzer"
+    },
+    {
+      "text": "592 U.S. 7",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 592 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "587 U.S. at 398",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 587 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "723 F.3d at 389",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Zalaski v. City of Hartford, 723 F.3d 382 (2d Cir. 2013). No overruling found in Redline's data.",
+      "case": "Zalaski v. City of Hartford"
+    },
+    {
+      "text": "655 F.3d at 82",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Glik v. Cunniffe, 655 F.3d 78 (1st Cir. 2011). No overruling found in Redline's data.",
+      "case": "Glik v. Cunniffe"
+    },
+    {
+      "text": "212 F.3d at 1333",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smith v. City of Cumming, 212 F.3d 1332 (11th Cir. 2000). No overruling found in Redline's data.",
+      "case": "Smith v. City of Cumming"
+    },
+    {
+      "text": "862 F.3d at 355",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Fields v. City of Philadelphia, 862 F.3d 353 (3d Cir. 2017). No overruling found in Redline's data.",
+      "case": "Fields v. City of Philadelphia"
+    },
+    {
+      "text": "848 F.3d 678",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Turner v. Driver, 848 F.3d 678 (5th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Turner v. Driver"
+    },
+    {
+      "text": "899 F.3d 1035",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Askins v. U.S. Dep't of Homeland Sec., 899 F.3d 1035 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Askins v. U.S. Dep't of Homeland Sec."
+    }
+  ],
+  "judge": {
+    "relies": false,
+    "acknowledges_overruling": true,
+    "quote": "Pearson overruled that rigid sequence in relevant part and held that judges \"should be permitted to exercise their sound discretion in deciding which of the two prongs . . . should be addressed first.\""
+  },
+  "judge_model": "sonnet",
+  "words": 991
+}

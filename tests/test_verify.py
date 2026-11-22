@@ -184,3 +184,19 @@ def test_names_disagree(cited, actual):
 def test_text_without_citations(text):
     assert service.check_text(text) == {"summary": {"citations": 0, "verified": 0, "fabricated": 0, "unverifiable": 0,
                                                     "overruled": 0, "caution": 0}, "citations": []}
+
+
+def test_a_passing_mention_is_not_reliance():
+    # Lopez (Commerce Clause) cites Casey once, with no parenthetical: noted, not flagged.
+    c = service.check_text("United States v. Lopez, 514 U.S. 549 (1995).")["citations"][0]
+    assert c["status"] == "good law"
+    assert "US:505:833" in {m["case"]["id"] for m in c["mentions"]}
+    assert "passing" in c["reason"]
+
+
+def test_reliance_rule():
+    from redline.status import relies_on
+    assert not relies_on("F3d:1:1", 3, None)            # one citation with its parallel cites
+    assert relies_on("F3d:1:1", 6, None)                # cited twice
+    assert not relies_on("US:1:1", 1, "quoting X")      # a parenthetical that says nothing
+    assert relies_on("US:1:1", 1, "holding that agencies get deference")

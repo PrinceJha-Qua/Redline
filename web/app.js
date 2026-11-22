@@ -127,6 +127,11 @@
         ${ch.parenthetical ? `<span class="paren">“${esc(ch.parenthetical)}”</span>` : ""}
         <span>${chip("s-ovr", ch.case.status)} by ${esc(ch.overruled_by.name)} (${esc(ch.overruled_by.year)})</span></li>`).join("")}</ol>`);
     }
+    if (c.mentions && c.mentions.length) {
+      parts.push(`<div class="k">Mentioned in passing, not relied on</div>`);
+      parts.push(`<ul class="mentions">${c.mentions.map((m) => `
+        <li>${esc(m.case.name)}, ${esc(m.case.cite)}: later overruled by ${esc(m.overruled_by.name)} (${esc(m.overruled_by.year)})</li>`).join("")}</ul>`);
+    }
     if (c.case) parts.push(`<div><button class="case-link" type="button" data-case="${esc(c.case.id)}">Open ${esc(c.case.name)} in the graph</button></div><div id="case-box"></div>`);
     if (c.evidence && c.evidence.query) {
       parts.push(`<details class="cypher"><summary>The Cypher behind this verdict</summary><pre>${esc(c.evidence.query.cypher)}\n\n// params ${esc(JSON.stringify(c.evidence.query.params))}</pre></details>`);

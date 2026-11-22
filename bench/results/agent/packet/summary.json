@@ -1,0 +1,150 @@
+{
+  "experiment": "packet",
+  "model": "sonnet",
+  "judge_model": "sonnet",
+  "arms": {
+    "A": {
+      "runs": 3,
+      "relies": 0,
+      "any_fabricated": 0,
+      "fabricated_citations": 0,
+      "citations": 55,
+      "verified": 35,
+      "unverifiable": 20,
+      "cites_overruled_case": 3,
+      "judge_unparsed": 0,
+      "cost_usd": 0.13,
+      "either": 0,
+      "fabricated_real_case_wrong_cite": 0
+    },
+    "B": {
+      "runs": 3,
+      "relies": 0,
+      "any_fabricated": 0,
+      "fabricated_citations": 0,
+      "citations": 45,
+      "verified": 31,
+      "unverifiable": 14,
+      "cites_overruled_case": 3,
+      "judge_unparsed": 0,
+      "cost_usd": 0.13,
+      "either": 0,
+      "fabricated_real_case_wrong_cite": 0
+    },
+    "C": {
+      "runs": 3,
+      "relies": 0,
+      "any_fabricated": 0,
+      "fabricated_citations": 0,
+      "citations": 31,
+      "verified": 23,
+      "unverifiable": 8,
+      "cites_overruled_case": 3,
+      "judge_unparsed": 0,
+      "cost_usd": 0.2,
+      "either": 0,
+      "fabricated_real_case_wrong_cite": 0
+    }
+  },
+  "sign_tests": {
+    "relies:AvsC": {
+      "tasks_worse_in_A": 0,
+      "tasks_worse_in_C": 0,
+      "ties": 3,
+      "p_two_sided": 1.0
+    },
+    "relies:BvsC": {
+      "tasks_worse_in_B": 0,
+      "tasks_worse_in_C": 0,
+      "ties": 3,
+      "p_two_sided": 1.0
+    },
+    "relies:AvsB": {
+      "tasks_worse_in_A": 0,
+      "tasks_worse_in_B": 0,
+      "ties": 3,
+      "p_two_sided": 1.0
+    },
+    "fabricated:AvsC": {
+      "tasks_worse_in_A": 0,
+      "tasks_worse_in_C": 0,
+      "ties": 3,
+      "p_two_sided": 1.0
+    },
+    "fabricated:BvsC": {
+      "tasks_worse_in_B": 0,
+      "tasks_worse_in_C": 0,
+      "ties": 3,
+      "p_two_sided": 1.0
+    },
+    "fabricated:AvsB": {
+      "tasks_worse_in_A": 0,
+      "tasks_worse_in_B": 0,
+      "ties": 3,
+      "p_two_sided": 1.0
+    },
+    "either:AvsC": {
+      "tasks_worse_in_A": 0,
+      "tasks_worse_in_C": 0,
+      "ties": 3,
+      "p_two_sided": 1.0
+    },
+    "either:BvsC": {
+      "tasks_worse_in_B": 0,
+      "tasks_worse_in_C": 0,
+      "ties": 3,
+      "p_two_sided": 1.0
+    },
+    "either:AvsB": {
+      "tasks_worse_in_A": 0,
+      "tasks_worse_in_B": 0,
+      "ties": 3,
+      "p_two_sided": 1.0
+    }
+  },
+  "relies_by_doctrine": {
+    "abood": {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "C": [
+        0,
+        1
+      ]
+    },
+    "chevron": {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "C": [
+        0,
+        1
+      ]
+    },
+    "saucier": {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "C": [
+        0,
+        1
+      ]
+    }
+  },
+  "fabrications": []
+}

@@ -1,0 +1,188 @@
+{
+  "task": "m02",
+  "arm": "A",
+  "rep": 3,
+  "summary": {
+    "citations": 19,
+    "verified": 17,
+    "fabricated": 1,
+    "unverifiable": 1,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [
+    {
+      "text": "564 F.3d 1",
+      "name": "Peerless Ins. Co. v. Brennon",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "564 F.3d 1 is In re Sony BMG Music Entertainment, 564 F.3d 1 (1st Cir. 2009), not the case named in the brief (\"Peerless Ins. Co. v. Brennon\").",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    }
+  ],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "307 F.3d 11",
+      "name": "Open Software Found., Inc. v. U.S. Fid. & Guar. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "260 F.3d 54",
+      "name": "Liberty Mut. Ins. Co. v. Metro. Life Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "684 F.3d 237",
+      "name": "OneBeacon Am. Ins. Co. v. Commercial Union Assurance Co. of Can",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Onebeacon America Insurance v. Commercial Union Assurance Co., 684 F.3d 237 (1st Cir. 2012). No overruling found in Redline's data.",
+      "case": "Onebeacon America Insurance v. Commercial Union Assurance Co."
+    },
+    {
+      "text": "307 F.3d at 14",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "754 F.3d 136",
+      "name": "Euchner-USA, Inc. v. Hartford Cas. Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Euchner-USA, Inc. v. Hartford Casualty Insurance, 754 F.3d 136 (2d Cir. 2014). No overruling found in Redline's data.",
+      "case": "Euchner-USA, Inc. v. Hartford Casualty Insurance"
+    },
+    {
+      "text": "260 F.3d at 61",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "732 F.3d 37",
+      "name": "Vt. Mut. Ins. Co. v. Zamsky",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "188 F.3d 27",
+      "name": "Nautilus Ins. Co. v. Jabar",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Nautilus Insurance v. Jabar, 188 F.3d 27 (1st Cir. 1999). No overruling found in Redline's data.",
+      "case": "Nautilus Insurance v. Jabar"
+    },
+    {
+      "text": "564 F.3d 1",
+      "name": "Peerless Ins. Co. v. Brennon",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "564 F.3d 1 is In re Sony BMG Music Entertainment, 564 F.3d 1 (1st Cir. 2009), not the case named in the brief (\"Peerless Ins. Co. v. Brennon\").",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      }
+    },
+    {
+      "text": "754 F.3d at 140",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Euchner-USA, Inc. v. Hartford Casualty Insurance, 754 F.3d 136 (2d Cir. 2014). No overruling found in Redline's data.",
+      "case": "Euchner-USA, Inc. v. Hartford Casualty Insurance"
+    },
+    {
+      "text": "188 F.3d at 29",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Nautilus Insurance v. Jabar, 188 F.3d 27 (1st Cir. 1999). No overruling found in Redline's data.",
+      "case": "Nautilus Insurance v. Jabar"
+    },
+    {
+      "text": "732 F.3d at 41",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "260 F.3d at 61",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "684 F.3d at 241",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Onebeacon America Insurance v. Commercial Union Assurance Co., 684 F.3d 237 (1st Cir. 2012). No overruling found in Redline's data.",
+      "case": "Onebeacon America Insurance v. Commercial Union Assurance Co."
+    },
+    {
+      "text": "307 F.3d at 14",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "564 F.3d at 5",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Page 5 of 564 F.3d is in In re Sony BMG Music Entertainment, 564 F.3d 1 (1st Cir. 2009). Redline cannot match \"Peerless\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+      "case": null
+    },
+    {
+      "text": "754 F.3d at 141",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Euchner-USA, Inc. v. Hartford Casualty Insurance, 754 F.3d 136 (2d Cir. 2014). No overruling found in Redline's data.",
+      "case": "Euchner-USA, Inc. v. Hartford Casualty Insurance"
+    },
+    {
+      "text": "732 F.3d at 42",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "188 F.3d at 30",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Nautilus Insurance v. Jabar, 188 F.3d 27 (1st Cir. 1999). No overruling found in Redline's data.",
+      "case": "Nautilus Insurance v. Jabar"
+    }
+  ],
+  "judge": {},
+  "words": 742
+}

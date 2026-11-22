@@ -1,0 +1,147 @@
+{
+  "task": "m09",
+  "arm": "B",
+  "rep": 3,
+  "summary": {
+    "citations": 16,
+    "verified": 14,
+    "fabricated": 0,
+    "unverifiable": 2,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "376 U.S. 612",
+      "name": "Van Dusen v. Barrack",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Van Dusen v. Barrack, 376 U.S. 612 (1964). No overruling found in Redline's data.",
+      "case": "Van Dusen v. Barrack"
+    },
+    {
+      "text": "545 F.3d 304",
+      "name": "In re Volkswagen of Am., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen of America, Inc., 545 F.3d 304 (5th Cir. 2008). No overruling found in Redline's data.",
+      "case": "In re Volkswagen of America, Inc."
+    },
+    {
+      "text": "811 F.3d 758",
+      "name": "Weber v. PACT XPP Techs., AG",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Weber v. PACT XPP Technologies, AG, 811 F.3d 758 (5th Cir. 2016). No overruling found in Redline's data.",
+      "case": "Weber v. PACT XPP Technologies, AG"
+    },
+    {
+      "text": "545 F.3d at 310",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen of America, Inc., 545 F.3d 304 (5th Cir. 2008). No overruling found in Redline's data.",
+      "case": "In re Volkswagen of America, Inc."
+    },
+    {
+      "text": "720 F.3d 285",
+      "name": "In re Radmax, Ltd",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Radmax, Ltd., 720 F.3d 285 (5th Cir. 2013). No overruling found in Redline's data.",
+      "case": "In re Radmax, Ltd."
+    },
+    {
+      "text": "371 F.3d 201",
+      "name": "In re Volkswagen AG",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen AG, 371 F.3d 201 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "In re Volkswagen AG"
+    },
+    {
+      "text": "545 F.3d at 315",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen of America, Inc., 545 F.3d 304 (5th Cir. 2008). No overruling found in Redline's data.",
+      "case": "In re Volkswagen of America, Inc."
+    },
+    {
+      "text": "371 F.3d at 204",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen AG, 371 F.3d 201 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "In re Volkswagen AG"
+    },
+    {
+      "text": "720 F.3d at 288",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Radmax, Ltd., 720 F.3d 285 (5th Cir. 2013). No overruling found in Redline's data.",
+      "case": "In re Radmax, Ltd."
+    },
+    {
+      "text": "545 F.3d at 315",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen of America, Inc., 545 F.3d 304 (5th Cir. 2008). No overruling found in Redline's data.",
+      "case": "In re Volkswagen of America, Inc."
+    },
+    {
+      "text": "720 F.3d at 290",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Radmax, Ltd., 720 F.3d 285 (5th Cir. 2013). No overruling found in Redline's data.",
+      "case": "In re Radmax, Ltd."
+    },
+    {
+      "text": "720 F.3d at 288",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Radmax, Ltd., 720 F.3d 285 (5th Cir. 2013). No overruling found in Redline's data.",
+      "case": "In re Radmax, Ltd."
+    },
+    {
+      "text": "545 F.3d at 314",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Volkswagen of America, Inc., 545 F.3d 304 (5th Cir. 2008). No overruling found in Redline's data.",
+      "case": "In re Volkswagen of America, Inc."
+    },
+    {
+      "text": "337 F.3d 429",
+      "name": "In re Horseshoe Entm't",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Horseshoe Entertainment, 337 F.3d 429 (5th Cir. 2003). No overruling found in Redline's data.",
+      "case": "In re Horseshoe Entertainment"
+    },
+    {
+      "text": "94 F.4th 502",
+      "name": "In re Clarke",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "F.4th is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    },
+    {
+      "text": "85 F.4th 352",
+      "name": "In re TikTok, Inc",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "F.4th is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    }
+  ],
+  "judge": {},
+  "words": 906
+}

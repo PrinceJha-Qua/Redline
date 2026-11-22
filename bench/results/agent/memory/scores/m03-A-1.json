@@ -1,0 +1,147 @@
+{
+  "task": "m03",
+  "arm": "A",
+  "rep": 1,
+  "summary": {
+    "citations": 16,
+    "verified": 16,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "228 F.3d 154",
+      "name": "Ganino v. Citizens Utils. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ganino v. Citizens Utilities Co., 228 F.3d 154 (2d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Ganino v. Citizens Utilities Co."
+    },
+    {
+      "text": "553 F.3d 187",
+      "name": "Local 134 IBEW Joint Pension Tr. of Chi. v. JP Morgan Chase Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co., 553 F.3d 187 (2d Cir. 2009). No overruling found in Redline's data.",
+      "case": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co."
+    },
+    {
+      "text": "355 F.3d 164",
+      "name": "Rombach v. Chang",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rombach v. Chang, 355 F.3d 164 (2d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Rombach v. Chang"
+    },
+    {
+      "text": "75 F.3d 801",
+      "name": "San Leandro Emergency Medical Group Profit Sharing Plan v. Philip Morris Cos",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "San Leandro Emergency Medical Group Profit Sharing Plan v. Philip Morris Companies, Inc., 75 F.3d 801 (2d Cir. 1996). No overruling found in Redline's data.",
+      "case": "San Leandro Emergency Medical Group Profit Sharing Plan v. Philip Morris Companies, Inc."
+    },
+    {
+      "text": "355 F.3d at 174",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rombach v. Chang, 355 F.3d 164 (2d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Rombach v. Chang"
+    },
+    {
+      "text": "553 F.3d at 206",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co., 553 F.3d 187 (2d Cir. 2009). No overruling found in Redline's data.",
+      "case": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co."
+    },
+    {
+      "text": "752 F.3d 173",
+      "name": "City of Pontiac Policemen's & Firemen's Ret. Sys. v. UBS AG",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "City of Pontiac Policemen's & Firemen's Retirement System v. UBS AG, 752 F.3d 173 (2d Cir. 2014). No overruling found in Redline's data.",
+      "case": "City of Pontiac Policemen's & Firemen's Retirement System v. UBS AG"
+    },
+    {
+      "text": "818 F.3d 85",
+      "name": "Ind. Pub. Ret. Sys. v. SAIC, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Indiana Public Retirement System v. SAIC, Inc., 818 F.3d 85 (2d Cir. 2016). No overruling found in Redline's data.",
+      "case": "Indiana Public Retirement System v. SAIC, Inc."
+    },
+    {
+      "text": "918 F.3d 57",
+      "name": "Singh v. Cigna Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Singh v. Cigna Corp., 918 F.3d 57 (2nd Cir. 2019). No overruling found in Redline's data.",
+      "case": "Singh v. Cigna Corp."
+    },
+    {
+      "text": "553 F.3d at 206",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co., 553 F.3d 187 (2d Cir. 2009). No overruling found in Redline's data.",
+      "case": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co."
+    },
+    {
+      "text": "228 F.3d at 167",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ganino v. Citizens Utilities Co., 228 F.3d 154 (2d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Ganino v. Citizens Utilities Co."
+    },
+    {
+      "text": "838 F.3d 223",
+      "name": "In re Vivendi, S.A. Sec. Litig",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cavanagh v. Vivendi, S.A., 838 F.3d 223 (2d Cir. 2016). No overruling found in Redline's data.",
+      "case": "Cavanagh v. Vivendi, S.A."
+    },
+    {
+      "text": "752 F.3d at 183",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "City of Pontiac Policemen's & Firemen's Retirement System v. UBS AG, 752 F.3d 173 (2d Cir. 2014). No overruling found in Redline's data.",
+      "case": "City of Pontiac Policemen's & Firemen's Retirement System v. UBS AG"
+    },
+    {
+      "text": "818 F.3d at 92",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Indiana Public Retirement System v. SAIC, Inc., 818 F.3d 85 (2d Cir. 2016). No overruling found in Redline's data.",
+      "case": "Indiana Public Retirement System v. SAIC, Inc."
+    },
+    {
+      "text": "355 F.3d at 174",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rombach v. Chang, 355 F.3d 164 (2d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Rombach v. Chang"
+    },
+    {
+      "text": "553 F.3d at 206",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co., 553 F.3d 187 (2d Cir. 2009). No overruling found in Redline's data.",
+      "case": "ECA & Local 134 Ibew Joint Pension Trust v. Jp Morgan Chase Co."
+    }
+  ],
+  "judge": {},
+  "words": 751
+}

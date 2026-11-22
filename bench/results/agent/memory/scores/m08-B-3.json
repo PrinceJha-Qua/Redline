@@ -1,0 +1,107 @@
+{
+  "task": "m08",
+  "arm": "B",
+  "rep": 3,
+  "summary": {
+    "citations": 11,
+    "verified": 10,
+    "fabricated": 0,
+    "unverifiable": 1,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "96 F.3d 88",
+      "name": "Am. Recovery Corp. v. Computerized Thermal Imaging, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Recovery Corp. v. Computerized Thermal Imaging, Inc., 96 F.3d 88 (4th Cir. 1996). No overruling found in Redline's data.",
+      "case": "American Recovery Corp. v. Computerized Thermal Imaging, Inc."
+    },
+    {
+      "text": "380 F.3d 200",
+      "name": "Patten Grading & Paving, Inc. v. Skanska USA Bldg., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Patten Grading & Paving, Inc. v. Skanska USA Building, Inc., 380 F.3d 200 (4th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Patten Grading & Paving, Inc. v. Skanska USA Building, Inc."
+    },
+    {
+      "text": "553 F.3d 340",
+      "name": "Forrester v. Penn Lyon Homes, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Forrester v. Penn Lyon Homes, Inc., 553 F.3d 340 (4th Cir. 2009). No overruling found in Redline's data.",
+      "case": "Forrester v. Penn Lyon Homes, Inc."
+    },
+    {
+      "text": "700 F.3d 690",
+      "name": "Rota-McLarty v. Santander Consumer USA, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rota-McLarty v. Santander Consumer USA, Inc., 700 F.3d 690 (4th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Rota-McLarty v. Santander Consumer USA, Inc."
+    },
+    {
+      "text": "807 F.3d 553",
+      "name": "Chorley Enters., Inc. v. Dickey's Barbecue Rests., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Chorley Enterprises, Inc. v. Dickey's Barbecue Restaurants, Inc., 807 F.3d 553 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Chorley Enterprises, Inc. v. Dickey's Barbecue Restaurants, Inc."
+    },
+    {
+      "text": "596 U.S. 411",
+      "name": "Morgan v. Sundance, Inc",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 596 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "380 F.3d at 204",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Patten Grading & Paving, Inc. v. Skanska USA Building, Inc., 380 F.3d 200 (4th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Patten Grading & Paving, Inc. v. Skanska USA Building, Inc."
+    },
+    {
+      "text": "96 F.3d at 95",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Recovery Corp. v. Computerized Thermal Imaging, Inc., 96 F.3d 88 (4th Cir. 1996). No overruling found in Redline's data.",
+      "case": "American Recovery Corp. v. Computerized Thermal Imaging, Inc."
+    },
+    {
+      "text": "272 F.3d 239",
+      "name": "Hightower v. GMRI, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Hightower v. GMRI, Inc., 272 F.3d 239 (4th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Hightower v. GMRI, Inc."
+    },
+    {
+      "text": "553 F.3d at 343",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Forrester v. Penn Lyon Homes, Inc., 553 F.3d 340 (4th Cir. 2009). No overruling found in Redline's data.",
+      "case": "Forrester v. Penn Lyon Homes, Inc."
+    },
+    {
+      "text": "96 F.3d at 95",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Recovery Corp. v. Computerized Thermal Imaging, Inc., 96 F.3d 88 (4th Cir. 1996). No overruling found in Redline's data.",
+      "case": "American Recovery Corp. v. Computerized Thermal Imaging, Inc."
+    }
+  ],
+  "judge": {},
+  "words": 714
+}

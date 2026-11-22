@@ -1,0 +1,131 @@
+{
+  "task": "m02",
+  "arm": "C",
+  "rep": 2,
+  "summary": {
+    "citations": 14,
+    "verified": 14,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "307 F.3d 11",
+      "name": "Open Software Found., Inc. v. U.S. Fid. & Guar. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "127 F.3d 15",
+      "name": "Mt. Airy Ins. Co. v. Greenbaum",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Mt. Airy Insurance v. Greenbaum, 127 F.3d 15 (1st Cir. 1997). No overruling found in Redline's data.",
+      "case": "Mt. Airy Insurance v. Greenbaum"
+    },
+    {
+      "text": "732 F.3d 37",
+      "name": "Vt. Mut. Ins. Co. v. Zamsky",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "7 F.3d 1047",
+      "name": "Commercial Union Ins. Co. v. Walbrook Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Commercial Union Insurance v. Walbrook Insurance, 7 F.3d 1047 (1st Cir. 1993). No overruling found in Redline's data.",
+      "case": "Commercial Union Insurance v. Walbrook Insurance"
+    },
+    {
+      "text": "307 F.3d at 14",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "188 F.3d 27",
+      "name": "Nautilus Ins. Co. v. Jabar",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Nautilus Insurance v. Jabar, 188 F.3d 27 (1st Cir. 1999). No overruling found in Redline's data.",
+      "case": "Nautilus Insurance v. Jabar"
+    },
+    {
+      "text": "529 F.3d 8",
+      "name": "Boston Gas Co. v. Century Indem. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Boston Gas Co. v. Century Indemnity Co., 529 F.3d 8 (1st Cir. 2008). No overruling found in Redline's data.",
+      "case": "Boston Gas Co. v. Century Indemnity Co."
+    },
+    {
+      "text": "260 F.3d 54",
+      "name": "Liberty Mut. Ins. Co. v. Metro. Life Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "188 F.3d at 29",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Nautilus Insurance v. Jabar, 188 F.3d 27 (1st Cir. 1999). No overruling found in Redline's data.",
+      "case": "Nautilus Insurance v. Jabar"
+    },
+    {
+      "text": "467 F.3d 810",
+      "name": "Am. Home Assurance Co. v. AGM Marine Contractors, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Home Assurance Co. v. AGM Marine Contractors, Inc., 467 F.3d 810 (1st Cir. 2006). No overruling found in Redline's data.",
+      "case": "American Home Assurance Co. v. AGM Marine Contractors, Inc."
+    },
+    {
+      "text": "307 F.3d at 14",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "127 F.3d at 19",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Mt. Airy Insurance v. Greenbaum, 127 F.3d 15 (1st Cir. 1997). No overruling found in Redline's data.",
+      "case": "Mt. Airy Insurance v. Greenbaum"
+    },
+    {
+      "text": "732 F.3d at 41",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "529 F.3d at 13",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Boston Gas Co. v. Century Indemnity Co., 529 F.3d 8 (1st Cir. 2008). No overruling found in Redline's data.",
+      "case": "Boston Gas Co. v. Century Indemnity Co."
+    }
+  ],
+  "judge": {},
+  "words": 733
+}

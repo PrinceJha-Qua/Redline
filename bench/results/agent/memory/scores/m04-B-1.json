@@ -1,0 +1,107 @@
+{
+  "task": "m04",
+  "arm": "B",
+  "rep": 1,
+  "summary": {
+    "citations": 11,
+    "verified": 11,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 3
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "331 F.3d 297",
+      "name": "Secaida-Rosales v. INS",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Secaida-Rosales v. Immigration & Naturalization Service, 331 F.3d 297 (2d Cir. 2003). No overruling found in Redline's data.",
+      "case": "Secaida-Rosales v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "428 F.3d 391",
+      "name": "Cao He Lin v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cao He Lin v. United States Department of Justice, 428 F.3d 391 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Cao He Lin v. United States Department of Justice"
+    },
+    {
+      "text": "232 F.3d 279",
+      "name": "Diallo v. INS",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Diallo v. Immigration & Naturalization Service, 232 F.3d 279 (2d Cir. 2000). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Diallo v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "357 F.3d 169",
+      "name": "Ramsameachire v. Ashcroft",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Ramsameachire v. Ashcroft, 357 F.3d 169 (2d Cir. 2004). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Ramsameachire v. Ashcroft"
+    },
+    {
+      "text": "428 F.3d at 400",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cao He Lin v. United States Department of Justice, 428 F.3d 391 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Cao He Lin v. United States Department of Justice"
+    },
+    {
+      "text": "534 F.3d 162",
+      "name": "Xiu Xia Lin v. Mukasey",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Xiu Xia Lin v. Mukasey, 534 F.3d 162 (2d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Xiu Xia Lin v. Mukasey"
+    },
+    {
+      "text": "891 F.3d 67",
+      "name": "Hong Fei Gao v. Sessions",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gao v. Sessions, 891 F.3d 67 (2nd Cir. 2018). No overruling found in Redline's data.",
+      "case": "Gao v. Sessions"
+    },
+    {
+      "text": "430 F.3d 77",
+      "name": "Majidi v. Gonzales",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Majidi v. Gonzales, 430 F.3d 77 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Majidi v. Gonzales"
+    },
+    {
+      "text": "432 F.3d 391",
+      "name": "Yun-Zui Guan v. Gonzales",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Yun-Zui Guan v. Gonzales, 432 F.3d 391 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Yun-Zui Guan v. Gonzales"
+    },
+    {
+      "text": "331 F.3d at 307",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Secaida-Rosales v. Immigration & Naturalization Service, 331 F.3d 297 (2d Cir. 2003). No overruling found in Redline's data.",
+      "case": "Secaida-Rosales v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "232 F.3d at 287",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Diallo v. Immigration & Naturalization Service, 232 F.3d 279 (2d Cir. 2000). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Diallo v. Immigration & Naturalization Service"
+    }
+  ],
+  "judge": {},
+  "words": 701
+}

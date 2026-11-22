@@ -1,0 +1,131 @@
+{
+  "task": "m02",
+  "arm": "C",
+  "rep": 3,
+  "summary": {
+    "citations": 14,
+    "verified": 14,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "732 F.3d 37",
+      "name": "Vt. Mut. Ins. Co. v. Zamsky",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "307 F.3d 11",
+      "name": "Open Software Found., Inc. v. U.S. Fid. & Guar. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "260 F.3d 54",
+      "name": "Liberty Mut. Ins. Co. v. Metro. Life Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "307 F.3d at 15",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "617 F.3d 82",
+      "name": "Penn-America Ins. Co. v. Lavigne",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Penn-America Insurance v. Lavigne, 617 F.3d 82 (1st Cir. 2010). No overruling found in Redline's data.",
+      "case": "Penn-America Insurance v. Lavigne"
+    },
+    {
+      "text": "626 F.3d 113",
+      "name": "Eaton v. Penn-America Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Eaton v. Penn-America Insurance, 626 F.3d 113 (1st Cir. 2010). No overruling found in Redline's data.",
+      "case": "Eaton v. Penn-America Insurance"
+    },
+    {
+      "text": "426 F.3d 491",
+      "name": "Fed. Ins. Co. v. Raytheon Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Federal Insurance v. Raytheon Co., 426 F.3d 491 (1st Cir. 2005). No overruling found in Redline's data.",
+      "case": "Federal Insurance v. Raytheon Co."
+    },
+    {
+      "text": "617 F.3d at 85",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Penn-America Insurance v. Lavigne, 617 F.3d 82 (1st Cir. 2010). No overruling found in Redline's data.",
+      "case": "Penn-America Insurance v. Lavigne"
+    },
+    {
+      "text": "626 F.3d at 115",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Eaton v. Penn-America Insurance, 626 F.3d 113 (1st Cir. 2010). No overruling found in Redline's data.",
+      "case": "Eaton v. Penn-America Insurance"
+    },
+    {
+      "text": "426 F.3d at 495",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Federal Insurance v. Raytheon Co., 426 F.3d 491 (1st Cir. 2005). No overruling found in Redline's data.",
+      "case": "Federal Insurance v. Raytheon Co."
+    },
+    {
+      "text": "307 F.3d at 15",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "260 F.3d at 61",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "732 F.3d at 41",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "426 F.3d at 495",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Federal Insurance v. Raytheon Co., 426 F.3d 491 (1st Cir. 2005). No overruling found in Redline's data.",
+      "case": "Federal Insurance v. Raytheon Co."
+    }
+  ],
+  "judge": {},
+  "words": 760
+}

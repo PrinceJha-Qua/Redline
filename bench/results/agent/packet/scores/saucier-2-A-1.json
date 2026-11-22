@@ -1,0 +1,215 @@
+{
+  "task": "saucier-2",
+  "doctrine": "saucier",
+  "arm": "A",
+  "rep": 1,
+  "summary": {
+    "citations": 26,
+    "verified": 22,
+    "fabricated": 0,
+    "unverifiable": 4,
+    "overruled": 1,
+    "caution": 4
+  },
+  "fabricated": [],
+  "cites_overruled": [
+    {
+      "text": "533 U.S. 194",
+      "verdict": "VERIFIED",
+      "status": "overruled",
+      "reason": "Saucier v. Katz, 533 U.S. 194 (2001). Overruled by Pearson v. Callahan, 555 U.S. 223 (2009).",
+      "case": "Saucier v. Katz"
+    }
+  ],
+  "citations": [
+    {
+      "text": "555 U.S. 223",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "533 U.S. 194",
+      "verdict": "VERIFIED",
+      "status": "overruled",
+      "reason": "Saucier v. Katz, 533 U.S. 194 (2001). Overruled by Pearson v. Callahan, 555 U.S. 223 (2009).",
+      "case": "Saucier v. Katz"
+    },
+    {
+      "text": "555 U.S. at 227",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "563 U.S. 692",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Camreta v. Greene ex rel. S. G., 563 U.S. 692 (2011). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Camreta v. Greene ex rel. S. G."
+    },
+    {
+      "text": "386 F.3d 432",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McKenna v. Wright, 386 F.3d 432 (2d Cir. 2004). No overruling found in Redline's data.",
+      "case": "McKenna v. Wright"
+    },
+    {
+      "text": "463 F.3d 167",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Field Day, LLC v. County of Suffolk, 463 F.3d 167 (2d Cir. 2006). Relies on McConnell v. Federal Election Commission, 540 U.S. 93, later overruled by Citizens United v. Federal Election Commission (2010).",
+      "case": "Field Day, LLC v. County of Suffolk"
+    },
+    {
+      "text": "556 U.S. 662",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. Iqbal, 556 U.S. 662 (2009). No overruling found in Redline's data.",
+      "case": "Ashcroft v. Iqbal"
+    },
+    {
+      "text": "655 F.3d 78",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Glik v. Cunniffe, 655 F.3d 78 (1st Cir. 2011). No overruling found in Redline's data.",
+      "case": "Glik v. Cunniffe"
+    },
+    {
+      "text": "212 F.3d 1332",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smith v. City of Cumming, 212 F.3d 1332 (11th Cir. 2000). No overruling found in Redline's data.",
+      "case": "Smith v. City of Cumming"
+    },
+    {
+      "text": "862 F.3d 353",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Fields v. City of Philadelphia, 862 F.3d 353 (3d Cir. 2017). No overruling found in Redline's data.",
+      "case": "Fields v. City of Philadelphia"
+    },
+    {
+      "text": "848 F.3d 678",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Turner v. Driver, 848 F.3d 678 (5th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Turner v. Driver"
+    },
+    {
+      "text": "679 F.3d 583",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Civil Liberties Union v. Alvarez, 679 F.3d 583 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "American Civil Liberties Union v. Alvarez"
+    },
+    {
+      "text": "899 F.3d 1035",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Askins v. U.S. Dep't of Homeland Sec., 899 F.3d 1035 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Askins v. U.S. Dep't of Homeland Sec."
+    },
+    {
+      "text": "587 U.S. 391",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 587 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "543 U.S. 146",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Devenpeck v. Alford, 543 U.S. 146 (2004). No overruling found in Redline's data.",
+      "case": "Devenpeck v. Alford"
+    },
+    {
+      "text": "478 F.3d 76",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Jenkins v. City of New York, 478 F.3d 76 (2d Cir. 2007). Relies on Saucier v. Katz, 533 U.S. 194, later overruled by Pearson v. Callahan (2009).",
+      "case": "Jenkins v. City of New York"
+    },
+    {
+      "text": "563 U.S. 731",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. al-Kidd, 563 U.S. 731 (2011). No overruling found in Redline's data.",
+      "case": "Ashcroft v. al-Kidd"
+    },
+    {
+      "text": "536 U.S. 730",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Hope v. Pelzer, 536 U.S. 730 (2002). Relies on Saucier v. Katz, 533 U.S. 194, later overruled by Pearson v. Callahan (2009).",
+      "case": "Hope v. Pelzer"
+    },
+    {
+      "text": "592 U.S. 7",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 592 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "526 U.S. 603",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wilson v. Layne, 526 U.S. 603 (1999). No overruling found in Redline's data.",
+      "case": "Wilson v. Layne"
+    },
+    {
+      "text": "764 F.3d 217",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Terebesi v. Torreso, 764 F.3d 217 (2d Cir. 2014). No overruling found in Redline's data.",
+      "case": "Terebesi v. Torreso"
+    },
+    {
+      "text": "587 U.S. at 398",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 587 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "585 U.S. 87",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 585 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "494 F.3d 344",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Zellner v. Summerlin, 494 F.3d 344 (2d Cir. 2007). No overruling found in Redline's data.",
+      "case": "Zellner v. Summerlin"
+    },
+    {
+      "text": "101 F.3d 845",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Weyant v. Okst, 101 F.3d 845 (2d Cir. 1996). No overruling found in Redline's data.",
+      "case": "Weyant v. Okst"
+    },
+    {
+      "text": "386 F.3d at 436",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McKenna v. Wright, 386 F.3d 432 (2d Cir. 2004). No overruling found in Redline's data.",
+      "case": "McKenna v. Wright"
+    }
+  ],
+  "judge": {
+    "relies": false,
+    "acknowledges_overruling": true,
+    "quote": "But *Pearson* overruled that mandatory sequence. 555 U.S. at 227, 236. Courts now have discretion to choose which prong to address first."
+  },
+  "judge_model": "sonnet",
+  "words": 1060
+}

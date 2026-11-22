@@ -1,0 +1,243 @@
+{
+  "task": "m07",
+  "arm": "C",
+  "rep": 2,
+  "summary": {
+    "citations": 28,
+    "verified": 27,
+    "fabricated": 0,
+    "unverifiable": 1,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "534 U.S. 506",
+      "name": "Swierkiewicz v. Sorema N.A",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Swierkiewicz v. Sorema N. A., 534 U.S. 506 (2002). No overruling found in Redline's data.",
+      "case": "Swierkiewicz v. Sorema N. A."
+    },
+    {
+      "text": "626 F.3d 187",
+      "name": "Coleman v. Md. Court of Appeals",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Coleman v. Maryland Court of Appeals, 626 F.3d 187 (4th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Coleman v. Maryland Court of Appeals"
+    },
+    {
+      "text": "534 U.S. at 510",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Swierkiewicz v. Sorema N. A., 534 U.S. 506 (2002). No overruling found in Redline's data.",
+      "case": "Swierkiewicz v. Sorema N. A."
+    },
+    {
+      "text": "855 F.3d 639",
+      "name": "Woods v. City of Greensboro",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Woods v. City of Greensboro, 855 F.3d 639 (4th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Woods v. City of Greensboro"
+    },
+    {
+      "text": "780 F.3d 582",
+      "name": "McCleary-Evans v. Md. Dep't of Transp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration, 780 F.3d 582 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration"
+    },
+    {
+      "text": "626 F.3d at 190",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Coleman v. Maryland Court of Appeals, 626 F.3d 187 (4th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Coleman v. Maryland Court of Appeals"
+    },
+    {
+      "text": "855 F.3d at 648",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Woods v. City of Greensboro, 855 F.3d 639 (4th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Woods v. City of Greensboro"
+    },
+    {
+      "text": "550 U.S. 544",
+      "name": "Bell Atlantic Corp. v. Twombly",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bell Atlantic Corp. v. Twombly, 550 U.S. 544 (2007). No overruling found in Redline's data.",
+      "case": "Bell Atlantic Corp. v. Twombly"
+    },
+    {
+      "text": "556 U.S. 662",
+      "name": "Ashcroft v. Iqbal",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. Iqbal, 556 U.S. 662 (2009). No overruling found in Redline's data.",
+      "case": "Ashcroft v. Iqbal"
+    },
+    {
+      "text": "550 U.S. at 570",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bell Atlantic Corp. v. Twombly, 550 U.S. 544 (2007). No overruling found in Redline's data.",
+      "case": "Bell Atlantic Corp. v. Twombly"
+    },
+    {
+      "text": "556 U.S. at 678",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. Iqbal, 556 U.S. 662 (2009). No overruling found in Redline's data.",
+      "case": "Ashcroft v. Iqbal"
+    },
+    {
+      "text": "626 F.3d at 190",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Coleman v. Maryland Court of Appeals, 626 F.3d 187 (4th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Coleman v. Maryland Court of Appeals"
+    },
+    {
+      "text": "780 F.3d at 585",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration, 780 F.3d 582 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration"
+    },
+    {
+      "text": "855 F.3d at 648",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Woods v. City of Greensboro, 855 F.3d 639 (4th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Woods v. City of Greensboro"
+    },
+    {
+      "text": "588 F.3d 186",
+      "name": "Francis v. Giacomelli",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Francis v. Giacomelli, 588 F.3d 186 (4th Cir. 2009). No overruling found in Redline's data.",
+      "case": "Francis v. Giacomelli"
+    },
+    {
+      "text": "556 U.S. at 678",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. Iqbal, 556 U.S. 662 (2009). No overruling found in Redline's data.",
+      "case": "Ashcroft v. Iqbal"
+    },
+    {
+      "text": "855 F.3d at 648",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Woods v. City of Greensboro, 855 F.3d 639 (4th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Woods v. City of Greensboro"
+    },
+    {
+      "text": "588 F.3d at 193",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Francis v. Giacomelli, 588 F.3d 186 (4th Cir. 2009). No overruling found in Redline's data.",
+      "case": "Francis v. Giacomelli"
+    },
+    {
+      "text": "780 F.3d at 585",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration, 780 F.3d 582 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration"
+    },
+    {
+      "text": "626 F.3d at 190",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Coleman v. Maryland Court of Appeals, 626 F.3d 187 (4th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Coleman v. Maryland Court of Appeals"
+    },
+    {
+      "text": "855 F.3d at 648",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Woods v. City of Greensboro, 855 F.3d 639 (4th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Woods v. City of Greensboro"
+    },
+    {
+      "text": "534 U.S. at 512",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Swierkiewicz v. Sorema N. A., 534 U.S. 506 (2002). No overruling found in Redline's data.",
+      "case": "Swierkiewicz v. Sorema N. A."
+    },
+    {
+      "text": "855 F.3d at 648",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Woods v. City of Greensboro, 855 F.3d 639 (4th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Woods v. City of Greensboro"
+    },
+    {
+      "text": "626 F.3d at 190",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Coleman v. Maryland Court of Appeals, 626 F.3d 187 (4th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Coleman v. Maryland Court of Appeals"
+    },
+    {
+      "text": "915 F.3d 297",
+      "name": "Parker v. Reema Consulting Servs., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Parker v. Reema Consulting Servs., Inc., 915 F.3d 297 (4th Cir. 2019). No overruling found in Redline's data.",
+      "case": "Parker v. Reema Consulting Servs., Inc."
+    },
+    {
+      "text": "791 F.3d 500",
+      "name": "Goldfarb v. Mayor & City Council of Baltimore",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Goldfarb v. Mayor of Baltimore, 791 F.3d 500 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Goldfarb v. Mayor of Baltimore"
+    },
+    {
+      "text": "924 F.3d 718",
+      "name": "Westmoreland v. TWC Admin. LLC",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Westmoreland v. TWC Admin. LLC, 924 F.3d 718 (4th Cir. 2019). No overruling found in Redline's data.",
+      "case": "Westmoreland v. TWC Admin. LLC"
+    },
+    {
+      "text": "959 F.3d 605",
+      "name": "Bing v. Brivo Sys., LLC",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 959 of F.3d is after volume 935 (2019), where Redline's F.3d data ends.",
+      "case": null
+    }
+  ],
+  "judge": {},
+  "words": 888
+}

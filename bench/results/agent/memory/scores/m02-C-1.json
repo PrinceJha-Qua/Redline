@@ -1,0 +1,147 @@
+{
+  "task": "m02",
+  "arm": "C",
+  "rep": 1,
+  "summary": {
+    "citations": 16,
+    "verified": 16,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "307 F.3d 11",
+      "name": "Open Software Found., Inc. v. U.S. Fid. & Guar. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "260 F.3d 54",
+      "name": "Liberty Mut. Ins. Co. v. Metro. Life Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "307 F.3d at 14",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "84 F.3d 32",
+      "name": "Winnacunnet Coop. Sch. Dist. v. Nat'l Union Fire Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Winnacunnet Cooperative School District v. National Union Fire Ins., 84 F.3d 32 (1st Cir. 1996). No overruling found in Redline's data.",
+      "case": "Winnacunnet Cooperative School District v. National Union Fire Ins."
+    },
+    {
+      "text": "732 F.3d 37",
+      "name": "Vermont Mut. Ins. Co. v. Zamsky",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "572 F.3d 45",
+      "name": "Gargano v. Liberty Int'l Underwriters, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gargano v. Liberty International Underwriters, Inc., 572 F.3d 45 (1st Cir. 2009). No overruling found in Redline's data.",
+      "case": "Gargano v. Liberty International Underwriters, Inc."
+    },
+    {
+      "text": "802 F.3d 39",
+      "name": "Peabody Essex Museum, Inc. v. U.S. Fire Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Peabody Essex Museum, Inc. v. United States Fire Insurance, 802 F.3d 39 (1st Cir. 2015). No overruling found in Redline's data.",
+      "case": "Peabody Essex Museum, Inc. v. United States Fire Insurance"
+    },
+    {
+      "text": "307 F.3d at 14",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "260 F.3d at 61",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "732 F.3d at 41",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "572 F.3d at 49",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gargano v. Liberty International Underwriters, Inc., 572 F.3d 45 (1st Cir. 2009). No overruling found in Redline's data.",
+      "case": "Gargano v. Liberty International Underwriters, Inc."
+    },
+    {
+      "text": "84 F.3d at 35",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Winnacunnet Cooperative School District v. National Union Fire Ins., 84 F.3d 32 (1st Cir. 1996). No overruling found in Redline's data.",
+      "case": "Winnacunnet Cooperative School District v. National Union Fire Ins."
+    },
+    {
+      "text": "307 F.3d at 14",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "260 F.3d at 61",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Liberty Mutual Insurance v. Metropolitan Life Insurance, 260 F.3d 54 (1st Cir. 2001). No overruling found in Redline's data.",
+      "case": "Liberty Mutual Insurance v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "732 F.3d at 41",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vermont Mutual Insurance v. Zamsky, 732 F.3d 37 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Vermont Mutual Insurance v. Zamsky"
+    },
+    {
+      "text": "84 F.3d at 35",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Winnacunnet Cooperative School District v. National Union Fire Ins., 84 F.3d 32 (1st Cir. 1996). No overruling found in Redline's data.",
+      "case": "Winnacunnet Cooperative School District v. National Union Fire Ins."
+    }
+  ],
+  "judge": {},
+  "words": 710
+}

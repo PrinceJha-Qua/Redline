@@ -1,0 +1,115 @@
+{
+  "task": "m06",
+  "arm": "B",
+  "rep": 2,
+  "summary": {
+    "citations": 12,
+    "verified": 12,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 1
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "461 F.3d 331",
+      "name": "Moore v. City of Philadelphia",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Moore v. City of Philadelphia, 461 F.3d 331 (3d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Moore v. City of Philadelphia"
+    },
+    {
+      "text": "126 F.3d 494",
+      "name": "Krouse v. Am. Sterilizer Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Krouse v. American Sterilizer Co., 126 F.3d 494 (3d Cir. 1997). No overruling found in Redline's data.",
+      "case": "Krouse v. American Sterilizer Co."
+    },
+    {
+      "text": "380 F.3d 751",
+      "name": "Williams v. Phila. Hous. Auth. Police Dep't",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Williams v. Philadelphia Housing Authoity Police Department, 380 F.3d 751 (3d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Williams v. Philadelphia Housing Authoity Police Department"
+    },
+    {
+      "text": "480 F.3d 259",
+      "name": "Lauren W. ex rel. Jean W. v. DeFlaminis",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lauren W. ex rel. Jean W. v. Deflaminis, 480 F.3d 259 (3d Cir. 2007). No overruling found in Redline's data.",
+      "case": "Lauren W. ex rel. Jean W. v. Deflaminis"
+    },
+    {
+      "text": "109 F.3d 173",
+      "name": "Kachmar v. SunGard Data Systems, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kachmar v. Sungard Data Systems, Inc., 109 F.3d 173 (3d Cir. 1997). No overruling found in Redline's data.",
+      "case": "Kachmar v. Sungard Data Systems, Inc."
+    },
+    {
+      "text": "351 F.3d 108",
+      "name": "Thomas v. Town of Hammonton",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Thomas v. Town of Hammonton, 351 F.3d 108 (3d Cir. 2003). No overruling found in Redline's data.",
+      "case": "Thomas v. Town of Hammonton"
+    },
+    {
+      "text": "532 U.S. 268",
+      "name": "Clark Cnty. Sch. Dist. v. Breeden",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Clark County School District v. Breeden, 532 U.S. 268 (2001). No overruling found in Redline's data.",
+      "case": "Clark County School District v. Breeden"
+    },
+    {
+      "text": "503 F.3d 217",
+      "name": "LeBoon v. Lancaster Jewish Community Center Ass'n",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Leboon v. Lancaster Jewish Community Center Ass'n, 503 F.3d 217 (3d Cir. 2007). Relies on Lemon v. Kurtzman, 403 U.S. 602, later overruled by Kennedy v. Bremerton School District (2022).",
+      "case": "Leboon v. Lancaster Jewish Community Center Ass'n"
+    },
+    {
+      "text": "380 F.3d at 759",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Williams v. Philadelphia Housing Authoity Police Department, 380 F.3d 751 (3d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Williams v. Philadelphia Housing Authoity Police Department"
+    },
+    {
+      "text": "776 F.3d 181",
+      "name": "Daniels v. Sch. Dist. of Phila",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Daniels v. School District of Philadelphia, 776 F.3d 181 (3d Cir. 2015). No overruling found in Redline's data.",
+      "case": "Daniels v. School District of Philadelphia"
+    },
+    {
+      "text": "206 F.3d 271",
+      "name": "Farrell v. Planters Lifesavers Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Farrell v. Planters Lifesavers Co., 206 F.3d 271 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Farrell v. Planters Lifesavers Co."
+    },
+    {
+      "text": "497 F.3d 286",
+      "name": "Marra v. Phila. Hous. Auth",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marra v. Philadelphia Housing Authority, 497 F.3d 286 (3d Cir. 2007). No overruling found in Redline's data.",
+      "case": "Marra v. Philadelphia Housing Authority"
+    }
+  ],
+  "judge": {},
+  "words": 722
+}

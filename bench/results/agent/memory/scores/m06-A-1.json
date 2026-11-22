@@ -1,0 +1,155 @@
+{
+  "task": "m06",
+  "arm": "A",
+  "rep": 1,
+  "summary": {
+    "citations": 17,
+    "verified": 16,
+    "fabricated": 0,
+    "unverifiable": 1,
+    "overruled": 0,
+    "caution": 1
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "497 F.3d 286",
+      "name": "Marra v. Phila. Hous. Auth",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marra v. Philadelphia Housing Authority, 497 F.3d 286 (3d Cir. 2007). No overruling found in Redline's data.",
+      "case": "Marra v. Philadelphia Housing Authority"
+    },
+    {
+      "text": "776 F.3d 181",
+      "name": "Daniels v. Sch. Dist. of Phila",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Daniels v. School District of Philadelphia, 776 F.3d 181 (3d Cir. 2015). No overruling found in Redline's data.",
+      "case": "Daniels v. School District of Philadelphia"
+    },
+    {
+      "text": "126 F.3d 494",
+      "name": "Krouse v. Am. Sterilizer Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Krouse v. American Sterilizer Co., 126 F.3d 494 (3d Cir. 1997). No overruling found in Redline's data.",
+      "case": "Krouse v. American Sterilizer Co."
+    },
+    {
+      "text": "380 F.3d 751",
+      "name": "Williams v. Phila. Hous. Auth. Police Dep't",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Williams v. Philadelphia Housing Authoity Police Department, 380 F.3d 751 (3d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Williams v. Philadelphia Housing Authoity Police Department"
+    },
+    {
+      "text": "206 F.3d 271",
+      "name": "Farrell v. Planters Lifesavers Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Farrell v. Planters Lifesavers Co., 206 F.3d 271 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Farrell v. Planters Lifesavers Co."
+    },
+    {
+      "text": "532 U.S. 268",
+      "name": "Clark Cnty. Sch. Dist. v. Breeden",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Clark County School District v. Breeden, 532 U.S. 268 (2001). No overruling found in Redline's data.",
+      "case": "Clark County School District v. Breeden"
+    },
+    {
+      "text": "503 F.3d 217",
+      "name": "LeBoon v. Lancaster Jewish Community Center Ass'n",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Leboon v. Lancaster Jewish Community Center Ass'n, 503 F.3d 217 (3d Cir. 2007). Relies on Lemon v. Kurtzman, 403 U.S. 602, later overruled by Kennedy v. Bremerton School District (2022).",
+      "case": "Leboon v. Lancaster Jewish Community Center Ass'n"
+    },
+    {
+      "text": "380 F.3d at 760",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Williams v. Philadelphia Housing Authoity Police Department, 380 F.3d 751 (3d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Williams v. Philadelphia Housing Authoity Police Department"
+    },
+    {
+      "text": "873 F.2d 701",
+      "name": "Jalil v. Avdel Corp",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "F.2d is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    },
+    {
+      "text": "206 F.3d at 280",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Farrell v. Planters Lifesavers Co., 206 F.3d 271 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Farrell v. Planters Lifesavers Co."
+    },
+    {
+      "text": "126 F.3d at 503",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Krouse v. American Sterilizer Co., 126 F.3d 494 (3d Cir. 1997). No overruling found in Redline's data.",
+      "case": "Krouse v. American Sterilizer Co."
+    },
+    {
+      "text": "497 F.3d at 302",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marra v. Philadelphia Housing Authority, 497 F.3d 286 (3d Cir. 2007). No overruling found in Redline's data.",
+      "case": "Marra v. Philadelphia Housing Authority"
+    },
+    {
+      "text": "206 F.3d at 281",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Farrell v. Planters Lifesavers Co., 206 F.3d 271 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Farrell v. Planters Lifesavers Co."
+    },
+    {
+      "text": "776 F.3d at 196",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Daniels v. School District of Philadelphia, 776 F.3d 181 (3d Cir. 2015). No overruling found in Redline's data.",
+      "case": "Daniels v. School District of Philadelphia"
+    },
+    {
+      "text": "120 F.3d 1286",
+      "name": "Robinson v. City of Pittsburgh",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Robinson v. City of Pittsburgh, 120 F.3d 1286 (3d Cir. 1997). No overruling found in Redline's data.",
+      "case": "Robinson v. City of Pittsburgh"
+    },
+    {
+      "text": "548 U.S. 53",
+      "name": "Burlington N. & Santa Fe Ry. Co. v. White",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Burlington Northern & Santa Fe Railway Co. v. White, 548 U.S. 53 (2006). No overruling found in Redline's data.",
+      "case": "Burlington Northern & Santa Fe Railway Co. v. White"
+    },
+    {
+      "text": "532 U.S. at 272",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Clark County School District v. Breeden, 532 U.S. 268 (2001). No overruling found in Redline's data.",
+      "case": "Clark County School District v. Breeden"
+    }
+  ],
+  "judge": {},
+  "words": 661
+}

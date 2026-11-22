@@ -1,5 +1,7 @@
 # Redline
 
+[![tests](https://github.com/PrinceJha-Qua/Redline/actions/workflows/ci.yml/badge.svg)](https://github.com/PrinceJha-Qua/Redline/actions/workflows/ci.yml)
+
 Catch fabricated and overruled case citations before you file. Redline checks every citation in a
 brief against a citation graph of 170,651 US cases, stored in Relate and running on your machine.
 
@@ -8,7 +10,9 @@ brief against a citation graph of 170,651 US cases, stored in Relate and running
 ## Use case
 
 Lawyers now file briefs drafted with AI tools, and some of those briefs cite cases that do not exist.
-Courts have logged roughly 2,000 such filings. The best-known is *Mata v. Avianca* (S.D.N.Y. 2023),
+By June 2026 US courts had dealt with 1,058 cases involving AI-hallucinated content
+([UNC Law Library](https://library.law.unc.edu/2026/06/handling-hallucinations-a-reflection/), from
+Damien Charlotin's AI Hallucination Cases database). The best-known is *Mata v. Avianca* (S.D.N.Y. 2023),
 where the lawyers were sanctioned for citing *Varghese v. China Southern Airlines, 925 F.3d 1339*. A
 real citation can also be a problem: the case may have been overruled, or it may rest on a case that
 was.
@@ -18,7 +22,7 @@ Redline reads a brief and gives each citation one of three verdicts:
 | Verdict | Meaning |
 |---|---|
 | **Fabricated** | The citation cannot be right: the page falls inside a different case, a different case starts on that page, or the reporter series was never published ("982 N.E.4th 701"). Only volumes whose page maps agree with how courts cite them are used as proof. |
-| **Verified** | The case exists. Its status is **good law**, **overruled**, or **caution**: it relies on a case that was later overruled. |
+| **Verified** | The case exists. Its status is **good law**, **overruled**, or **caution**: it relies on a case that was later overruled, citing it more than once or saying what for. A single passing mention is shown, but not flagged. |
 | **Unverifiable** | Outside Redline's data. Never called fake. |
 
 For *Varghese*, Redline says: *"Page 1339 of 925 F.3d is inside J.D. v. Azar, 925 F.3d 1291
@@ -28,11 +32,15 @@ The relationships that matter:
 
 - **Volume → case page ranges** prove a fake. A citation is a pointer to a page; the graph knows
   which case owns every page of every volume.
-- **Case → cites → case → overruled by → case** shows what a real citation stands on. 9,194 of the
-  141,484 appeals-court cases in the store rely on a Supreme Court case that was later overruled:
-  4,884 on *Chevron* (overruled by *Loper Bright*, 2024), 1,011 on *Teague v. Lane*, 997 on
-  *Saucier v. Katz*, 338 on *Planned Parenthood v. Casey*. Redline flags them as **caution** and shows
-  the chain, with the court's own words about the case it relied on.
+- **Case → cites → case → overruled by → case** shows what a real citation stands on. Of the 141,484
+  appeals-court cases in the store, 9,194 cite a Supreme Court case that was later overruled, and
+  5,342 rely on one: 2,616 on *Chevron* (overruled by *Loper Bright*, 2024), 732 on *Saucier v. Katz*,
+  555 on *Teague v. Lane*, 205 on *Planned Parenthood v. Casey*. Redline flags those as **caution** and
+  shows the chain, with the court's own words about the case it relied on. *United States v. Lopez*
+  mentions *Casey* once; Redline notes that and leaves it green.
+- **Authority.** Every case carries a HITS authority score over the citation graph, the measure
+  Fowler and Jeon used for Supreme Court precedent (*Social Networks*, 2008), shown on every case
+  in the evidence panel next to how many cases cite it (*Chevron*: 5,082).
 
 Every verdict comes from a graph query, and the UI shows the Cypher behind each one. No language
 model writes or changes a verdict.
@@ -86,11 +94,13 @@ From the command line:
 ```bash
 .venv/bin/redline check tests/fixtures/briefs/mata.txt     # exits 1 if anything is fabricated
 .venv/bin/redline check - < my-brief.txt --json
-make test                                                 # 51 tests against the committed store
+make test                                                 # 59 tests against the committed store
 make bench                                                # every benchmark -> docs/BENCHMARK.md
 ```
 
-As MCP tools for an agent (`check_citations`, `get_case`, `search_cases`, `coverage`):
+As MCP tools for an agent (`check_citations`, `get_case`, `search_cases`, `coverage`). Open Claude
+Code in this folder and it finds them through `.mcp.json`, along with the `cite-check` skill
+(`.claude/skills/cite-check/`), which tells the agent what to do with each verdict. Elsewhere:
 
 ```bash
 claude mcp add redline -- "$PWD/.venv/bin/redline" mcp     # stdio
@@ -166,6 +176,11 @@ Full method and every number: [docs/BENCHMARK.md](docs/BENCHMARK.md), regenerate
   reversals and implicit abrogation are not modelled yet.
 - Redline checks that a citation exists and what it stands on. It does not yet check that the case
   says what the brief claims.
+
+## Declarations
+
+Relate features, third-party code and data, AI tools used, and when the work was done:
+[docs/DECLARATIONS.md](docs/DECLARATIONS.md).
 
 ## Licence
 

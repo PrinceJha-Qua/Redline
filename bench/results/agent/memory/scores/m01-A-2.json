@@ -1,0 +1,163 @@
+{
+  "task": "m01",
+  "arm": "A",
+  "rep": 2,
+  "summary": {
+    "citations": 18,
+    "verified": 16,
+    "fabricated": 0,
+    "unverifiable": 2,
+    "overruled": 0,
+    "caution": 2
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "411 U.S. 792",
+      "name": "JURY TO FIND PRETEXT. Under McDonnell Douglas Corp. v. Green",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McDonnell Douglas Corp. v. Green, 411 U.S. 792 (1973). No overruling found in Redline's data.",
+      "case": "McDonnell Douglas Corp. v. Green"
+    },
+    {
+      "text": "530 U.S. 133",
+      "name": "Reeves v. Sanderson Plumbing Prods., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133 (2000). No overruling found in Redline's data.",
+      "case": "Reeves v. Sanderson Plumbing Products, Inc."
+    },
+    {
+      "text": "509 U.S. 502",
+      "name": "St. Mary's Honor Ctr. v. Hicks",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "St. Mary's Honor Center v. Hicks, 509 U.S. 502 (1993). No overruling found in Redline's data.",
+      "case": "St. Mary's Honor Center v. Hicks"
+    },
+    {
+      "text": "530 U.S. at 147",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133 (2000). No overruling found in Redline's data.",
+      "case": "Reeves v. Sanderson Plumbing Products, Inc."
+    },
+    {
+      "text": "144 F.3d 151",
+      "name": "Hodgens v. Gen. Dynamics Corp",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Hodgens v. General Dynamics Corp., 144 F.3d 151 (1st Cir. 1998). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Hodgens v. General Dynamics Corp."
+    },
+    {
+      "text": "626 F.3d 654",
+      "name": "Gómez-González v. Rural Opportunities, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gómez-González v. Rural Opportunities, Inc., 626 F.3d 654 (1st Cir. 2010). No overruling found in Redline's data.",
+      "case": "Gómez-González v. Rural Opportunities, Inc."
+    },
+    {
+      "text": "202 F.3d 424",
+      "name": "Domínguez-Cruz v. Suttle Caribe, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Domínguez-Cruz v. Suttle Caribe, Inc., 202 F.3d 424 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Domínguez-Cruz v. Suttle Caribe, Inc."
+    },
+    {
+      "text": "183 F.3d 38",
+      "name": "Thomas v. Eastman Kodak Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Thomas v. Eastman Kodak Co., 183 F.3d 38 (1st Cir. 1999). No overruling found in Redline's data.",
+      "case": "Thomas v. Eastman Kodak Co."
+    },
+    {
+      "text": "217 F.3d 46",
+      "name": "Santiago-Ramos v. Centennial P.R. Wireless Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Santiago-Ramos v. Centennial P.R. Wireless Corp., 217 F.3d 46 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Santiago-Ramos v. Centennial P.R. Wireless Corp."
+    },
+    {
+      "text": "950 F.2d 816",
+      "name": "Mesnick v. Gen. Elec. Co",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "F.2d is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    },
+    {
+      "text": "626 F.3d at 662",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gómez-González v. Rural Opportunities, Inc., 626 F.3d 654 (1st Cir. 2010). No overruling found in Redline's data.",
+      "case": "Gómez-González v. Rural Opportunities, Inc."
+    },
+    {
+      "text": "202 F.3d at 432",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Domínguez-Cruz v. Suttle Caribe, Inc., 202 F.3d 424 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Domínguez-Cruz v. Suttle Caribe, Inc."
+    },
+    {
+      "text": "183 F.3d at 61",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Thomas v. Eastman Kodak Co., 183 F.3d 38 (1st Cir. 1999). No overruling found in Redline's data.",
+      "case": "Thomas v. Eastman Kodak Co."
+    },
+    {
+      "text": "342 F.3d 31",
+      "name": "Che v. Mass. Bay Transp. Auth",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Che v. Massachusetts Bay Transportation Authority, 342 F.3d 31 (1st Cir. 2003). No overruling found in Redline's data.",
+      "case": "Che v. Massachusetts Bay Transportation Authority"
+    },
+    {
+      "text": "144 F.3d at 167",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Hodgens v. General Dynamics Corp., 144 F.3d 151 (1st Cir. 1998). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Hodgens v. General Dynamics Corp."
+    },
+    {
+      "text": "476 F.3d 6",
+      "name": "Velázquez-Fernández v. NCE Foods, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Velázquez-Fernández v. NCE Foods, Inc., 476 F.3d 6 (1st Cir. 2007). No overruling found in Redline's data.",
+      "case": "Velázquez-Fernández v. NCE Foods, Inc."
+    },
+    {
+      "text": "948 F.3d 477",
+      "name": "Theidon v. Harvard Univ",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 948 of F.3d is after volume 935 (2019), where Redline's F.3d data ends.",
+      "case": null
+    },
+    {
+      "text": "530 U.S. at 147",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133 (2000). No overruling found in Redline's data.",
+      "case": "Reeves v. Sanderson Plumbing Products, Inc."
+    }
+  ],
+  "judge": {},
+  "words": 676
+}
