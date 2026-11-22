@@ -1,0 +1,115 @@
+{
+  "task": "m19",
+  "arm": "C",
+  "rep": 1,
+  "summary": {
+    "citations": 12,
+    "verified": 12,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "556 U.S. 662",
+      "name": "Constitution.\" Ashcroft v. Iqbal",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. Iqbal, 556 U.S. 662 (2009). No overruling found in Redline's data.",
+      "case": "Ashcroft v. Iqbal"
+    },
+    {
+      "text": "118 F.3d 1416",
+      "name": "Foote v. Spiegel",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Foote v. Spiegel, 118 F.3d 1416 (10th Cir. 1997). No overruling found in Redline's data.",
+      "case": "Foote v. Spiegel"
+    },
+    {
+      "text": "80 F.3d 1433",
+      "name": "Mitchell v. Maynard",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Mitchell v. Maynard, 80 F.3d 1433 (10th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Mitchell v. Maynard"
+    },
+    {
+      "text": "614 F.3d 1185",
+      "name": "Dodds v. Richardson",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Dodds v. Richardson, 614 F.3d 1185 (10th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Dodds v. Richardson"
+    },
+    {
+      "text": "587 F.3d 1063",
+      "name": "Gallagher v. Shelton",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gallagher v. Shelton, 587 F.3d 1063 (10th Cir. 2009). No overruling found in Redline's data.",
+      "case": "Gallagher v. Shelton"
+    },
+    {
+      "text": "662 F.3d 1152",
+      "name": "Brown v. Montoya",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Brown v. Montoya, 662 F.3d 1152 (10th Cir. 2011). No overruling found in Redline's data.",
+      "case": "Brown v. Montoya"
+    },
+    {
+      "text": "614 F.3d at 1195",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Dodds v. Richardson, 614 F.3d 1185 (10th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Dodds v. Richardson"
+    },
+    {
+      "text": "519 F.3d 1242",
+      "name": "Robbins v. Oklahoma",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Robbins ex rel. Robbins v. Oklahoma ex rel. Department of Human Services, 519 F.3d 1242 (10th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Robbins ex rel. Robbins v. Oklahoma ex rel. Department of Human Services"
+    },
+    {
+      "text": "718 F.3d 1210",
+      "name": "Pahls v. Thomas",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pahls v. Thomas, 718 F.3d 1210 (10th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Pahls v. Thomas"
+    },
+    {
+      "text": "717 F.3d 760",
+      "name": "Id. Schneider v. City of Grand Junction Police Department",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Schneider v. City of Grand Junction Police Department, 717 F.3d 760 (10th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Schneider v. City of Grand Junction Police Department"
+    },
+    {
+      "text": "556 U.S. at 676",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. Iqbal, 556 U.S. 662 (2009). No overruling found in Redline's data.",
+      "case": "Ashcroft v. Iqbal"
+    },
+    {
+      "text": "118 F.3d at 1423",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Foote v. Spiegel, 118 F.3d 1416 (10th Cir. 1997). No overruling found in Redline's data.",
+      "case": "Foote v. Spiegel"
+    }
+  ],
+  "judge": {},
+  "words": 675
+}

@@ -1,0 +1,92 @@
+{
+  "task": "m21",
+  "arm": "B",
+  "rep": 3,
+  "summary": {
+    "citations": 7,
+    "verified": 6,
+    "fabricated": 1,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 1
+  },
+  "fabricated": [
+    {
+      "text": "863 F.3d 1255",
+      "name": "Campbell v. Air Jamaica Ltd",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 1255 of 863 F.3d is inside United States v. Pickel, 863 F.3d 1240 (10th Cir. 2017), which runs from page 1240 to 1261. No case matching \"Campbell v. Air Jamaica Ltd\" is in volume 863.",
+      "case": null,
+      "audit": {
+        "kind": "real case, wrong citation",
+        "real": "Campbell v. Air Jamaica Ltd., 760 F.3d 1165 (11th Cir. 2014)"
+      }
+    }
+  ],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "177 F.3d 1269",
+      "name": "Sandvik v. United States",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Sandvik v. United States, 177 F.3d 1269 (11th Cir. 1999). No overruling found in Redline's data.",
+      "case": "Sandvik v. United States"
+    },
+    {
+      "text": "6 F.3d 1474",
+      "name": "Justice v. United States",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Justice v. United States, 6 F.3d 1474 (11th Cir. 1993). No overruling found in Redline's data.",
+      "case": "Justice v. United States"
+    },
+    {
+      "text": "434 F.3d 1254",
+      "name": "Arce v. Garcia",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Arce v. Garcia, 434 F.3d 1254 (11th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Arce v. Garcia"
+    },
+    {
+      "text": "219 F.3d 1298",
+      "name": "Steed v. Head",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Steed v. Head, 219 F.3d 1298 (11th Cir. 2000). No overruling found in Redline's data.",
+      "case": "Steed v. Head"
+    },
+    {
+      "text": "377 F.3d 1173",
+      "name": "Cadet v. Bulger",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Cadet v. Bulger, 377 F.3d 1173 (11th Cir. 2004). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "case": "Cadet v. Bulger"
+    },
+    {
+      "text": "863 F.3d 1255",
+      "name": "Campbell v. Air Jamaica Ltd",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 1255 of 863 F.3d is inside United States v. Pickel, 863 F.3d 1240 (10th Cir. 2017), which runs from page 1240 to 1261. No case matching \"Campbell v. Air Jamaica Ltd\" is in volume 863.",
+      "case": null,
+      "audit": {
+        "kind": "real case, wrong citation",
+        "real": "Campbell v. Air Jamaica Ltd., 760 F.3d 1165 (11th Cir. 2014)"
+      }
+    },
+    {
+      "text": "747 F.3d 1125",
+      "name": "Narayanan v. British Airways",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Narayanan ex rel. Narayanan v. British Airways, 747 F.3d 1125 (9th Cir. 2014). No overruling found in Redline's data.",
+      "case": "Narayanan ex rel. Narayanan v. British Airways"
+    }
+  ],
+  "judge": {},
+  "words": 855
+}

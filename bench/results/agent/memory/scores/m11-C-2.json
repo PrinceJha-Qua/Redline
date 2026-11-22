@@ -1,0 +1,107 @@
+{
+  "task": "m11",
+  "arm": "C",
+  "rep": 2,
+  "summary": {
+    "citations": 11,
+    "verified": 10,
+    "fabricated": 0,
+    "unverifiable": 1,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "555 U.S. 223",
+      "name": "Pearson v. Callahan",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "563 U.S. 731",
+      "name": "Ashcroft v. al-Kidd",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. al-Kidd, 563 U.S. 731 (2011). No overruling found in Redline's data.",
+      "case": "Ashcroft v. al-Kidd"
+    },
+    {
+      "text": "490 U.S. 386",
+      "name": "Graham v. Connor",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Graham v. Connor, 490 U.S. 386 (1989). No overruling found in Redline's data.",
+      "case": "Graham v. Connor"
+    },
+    {
+      "text": "854 F.3d 361",
+      "name": "Thomas v. City of Columbus",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Thomas v. City of Columbus, 854 F.3d 361 (6th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Thomas v. City of Columbus"
+    },
+    {
+      "text": "490 U.S. at 396",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Graham v. Connor, 490 U.S. 386 (1989). No overruling found in Redline's data.",
+      "case": "Graham v. Connor"
+    },
+    {
+      "text": "695 F.3d 505",
+      "name": "Hagans v. Franklin Cnty. Sheriff's Office",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Hagans v. Franklin County Sheriff's Office, 695 F.3d 505 (6th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Hagans v. Franklin County Sheriff's Office"
+    },
+    {
+      "text": "791 F.3d 638",
+      "name": "Rudlaff v. Gillispie",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rudlaff v. Gillispie, 791 F.3d 638 (6th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Rudlaff v. Gillispie"
+    },
+    {
+      "text": "781 F.3d 314",
+      "name": "Goodwin ex rel. Nall v. City of Painesville",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Goodwin ex rel. Nall v. City of Painesville, 781 F.3d 314 (6th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Goodwin ex rel. Nall v. City of Painesville"
+    },
+    {
+      "text": "870 F.3d 471",
+      "name": "Roell v. Hamilton County",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Roell v. Hamilton County, 870 F.3d 471 (6th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Roell v. Hamilton County"
+    },
+    {
+      "text": "690 F.3d 490",
+      "name": "Austin v. Redford Township Police Department",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Austin v. Redford Town Police Department, 690 F.3d 490 (6th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Austin v. Redford Town Police Department"
+    },
+    {
+      "text": "577 U.S. 7",
+      "name": "Mullenix v. Luna",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 577 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    }
+  ],
+  "judge": {},
+  "words": 650
+}

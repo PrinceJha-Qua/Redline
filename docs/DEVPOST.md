@@ -1,113 +1,118 @@
-# Redline: Devpost submission text
+# Redline: Devpost submission
 
-<!-- Paste each section into the matching Devpost field. Numbers marked TODO are filled from
-     bench/results/agent/memory/summary.json once the experiment run completes. -->
+Each section below matches a field on the Devpost form.
 
-**Tagline:** Catch fabricated and overruled case citations before you file. A citation graph of
-170,651 US cases in Relate, running on your laptop.
+---
 
-## Inspiration
+## Elevator pitch
 
-In *Mata v. Avianca* (S.D.N.Y. 2023), lawyers filed a brief citing *Varghese v. China Southern
-Airlines, 925 F.3d 1339*. The case does not exist, and the lawyers were sanctioned. It was the first
-well-known case, not the last: by June 2026 US courts had dealt with 1,058 cases involving
-AI-hallucinated content (UNC Law Library, from Damien Charlotin's database).
+Redline catches fabricated and overruled case citations before you file, checking every citation in a brief against a Relate graph of 170,651 US cases, entirely on your machine.
 
-A citation is a pointer to a page in a printed book. If you know which case owns every page of every
-volume, a fake citation is not a matter of opinion: it points at someone else's case. That is a graph
-question, so we built a graph.
+---
 
-A real citation can be wrong too. *Chevron* was overruled in 2024, and thousands of appeals decisions
-still stand on it. A citator should say so.
+## Project story
 
-## What it does
+### Inspiration
 
-Paste a brief. Every citation gets one of three verdicts:
+In *Mata v. Avianca* (S.D.N.Y. 2023), two lawyers filed a brief citing *Varghese v. China Southern Airlines*, 925 F.3d 1339. The case does not exist; an AI tool had invented it, and the court sanctioned the lawyers. *Mata* was the first well-known case, not the last. By June 2026, US courts had dealt with 1,058 cases involving AI-hallucinated content.
 
-- **Fabricated**: the citation cannot be right. *"Page 1339 of 925 F.3d is inside J.D. v. Azar,
-  925 F.3d 1291 (D.C. Cir. 2019), which runs from page 1291 to 1349. No case named Varghese is in
-  volume 925."*
-- **Verified**, with a status: **good law**, **overruled**, or **caution**, meaning the case relies on
-  a case that was later overruled. Redline shows the chain and the court's own words.
-- **Unverifiable**: outside Redline's data. Never called fake.
+What struck us is that a fake citation is not a matter of opinion. A citation is a pointer to a page in a printed book. If you know which case occupies every page of every volume, you can prove that a citation points at someone else's case. That is a graph problem, so we built a graph.
 
-Every verdict is a Cypher query, and the UI shows it. No language model decides a verdict.
+A real citation can also mislead. *Chevron* was overruled in 2024, yet thousands of appellate decisions still rest on it. A brief that relies on them is relying on law that no longer exists. We wanted a tool that catches both problems and shows its evidence for every verdict.
 
-It works as a web app, a command line tool (`redline check brief.txt` exits 1 on a fake), an HTTP
-API, and MCP tools, so an AI drafting agent can check its own citations before it writes them.
-Claude Code picks the tools up from the repo's `.mcp.json`, with a `cite-check` skill.
+### What it does
 
-## How it uses Relate
+Paste a brief, and Redline gives every citation one of three verdicts:
 
-- **One directory store, committed to the repo** (51.6 MB of Parquet): 170,651 cases, 983,247
-  citations, 144 overrulings, every volume's page map. No download, no server.
-- **Read-only, in-process.** A law firm cannot paste a client's draft into a cloud service. Tests check
-  that the store's files are byte-identical after every test brief.
-- **The graph:** `Reporter → Volume → Case` page ranges prove fakes; `Case -[:CITES]-> Case
-  <-[:OVERRULES]- Case` finds what a real citation stands on; parallel citations resolve
-  `93 S.Ct. 705` to its U.S. Reports page; a full-text index finds cases by name.
-- **Authority:** HITS authority scores over the citation graph (Fowler and Jeon's measure for Supreme
-  Court precedent) on every case.
-- **Speed:** a brief checks in 17–45 ms; every case resting on *Chevron* within two hops (18,224) in
-  14 ms.
+- **Fabricated.** The citation cannot be correct. For *Varghese*, Redline reports: *"Page 1339 of 925 F.3d is inside J.D. v. Azar, 925 F.3d 1291 (D.C. Cir. 2019), which runs from page 1291 to 1349. No case named Varghese is in volume 925."*
+- **Verified**, with a status: **good law**, **overruled**, or **caution**. Caution means the case relies on a decision that was later overruled; Redline shows the chain and quotes the court's own words about the case it relied on.
+- **Unverifiable.** The citation falls outside Redline's data. Redline never calls such a citation fake.
 
-## Does it work?
+Every verdict comes from a graph query, and the interface shows the Cypher behind it. No language model decides a verdict.
 
-All numbers are in `docs/BENCHMARK.md`, regenerated by `make bench`, with first-run errors published
-next to current ones.
+Redline runs as a web app, a command-line tool (`redline check brief.txt` exits with an error if anything is fabricated), an HTTP API, and a set of MCP tools, so an AI drafting agent can check its own citations before it commits to them. Claude Code picks the tools up automatically from the repository's `.mcp.json`, together with a `cite-check` skill that tells the agent how to act on each verdict.
 
-- **It rarely cries wolf.** On a fresh sample of 495 published opinions it had never seen, its first
-  run called 9 of 31,877 real citations fake (0.028%). Those led to fixes; on both samples (60,431 real
-  citations) it now calls none fake. Every remaining flag is a real error in the digitized text.
-- **An outside benchmark.** On LePhantomCite (Princeton, 2026), it caught every citation to a reporter
-  series that never existed and every non-existent citation within its coverage (104 of 104 held
-  out), with no unexplained false alarms.
-- **Real sanctions cases.** Of 86 citations US courts found fabricated that fall within its data, it
-  proves 47 fake from page evidence alone.
-- **Does it change what a model files?** We gave Claude Sonnet 5.5 24 drafting tasks asking for
-  circuit authority from memory, the situation in *Mata*, three times each, in three arms. Briefs with
-  a citation Redline proves wrong: TODO of TODO with no help; TODO of TODO with a "verify your
-  citations, courts sanction fake cites" warning; **TODO of TODO with Redline over MCP**. Every flag
-  was audited: TODO were real cases cited at the wrong page.
-- **An honest null result.** We first copied a rival design: stale research packets on famous
-  overruled doctrines (*Chevron*, *Saucier*, *Abood*…). Sonnet already knows those overrulings and
-  relied on none of them in any arm. We report that too.
+### How we built it
 
-## Challenges we ran into
+**The graph.** We built the store from the Caselaw Access Project (Harvard Law School Library): every *United States Reports* case to 2014 and every *Federal Reporter, Third Series* case from 1990 to 2019. Overrulings come from the Library of Congress list as published on Wikipedia.
 
-- **The Harvard page maps are imperfect.** Some volumes miss cases or have shifted page numbers.
-  Redline audits its own data against how courts cite it: 4,056 pages that courts cite as the start of
-  a case have no case in the data. Redline protects those pages and never uses suspect volumes as
-  proof.
-- **Precision over recall.** A wrong "fabricated" is worse than a missed one, so a short name it cannot
-  match, an "In re" caption or a page past the last opinion comes back unverifiable, not fake.
-- **"Caution" was too loud at first.** *United States v. Lopez* (Commerce Clause) cites *Casey* once
-  and came back yellow. Caution now requires reliance (more than one citation, or a parenthetical
-  saying what for); a passing mention is shown but not flagged. 9,194 appeals cases cite an overruled
-  case; 5,342 rely on one.
-- **Relate connections are thread-affine**, so the web and MCP servers hand every query to one worker
-  thread that owns the connection.
+```
+(:Reporter)-[:HAS_VOLUME]->(:Volume)-[:CONTAINS]->(:Case {first_page, last_page})
+(:Case)-[:CITES {weight, parenthetical}]->(:Case)       983,247 citations
+(:Case)-[:OVERRULES {partial}]->(:Case)                 144 overrulings
+(:Citation {text: "93 S.Ct. 705"})-[:CITATION_OF]->(:Case)
+```
 
-## Accomplishments that we're proud of
+Two relationships do the work. **Volume → case page ranges** prove a fabrication: the graph knows which case owns each page. **Case → cites → case ← overrules ← case** reveals what a real citation stands on.
 
-Zero false alarms on 60,431 real citations; every verdict explainable as one Cypher query; the whole
-graph in the repo; an agent experiment with its null result published alongside.
+**Relate.** The store is a Relate directory of Parquet files (51.6 MB), committed to the repository and opened read-only, in process. Redline uses constraints, a property index, a full-text index for case names, and Cypher throughout, from `UNWIND` bulk loading to multi-hop traversals. Relate connections are bound to the thread that opened them, so the web server and the MCP server route every query through one worker thread that owns the connection. Checking a brief takes 17–45 ms, and finding every case within two citation hops of *Chevron* (18,224 cases) takes 14 ms.
 
-## What we learned
+**Authority.** Every case carries a HITS authority score computed over the citation graph, the measure Fowler and Jeon applied to Supreme Court precedent:
 
-A citation is a pointer, and pointers are a graph problem. Measuring yourself honestly, first runs
-included, is what makes a "zero" believable.
+$$a(v) = \sum_{u \to v} h(u), \qquad h(u) = \sum_{u \to v} a(v)$$
 
-## What's next
+**Stack.** Python, eyecite for finding citations in text, FastAPI for the web app and API, and the MCP Python SDK. Claude Code wrote much of the code, under our direction and review.
 
-- Negative treatment from opinion text ("abrogated by", "overruled in part"), measured against the
-  CaseHOLD Overruling task, to go beyond the 144 Supreme Court overrulings.
-- A no-install browser demo with Relate compiled to WebAssembly.
-- A "what if" check in a Relate transaction: overrule a case hypothetically and see which briefs in a
-  matter break, then roll back.
-- F.4th, F. Supp. and state reporters.
+### Does it work?
+
+Every number below is regenerated by `make bench`, and we publish first-run errors alongside current results.
+
+- **It rarely cries wolf.** On a fresh sample of 495 published opinions that it had never seen, Redline's first run called \\( 9 \\) of \\( 31{,}877 \\) real citations fabricated (0.028%). Each of those errors led to a fix. Across both samples, 60,431 real citations, it now calls none of them fake; every remaining flag points at a genuine error in the digitized text.
+- **It holds up on an outside benchmark.** On LePhantomCite (Princeton, 2026), Redline caught every citation to a reporter series that was never published (129 of 129) and every non-existent citation within its coverage (104 of 104 on the held-out split), with no unexplained false alarms.
+- **It works on real sanctions cases.** Of 86 citations that US courts found fabricated and that fall within Redline's data, it proves 47 fake from page evidence alone.
+- **It helps an AI drafter, and a warning alone does not.** We gave Claude Sonnet 24 drafting tasks that ask for circuit authority from memory, the situation in *Mata*, three times each under three conditions (216 briefs, 3,491 citations). Briefs containing a citation Redline proves wrong: 4 of 72 with no help, 5 of 72 with an explicit warning to verify every citation, and 2 of 72 with Redline available over MCP. With Redline, no invented case and no real case at the wrong volume survived; the two remaining errors were pin cites a few pages past the end of a real case. The sample is small and the difference is not statistically significant, so we present it as a direction, not a proof.
+- **Models do not know what has been overruled.** Asked without tools, Claude Sonnet said 26 of the 142 overruled Supreme Court decisions in our graph were still good law. Those decisions are cited by 1,137 federal appellate opinions. Some misses are arguable (*Teague v. Lane* was overruled only in part), and every answer is published.
+- **We report what did not work.** We first tested famous overruled doctrines (*Chevron*, *Saucier*, *Abood*) with research packets full of stale law. The model already knew those overrulings and relied on none of them in any condition, so that design could not show a difference. We published it as a null result.
+
+### Challenges we ran into
+
+- **The source data is imperfect.** Some volumes in the Harvard data are missing cases, and a few have shifted page numbers. Redline audits its own data against how courts actually cite it: 4,056 pages that courts cite as the start of a case have no case in the data. Redline protects those pages and refuses to use suspect volumes as proof.
+- **Precision matters more than recall.** A wrong "fabricated" verdict is worse than a missed one. A short name Redline cannot match, an "In re" caption, or a page after a volume's last opinion therefore comes back unverifiable, not fake.
+- **"Caution" was too loud at first.** *United States v. Lopez*, a Commerce Clause case, cites *Planned Parenthood v. Casey* once and was flagged yellow. Caution now requires genuine reliance: more than one citation, or a parenthetical that explains the citation. A passing mention is shown but not flagged. Of 141,484 appellate cases, 9,194 cite a later-overruled Supreme Court case, and 5,342 rely on one, 2,616 of them on *Chevron*.
+- **Measuring an agent honestly is hard.** Our first experiment design produced no signal, and our first audit of the flagged citations missed a real case filed under an abbreviated name. Both lessons are recorded in the benchmark report.
+
+### Accomplishments that we're proud of
+
+- Zero false fabrication verdicts across 60,431 real citations, with the first-run errors published.
+- Every verdict is explainable as a single Cypher query that anyone can rerun against the committed store.
+- The entire graph lives in the repository: clone it, and it runs with no download, server, or API key.
+
+### What we learned
+
+A citation is a pointer, and pointers belong in a graph. Once case law is modeled as volumes, pages, and citations, questions that sound like legal judgment ("does this case exist?", "is it still good law?") become traversals. We also learned that a claim of zero false alarms is only credible when the misses, the first runs, and the null results are published next to it.
+
+### What's next
+
+- Read negative treatment directly from opinion text ("abrogated by", "overruled in part") and measure it against the CaseHOLD Overruling task, extending coverage beyond 144 Supreme Court overrulings.
+- A no-install browser version, with Relate compiled to WebAssembly.
+- A "what if" check inside a Relate transaction: overrule a case hypothetically, see which briefs in a matter break, then roll back.
+- Coverage of F.4th, F. Supp., and state reporters.
+
+---
 
 ## Built with
 
-relate, cypher, python, fastapi, model-context-protocol, eyecite, caselaw-access-project,
-claude-code, javascript
+relate, neo4j, cypher, python, fastapi, uvicorn, model-context-protocol, eyecite, reporters-db, caselaw-access-project, parquet, claude-code, claude, javascript, html, css, pytest, uv, github-actions
+
+---
+
+## Which Relate mode does your project use?
+
+Directory
+
+## Path to the persistent store in your repo
+
+`data/redline-us/`
+
+## Why did you choose this mode?
+
+The directory store is 51.6 MB of Parquet files, none larger than 50 MB, so the whole graph can be committed and judges can clone and inspect it without a download; the same graph as a single `.rl` file measured about eight times larger. Redline opens it read-only and in process, so a firm's draft briefs never leave the machine.
+
+---
+
+## Before you submit
+
+- [ ] Add the GitHub topics `relate` (required) and `relate-neo4j-hackathon` to the repository.
+- [ ] Make the repository public.
+- [ ] Record the 1–2 minute demo video.
+- [ ] Confirm the dates in `docs/DECLARATIONS.md` against the hackathon window.

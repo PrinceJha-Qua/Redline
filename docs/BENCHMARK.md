@@ -105,29 +105,39 @@ Each fix came from reading a false alarm:
 
 | Arm | Briefs | Briefs with a citation Redline proves wrong | Wrong citations | Citations | Unverifiable | Cost |
 |---|---:|---:|---:|---:|---:|---:|
-| A: Task only | 34 | **3** (8.8%) | 5 | 572 | 41 | $1.84 |
-| B: + "verify your citations" warning | 33 | **4** (12.1%) | 4 | 487 | 31 | $1.62 |
-| C: + warning + Redline over MCP | 31 | **0** (0.0%) | 0 | 495 | 9 | $2.69 |
+| A: Task only | 72 | **4** (5.6%) | 6 | 1,219 | 66 | $3.73 |
+| B: + "verify your citations" warning | 72 | **5** (6.9%) | 5 | 1,125 | 55 | $3.35 |
+| C: + warning + Redline over MCP | 72 | **2** (2.8%) | 2 | 1,147 | 15 | $5.83 |
 
-- Sign test A vs C, per task: 1 tasks worse in A, 0 worse in C, 10 ties; two-sided p = 1.0.
-- Sign test B vs C, per task: 2 tasks worse in B, 0 worse in C, 9 ties; two-sided p = 0.5.
-- Every one of the 9 flagged citations was looked up by name in the store: 0 are real cases cited at the wrong place, 9 name no case in Redline's data.
+- Sign test A vs C, per task: 2 tasks worse in A, 1 worse in C, 21 ties; two-sided p = 1.0.
+- Sign test B vs C, per task: 3 tasks worse in B, 1 worse in C, 20 ties; two-sided p = 0.625.
+- Every one of the 13 flagged citations was looked up by name in the store: 4 are real cases cited at the wrong place (or with a pin cite past the case's last page), 4 name no case in Redline's data, and 5 have names too generic to look up ("Metro. Prop. & Cas. Ins. Co.").
 
 | Arm | Task | Cited | Redline's evidence | The real case |
 |---|---|---|---|---|
 | A | m02 | `430 F.3d 439` Ruggerio Ambulance Serv., Inc. v. Nat'l Grange Ins. Co | Page 439 of 430 F.3d is inside Goodman v. Illinois Department of Financial & Professional Regulation, 430 F.3d 432 (7th Cir. 2005), which runs from page 432 to  | — |
 | A | m02 | `460 F.3d 51` Metro. Prop. & Cas. Ins. Co. v. Morrison | Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Je | — |
-| A | m02 | `477 F.3d 6` Mount Vernon Fire Ins. Co. v. Visionaid, Inc | Page 6 of 477 F.3d is inside DCC Operating, Inc. v. Siaca, 477 F.3d 1 (1st Cir. 2007), which runs from page 1 to 17. Mount Royal Joint Venture v. Kempthorne is  | — |
+| A | m02 | `477 F.3d 6` Mount Vernon Fire Ins. Co. v. Visionaid, Inc | Page 6 of 477 F.3d is inside DCC Operating, Inc. v. Siaca, 477 F.3d 1 (1st Cir. 2007), which runs from page 1 to 17. Mount Royal Joint Venture v. Kempthorne is  | Mount Vernon Fire Insurance v. VisionAid, Inc., 825 F.3d 67 (1st Cir. 2016); Mount Vernon Fire Insurance Co. v. Visionaid, Inc., 875 F.3d 716 (1st Cir. 2017) |
 | A | m02 | `460 F.3d 52` Metro. Prop. & Cas. Ins. Co. v. Morrison | Page 52 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Je | — |
 | A | m02 | `564 F.3d 1` Peerless Ins. Co. v. Brennon | 564 F.3d 1 is In re Sony BMG Music Entertainment, 564 F.3d 1 (1st Cir. 2009), not the case named in the brief ("Peerless Ins. Co. v. Brennon"). | — |
 | B | m02 | `460 F.3d 51` Metro. Prop. & Cas. Ins. Co. v. Morrison | Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Je | — |
 | B | m02 | `460 F.3d 51` Metro. Prop. & Cas. Ins. Co. v. Morrison | Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Je | — |
 | B | m02 | `460 F.3d 51` Metro. Prop. & Cas. Ins. Co. v. Morrison | Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Je | — |
 | B | m08 | `817 F.3d 743` Fraser v. Merrill Lynch, Pierce, Fenner & Smith, Inc | Page 743 of 817 F.3d is inside Justice v. United States, Treasury Department, 817 F.3d 738 (11th Cir. 2016), which runs from page 738 to 747. No case named Fras | — |
+| A | m16 | `882 F.3d 1118` Flake v. Medline Industries, Inc | Page 1118 of 882 F.3d is inside In re Hodges, 882 F.3d 1107 (Fed. Cir. 2018), which runs from page 1107 to 1121. No case named Flake is in volume 882. | — |
+| C | m18 | `481 F.3d at 719`  | Page 719 of 481 F.3d is inside Beecher v. Commissioner, 481 F.3d 717 (9th Cir. 2007), which runs from page 717 to 724. Summers v. Schriro is 481 F.3d 710. | Schriro is 481 F.3d 710 |
+| C | m18 | `481 F.3d at 718`  | Page 718 of 481 F.3d is inside Beecher v. Commissioner, 481 F.3d 717 (9th Cir. 2007), which runs from page 717 to 724. Summers v. Schriro is 481 F.3d 710. | Schriro is 481 F.3d 710 |
+| B | m21 | `863 F.3d 1255` Campbell v. Air Jamaica Ltd | Page 1255 of 863 F.3d is inside United States v. Pickel, 863 F.3d 1240 (10th Cir. 2017), which runs from page 1240 to 1261. No case matching "Campbell v. Air Ja | Campbell v. Air Jamaica Ltd., 760 F.3d 1165 (11th Cir. 2014) |
 
 Caveats: one model; tasks were written by us; the outcome counts only errors Redline can prove (U.S. Reports and F.3d), so arm C is scored by the tool it used. The flagged citations are listed above so anyone can check them by hand.
 
-**A null result.** A pilot copied another entry's design: drafting in eight famous overruled doctrines (*Chevron*, *Saucier*, *Abood*…) with a research packet of the overruled case and F.3d opinions leaning on it. A blinded judge found the brief relying on the overruled rule in 0 of 9 runs, in every arm: the model already knows these overrulings. That design cannot show a difference, so it was not scaled up.
+**A null result.** A pilot copied the design of [Precedent](https://github.com/ZNLong2203/precedent), another entry: drafting in eight famous overruled doctrines (*Chevron*, *Saucier*, *Abood*…) with a research packet of the overruled case and F.3d opinions leaning on it. A blinded judge found the brief relying on the overruled rule in 0 of 9 runs, in every arm: the model already knows these overrulings. That design cannot show a difference, so it was not scaled up.
+
+**What the model knows without tools.** Asked whether each of the 142 overruled Supreme Court cases in the store has been overruled, it said no for 26; those are cited by 1,137 F.3d cases. Of 60 frequently cited cases no overruling names, it called 1 overruled. Details: `bench/results/agent/knowledge.json`.
+
+Most cited among the misses: *Teague v. Lane* (1,011 F.3d cases; overruled by *Edwards v. Vannoy*); *Humphrey's Executor v. United States* (42 F.3d cases; overruled by *Trump v. Slaughter*); *Sapir v. United States* (14 F.3d cases; overruled by *Burks v. United States*); *Presser v. Illinois* (12 F.3d cases; overruled by *McDonald v. City of Chicago*); *Forman v. United States* (11 F.3d cases; overruled by *Burks v. United States*).
+
+Some misses are arguable: *Edwards v. Vannoy* ended *Teague v. Lane*'s watershed exception, not the whole decision, and the one control the model called overruled, *Conley v. Gibson*, had its pleading standard retired by *Twombly*, which the overruling list does not record. The answers are committed so the reader can judge each one.
 
 ## Adjudicated errors in the sources
 

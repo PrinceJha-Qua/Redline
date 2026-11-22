@@ -1,0 +1,187 @@
+{
+  "task": "m20",
+  "arm": "A",
+  "rep": 1,
+  "summary": {
+    "citations": 21,
+    "verified": 17,
+    "fabricated": 0,
+    "unverifiable": 4,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "392 U.S. 1",
+      "name": "Terry v. Ohio",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Terry v. Ohio, 392 U.S. 1 (1968). No overruling found in Redline's data. It mentions Aguilar v. Texas once in passing (later overruled by Illinois v. Gates, 1983); a single mention is not counted as reliance.",
+      "case": "Terry v. Ohio"
+    },
+    {
+      "text": "365 F.3d 892",
+      "name": "United States v. Valenzuela",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Valenzuela, 365 F.3d 892 (10th Cir. 2004). No overruling found in Redline's data.",
+      "case": "United States v. Valenzuela"
+    },
+    {
+      "text": "135 F.3d 1345",
+      "name": "United States v. Hunnicutt",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hunnicutt, 135 F.3d 1345 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Hunnicutt"
+    },
+    {
+      "text": "575 U.S. 348",
+      "name": "Rodriguez v. United States",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 575 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "543 U.S. 405",
+      "name": "Illinois v. Caballes",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Illinois v. Caballes, 543 U.S. 405 (2005). No overruling found in Redline's data.",
+      "case": "Illinois v. Caballes"
+    },
+    {
+      "text": "575 U.S. at 355",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 575 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "403 F.3d 1120",
+      "name": "United States v. Santos",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Santos, 403 F.3d 1120 (10th Cir. 2005). No overruling found in Redline's data.",
+      "case": "United States v. Santos"
+    },
+    {
+      "text": "219 F.3d 1171",
+      "name": "United States v. West",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. West, 219 F.3d 1171 (10th Cir. 2000). No overruling found in Redline's data.",
+      "case": "United States v. West"
+    },
+    {
+      "text": "135 F.3d at 1349",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hunnicutt, 135 F.3d 1345 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Hunnicutt"
+    },
+    {
+      "text": "365 F.3d at 896",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Valenzuela, 365 F.3d 892 (10th Cir. 2004). No overruling found in Redline's data.",
+      "case": "United States v. Valenzuela"
+    },
+    {
+      "text": "965 F.3d 827",
+      "name": "Rodriguez. In United States v. Cortez",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 965 of F.3d is after volume 935 (2019), where Redline's F.3d data ends.",
+      "case": null
+    },
+    {
+      "text": "785 F.3d 1374",
+      "name": "United States v. Pettit",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Pettit, 785 F.3d 1374 (10th Cir. 2015). No overruling found in Redline's data.",
+      "case": "United States v. Pettit"
+    },
+    {
+      "text": "441 F.3d 1252",
+      "name": "United States v. Alcaraz-Arellano",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Alcaraz-Arellano, 441 F.3d 1252 (10th Cir. 2006). No overruling found in Redline's data.",
+      "case": "United States v. Alcaraz-Arellano"
+    },
+    {
+      "text": "392 U.S. at 27",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Terry v. Ohio, 392 U.S. 1 (1968). No overruling found in Redline's data. It mentions Aguilar v. Texas once in passing (later overruled by Illinois v. Gates, 1983); a single mention is not counted as reliance.",
+      "case": "Terry v. Ohio"
+    },
+    {
+      "text": "219 F.3d at 1178",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. West, 219 F.3d 1171 (10th Cir. 2000). No overruling found in Redline's data.",
+      "case": "United States v. West"
+    },
+    {
+      "text": "135 F.3d at 1350",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hunnicutt, 135 F.3d 1345 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Hunnicutt"
+    },
+    {
+      "text": "365 F.3d at 897",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Valenzuela, 365 F.3d 892 (10th Cir. 2004). No overruling found in Redline's data.",
+      "case": "United States v. Valenzuela"
+    },
+    {
+      "text": "403 F.3d at 1125",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Santos, 403 F.3d 1120 (10th Cir. 2005). No overruling found in Redline's data.",
+      "case": "United States v. Santos"
+    },
+    {
+      "text": "575 U.S. at 355",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 575 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "219 F.3d at 1178",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. West, 219 F.3d 1171 (10th Cir. 2000). No overruling found in Redline's data.",
+      "case": "United States v. West"
+    },
+    {
+      "text": "135 F.3d at 1350",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hunnicutt, 135 F.3d 1345 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Hunnicutt"
+    }
+  ],
+  "judge": {},
+  "words": 776
+}

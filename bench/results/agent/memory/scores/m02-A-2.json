@@ -19,8 +19,8 @@
       "reason": "Page 6 of 477 F.3d is inside DCC Operating, Inc. v. Siaca, 477 F.3d 1 (1st Cir. 2007), which runs from page 1 to 17. Mount Royal Joint Venture v. Kempthorne is 477 F.3d 745.",
       "case": null,
       "audit": {
-        "kind": "no such case in Redline's data",
-        "real": null
+        "kind": "real case, wrong citation",
+        "real": "Mount Vernon Fire Insurance v. VisionAid, Inc., 825 F.3d 67 (1st Cir. 2016); Mount Vernon Fire Insurance Co. v. Visionaid, Inc., 875 F.3d 716 (1st Cir. 2017)"
       }
     },
     {
@@ -31,7 +31,7 @@
       "reason": "Page 52 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
       "case": null,
       "audit": {
-        "kind": "no such case in Redline's data",
+        "kind": "name too generic to look up",
         "real": null
       }
     }
@@ -86,8 +86,8 @@
       "reason": "Page 6 of 477 F.3d is inside DCC Operating, Inc. v. Siaca, 477 F.3d 1 (1st Cir. 2007), which runs from page 1 to 17. Mount Royal Joint Venture v. Kempthorne is 477 F.3d 745.",
       "case": null,
       "audit": {
-        "kind": "no such case in Redline's data",
-        "real": null
+        "kind": "real case, wrong citation",
+        "real": "Mount Vernon Fire Insurance v. VisionAid, Inc., 825 F.3d 67 (1st Cir. 2016); Mount Vernon Fire Insurance Co. v. Visionaid, Inc., 875 F.3d 716 (1st Cir. 2017)"
       }
     },
     {
@@ -98,7 +98,7 @@
       "reason": "Page 52 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
       "case": null,
       "audit": {
-        "kind": "no such case in Redline's data",
+        "kind": "name too generic to look up",
         "real": null
       }
     },

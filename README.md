@@ -158,6 +158,11 @@ Full method and every number: [docs/BENCHMARK.md](docs/BENCHMARK.md), regenerate
   found 10 real typos in the original briefs that the dataset does not label.
 - **It works on real sanctions cases.** Of 86 citations that US courts found fabricated and that fall
   within Redline's data, it proves 47 fake from page evidence alone.
+- **It helps an AI drafter.** Asked to cite circuit authority from memory, Claude Sonnet filed a
+  provably wrong citation in 4 of 72 briefs with no help and 5 of 72 when told to verify its
+  citations, against 2 of 72 with Redline over MCP; both remaining errors were pin cites past the end of
+  a real case. A small sample, not statistically significant. Without tools, the same model said 26 of
+  142 overruled Supreme Court decisions were still good law.
 - **It knows its limits.** Agents catch more (GPT-5 found every injected wrong name), but flag 11–25% of
   correct citations. Redline is meant to sit underneath an agent as a tool, not replace it.
 - **It audits its own data.** Courts cite 4,056 pages as the start of a case where the Harvard data has

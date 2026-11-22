@@ -1,0 +1,187 @@
+{
+  "task": "m18",
+  "arm": "C",
+  "rep": 2,
+  "summary": {
+    "citations": 21,
+    "verified": 21,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 1
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "466 U.S. 668",
+      "name": "Strickland v. Washington",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Strickland v. Washington, 466 U.S. 668 (1984). No overruling found in Redline's data.",
+      "case": "Strickland v. Washington"
+    },
+    {
+      "text": "466 U.S. at 691",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Strickland v. Washington, 466 U.S. 668 (1984). No overruling found in Redline's data.",
+      "case": "Strickland v. Washington"
+    },
+    {
+      "text": "539 U.S. 510",
+      "name": "Wiggins v. Smith",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wiggins v. Smith, 539 U.S. 510 (2003). No overruling found in Redline's data. It mentions Teague v. Lane once in passing (later overruled by Edwards v. Vannoy, 2021); a single mention is not counted as reliance.",
+      "case": "Wiggins v. Smith"
+    },
+    {
+      "text": "545 U.S. 374",
+      "name": "Rompilla v. Beard",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rompilla v. Beard, 545 U.S. 374 (2005). No overruling found in Redline's data.",
+      "case": "Rompilla v. Beard"
+    },
+    {
+      "text": "539 F.3d 938",
+      "name": "Correll v. Ryan",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Correll v. Ryan, 539 F.3d 938 (9th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Correll v. Ryan"
+    },
+    {
+      "text": "365 F.3d 706",
+      "name": "Stankewitz v. Woodford",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Stankewitz v. Woodford, 365 F.3d 706 (9th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Stankewitz v. Woodford"
+    },
+    {
+      "text": "316 F.3d 1079",
+      "name": "Counsel in Douglas v. Woodford",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Douglas v. Woodford, 316 F.3d 1079 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Douglas v. Woodford"
+    },
+    {
+      "text": "431 F.3d 1158",
+      "name": "Earp v. Ornoski",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Earp v. Ornoski, 431 F.3d 1158 (9th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Earp v. Ornoski"
+    },
+    {
+      "text": "490 F.3d 1103",
+      "name": "Lambright v. Schriro",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lambright v. Schriro, 490 F.3d 1103 (9th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Lambright v. Schriro"
+    },
+    {
+      "text": "539 U.S. at 521",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wiggins v. Smith, 539 U.S. 510 (2003). No overruling found in Redline's data. It mentions Teague v. Lane once in passing (later overruled by Edwards v. Vannoy, 2021); a single mention is not counted as reliance.",
+      "case": "Wiggins v. Smith"
+    },
+    {
+      "text": "290 F.3d 1006",
+      "name": "Jennings v. Woodford",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jennings v. Woodford, 290 F.3d 1006 (9th Cir. 2002). No overruling found in Redline's data.",
+      "case": "Jennings v. Woodford"
+    },
+    {
+      "text": "163 F.3d 1073",
+      "name": "Bean v. Calderon",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bean v. Calderon, 163 F.3d 1073 (9th Cir. 1998). No overruling found in Redline's data.",
+      "case": "Bean v. Calderon"
+    },
+    {
+      "text": "466 U.S. at 694",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Strickland v. Washington, 466 U.S. 668 (1984). No overruling found in Redline's data.",
+      "case": "Strickland v. Washington"
+    },
+    {
+      "text": "539 U.S. at 537",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wiggins v. Smith, 539 U.S. 510 (2003). No overruling found in Redline's data. It mentions Teague v. Lane once in passing (later overruled by Edwards v. Vannoy, 2021); a single mention is not counted as reliance.",
+      "case": "Wiggins v. Smith"
+    },
+    {
+      "text": "558 U.S. 30",
+      "name": "Porter v. McCollum",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Porter v. McCollum, 558 U.S. 30 (2009). No overruling found in Redline's data.",
+      "case": "Porter v. McCollum"
+    },
+    {
+      "text": "529 U.S. 362",
+      "name": "Williams v. Taylor",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Williams v. Taylor, 529 U.S. 362 (2000). Relies on Teague v. Lane, 489 U.S. 288, later overruled by Edwards v. Vannoy (2021).",
+      "case": "Williams v. Taylor"
+    },
+    {
+      "text": "539 F.3d at 951",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Correll v. Ryan, 539 F.3d 938 (9th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Correll v. Ryan"
+    },
+    {
+      "text": "365 F.3d at 722",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Stankewitz v. Woodford, 365 F.3d 706 (9th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Stankewitz v. Woodford"
+    },
+    {
+      "text": "316 F.3d at 1090",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Douglas v. Woodford, 316 F.3d 1079 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Douglas v. Woodford"
+    },
+    {
+      "text": "431 F.3d at 1177",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Earp v. Ornoski, 431 F.3d 1158 (9th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Earp v. Ornoski"
+    },
+    {
+      "text": "490 F.3d at 1124",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lambright v. Schriro, 490 F.3d 1103 (9th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Lambright v. Schriro"
+    }
+  ],
+  "judge": {},
+  "words": 674
+}

@@ -1,0 +1,171 @@
+{
+  "task": "m20",
+  "arm": "C",
+  "rep": 3,
+  "summary": {
+    "citations": 19,
+    "verified": 18,
+    "fabricated": 0,
+    "unverifiable": 1,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "392 U.S. 1",
+      "name": "Terry v. Ohio",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Terry v. Ohio, 392 U.S. 1 (1968). No overruling found in Redline's data. It mentions Aguilar v. Texas once in passing (later overruled by Illinois v. Gates, 1983); a single mention is not counted as reliance.",
+      "case": "Terry v. Ohio"
+    },
+    {
+      "text": "135 F.3d 1345",
+      "name": "United States v. Hunnicutt",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hunnicutt, 135 F.3d 1345 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Hunnicutt"
+    },
+    {
+      "text": "118 F.3d 1426",
+      "name": "United States v. Mendez",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Mendez, 118 F.3d 1426 (10th Cir. 1997). No overruling found in Redline's data.",
+      "case": "United States v. Mendez"
+    },
+    {
+      "text": "219 F.3d 1171",
+      "name": "United States v. West",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. West, 219 F.3d 1171 (10th Cir. 2000). No overruling found in Redline's data.",
+      "case": "United States v. West"
+    },
+    {
+      "text": "575 U.S. 348",
+      "name": "Rodriguez v. United States",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 575 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "158 F.3d 1107",
+      "name": "United States v. Salzano",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Salzano, 158 F.3d 1107 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Salzano"
+    },
+    {
+      "text": "365 F.3d 892",
+      "name": "United States v. Valenzuela",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Valenzuela, 365 F.3d 892 (10th Cir. 2004). No overruling found in Redline's data.",
+      "case": "United States v. Valenzuela"
+    },
+    {
+      "text": "219 F.3d at 1176",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. West, 219 F.3d 1171 (10th Cir. 2000). No overruling found in Redline's data.",
+      "case": "United States v. West"
+    },
+    {
+      "text": "158 F.3d at 1111",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Salzano, 158 F.3d 1107 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Salzano"
+    },
+    {
+      "text": "403 F.3d 1120",
+      "name": "United States v. Santos",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Santos, 403 F.3d 1120 (10th Cir. 2005). No overruling found in Redline's data.",
+      "case": "United States v. Santos"
+    },
+    {
+      "text": "868 F.3d 1150",
+      "name": "United States v. Cone",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Cone, 868 F.3d 1150 (10th Cir. 2017). No overruling found in Redline's data.",
+      "case": "United States v. Cone"
+    },
+    {
+      "text": "589 F.3d 1048",
+      "name": "United States v. Pena-Montes",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Pena-Montes, 589 F.3d 1048 (10th Cir. 2009). No overruling found in Redline's data.",
+      "case": "United States v. Pena-Montes"
+    },
+    {
+      "text": "496 F.3d 1157",
+      "name": "United States v. Karam",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Karam, 496 F.3d 1157 (10th Cir. 2007). No overruling found in Redline's data.",
+      "case": "United States v. Karam"
+    },
+    {
+      "text": "392 U.S. at 27",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Terry v. Ohio, 392 U.S. 1 (1968). No overruling found in Redline's data. It mentions Aguilar v. Texas once in passing (later overruled by Illinois v. Gates, 1983); a single mention is not counted as reliance.",
+      "case": "Terry v. Ohio"
+    },
+    {
+      "text": "403 F.3d at 1126",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Santos, 403 F.3d 1120 (10th Cir. 2005). No overruling found in Redline's data.",
+      "case": "United States v. Santos"
+    },
+    {
+      "text": "106 F.3d 942",
+      "name": "United States v. Wood",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Wood, 106 F.3d 942 (10th Cir. 1997). No overruling found in Redline's data.",
+      "case": "United States v. Wood"
+    },
+    {
+      "text": "423 F.3d 1149",
+      "name": "United States v. Bradford",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Bradford, 423 F.3d 1149 (10th Cir. 2005). No overruling found in Redline's data.",
+      "case": "United States v. Bradford"
+    },
+    {
+      "text": "135 F.3d at 1349",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hunnicutt, 135 F.3d 1345 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Hunnicutt"
+    },
+    {
+      "text": "219 F.3d at 1178",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. West, 219 F.3d 1171 (10th Cir. 2000). No overruling found in Redline's data.",
+      "case": "United States v. West"
+    }
+  ],
+  "judge": {},
+  "words": 752
+}

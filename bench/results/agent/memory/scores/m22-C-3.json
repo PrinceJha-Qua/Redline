@@ -1,0 +1,163 @@
+{
+  "task": "m22",
+  "arm": "C",
+  "rep": 3,
+  "summary": {
+    "citations": 18,
+    "verified": 18,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "792 F.3d 1313",
+      "name": "Weiland v. Palm Beach Cnty. Sheriff's Office",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Weiland v. Palm Beach County Sheriff's Office, 792 F.3d 1313 (11th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Weiland v. Palm Beach County Sheriff's Office"
+    },
+    {
+      "text": "77 F.3d 364",
+      "name": "Anderson v. Dist. Bd. of Trs. of Cent. Fla. Cmty. Coll",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Anderson v. District Board of Trustees of Central Florida Community College, 77 F.3d 364 (11th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Anderson v. District Board of Trustees of Central Florida Community College"
+    },
+    {
+      "text": "117 F.3d 1258",
+      "name": "Cramer v. Florida",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cramer v. Florida, 117 F.3d 1258 (11th Cir. 1997). No overruling found in Redline's data.",
+      "case": "Cramer v. Florida"
+    },
+    {
+      "text": "792 F.3d at 1321",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Weiland v. Palm Beach County Sheriff's Office, 792 F.3d 1313 (11th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Weiland v. Palm Beach County Sheriff's Office"
+    },
+    {
+      "text": "878 F.3d 1291",
+      "name": "Vibe Micro, Inc. v. Shabanets",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vibe Micro, Inc. v. Shabanets, 878 F.3d 1291 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Vibe Micro, Inc. v. Shabanets"
+    },
+    {
+      "text": "792 F.3d at 1323",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Weiland v. Palm Beach County Sheriff's Office, 792 F.3d 1313 (11th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Weiland v. Palm Beach County Sheriff's Office"
+    },
+    {
+      "text": "77 F.3d at 366",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Anderson v. District Board of Trustees of Central Florida Community College, 77 F.3d 364 (11th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Anderson v. District Board of Trustees of Central Florida Community College"
+    },
+    {
+      "text": "792 F.3d at 1321",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Weiland v. Palm Beach County Sheriff's Office, 792 F.3d 1313 (11th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Weiland v. Palm Beach County Sheriff's Office"
+    },
+    {
+      "text": "77 F.3d at 366",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Anderson v. District Board of Trustees of Central Florida Community College, 77 F.3d 364 (11th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Anderson v. District Board of Trustees of Central Florida Community College"
+    },
+    {
+      "text": "792 F.3d at 1322",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Weiland v. Palm Beach County Sheriff's Office, 792 F.3d 1313 (11th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Weiland v. Palm Beach County Sheriff's Office"
+    },
+    {
+      "text": "256 F.3d 1282",
+      "name": "Magluta v. Samples",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Magluta v. Samples, 256 F.3d 1282 (11th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Magluta v. Samples"
+    },
+    {
+      "text": "516 F.3d 955",
+      "name": "Davis v. Coca-Cola Bottling Co. Consol",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Davis v. Coca-Cola Bottling Co. Consolidated, 516 F.3d 955 (11th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Davis v. Coca-Cola Bottling Co. Consolidated"
+    },
+    {
+      "text": "305 F.3d 1293",
+      "name": "Strategic Income Fund, L.L.C. v. Spear, Leeds & Kellogg Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Strategic Income Fund, L.L.C. v. Spear, Leeds & Kellogg Corp., 305 F.3d 1293 (11th Cir. 2002). No overruling found in Redline's data.",
+      "case": "Strategic Income Fund, L.L.C. v. Spear, Leeds & Kellogg Corp."
+    },
+    {
+      "text": "878 F.3d at 1295",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vibe Micro, Inc. v. Shabanets, 878 F.3d 1291 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Vibe Micro, Inc. v. Shabanets"
+    },
+    {
+      "text": "898 F.3d 1348",
+      "name": "Jackson v. Bank of Am., N.A",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jackson v. Bank of Am., N.A., 898 F.3d 1348 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Jackson v. Bank of Am., N.A."
+    },
+    {
+      "text": "117 F.3d at 1263",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cramer v. Florida, 117 F.3d 1258 (11th Cir. 1997). No overruling found in Redline's data.",
+      "case": "Cramer v. Florida"
+    },
+    {
+      "text": "878 F.3d at 1295",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vibe Micro, Inc. v. Shabanets, 878 F.3d 1291 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Vibe Micro, Inc. v. Shabanets"
+    },
+    {
+      "text": "792 F.3d at 1320",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Weiland v. Palm Beach County Sheriff's Office, 792 F.3d 1313 (11th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Weiland v. Palm Beach County Sheriff's Office"
+    }
+  ],
+  "judge": {},
+  "words": 687
+}

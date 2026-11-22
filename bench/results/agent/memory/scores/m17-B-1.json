@@ -1,0 +1,171 @@
+{
+  "task": "m17",
+  "arm": "B",
+  "rep": 1,
+  "summary": {
+    "citations": 19,
+    "verified": 19,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "342 F.3d 903",
+      "name": "United States v. Ritchie",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Ritchie, 342 F.3d 903 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "United States v. Ritchie"
+    },
+    {
+      "text": "14 F.3d 449",
+      "name": "Branch v. Tunnell",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Branch v. Tunnell, 14 F.3d 449 (9th Cir. 1994). No overruling found in Redline's data.",
+      "case": "Branch v. Tunnell"
+    },
+    {
+      "text": "307 F.3d 1119",
+      "name": "Galbraith v. County of Santa Clara",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Galbraith v. County of Santa Clara, 307 F.3d 1119 (9th Cir. 2002). No overruling found in Redline's data.",
+      "case": "Galbraith v. County of Santa Clara"
+    },
+    {
+      "text": "146 F.3d 699",
+      "name": "Parrino v. FHP, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Parrino v. FHP, Inc., 146 F.3d 699 (9th Cir. 1998). No overruling found in Redline's data.",
+      "case": "Parrino v. FHP, Inc."
+    },
+    {
+      "text": "443 F.3d 676",
+      "name": "Abrego Abrego v. Dow Chem. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Abrego Abrego v. Dow Chemical Co., 443 F.3d 676 (9th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Abrego Abrego v. Dow Chemical Co."
+    },
+    {
+      "text": "393 F.3d 1068",
+      "name": "Knievel v. ESPN",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Knievel v. ESPN, 393 F.3d 1068 (9th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Knievel v. ESPN"
+    },
+    {
+      "text": "450 F.3d 445",
+      "name": "Marder v. Lopez",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marder v. Lopez, 450 F.3d 445 (9th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Marder v. Lopez"
+    },
+    {
+      "text": "183 F.3d 970",
+      "name": "In re Silicon Graphics Inc. Sec. Litig",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Janas v. McCracken, 183 F.3d 970 (9th Cir. 1999). No overruling found in Redline's data.",
+      "case": "Janas v. McCracken"
+    },
+    {
+      "text": "542 F.3d 776",
+      "name": "S. Ferry LP, No. 2 v. Killinger",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "South Ferry LP v. Killinger, 542 F.3d 776 (9th Cir. 2008). No overruling found in Redline's data.",
+      "case": "South Ferry LP v. Killinger"
+    },
+    {
+      "text": "899 F.3d 988",
+      "name": "Khoja v. Orexigen Therapeutics, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    },
+    {
+      "text": "393 F.3d at 1076",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Knievel v. ESPN, 393 F.3d 1068 (9th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Knievel v. ESPN"
+    },
+    {
+      "text": "342 F.3d at 908",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Ritchie, 342 F.3d 903 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "United States v. Ritchie"
+    },
+    {
+      "text": "899 F.3d at 1002",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    },
+    {
+      "text": "899 F.3d at 1002",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    },
+    {
+      "text": "450 F.3d at 448",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marder v. Lopez, 450 F.3d 445 (9th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Marder v. Lopez"
+    },
+    {
+      "text": "393 F.3d at 1076",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Knievel v. ESPN, 393 F.3d 1068 (9th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Knievel v. ESPN"
+    },
+    {
+      "text": "899 F.3d at 1003",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    },
+    {
+      "text": "342 F.3d at 908",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Ritchie, 342 F.3d 903 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "United States v. Ritchie"
+    },
+    {
+      "text": "342 F.3d at 908",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Ritchie, 342 F.3d 903 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "United States v. Ritchie"
+    }
+  ],
+  "judge": {},
+  "words": 834
+}

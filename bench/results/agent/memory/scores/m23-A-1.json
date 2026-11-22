@@ -1,0 +1,115 @@
+{
+  "task": "m23",
+  "arm": "A",
+  "rep": 1,
+  "summary": {
+    "citations": 12,
+    "verified": 10,
+    "fabricated": 0,
+    "unverifiable": 2,
+    "overruled": 0,
+    "caution": 2
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "556 U.S. 502",
+      "name": "FCC v. Fox Television Stations, Inc",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Federal Communications Commission v. Fox Television Stations, Inc., 556 U.S. 502 (2009). Relies on Humphrey's Executor v. United States, 295 U.S. 602 and 1 other overruled case, later overruled by Trump v. Slaughter (2026).",
+      "case": "Federal Communications Commission v. Fox Television Stations, Inc."
+    },
+    {
+      "text": "579 U.S. 211",
+      "name": "Encino Motorcars, LLC v. Navarro",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 579 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "346 F.3d 1121",
+      "name": "Ramaprakash v. FAA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ramaprakash v. Federal Aviation Administration, 346 F.3d 1121 (D.C. Cir. 2003). No overruling found in Redline's data.",
+      "case": "Ramaprakash v. Federal Aviation Administration"
+    },
+    {
+      "text": "588 F.3d 1085",
+      "name": "Dillmon v. NTSB",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Dillmon v. National Transportation Safety Board, 588 F.3d 1085 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Dillmon v. National Transportation Safety Board"
+    },
+    {
+      "text": "866 F.3d 442",
+      "name": "Susquehanna Int'l Grp., LLP v. SEC",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Susquehanna International Group, LLP v. Securities & Exchange Commission, 866 F.3d 442 (D.C. Cir. 2017). No overruling found in Redline's data.",
+      "case": "Susquehanna International Group, LLP v. Securities & Exchange Commission"
+    },
+    {
+      "text": "613 F.3d 1112",
+      "name": "Jicarilla Apache Nation v. U.S. Dep't of the Interior",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jicarilla Apache Nation v. United States Department of the Interior, 613 F.3d 1112 (D.C. Cir. 2010). No overruling found in Redline's data.",
+      "case": "Jicarilla Apache Nation v. United States Department of the Interior"
+    },
+    {
+      "text": "709 F.3d 1161",
+      "name": "Lone Mountain Processing, Inc. v. Sec'y of Labor",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lone Mountain Processing, Inc. v. Secretary of Labor, 709 F.3d 1161 (D.C. Cir. 2013). No overruling found in Redline's data.",
+      "case": "Lone Mountain Processing, Inc. v. Secretary of Labor"
+    },
+    {
+      "text": "873 F.3d 914",
+      "name": "Am. Wild Horse Pres. Campaign v. Perdue",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Wild Horse Preservation Campaign v. Perdue, 873 F.3d 914 (D.C. Cir. 2017). No overruling found in Redline's data.",
+      "case": "American Wild Horse Preservation Campaign v. Perdue"
+    },
+    {
+      "text": "556 U.S. at 515",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Federal Communications Commission v. Fox Television Stations, Inc., 556 U.S. 502 (2009). Relies on Humphrey's Executor v. United States, 295 U.S. 602 and 1 other overruled case, later overruled by Trump v. Slaughter (2026).",
+      "case": "Federal Communications Commission v. Fox Television Stations, Inc."
+    },
+    {
+      "text": "579 U.S. at 221",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 579 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "752 F.3d 999",
+      "name": "Nat'l Env't Dev. Ass'ns Clean Air Project v. EPA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "National Environmental Development Association's Clean Air Project v. Environmental Protection Agency, 752 F.3d 999 (D.C. Cir. 2014). No overruling found in Redline's data.",
+      "case": "National Environmental Development Association's Clean Air Project v. Environmental Protection Agency"
+    },
+    {
+      "text": "682 F.3d 1032",
+      "name": "Nat'l Ass'n of Home Builders v. EPA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "National Ass'n of Home Builders v. Environmental Protection Agency, 682 F.3d 1032 (D.C. Cir. 2012). No overruling found in Redline's data. It mentions Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc. once in passing (later overruled by Loper Bright Enterprises v. Raimondo, 2024); a single mention is not counted as reliance.",
+      "case": "National Ass'n of Home Builders v. Environmental Protection Agency"
+    }
+  ],
+  "judge": {},
+  "words": 756
+}

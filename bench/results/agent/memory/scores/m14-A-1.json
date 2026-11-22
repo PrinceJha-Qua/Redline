@@ -1,0 +1,115 @@
+{
+  "task": "m14",
+  "arm": "A",
+  "rep": 1,
+  "summary": {
+    "citations": 12,
+    "verified": 12,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "249 F.3d 672",
+      "name": "Szabo v. Bridgeport Machs., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Szabo v. Bridgeport Machines, Inc., 249 F.3d 672 (7th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Szabo v. Bridgeport Machines, Inc."
+    },
+    {
+      "text": "600 F.3d 813",
+      "name": "Am. Honda Motor Co. v. Allen",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Honda Motor Co. v. Allen, 600 F.3d 813 (7th Cir. 2010). No overruling found in Redline's data.",
+      "case": "American Honda Motor Co. v. Allen"
+    },
+    {
+      "text": "669 F.3d 802",
+      "name": "Messner v. Northshore Univ. HealthSystem",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Messner v. Northshore University HealthSystem, 669 F.3d 802 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Messner v. Northshore University HealthSystem"
+    },
+    {
+      "text": "569 U.S. 27",
+      "name": "Comcast Corp. v. Behrend",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Comcast Corp. v. Behrend, 569 U.S. 27 (2013). No overruling found in Redline's data.",
+      "case": "Comcast Corp. v. Behrend"
+    },
+    {
+      "text": "669 F.3d at 815",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Messner v. Northshore University HealthSystem, 669 F.3d 802 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Messner v. Northshore University HealthSystem"
+    },
+    {
+      "text": "545 F.3d 570",
+      "name": "Andrews v. Chevy Chase Bank",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Andrews v. Chevy Chase Bank, 545 F.3d 570 (7th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Andrews v. Chevy Chase Bank"
+    },
+    {
+      "text": "817 F.3d 1029",
+      "name": "Sgouros v. TransUnion Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Sgouros v. TransUnion Corp., 817 F.3d 1029 (7th Cir. 2016). No overruling found in Redline's data.",
+      "case": "Sgouros v. TransUnion Corp."
+    },
+    {
+      "text": "907 F.3d 1018",
+      "name": "Beaton v. SpeedyPC Software",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Beaton v. Speedypc Software, 907 F.3d 1018 (7th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Beaton v. Speedypc Software"
+    },
+    {
+      "text": "727 F.3d 796",
+      "name": "Butler v. Sears, Roebuck & Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Butler v. Sears, Roebuck & Co., 727 F.3d 796 (7th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Butler v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "472 F.3d 506",
+      "name": "Oshana v. Coca-Cola Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Oshana v. Coca-Cola Co., 472 F.3d 506 (7th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Oshana v. Coca-Cola Co."
+    },
+    {
+      "text": "571 F.3d 672",
+      "name": "Kohen v. Pac. Inv. Mgmt. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kohen v. Pacific Investment Management Co., 571 F.3d 672 (7th Cir. 2009). No overruling found in Redline's data.",
+      "case": "Kohen v. Pacific Investment Management Co."
+    },
+    {
+      "text": "51 F.3d 1293",
+      "name": "In re Rhone-Poulenc Rorer Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "In re Rhone-Poulenc Rorer Inc., 51 F.3d 1293 (7th Cir. 1995). No overruling found in Redline's data.",
+      "case": "In re Rhone-Poulenc Rorer Inc."
+    }
+  ],
+  "judge": {},
+  "words": 770
+}

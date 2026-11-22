@@ -1,0 +1,155 @@
+{
+  "task": "m14",
+  "arm": "A",
+  "rep": 2,
+  "summary": {
+    "citations": 17,
+    "verified": 17,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "569 U.S. 27",
+      "name": "Comcast Corp. v. Behrend",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Comcast Corp. v. Behrend, 569 U.S. 27 (2013). No overruling found in Redline's data.",
+      "case": "Comcast Corp. v. Behrend"
+    },
+    {
+      "text": "669 F.3d 802",
+      "name": "Messner v. Northshore Univ. HealthSystem",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Messner v. Northshore University HealthSystem, 669 F.3d 802 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Messner v. Northshore University HealthSystem"
+    },
+    {
+      "text": "249 F.3d 672",
+      "name": "Szabo v. Bridgeport Machs., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Szabo v. Bridgeport Machines, Inc., 249 F.3d 672 (7th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Szabo v. Bridgeport Machines, Inc."
+    },
+    {
+      "text": "600 F.3d 813",
+      "name": "Am. Honda Motor Co. v. Allen",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Honda Motor Co. v. Allen, 600 F.3d 813 (7th Cir. 2010). No overruling found in Redline's data.",
+      "case": "American Honda Motor Co. v. Allen"
+    },
+    {
+      "text": "606 F.3d 391",
+      "name": "In re Pella Corp. Architect & Designer Series Windows Mktg., Sales Practices & Prods. Liab. Litig",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pella Corp. v. Saltzman, 606 F.3d 391 (7th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Pella Corp. v. Saltzman"
+    },
+    {
+      "text": "569 U.S. at 35",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Comcast Corp. v. Behrend, 569 U.S. 27 (2013). No overruling found in Redline's data.",
+      "case": "Comcast Corp. v. Behrend"
+    },
+    {
+      "text": "564 U.S. 338",
+      "name": "Wal-Mart Stores, Inc. v. Dukes",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wal-Mart Stores, Inc. v. Dukes, 564 U.S. 338 (2011). No overruling found in Redline's data.",
+      "case": "Wal-Mart Stores, Inc. v. Dukes"
+    },
+    {
+      "text": "669 F.3d at 815",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Messner v. Northshore University HealthSystem, 669 F.3d 802 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Messner v. Northshore University HealthSystem"
+    },
+    {
+      "text": "764 F.3d 750",
+      "name": "Suchanek v. Sturm Foods, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Suchanek v. Sturm Foods, Inc., 764 F.3d 750 (7th Cir. 2014). No overruling found in Redline's data.",
+      "case": "Suchanek v. Sturm Foods, Inc."
+    },
+    {
+      "text": "569 U.S. at 35",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Comcast Corp. v. Behrend, 569 U.S. 27 (2013). No overruling found in Redline's data.",
+      "case": "Comcast Corp. v. Behrend"
+    },
+    {
+      "text": "727 F.3d 796",
+      "name": "Butler v. Sears, Roebuck & Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Butler v. Sears, Roebuck & Co., 727 F.3d 796 (7th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Butler v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "797 F.3d 426",
+      "name": "Chi. Teachers Union, Local No. 1 v. Bd. of Educ",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Chicago Teachers Union, Local No. 1 v. Board of Education, 797 F.3d 426 (7th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Chicago Teachers Union, Local No. 1 v. Board of Education"
+    },
+    {
+      "text": "727 F.3d at 801",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Butler v. Sears, Roebuck & Co., 727 F.3d 796 (7th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Butler v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "764 F.3d at 760",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Suchanek v. Sturm Foods, Inc., 764 F.3d 750 (7th Cir. 2014). No overruling found in Redline's data.",
+      "case": "Suchanek v. Sturm Foods, Inc."
+    },
+    {
+      "text": "669 F.3d at 815",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Messner v. Northshore University HealthSystem, 669 F.3d 802 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Messner v. Northshore University HealthSystem"
+    },
+    {
+      "text": "249 F.3d at 676",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Szabo v. Bridgeport Machines, Inc., 249 F.3d 672 (7th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Szabo v. Bridgeport Machines, Inc."
+    },
+    {
+      "text": "669 F.3d at 811",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Messner v. Northshore University HealthSystem, 669 F.3d 802 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Messner v. Northshore University HealthSystem"
+    }
+  ],
+  "judge": {},
+  "words": 764
+}

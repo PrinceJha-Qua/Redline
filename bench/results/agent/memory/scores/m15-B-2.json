@@ -1,0 +1,107 @@
+{
+  "task": "m15",
+  "arm": "B",
+  "rep": 2,
+  "summary": {
+    "citations": 11,
+    "verified": 11,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 2
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "552 U.S. 38",
+      "name": "Gall v. United States",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    },
+    {
+      "text": "572 F.3d 455",
+      "name": "United States v. Feemster",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Feemster, 572 F.3d 455 (8th Cir. 2009). No overruling found in Redline's data. It mentions Harris v. United States once in passing (later overruled by Alleyne v. United States, 2013); a single mention is not counted as reliance.",
+      "case": "United States v. Feemster"
+    },
+    {
+      "text": "552 U.S. at 51",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    },
+    {
+      "text": "572 F.3d at 461",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Feemster, 572 F.3d 455 (8th Cir. 2009). No overruling found in Redline's data. It mentions Harris v. United States once in passing (later overruled by Alleyne v. United States, 2013); a single mention is not counted as reliance.",
+      "case": "United States v. Feemster"
+    },
+    {
+      "text": "552 U.S. at 51",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    },
+    {
+      "text": "572 F.3d at 461",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Feemster, 572 F.3d 455 (8th Cir. 2009). No overruling found in Redline's data. It mentions Harris v. United States once in passing (later overruled by Alleyne v. United States, 2013); a single mention is not counted as reliance.",
+      "case": "United States v. Feemster"
+    },
+    {
+      "text": "552 U.S. at 50",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    },
+    {
+      "text": "551 U.S. 338",
+      "name": "Rita v. United States",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Rita v. United States, 551 U.S. 338 (2007). Relies on Apodaca v. Oregon, 406 U.S. 404, later overruled by Ramos v. Louisiana (2020).",
+      "case": "Rita v. United States"
+    },
+    {
+      "text": "572 F.3d at 461",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Feemster, 572 F.3d 455 (8th Cir. 2009). No overruling found in Redline's data. It mentions Harris v. United States once in passing (later overruled by Alleyne v. United States, 2013); a single mention is not counted as reliance.",
+      "case": "United States v. Feemster"
+    },
+    {
+      "text": "552 U.S. at 50",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    },
+    {
+      "text": "551 U.S. at 357",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Rita v. United States, 551 U.S. 338 (2007). Relies on Apodaca v. Oregon, 406 U.S. 404, later overruled by Ramos v. Louisiana (2020).",
+      "case": "Rita v. United States"
+    }
+  ],
+  "judge": {},
+  "words": 883
+}

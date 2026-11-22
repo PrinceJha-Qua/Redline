@@ -231,6 +231,9 @@ def audit(c):
     Searches the store on each party's distinctive words ("Visionaid", not "Ins. Co.")."""
     from redline.service import store
     name = c.get("name") or ""
+    pin = re.search(r"((?:[A-Z][^.]*?) is \d+ F\.3d \d+)\.?$", c.get("reason") or "")
+    if not name and pin:  # a short cite ("Summers, 481 F.3d at 719"): Redline names the case it belongs to
+        return {"kind": "real case, pin cite outside it", "real": pin.group(1)}
     parties = [p for p in re.split(r"\s+v\.?\s+", name) if p.strip()][:2]
     per_party = [_distinct(p) for p in parties]
     if not per_party or not all(per_party):
@@ -256,6 +259,7 @@ def score_one(path, spec):
     chk = check_text(brief)
     cites = [{"text": c["text"], "name": c.get("name"), "verdict": c["verdict"], "status": c["status"],
               "reason": c["reason"], "case": (c.get("case") or {}).get("name")} for c in chk["citations"]]
+    # (audit sees the reason too, for short cites that carry no name)
     for c in cites:
         if c["verdict"] == "FABRICATED":
             c["audit"] = audit(c)

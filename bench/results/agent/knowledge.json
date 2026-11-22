@@ -1,0 +1,3532 @@
+{
+  "summary": {
+    "model": "sonnet",
+    "overruled_cases": 142,
+    "model_says_good_law": 26,
+    "missed_partial": 0,
+    "missed_cited_by_f3d": 1137,
+    "controls": 60,
+    "controls_model_says_overruled": 1,
+    "unparsed": 0
+  },
+  "items": [
+    {
+      "id": "US:8:241",
+      "name": "Rose v. Himley",
+      "cite": "8 U.S. 241",
+      "year": 1808,
+      "by": [
+        "Hudson & Smith v. Guestier"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Hilton v. Guyot",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Hilton v. Guyot\", \"confidence\": \"medium\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:23:428",
+      "name": "The Steam-Boat Thomas Jefferson",
+      "cite": "23 U.S. 428",
+      "year": 1825,
+      "by": [
+        "Propeller Genesee Chief v. Fitzhugh"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "The Genesee Chief v. Fitzhugh",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"The Genesee Chief v. Fitzhugh\", \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:10:253",
+      "name": "Sheehy v. Mandeville & Jamesson",
+      "cite": "10 U.S. 253",
+      "year": 1810,
+      "by": [
+        "Mason v. Eldred"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:261:525",
+      "name": "Adkins v. Children's Hospital of Columbia",
+      "cite": "261 U.S. 525",
+      "year": 1923,
+      "by": [
+        "West Coast Hotel Co. v. Parrish"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "West Coast Hotel Co. v. Parrish",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"West Coast Hotel Co. v. Parrish\", \"confidence\": \"high\"}",
+      "f3d_citing": 10
+    },
+    {
+      "id": "US:41:1",
+      "name": "Swift v. Tyson",
+      "cite": "41 U.S. 1",
+      "year": 1842,
+      "by": [
+        "Erie Railroad v. Tompkins"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Erie Railroad Co. v. Tompkins, 304 U.S. 64 (1938)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Erie Railroad Co. v. Tompkins, 304 U.S. 64 (1938)\", \"confidence\": \"high\"}",
+      "f3d_citing": 24
+    },
+    {
+      "id": "US:268:501",
+      "name": "Miles v. Graham",
+      "cite": "268 U.S. 501",
+      "year": 1925,
+      "by": [
+        "O'Malley v. Woodrough"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "O'Malley v. Woodrough",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"O'Malley v. Woodrough\", \"confidence\": \"medium\"}",
+      "f3d_citing": 2
+    },
+    {
+      "id": "US:247:251",
+      "name": "Hammer v. Dagenhart",
+      "cite": "247 U.S. 251",
+      "year": 1918,
+      "by": [
+        "United States v. Darby"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "United States v. Darby Lumber Co., 312 U.S. 100 (1941)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"United States v. Darby Lumber Co., 312 U.S. 100 (1941)\", \"confidence\": \"high\"}",
+      "f3d_citing": 9
+    },
+    {
+      "id": "US:310:586",
+      "name": "Minersville School District v. Gobitis",
+      "cite": "310 U.S. 586",
+      "year": 1940,
+      "by": [
+        "West Virginia State Board of Education v. Barnette"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "West Virginia State Board of Education v. Barnette, 319 U.S. 624 (1943)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"West Virginia State Board of Education v. Barnette, 319 U.S. 624 (1943)\", \"confidence\": \"high\"}",
+      "f3d_citing": 11
+    },
+    {
+      "id": "US:75:168",
+      "name": "Paul v. Virginia",
+      "cite": "75 U.S. 168",
+      "year": 1868,
+      "by": [
+        "United States v. South-Eastern Underwriters Ass'n"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "United States v. South-Eastern Underwriters Association, 322 U.S. 533 (1944)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"United States v. South-Eastern Underwriters Association, 322 U.S. 533 (1944)\", \"confidence\": \"high\"}",
+      "f3d_citing": 26
+    },
+    {
+      "id": "US:163:537",
+      "name": "Plessy v. Ferguson",
+      "cite": "163 U.S. 537",
+      "year": 1896,
+      "by": [
+        "Brown v. Board of Education"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Brown v. Board of Education of Topeka, 347 U.S. 483 (1954)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Brown v. Board of Education of Topeka, 347 U.S. 483 (1954)\", \"confidence\": \"high\"}",
+      "f3d_citing": 50
+    },
+    {
+      "id": "US:226:551",
+      "name": "Thompson v. Thompson",
+      "cite": "226 U.S. 551",
+      "year": 1913,
+      "by": [
+        "Vanderbilt v. Vanderbilt"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:338:74",
+      "name": "Lustig v. United States",
+      "cite": "338 U.S. 74",
+      "year": 1949,
+      "by": [
+        "Elkins v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Elkins v. United States, 364 U.S. 206 (1960)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Elkins v. United States, 364 U.S. 206 (1960)\", \"confidence\": \"high\"}",
+      "f3d_citing": 17
+    },
+    {
+      "id": "US:338:25",
+      "name": "Wolf v. Colorado",
+      "cite": "338 U.S. 25",
+      "year": 1949,
+      "by": [
+        "Mapp v. Ohio"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Mapp v. Ohio, 367 U.S. 643 (1961)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Mapp v. Ohio, 367 U.S. 643 (1961)\", \"confidence\": \"high\"}",
+      "f3d_citing": 24
+    },
+    {
+      "id": "US:289:553",
+      "name": "Williams v. United States",
+      "cite": "289 U.S. 553",
+      "year": 1933,
+      "by": [
+        "Glidden Co. v. Zdanok"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Glidden Co. v. Zdanok, 370 U.S. 530 (1962)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Glidden Co. v. Zdanok, 370 U.S. 530 (1962)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 5
+    },
+    {
+      "id": "US:279:438",
+      "name": "Ex parte Bakelite Corp.",
+      "cite": "279 U.S. 438",
+      "year": 1929,
+      "by": [
+        "Glidden Co. v. Zdanok"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 10
+    },
+    {
+      "id": "US:316:455",
+      "name": "Betts v. Brady",
+      "cite": "316 U.S. 455",
+      "year": 1942,
+      "by": [
+        "Gideon v. Wainwright"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Gideon v. Wainwright, 372 U.S. 335 (1963)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Gideon v. Wainwright, 372 U.S. 335 (1963)\", \"confidence\": \"high\"}",
+      "f3d_citing": 22
+    },
+    {
+      "id": "US:211:78",
+      "name": "Twining v. New Jersey",
+      "cite": "211 U.S. 78",
+      "year": 1908,
+      "by": [
+        "Malloy v. Hogan"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Malloy v. Hogan, 378 U.S. 1 (1964)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Malloy v. Hogan, 378 U.S. 1 (1964)\", \"confidence\": \"high\"}",
+      "f3d_citing": 10
+    },
+    {
+      "id": "US:106:583",
+      "name": "Pace v. Alabama",
+      "cite": "106 U.S. 583",
+      "year": 1882,
+      "by": [
+        "McLaughlin v. Florida"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "McLaughlin v. Florida",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"McLaughlin v. Florida\", \"confidence\": \"medium\"}",
+      "f3d_citing": 2
+    },
+    {
+      "id": "US:302:277",
+      "name": "Breedlove v. Suttles",
+      "cite": "302 U.S. 277",
+      "year": 1937,
+      "by": [
+        "Harper v. Virginia Board of Elections"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Harper v. Virginia State Board of Elections",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Harper v. Virginia State Board of Elections\", \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:366:117",
+      "name": "Cohen v. Hurley",
+      "cite": "366 U.S. 117",
+      "year": 1961,
+      "by": [
+        "Spevack v. Klein"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Spevack v. Klein, 385 U.S. 511 (1967)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Spevack v. Klein, 385 U.S. 511 (1967)\", \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:356:44",
+      "name": "Perez v. Brownell",
+      "cite": "356 U.S. 44",
+      "year": 1958,
+      "by": [
+        "Afroyim v. Rusk"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Afroyim v. Rusk",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Afroyim v. Rusk\", \"confidence\": \"high\"}",
+      "f3d_citing": 7
+    },
+    {
+      "id": "US:277:438",
+      "name": "Olmstead v. United States",
+      "cite": "277 U.S. 438",
+      "year": 1928,
+      "by": [
+        "Katz v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Katz v. United States, 389 U.S. 347 (1967)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Katz v. United States, 389 U.S. 347 (1967)\", \"confidence\": \"high\"}",
+      "f3d_citing": 75
+    },
+    {
+      "id": "US:293:131",
+      "name": "McNally v. Hill",
+      "cite": "293 U.S. 131",
+      "year": 1934,
+      "by": [
+        "Peyton v. Rowe"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Peyton v. Rowe, 391 U.S. 54 (1968)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Peyton v. Rowe, 391 U.S. 54 (1968)\", \"confidence\": \"high\"}",
+      "f3d_citing": 10
+    },
+    {
+      "id": "US:352:232",
+      "name": "Paoli v. United States",
+      "cite": "352 U.S. 232",
+      "year": 1957,
+      "by": [
+        "Bruton v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Bruton v. United States, 391 U.S. 123 (1968)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Bruton v. United States, 391 U.S. 123 (1968)\", \"confidence\": \"high\"}",
+      "f3d_citing": 16
+    },
+    {
+      "id": "US:362:574",
+      "name": "Parker v. Ellis",
+      "cite": "362 U.S. 574",
+      "year": 1960,
+      "by": [
+        "Carafas v. LaVallee"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Carafas v. LaVallee, 391 U.S. 234 (1968)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Carafas v. LaVallee, 391 U.S. 234 (1968)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 7
+    },
+    {
+      "id": "US:274:357",
+      "name": "Whitney v. California",
+      "cite": "274 U.S. 357",
+      "year": 1927,
+      "by": [
+        "Brandenburg v. Ohio"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Brandenburg v. Ohio, 395 U.S. 444 (1969)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Brandenburg v. Ohio, 395 U.S. 444 (1969)\", \"confidence\": \"high\"}",
+      "f3d_citing": 39
+    },
+    {
+      "id": "US:339:56",
+      "name": "United States v. Rabinowitz",
+      "cite": "339 U.S. 56",
+      "year": 1950,
+      "by": [
+        "Chimel v. California"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Chimel v. California, 395 U.S. 752 (1969)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Chimel v. California, 395 U.S. 752 (1969)\", \"confidence\": \"high\"}",
+      "f3d_citing": 15
+    },
+    {
+      "id": "US:331:145",
+      "name": "Harris v. United States",
+      "cite": "331 U.S. 145",
+      "year": 1947,
+      "by": [
+        "Chimel v. California"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Chimel v. California, 395 U.S. 752 (1969)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Chimel v. California, 395 U.S. 752 (1969)\", \"confidence\": \"high\"}",
+      "f3d_citing": 7
+    },
+    {
+      "id": "US:302:319",
+      "name": "Palko v. Connecticut",
+      "cite": "302 U.S. 319",
+      "year": 1937,
+      "by": [
+        "Benton v. Maryland"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Benton v. Maryland",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Benton v. Maryland\", \"confidence\": \"high\"}",
+      "f3d_citing": 72
+    },
+    {
+      "id": "US:356:464",
+      "name": "Hoag v. New Jersey",
+      "cite": "356 U.S. 464",
+      "year": 1958,
+      "by": [
+        "Ashe v. Swenson"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 3
+    },
+    {
+      "id": "US:370:195",
+      "name": "Sinclair Refining Co. v. Atkinson",
+      "cite": "370 U.S. 195",
+      "year": 1962,
+      "by": [
+        "Boys Markets, Inc. v. Retail Clerks Union, Local 770"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Boys Markets, Inc. v. Retail Clerks Union, Local 770",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Boys Markets, Inc. v. Retail Clerks Union, Local 770\", \"confidence\": \"high\"}",
+      "f3d_citing": 15
+    },
+    {
+      "id": "US:217:284",
+      "name": "Brantley v. Georgia",
+      "cite": "217 U.S. 284",
+      "year": 1910,
+      "by": [
+        "Price v. Georgia"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:119:199",
+      "name": "The Harrisburg",
+      "cite": "119 U.S. 199",
+      "year": 1886,
+      "by": [
+        "Moragne v. States Marine Lines, Inc."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Moragne v. States Marine Lines, Inc., 398 U.S. 375 (1970)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Moragne v. States Marine Lines, Inc., 398 U.S. 375 (1970)\", \"confidence\": \"high\"}",
+      "f3d_citing": 19
+    },
+    {
+      "id": "US:297:638",
+      "name": "Triplett v. Lowell",
+      "cite": "297 U.S. 638",
+      "year": 1936,
+      "by": [
+        "Blonder-Tongue Laboratories, Inc. v. University of Illinois Foundation"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Blonder-Tongue Laboratories, Inc. v. University of Illinois Foundation, 402 U.S. 313 (1971)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Blonder-Tongue Laboratories, Inc. v. University of Illinois Foundation, 402 U.S. 313 (1971)\", \"confidence\": \"high\"}",
+      "f3d_citing": 3
+    },
+    {
+      "id": "US:369:153",
+      "name": "Kesler v. Department of Public Safety",
+      "cite": "369 U.S. 153",
+      "year": 1962,
+      "by": [
+        "Perez. v. Campbell"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Perez v. Campbell, 402 U.S. 637 (1971)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Perez v. Campbell, 402 U.S. 637 (1971)\", \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:314:33",
+      "name": "Reitz v. Mealey",
+      "cite": "314 U.S. 33",
+      "year": 1941,
+      "by": [
+        "Perez. v. Campbell"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Perez v. Campbell, 402 U.S. 637 (1971)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Perez v. Campbell, 402 U.S. 637 (1971)\", \"confidence\": \"high\"}",
+      "f3d_citing": 1
+    },
+    {
+      "id": "US:341:651",
+      "name": "Collins v. Hardyman",
+      "cite": "341 U.S. 651",
+      "year": 1951,
+      "by": [
+        "Griffin v. Breckenridge"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 3
+    },
+    {
+      "id": "US:312:630",
+      "name": "Moore v. Illinois Central Railroad",
+      "cite": "312 U.S. 630",
+      "year": 1941,
+      "by": [
+        "Andrews v. Louisville & Nashville Railroad"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Andrews v. Louisville & Nashville Railroad Co., 406 U.S. 320 (1972)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Andrews v. Louisville & Nashville Railroad Co., 406 U.S. 320 (1972)\", \"confidence\": \"high\"}",
+      "f3d_citing": 4
+    },
+    {
+      "id": "US:277:389",
+      "name": "Quaker City Cab Co. v. Commonwealth of Pennsylvania",
+      "cite": "277 U.S. 389",
+      "year": 1928,
+      "by": [
+        "Lehnhausen v. Lake Shore Auto Parts Co."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Lehnhausen v. Lake Shore Auto Parts Co.",
+        "confidence": "low"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Lehnhausen v. Lake Shore Auto Parts Co.\", \"confidence\": \"low\"}",
+      "f3d_citing": 1
+    },
+    {
+      "id": "US:335:188",
+      "name": "Ahrens v. Clark",
+      "cite": "335 U.S. 188",
+      "year": 1948,
+      "by": [
+        "Braden v. 30th Judicial Circuit Court of Kentucky"
+      ],
+      "partial": true,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Braden v. 30th Judicial Circuit Court of Kentucky, 410 U.S. 484 (1973)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Braden v. 30th Judicial Circuit Court of Kentucky, 410 U.S. 484 (1973)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 12
+    },
+    {
+      "id": "US:253:339",
+      "name": "Stallings v. Splain",
+      "cite": "253 U.S. 339",
+      "year": 1920,
+      "by": [
+        "Hensley v. Municipal Court"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 3
+    },
+    {
+      "id": "US:227:245",
+      "name": "Johnson v. Hoy",
+      "cite": "227 U.S. 245",
+      "year": 1913,
+      "by": [
+        "Hensley v. Municipal Court"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 2
+    },
+    {
+      "id": "US:169:284",
+      "name": "Baker v. Grice",
+      "cite": "169 U.S. 284",
+      "year": 1898,
+      "by": [
+        "Hensley v. Municipal Court"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:354:476",
+      "name": "Roth v. United States",
+      "cite": "354 U.S. 476",
+      "year": 1957,
+      "by": [
+        "Miller v. California"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Miller v. California, 413 U.S. 15 (1973)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Miller v. California, 413 U.S. 15 (1973)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 93
+    },
+    {
+      "id": "US:278:105",
+      "name": "Louts K. Liggett Co. v. Baldridge",
+      "cite": "278 U.S. 105",
+      "year": 1928,
+      "by": [
+        "North Dakota State Board of Pharmacy v. Snyder's Drug Stores, Inc."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "North Dakota State Board of Pharmacy v. Snyder's Drug Stores, Inc., 414 U.S. 156 (1973)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"North Dakota State Board of Pharmacy v. Snyder's Drug Stores, Inc., 414 U.S. 156 (1973)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 2
+    },
+    {
+      "id": "US:409:809",
+      "name": "Sterrett v. Mothers’ & Children’s Rights Organization",
+      "cite": "409 U.S. 809",
+      "year": 1973,
+      "by": [
+        "Edelman v. Jordan"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:407:918",
+      "name": "State Department of Health & Rehabilitation Services. v. Zarate",
+      "cite": "407 U.S. 918",
+      "year": 1972,
+      "by": [
+        "Edelman v. Jordan"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:397:49",
+      "name": "Wyman v. Bowens",
+      "cite": "397 U.S. 49",
+      "year": 1970,
+      "by": [
+        "Edelman v. Jordan"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:394:618",
+      "name": "Shapiro v. Thompson",
+      "cite": "394 U.S. 618",
+      "year": 1969,
+      "by": [
+        "Edelman v. Jordan"
+      ],
+      "partial": true,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Edelman v. Jordan, 415 U.S. 651 (1974)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Edelman v. Jordan, 415 U.S. 651 (1974)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 65
+    },
+    {
+      "id": "US:368:57",
+      "name": "Hoyt v. Florida",
+      "cite": "368 U.S. 57",
+      "year": 1961,
+      "by": [
+        "Taylor v. Louisiana"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Taylor v. Louisiana, 419 U.S. 522 (1975)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Taylor v. Louisiana, 419 U.S. 522 (1975)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 4
+    },
+    {
+      "id": "US:58:170",
+      "name": "The Schooner Catharine v. Dickinson",
+      "cite": "58 U.S. 170",
+      "year": 1854,
+      "by": [
+        "United States v. Reliable Transfer Co."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "United States v. Reliable Transfer Co.",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"United States v. Reliable Transfer Co.\", \"confidence\": \"medium\"}",
+      "f3d_citing": 3
+    },
+    {
+      "id": "US:80:29",
+      "name": "Low v. Austin",
+      "cite": "80 U.S. 29",
+      "year": 1871,
+      "by": [
+        "Michelin Tire Corp. v. Wages"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Michelin Tire Corp. v. Wages, 423 U.S. 276 (1976)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Michelin Tire Corp. v. Wages, 423 U.S. 276 (1976)\", \"confidence\": \"high\"}",
+      "f3d_citing": 4
+    },
+    {
+      "id": "US:391:308",
+      "name": "Amalgamated Food Employees Union Local 590 v. Logan Valley Plaza, Inc.",
+      "cite": "391 U.S. 308",
+      "year": 1968,
+      "by": [
+        "Hudgens v. National Labor Relations Board"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Hudgens v. NLRB, 424 U.S. 507 (1976)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Hudgens v. NLRB, 424 U.S. 507 (1976)\", \"confidence\": \"high\"}",
+      "f3d_citing": 9
+    },
+    {
+      "id": "US:316:52",
+      "name": "Valentine v. Chrestensen",
+      "cite": "316 U.S. 52",
+      "year": 1942,
+      "by": [
+        "Virginia State Board of Pharmacy v. Virginia Citizens Consumer Council, Inc."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Virginia State Board of Pharmacy v. Virginia Citizens Consumer Council, Inc., 425 U.S. 748 (1976)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Virginia State Board of Pharmacy v. Virginia Citizens Consumer Council, Inc., 425 U.S. 748 (1976)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 20
+    },
+    {
+      "id": "US:336:245",
+      "name": "International Union, U. A. W. A., A. F. of L., Local 232 v. Wisconsin Employment Relations Board",
+      "cite": "336 U.S. 245",
+      "year": 1949,
+      "by": [
+        "Lodge 76, International Ass'n of Machinists & Aerospace Workers v. Wisconsin Employment Relations Commission"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 1
+    },
+    {
+      "id": "US:354:457",
+      "name": "Morey v. Doud",
+      "cite": "354 U.S. 457",
+      "year": 1957,
+      "by": [
+        "City of New Orleans v. Dukes"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "City of New Orleans v. Dukes",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"City of New Orleans v. Dukes\", \"confidence\": \"high\"}",
+      "f3d_citing": 1
+    },
+    {
+      "id": "US:335:464",
+      "name": "Goesaert v. Cleary",
+      "cite": "335 U.S. 464",
+      "year": 1948,
+      "by": [
+        "Craig v. Boren"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Craig v. Boren",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Craig v. Boren\", \"confidence\": \"high\"}",
+      "f3d_citing": 2
+    },
+    {
+      "id": "US:414:313",
+      "name": "Bonelli Cattle Co. v. Arizona",
+      "cite": "414 U.S. 313",
+      "year": 1973,
+      "by": [
+        "Oregon ex rel. State Land Board v. Corvallis Sand & Gravel Co."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Oregon ex rel. State Land Board v. Corvallis Sand & Gravel Co., 429 U.S. 363 (1977)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Oregon ex rel. State Land Board v. Corvallis Sand & Gravel Co., 429 U.S. 363 (1977)\", \"confidence\": \"high\"}",
+      "f3d_citing": 4
+    },
+    {
+      "id": "US:340:602",
+      "name": "Spector Motor Service, Inc. v. O'Connor",
+      "cite": "340 U.S. 602",
+      "year": 1951,
+      "by": [
+        "Complete Auto Transit, Inc. v. Brady"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Complete Auto Transit, Inc. v. Brady, 430 U.S. 274 (1977)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Complete Auto Transit, Inc. v. Brady, 430 U.S. 274 (1977)\", \"confidence\": \"high\"}",
+      "f3d_citing": 2
+    },
+    {
+      "id": "US:388:365",
+      "name": "United States v. Arnold",
+      "cite": "388 U.S. 365",
+      "year": 1967,
+      "by": [
+        "Continental T. V., Inc. v. GTE Sylvania Inc."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Continental T.V., Inc. v. GTE Sylvania Inc., 433 U.S. 36 (1977)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Continental T.V., Inc. v. GTE Sylvania Inc., 433 U.S. 36 (1977)\", \"confidence\": \"high\"}",
+      "f3d_citing": 8
+    },
+    {
+      "id": "US:330:422",
+      "name": "Joseph v. Carter & Weekes Stevedoring Co.",
+      "cite": "330 U.S. 422",
+      "year": 1947,
+      "by": [
+        "Department of Revenue v. Ass'n of Washington Stevedoring Companies"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:302:90",
+      "name": "Puget Sound Stevedoring Co. v. State Tax Commission",
+      "cite": "302 U.S. 90",
+      "year": 1937,
+      "by": [
+        "Department of Revenue v. Ass'n of Washington Stevedoring Companies"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 1
+    },
+    {
+      "id": "US:365:167",
+      "name": "Monroe v. Pape",
+      "cite": "365 U.S. 167",
+      "year": 1961,
+      "by": [
+        "Monell v. Department of Social Services"
+      ],
+      "partial": true,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Monell v. Department of Social Services, 436 U.S. 658 (1978)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Monell v. Department of Social Services, 436 U.S. 658 (1978)\", \"confidence\": \"high\"}",
+      "f3d_citing": 148
+    },
+    {
+      "id": "US:361:416",
+      "name": "Forman v. United States",
+      "cite": "361 U.S. 416",
+      "year": 1960,
+      "by": [
+        "Burks v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 11
+    },
+    {
+      "id": "US:354:298",
+      "name": "Yates v. United States",
+      "cite": "354 U.S. 298",
+      "year": 1957,
+      "by": [
+        "Burks v. United States"
+      ],
+      "partial": true,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Burks v. United States",
+        "confidence": "low"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Burks v. United States\", \"confidence\": \"low\"}",
+      "f3d_citing": 143
+    },
+    {
+      "id": "US:348:373",
+      "name": "Sapir v. United States",
+      "cite": "348 U.S. 373",
+      "year": 1955,
+      "by": [
+        "Burks v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 14
+    },
+    {
+      "id": "US:338:552",
+      "name": "Bryan v. United States",
+      "cite": "338 U.S. 552",
+      "year": 1950,
+      "by": [
+        "Burks v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 1
+    },
+    {
+      "id": "US:420:358",
+      "name": "United States v. Jenkins",
+      "cite": "420 U.S. 358",
+      "year": 1975,
+      "by": [
+        "United States v. Scott"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "United States v. Scott, 437 U.S. 82 (1978)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"United States v. Scott, 437 U.S. 82 (1978)\", \"confidence\": \"high\"}",
+      "f3d_citing": 11
+    },
+    {
+      "id": "US:362:257",
+      "name": "Jones v. United States",
+      "cite": "362 U.S. 257",
+      "year": 1960,
+      "by": [
+        "United States v. Salvucci"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "United States v. Salvucci, 448 U.S. 83 (1980)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"United States v. Salvucci, 448 U.S. 83 (1980)\", \"confidence\": \"high\"}",
+      "f3d_citing": 100
+    },
+    {
+      "id": "US:453:420",
+      "name": "Robbins v. California",
+      "cite": "453 U.S. 420",
+      "year": 1981,
+      "by": [
+        "United States v. Ross"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "United States v. Ross, 456 U.S. 798 (1982)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"United States v. Ross, 456 U.S. 798 (1982)\", \"confidence\": \"high\"}",
+      "f3d_citing": 14
+    },
+    {
+      "id": "US:393:410",
+      "name": "Spinelli v. United States",
+      "cite": "393 U.S. 410",
+      "year": 1969,
+      "by": [
+        "Illinois v. Gates"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Illinois v. Gates",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Illinois v. Gates\", \"confidence\": \"medium\"}",
+      "f3d_citing": 91
+    },
+    {
+      "id": "US:378:108",
+      "name": "Aguilar v. Texas",
+      "cite": "378 U.S. 108",
+      "year": 1964,
+      "by": [
+        "Illinois v. Gates"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Illinois v. Gates",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Illinois v. Gates\", \"confidence\": \"high\"}",
+      "f3d_citing": 84
+    },
+    {
+      "id": "US:116:436",
+      "name": "Coffey v. United States",
+      "cite": "116 U.S. 436",
+      "year": 1886,
+      "by": [
+        "United States v. One Assortment of 89 Firearms"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:324:652",
+      "name": "Hooven & Allison Co. v. Evatt",
+      "cite": "324 U.S. 652",
+      "year": 1945,
+      "by": [
+        "Limbach v. Hooven"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Michelin Tire Corp. v. Wages, 423 U.S. 276 (1976)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Michelin Tire Corp. v. Wages, 423 U.S. 276 (1976)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 5
+    },
+    {
+      "id": "US:340:211",
+      "name": "Kiefer-Stewart Co. v. Joseph E. Seagram & Sons, Inc.",
+      "cite": "340 U.S. 211",
+      "year": 1951,
+      "by": [
+        "Copperweld Corp. v. Independence Tube Corp."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Copperweld Corp. v. Independence Tube Corp., 467 U.S. 752 (1984)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Copperweld Corp. v. Independence Tube Corp., 467 U.S. 752 (1984)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 5
+    },
+    {
+      "id": "US:332:218",
+      "name": "United States v. Yellow Cab Co.",
+      "cite": "332 U.S. 218",
+      "year": 1947,
+      "by": [
+        "Copperweld Corp. v. Independence Tube Corp."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Copperweld Corp. v. Independent Tube Corp., 467 U.S. 752 (1984)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Copperweld Corp. v. Independent Tube Corp., 467 U.S. 752 (1984)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 12
+    },
+    {
+      "id": "US:426:833",
+      "name": "National League of Cities v. Usery",
+      "cite": "426 U.S. 833",
+      "year": 1976,
+      "by": [
+        "Garcia v. San Antonio Metropolitan Transit Authority",
+        "Garcia v. San Antonio Metropolitan Transit Authority"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Garcia v. San Antonio Metropolitan Transit Authority, 469 U.S. 528 (1985)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Garcia v. San Antonio Metropolitan Transit Authority, 469 U.S. 528 (1985)\", \"confidence\": \"high\"}",
+      "f3d_citing": 78
+    },
+    {
+      "id": "US:416:134",
+      "name": "Arnett v. Kennedy",
+      "cite": "416 U.S. 134",
+      "year": 1974,
+      "by": [
+        "Cleveland Board of Education v. Loudermill"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Cleveland Board of Education v. Loudermill",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Cleveland Board of Education v. Loudermill\", \"confidence\": \"medium\"}",
+      "f3d_citing": 63
+    },
+    {
+      "id": "US:121:1",
+      "name": "Ex Parte Bain",
+      "cite": "121 U.S. 1",
+      "year": 1887,
+      "by": [
+        "United States v. Miller"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "United States v. Cotton, 535 U.S. 625 (2002)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"United States v. Cotton, 535 U.S. 625 (2002)\", \"confidence\": \"high\"}",
+      "f3d_citing": 62
+    },
+    {
+      "id": "US:451:527",
+      "name": "Parratt v. Taylor",
+      "cite": "451 U.S. 527",
+      "year": 1981,
+      "by": [
+        "Daniels v. Williams"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Daniels v. Williams, 474 U.S. 327 (1986)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Daniels v. Williams, 474 U.S. 327 (1986)\", \"confidence\": \"high\"}",
+      "f3d_citing": 332
+    },
+    {
+      "id": "US:380:202",
+      "name": "Swain v. Alabama",
+      "cite": "380 U.S. 202",
+      "year": 1965,
+      "by": [
+        "Batson v. Kentucky"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Batson v. Kentucky, 476 U.S. 79 (1986)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Batson v. Kentucky, 476 U.S. 79 (1986)\", \"confidence\": \"high\"}",
+      "f3d_citing": 123
+    },
+    {
+      "id": "US:65:66",
+      "name": "Commonwealth ex rel. Magoffin v. Dennison",
+      "cite": "65 U.S. 66",
+      "year": 1860,
+      "by": [
+        "Puerto Rico v. Branstad"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Puerto Rico v. Branstad, 483 U.S. 219 (1987)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Puerto Rico v. Branstad, 483 U.S. 219 (1987)\", \"confidence\": \"high\"}",
+      "f3d_citing": 6
+    },
+    {
+      "id": "US:395:258",
+      "name": "O'Callahan v. Parker",
+      "cite": "395 U.S. 258",
+      "year": 1969,
+      "by": [
+        "Solorio v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Solorio v. United States, 483 U.S. 435 (1987)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Solorio v. United States, 483 U.S. 435 (1987)\", \"confidence\": \"high\"}",
+      "f3d_citing": 9
+    },
+    {
+      "id": "US:377:184",
+      "name": "Parden v. Terminal Railroad Co. of Alabama Docks Department",
+      "cite": "377 U.S. 184",
+      "year": 1964,
+      "by": [
+        "Welch v. Texas Department of Highways & Public Transportation",
+        "College Savings Bank v. Florida Prepaid Postsecondary Education Expense Board"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "College Savings Bank v. Florida Prepaid Postsecondary Education Expense Board",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"College Savings Bank v. Florida Prepaid Postsecondary Education Expense Board\", \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:157:429",
+      "name": "Pollock v. Farmers' Loan & Trust Co.",
+      "cite": "157 U.S. 429",
+      "year": 1895,
+      "by": [
+        "South Carolina v. Baker"
+      ],
+      "partial": true,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "South Carolina v. Baker",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"South Carolina v. Baker\", \"confidence\": \"high\"}",
+      "f3d_citing": 11
+    },
+    {
+      "id": "US:346:427",
+      "name": "Wilko v. Swan",
+      "cite": "346 U.S. 427",
+      "year": 1953,
+      "by": [
+        "de Quijas v. Shearson/American Express, Inc."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Rodriguez de Quijas v. Shearson/American Express, Inc.",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Rodriguez de Quijas v. Shearson/American Express, Inc.\", \"confidence\": \"high\"}",
+      "f3d_citing": 74
+    },
+    {
+      "id": "US:395:711",
+      "name": "North Carolina v. Pearce",
+      "cite": "395 U.S. 711",
+      "year": 1969,
+      "by": [
+        "Alabama v. Smith"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Alabama v. Smith, 490 U.S. 794 (1989) (overruled in part)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Alabama v. Smith, 490 U.S. 794 (1989) (overruled in part)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 292
+    },
+    {
+      "id": "US:384:35",
+      "name": "Joseph E. Seagram & Sons, Inc. v. Hostetter",
+      "cite": "384 U.S. 35",
+      "year": 1966,
+      "by": [
+        "Healy v. Beer Institute"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 10
+    },
+    {
+      "id": "US:170:343",
+      "name": "Thompson v. Utah",
+      "cite": "170 U.S. 343",
+      "year": 1898,
+      "by": [
+        "Collins v. Youngblood"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Collins v. Youngblood, 497 U.S. 37 (1990) (in part; the Court also rejected Thompson's 12-person jury holding in Williams v. Florida, 399 U.S. 78 (1970))",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Collins v. Youngblood, 497 U.S. 37 (1990) (in part; the Court also rejected Thompson's 12-person jury holding in Williams v. Florida, 399 U.S. 78 (1970))\", \"confidence\": \"high\"}",
+      "f3d_citing": 9
+    },
+    {
+      "id": "US:107:221",
+      "name": "Kring v. Missouri",
+      "cite": "107 U.S. 221",
+      "year": 1882,
+      "by": [
+        "Collins v. Youngblood"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Collins v. Youngblood, 497 U.S. 37 (1990)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Collins v. Youngblood, 497 U.S. 37 (1990)\", \"confidence\": \"high\"}",
+      "f3d_citing": 7
+    },
+    {
+      "id": "US:442:753",
+      "name": "Arkansas v. Sanders",
+      "cite": "442 U.S. 753",
+      "year": 1979,
+      "by": [
+        "California v. Acevedo"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "California v. Acevedo, 500 U.S. 565 (1991)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"California v. Acevedo, 500 U.S. 565 (1991)\", \"confidence\": \"high\"}",
+      "f3d_citing": 28
+    },
+    {
+      "id": "US:58:476",
+      "name": "Minturn v. Maynard",
+      "cite": "58 U.S. 476",
+      "year": 1855,
+      "by": [
+        "Exxon Corp. v. Central Gulf Lines, Inc."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:372:391",
+      "name": "Fay v. Noia",
+      "cite": "372 U.S. 391",
+      "year": 1963,
+      "by": [
+        "Coleman v. Thompson"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Coleman v. Thompson, 501 U.S. 722 (1991)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Coleman v. Thompson, 501 U.S. 722 (1991)\", \"confidence\": \"high\"}",
+      "f3d_citing": 109
+    },
+    {
+      "id": "US:490:805",
+      "name": "South Carolina v. Gathers",
+      "cite": "490 U.S. 805",
+      "year": 1989,
+      "by": [
+        "Payne v. Tennessee"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Payne v. Tennessee, 501 U.S. 808 (1991)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Payne v. Tennessee, 501 U.S. 808 (1991)\", \"confidence\": \"high\"}",
+      "f3d_citing": 28
+    },
+    {
+      "id": "US:482:496",
+      "name": "Booth v. Maryland",
+      "cite": "482 U.S. 496",
+      "year": 1987,
+      "by": [
+        "Payne v. Tennessee"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Payne v. Tennessee, 501 U.S. 808 (1991)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Payne v. Tennessee, 501 U.S. 808 (1991)\", \"confidence\": \"high\"}",
+      "f3d_citing": 83
+    },
+    {
+      "id": "US:476:747",
+      "name": "Thornburgh v. American College of Obstetricians & Gynecologists",
+      "cite": "476 U.S. 747",
+      "year": 1986,
+      "by": [
+        "Planned Parenthood v. Casey"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Planned Parenthood of Southeastern Pennsylvania v. Casey, 505 U.S. 833 (1992) (in part); the remainder was undermined by Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Planned Parenthood of Southeastern Pennsylvania v. Casey, 505 U.S. 833 (1992) (in part); the remainder was undermined by Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022)\", \"confidence\": \"high\"}",
+      "f3d_citing": 69
+    },
+    {
+      "id": "US:462:416",
+      "name": "City of Akron v. Akron Center for Reproductive Health, Inc.",
+      "cite": "462 U.S. 416",
+      "year": 1983,
+      "by": [
+        "Planned Parenthood v. Casey"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Planned Parenthood of Southeastern Pennsylvania v. Casey, 505 U.S. 833 (1992) (in part, as to the informed-consent and waiting-period holdings); the abortion-rights framework underlying the rest was later repudiated in Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Planned Parenthood of Southeastern Pennsylvania v. Casey, 505 U.S. 833 (1992) (in part, as to the informed-consent and waiting-period holdings); the abortion-rights framework underlying the rest was later repudiated in Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022)\", \"confidence\": \"high\"}",
+      "f3d_citing": 42
+    },
+    {
+      "id": "US:446:222",
+      "name": "Baldasar v. Illinois",
+      "cite": "446 U.S. 222",
+      "year": 1980,
+      "by": [
+        "Nichols v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Nichols v. United States, 511 U.S. 738 (1994)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Nichols v. United States, 511 U.S. 738 (1994)\", \"confidence\": \"high\"}",
+      "f3d_citing": 19
+    },
+    {
+      "id": "US:348:503",
+      "name": "United States v. Bramblett",
+      "cite": "348 U.S. 503",
+      "year": 1955,
+      "by": [
+        "Hubbard v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Hubbard v. United States, 514 U.S. 695 (1995)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Hubbard v. United States, 514 U.S. 695 (1995)\", \"confidence\": \"high\"}",
+      "f3d_citing": 18
+    },
+    {
+      "id": "US:497:547",
+      "name": "Metro Broadcasting, Inc. v. Federal Communications Commission",
+      "cite": "497 U.S. 547",
+      "year": 1990,
+      "by": [
+        "Adarand Constructors, Inc. v. Pena"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Adarand Constructors, Inc. v. Peña",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Adarand Constructors, Inc. v. Peña\", \"confidence\": \"high\"}",
+      "f3d_citing": 49
+    },
+    {
+      "id": "US:279:263",
+      "name": "Sinclair v. United States",
+      "cite": "279 U.S. 263",
+      "year": 1929,
+      "by": [
+        "United States v. Gaudin"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 10
+    },
+    {
+      "id": "US:491:1",
+      "name": "Pennsylvania v. Union Gas Co.",
+      "cite": "491 U.S. 1",
+      "year": 1989,
+      "by": [
+        "Seminole Tribe of Florida v. Florida"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Seminole Tribe of Florida v. Florida, 517 U.S. 44 (1996)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Seminole Tribe of Florida v. Florida, 517 U.S. 44 (1996)\", \"confidence\": \"high\"}",
+      "f3d_citing": 99
+    },
+    {
+      "id": "US:473:402",
+      "name": "Aguilar v. Felton",
+      "cite": "473 U.S. 402",
+      "year": 1985,
+      "by": [
+        "Agostini v. Felton"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Agostini v. Felton, 521 U.S. 203 (1997)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Agostini v. Felton, 521 U.S. 203 (1997)\", \"confidence\": \"high\"}",
+      "f3d_citing": 26
+    },
+    {
+      "id": "US:473:373",
+      "name": "School District of Grand Rapids v. Ball",
+      "cite": "473 U.S. 373",
+      "year": 1985,
+      "by": [
+        "Agostini v. Felton"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Agostini v. Felton",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Agostini v. Felton\", \"confidence\": \"high\"}",
+      "f3d_citing": 47
+    },
+    {
+      "id": "US:390:145",
+      "name": "Albrecht v. Herald Co.",
+      "cite": "390 U.S. 145",
+      "year": 1968,
+      "by": [
+        "State Oil Co. v. Khan"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "State Oil Co. v. Khan",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"State Oil Co. v. Khan\", \"confidence\": \"high\"}",
+      "f3d_citing": 19
+    },
+    {
+      "id": "US:490:435",
+      "name": "United States v. Halper",
+      "cite": "490 U.S. 435",
+      "year": 1989,
+      "by": [
+        "Hudson v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Hudson v. United States, 522 U.S. 93 (1997)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Hudson v. United States, 522 U.S. 93 (1997)\", \"confidence\": \"high\"}",
+      "f3d_citing": 167
+    },
+    {
+      "id": "US:433:229",
+      "name": "Wolman v. Walter",
+      "cite": "433 U.S. 229",
+      "year": 1977,
+      "by": [
+        "Mitchell v. Helms"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Mitchell v. Helms",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Mitchell v. Helms\", \"confidence\": \"medium\"}",
+      "f3d_citing": 10
+    },
+    {
+      "id": "US:421:349",
+      "name": "Meek v. Pittenger",
+      "cite": "421 U.S. 349",
+      "year": 1975,
+      "by": [
+        "Mitchell v. Helms"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Mitchell v. Helms",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Mitchell v. Helms\", \"confidence\": \"high\"}",
+      "f3d_citing": 13
+    },
+    {
+      "id": "US:253:245",
+      "name": "Evans v. Gore",
+      "cite": "253 U.S. 245",
+      "year": 1920,
+      "by": [
+        "United States v. Hatter"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "O'Malley v. Woodrow, 307 U.S. 277 (1939)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"O'Malley v. Woodrow, 307 U.S. 277 (1939)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 9
+    },
+    {
+      "id": "US:323:459",
+      "name": "Ford Motor Co. v. Department of Treasury",
+      "cite": "323 U.S. 459",
+      "year": 1945,
+      "by": [
+        "Lapides v. Board of Regents of University System"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Lapides v. Board of Regents of the University System of Georgia, 535 U.S. 613 (2002) (in part)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Lapides v. Board of Regents of the University System of Georgia, 535 U.S. 613 (2002) (in part)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 111
+    },
+    {
+      "id": "US:492:302",
+      "name": "Penry v. Lynaugh",
+      "cite": "492 U.S. 302",
+      "year": 1989,
+      "by": [
+        "Atkins v. Virginia"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Atkins v. Virginia, 536 U.S. 304 (2002)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Atkins v. Virginia, 536 U.S. 304 (2002)\", \"confidence\": \"high\"}",
+      "f3d_citing": 358
+    },
+    {
+      "id": "US:497:639",
+      "name": "Walton v. Arizona",
+      "cite": "497 U.S. 639",
+      "year": 1990,
+      "by": [
+        "Ring v. Arizona"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Ring v. Arizona, 536 U.S. 584 (2002)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Ring v. Arizona, 536 U.S. 584 (2002)\", \"confidence\": \"high\"}",
+      "f3d_citing": 166
+    },
+    {
+      "id": "US:478:186",
+      "name": "Bowers v. Hardwick",
+      "cite": "478 U.S. 186",
+      "year": 1986,
+      "by": [
+        "Lawrence v. Texas"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Lawrence v. Texas, 539 U.S. 558 (2003)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Lawrence v. Texas, 539 U.S. 558 (2003)\", \"confidence\": \"high\"}",
+      "f3d_citing": 75
+    },
+    {
+      "id": "US:448:56",
+      "name": "Ohio v. Roberts",
+      "cite": "448 U.S. 56",
+      "year": 1980,
+      "by": [
+        "Crawford v. Washington"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Crawford v. Washington, 541 U.S. 36 (2004)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Crawford v. Washington, 541 U.S. 36 (2004)\", \"confidence\": \"high\"}",
+      "f3d_citing": 358
+    },
+    {
+      "id": "US:492:361",
+      "name": "Stanford v. Kentucky",
+      "cite": "492 U.S. 361",
+      "year": 1989,
+      "by": [
+        "Roper v. Simmons"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Roper v. Simmons, 543 U.S. 551 (2005)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Roper v. Simmons, 543 U.S. 551 (2005)\", \"confidence\": \"high\"}",
+      "f3d_citing": 28
+    },
+    {
+      "id": "US:220:373",
+      "name": "Dr. Miles Medical Co. v. John D. Park & Sons Co.",
+      "cite": "220 U.S. 373",
+      "year": 1911,
+      "by": [
+        "Leegin Creative Leather Products, Inc. v. PSKS, Inc."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Leegin Creative Leather Products, Inc. v. PSKS, Inc., 551 U.S. 877 (2007)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Leegin Creative Leather Products, Inc. v. PSKS, Inc., 551 U.S. 877 (2007)\", \"confidence\": \"high\"}",
+      "f3d_citing": 27
+    },
+    {
+      "id": "US:533:194",
+      "name": "Saucier v. Katz",
+      "cite": "533 U.S. 194",
+      "year": 2001,
+      "by": [
+        "Pearson v. Callahan"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Pearson v. Callahan",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Pearson v. Callahan\", \"confidence\": \"high\"}",
+      "f3d_citing": 1575
+    },
+    {
+      "id": "US:475:625",
+      "name": "Michigan v. Jackson",
+      "cite": "475 U.S. 625",
+      "year": 1986,
+      "by": [
+        "Montejo v. Louisiana"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Montejo v. Louisiana, 556 U.S. 778 (2009)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Montejo v. Louisiana, 556 U.S. 778 (2009)\", \"confidence\": \"high\"}",
+      "f3d_citing": 92
+    },
+    {
+      "id": "US:540:93",
+      "name": "McConnell v. Federal Election Commission",
+      "cite": "540 U.S. 93",
+      "year": 2003,
+      "by": [
+        "Citizens United v. Federal Election Commission"
+      ],
+      "partial": true,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Citizens United v. Federal Election Commission, 558 U.S. 310 (2010)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Citizens United v. Federal Election Commission, 558 U.S. 310 (2010)\", \"confidence\": \"high\"}",
+      "f3d_citing": 142
+    },
+    {
+      "id": "US:494:652",
+      "name": "Austin v. Michigan State Chamber of Commerce",
+      "cite": "494 U.S. 652",
+      "year": 1990,
+      "by": [
+        "Citizens United v. Federal Election Commission"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Citizens United v. FEC, 558 U.S. 310 (2010)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Citizens United v. FEC, 558 U.S. 310 (2010)\", \"confidence\": \"high\"}",
+      "f3d_citing": 65
+    },
+    {
+      "id": "US:153:535",
+      "name": "Miller v. Texas",
+      "cite": "153 U.S. 535",
+      "year": 1894,
+      "by": [
+        "McDonald v. City of Chicago"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 3
+    },
+    {
+      "id": "US:116:252",
+      "name": "Presser v. Illinois",
+      "cite": "116 U.S. 252",
+      "year": 1886,
+      "by": [
+        "McDonald v. City of Chicago"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 12
+    },
+    {
+      "id": "US:92:542",
+      "name": "United States v. Cruikshank",
+      "cite": "92 U.S. 542",
+      "year": 1875,
+      "by": [
+        "McDonald v. City of Chicago"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "McDonald v. City of Chicago",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"McDonald v. City of Chicago\", \"confidence\": \"medium\"}",
+      "f3d_citing": 39
+    },
+    {
+      "id": "US:536:545",
+      "name": "Harris v. United States",
+      "cite": "536 U.S. 545",
+      "year": 2002,
+      "by": [
+        "Alleyne v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Alleyne v. United States, 570 U.S. 99 (2013)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Alleyne v. United States, 570 U.S. 99 (2013)\", \"confidence\": \"high\"}",
+      "f3d_citing": 277
+    },
+    {
+      "id": "US:504:298",
+      "name": "Quill Corp. v. North Dakota ex rel. Heitkamp",
+      "cite": "504 U.S. 298",
+      "year": 1992,
+      "by": [
+        "South Dakota v. Wayfair, Inc."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "South Dakota v. Wayfair, Inc., 585 U.S. 162 (2018)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"South Dakota v. Wayfair, Inc., 585 U.S. 162 (2018)\", \"confidence\": \"high\"}",
+      "f3d_citing": 41
+    },
+    {
+      "id": "US:386:753",
+      "name": "National Bellas Hess, Inc. v. Department of Revenue",
+      "cite": "386 U.S. 753",
+      "year": 1967,
+      "by": [
+        "South Dakota v. Wayfair, Inc."
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "South Dakota v. Wayfair, Inc., 585 U.S. 162 (2018)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"South Dakota v. Wayfair, Inc., 585 U.S. 162 (2018)\", \"confidence\": \"high\"}",
+      "f3d_citing": 6
+    },
+    {
+      "id": "US:295:602",
+      "name": "Humphrey's Executor v. United States",
+      "cite": "295 U.S. 602",
+      "year": 1935,
+      "by": [
+        "Trump v. Slaughter"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "low"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"low\"}",
+      "f3d_citing": 42
+    },
+    {
+      "id": "US:401:481",
+      "name": "Durham v. United States",
+      "cite": "401 U.S. 481",
+      "year": 1971,
+      "by": [
+        "Dove v. United States"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Dove v. United States, 423 U.S. 325 (1976)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Dove v. United States, 423 U.S. 325 (1976)\", \"confidence\": \"high\"}",
+      "f3d_citing": 9
+    },
+    {
+      "id": "US:440:410",
+      "name": "Nevada v. Hall",
+      "cite": "440 U.S. 410",
+      "year": 1979,
+      "by": [
+        "Franchise Tax Board of California v. Hyatt"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Franchise Tax Board of California v. Hyatt, 587 U.S. 230 (2019)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Franchise Tax Board of California v. Hyatt, 587 U.S. 230 (2019)\", \"confidence\": \"high\"}",
+      "f3d_citing": 23
+    },
+    {
+      "id": "US:403:602",
+      "name": "Lemon v. Kurtzman",
+      "cite": "403 U.S. 602",
+      "year": 1971,
+      "by": [
+        "Kennedy v. Bremerton School District"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Kennedy v. Bremerton School District, 597 U.S. 507 (2022)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Kennedy v. Bremerton School District, 597 U.S. 507 (2022)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 321
+    },
+    {
+      "id": "US:431:209",
+      "name": "Abood v. Detroit Board of Education",
+      "cite": "431 U.S. 209",
+      "year": 1977,
+      "by": [
+        "Janus v. AFSCME"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Janus v. AFSCME, Council 31, 585 U.S. 878 (2018)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Janus v. AFSCME, Council 31, 585 U.S. 878 (2018)\", \"confidence\": \"high\"}",
+      "f3d_citing": 90
+    },
+    {
+      "id": "US:533:431",
+      "name": "Federal Election Commission v. Colorado Republican Federal Campaign Committee",
+      "cite": "533 U.S. 431",
+      "year": 2001,
+      "by": [
+        "National Republican Senatorial Committee v. FEC"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "National Republican Senatorial Committee v. FEC",
+        "confidence": "low"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"National Republican Senatorial Committee v. FEC\", \"confidence\": \"low\"}",
+      "f3d_citing": 42
+    },
+    {
+      "id": "US:495:508",
+      "name": "Grady v. Corbin",
+      "cite": "495 U.S. 508",
+      "year": 1990,
+      "by": [
+        "United States v. Dixon"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "United States v. Dixon, 509 U.S. 688 (1993)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"United States v. Dixon, 509 U.S. 688 (1993)\", \"confidence\": \"high\"}",
+      "f3d_citing": 73
+    },
+    {
+      "id": "US:323:214",
+      "name": "Korematsu v. United States",
+      "cite": "323 U.S. 214",
+      "year": 1944,
+      "by": [
+        "Trump v. Hawaii"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Trump v. Hawaii, 585 U.S. 667 (2018)",
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Trump v. Hawaii, 585 U.S. 667 (2018)\", \"confidence\": \"medium\"}",
+      "f3d_citing": 44
+    },
+    {
+      "id": "US:473:172",
+      "name": "Williamson County Regional Planning Commission v. Hamilton Bank of Johnson City",
+      "cite": "473 U.S. 172",
+      "year": 1985,
+      "by": [
+        "Knick v. Township of Scott"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Knick v. Township of Scott, 139 S. Ct. 2162 (2019) (overruling in part the state-litigation requirement)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Knick v. Township of Scott, 139 S. Ct. 2162 (2019) (overruling in part the state-litigation requirement)\", \"confidence\": \"high\"}",
+      "f3d_citing": 322
+    },
+    {
+      "id": "US:406:404",
+      "name": "Apodaca v. Oregon",
+      "cite": "406 U.S. 404",
+      "year": 1972,
+      "by": [
+        "Ramos v. Louisiana"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Ramos v. Louisiana, 590 U.S. 83 (2020)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Ramos v. Louisiana, 590 U.S. 83 (2020)\", \"confidence\": \"high\"}",
+      "f3d_citing": 14
+    },
+    {
+      "id": "US:505:833",
+      "name": "Planned Parenthood v. Casey",
+      "cite": "505 U.S. 833",
+      "year": 1992,
+      "by": [
+        "Dobbs v. Jackson Women’s Health Organization"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022)\", \"confidence\": \"high\"}",
+      "f3d_citing": 338
+    },
+    {
+      "id": "US:410:113",
+      "name": "Roe v. Wade",
+      "cite": "410 U.S. 113",
+      "year": 1973,
+      "by": [
+        "Dobbs v. Jackson Women’s Health Organization"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Dobbs v. Jackson Women's Health Organization, 597 U.S. 215 (2022)\", \"confidence\": \"high\"}",
+      "f3d_citing": 247
+    },
+    {
+      "id": "US:409:810",
+      "name": "Baker v. Nelson",
+      "cite": "409 U.S. 810",
+      "year": 1972,
+      "by": [
+        "Obergefell v. Hodges"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Obergefell v. Hodges",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Obergefell v. Hodges\", \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:467:837",
+      "name": "Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc.",
+      "cite": "467 U.S. 837",
+      "year": 1984,
+      "by": [
+        "Loper Bright Enterprises v. Raimondo"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Loper Bright Enterprises v. Raimondo, 603 U.S. 369 (2024)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Loper Bright Enterprises v. Raimondo, 603 U.S. 369 (2024)\", \"confidence\": \"high\"}",
+      "f3d_citing": 4884
+    },
+    {
+      "id": "US:163:504",
+      "name": "Ward v. Race Horse",
+      "cite": "163 U.S. 504",
+      "year": 1896,
+      "by": [
+        "Herrera v. Wyoming"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Herrera v. Wyoming, 587 U.S. 329 (2019)",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Herrera v. Wyoming, 587 U.S. 329 (2019)\", \"confidence\": \"high\"}",
+      "f3d_citing": 6
+    },
+    {
+      "id": "US:489:288",
+      "name": "Teague v. Lane",
+      "cite": "489 U.S. 288",
+      "year": 1989,
+      "by": [
+        "Edwards v. Vannoy"
+      ],
+      "partial": false,
+      "truth": true,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 1011
+    },
+    {
+      "id": "US:477:242",
+      "name": "Anderson v. Liberty Lobby, Inc.",
+      "cite": "477 U.S. 242",
+      "year": 1986,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:466:668",
+      "name": "Strickland v. Washington",
+      "cite": "466 U.S. 668",
+      "year": 1984,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:507:725",
+      "name": "United States v. Olano",
+      "cite": "507 U.S. 725",
+      "year": 1993,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:543:220",
+      "name": "United States v. Booker",
+      "cite": "543 U.S. 220",
+      "year": 2005,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:477:317",
+      "name": "Celotex Corp. v. Catrett",
+      "cite": "477 U.S. 317",
+      "year": 1986,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:411:792",
+      "name": "McDonnell Douglas Corp. v. Green",
+      "cite": "411 U.S. 792",
+      "year": 1973,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:504:555",
+      "name": "Lujan v. Defenders of Wildlife",
+      "cite": "504 U.S. 555",
+      "year": 1992,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:530:466",
+      "name": "Apprendi v. New Jersey",
+      "cite": "530 U.S. 466",
+      "year": 2000,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:457:800",
+      "name": "Harlow v. Fitzgerald",
+      "cite": "457 U.S. 800",
+      "year": 1982,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:443:307",
+      "name": "Jackson v. Virginia",
+      "cite": "443 U.S. 307",
+      "year": 1979,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:529:362",
+      "name": "Williams v. Taylor",
+      "cite": "529 U.S. 362",
+      "year": 2000,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:373:83",
+      "name": "Brady v. Maryland",
+      "cite": "373 U.S. 83",
+      "year": 1963,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:552:38",
+      "name": "Gall v. United States",
+      "cite": "552 U.S. 38",
+      "year": 2007,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:556:662",
+      "name": "Ashcroft v. Iqbal",
+      "cite": "556 U.S. 662",
+      "year": 2009,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:392:1",
+      "name": "Terry v. Ohio",
+      "cite": "392 U.S. 1",
+      "year": 1968,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:550:544",
+      "name": "Bell Atlantic Corp. v. Twombly",
+      "cite": "550 U.S. 544",
+      "year": 2007,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:475:574",
+      "name": "Matsushita Electric Industrial Co. v. Zenith Radio Corp.",
+      "cite": "475 U.S. 574",
+      "year": 1986,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:483:635",
+      "name": "Anderson v. Creighton",
+      "cite": "483 U.S. 635",
+      "year": 1987,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:470:564",
+      "name": "Anderson v. City of Bessemer City",
+      "cite": "470 U.S. 564",
+      "year": 1985,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:384:436",
+      "name": "Miranda v. Arizona",
+      "cite": "384 U.S. 436",
+      "year": 1966,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:495:575",
+      "name": "Taylor v. United States",
+      "cite": "495 U.S. 575",
+      "year": 1990,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:436:658",
+      "name": "Monell v. Department of Social Services",
+      "cite": "436 U.S. 658",
+      "year": 1978,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:472:511",
+      "name": "Mitchell v. Forsyth",
+      "cite": "472 U.S. 511",
+      "year": 1985,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:509:579",
+      "name": "Daubert v. Merrell Dow Pharmaceuticals, Inc.",
+      "cite": "509 U.S. 579",
+      "year": 1993,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:523:83",
+      "name": "Steel Co. v. Citizens for a Better Environment",
+      "cite": "523 U.S. 83",
+      "year": 1998,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:490:386",
+      "name": "Graham v. Connor",
+      "cite": "490 U.S. 386",
+      "year": 1989,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:501:722",
+      "name": "Coleman v. Thompson",
+      "cite": "501 U.S. 722",
+      "year": 1991,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:462:213",
+      "name": "Illinois v. Gates",
+      "cite": "462 U.S. 213",
+      "year": 1983,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:507:619",
+      "name": "Brecht v. Abrahamson",
+      "cite": "507 U.S. 619",
+      "year": 1993,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:463:29",
+      "name": "Motor Vehicle Manufacturers Ass'n v. State Farm Mutual Automobile Insurance",
+      "cite": "463 U.S. 29",
+      "year": 1983,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:542:296",
+      "name": "Blakely v. Washington",
+      "cite": "542 U.S. 296",
+      "year": 2004,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:520:461",
+      "name": "Johnson v. United States",
+      "cite": "520 U.S. 461",
+      "year": 1997,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:518:81",
+      "name": "Koon v. United States",
+      "cite": "518 U.S. 81",
+      "year": 1996,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:555:223",
+      "name": "Pearson v. Callahan",
+      "cite": "555 U.S. 223",
+      "year": 2009,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:386:18",
+      "name": "Chapman v. California",
+      "cite": "386 U.S. 18",
+      "year": 1967,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:450:248",
+      "name": "Texas Department of Community Affairs v. Burdine",
+      "cite": "450 U.S. 248",
+      "year": 1981,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:544:13",
+      "name": "Shepard v. United States",
+      "cite": "544 U.S. 13",
+      "year": 2005,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:424:319",
+      "name": "Mathews v. Eldridge",
+      "cite": "424 U.S. 319",
+      "year": 1976,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:511:825",
+      "name": "Farmer v. Brennan",
+      "cite": "511 U.S. 825",
+      "year": 1994,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:511:244",
+      "name": "Landgraf v. USI Film Products",
+      "cite": "511 U.S. 244",
+      "year": 1994,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:551:338",
+      "name": "Rita v. United States",
+      "cite": "551 U.S. 338",
+      "year": 2007,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:502:478",
+      "name": "Immigration & Naturalization Service v. Elias-Zacarias",
+      "cite": "502 U.S. 478",
+      "year": 1992,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:489:101",
+      "name": "Firestone Tire & Rubber Co. v. Bruch",
+      "cite": "489 U.S. 101",
+      "year": 1989,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:461:424",
+      "name": "Hensley v. Eckerhart",
+      "cite": "461 U.S. 424",
+      "year": 1983,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:530:133",
+      "name": "Reeves v. Sanderson Plumbing Products, Inc.",
+      "cite": "530 U.S. 133",
+      "year": 2000,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:403:397",
+      "name": "Bivens v. Six Unknown Named Agents of Federal Bureau of Narcotics",
+      "cite": "403 U.S. 397",
+      "year": 1971,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:521:320",
+      "name": "Lindh v. Murphy",
+      "cite": "521 U.S. 320",
+      "year": 1997,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:516:137",
+      "name": "Bailey v. United States",
+      "cite": "516 U.S. 137",
+      "year": 1995,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:355:41",
+      "name": "Conley v. Gibson",
+      "cite": "355 U.S. 41",
+      "year": 1957,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": true,
+        "overruled_by": "Bell Atlantic Corp. v. Twombly",
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": true, \"overruled_by\": \"Bell Atlantic Corp. v. Twombly\", \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:422:490",
+      "name": "Warth v. Seldin",
+      "cite": "422 U.S. 490",
+      "year": 1975,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:509:502",
+      "name": "St. Mary's Honor Center v. Hicks",
+      "cite": "509 U.S. 502",
+      "year": 1993,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:468:897",
+      "name": "United States v. Leon",
+      "cite": "468 U.S. 897",
+      "year": 1984,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:476:79",
+      "name": "Batson v. Kentucky",
+      "cite": "476 U.S. 79",
+      "year": 1986,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:408:564",
+      "name": "Board of Regents of State Colleges v. Roth",
+      "cite": "408 U.S. 564",
+      "year": 1972,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:460:1",
+      "name": "Moses H. Cone Memorial Hospital v. Mercury Construction Corp.",
+      "cite": "460 U.S. 1",
+      "year": 1983,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:508:36",
+      "name": "Stinson v. United States",
+      "cite": "508 U.S. 36",
+      "year": 1993,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "medium"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"medium\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:473:667",
+      "name": "United States v. Bagley",
+      "cite": "473 U.S. 667",
+      "year": 1985,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:515:304",
+      "name": "Johnson v. Jones",
+      "cite": "515 U.S. 304",
+      "year": 1996,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:517:690",
+      "name": "Ornelas v. United States",
+      "cite": "517 U.S. 690",
+      "year": 1996,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    },
+    {
+      "id": "US:562:86",
+      "name": "Harrington v. Richter",
+      "cite": "562 U.S. 86",
+      "year": 2011,
+      "truth": false,
+      "by": [],
+      "partial": false,
+      "answer": {
+        "overruled": false,
+        "overruled_by": null,
+        "confidence": "high"
+      },
+      "raw": "{\"overruled\": false, \"overruled_by\": null, \"confidence\": \"high\"}",
+      "f3d_citing": 0
+    }
+  ]
+}

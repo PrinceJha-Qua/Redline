@@ -1,0 +1,179 @@
+{
+  "task": "m12",
+  "arm": "C",
+  "rep": 3,
+  "summary": {
+    "citations": 20,
+    "verified": 20,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "347 F.3d 161",
+      "name": "McDonald v. W.-S. Life Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McDonald v. Western-Southern Life Insurance, 347 F.3d 161 (6th Cir. 2003). No overruling found in Redline's data.",
+      "case": "McDonald v. Western-Southern Life Insurance"
+    },
+    {
+      "text": "461 F.3d 660",
+      "name": "Glenn v. MetLife",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Glenn v. MetLife, 461 F.3d 660 (6th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Glenn v. MetLife"
+    },
+    {
+      "text": "554 U.S. 105",
+      "name": "Metro. Life Ins. Co. v. Glenn",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Metropolitan Life Insurance v. Glenn, 554 U.S. 105 (2008). No overruling found in Redline's data.",
+      "case": "Metropolitan Life Insurance v. Glenn"
+    },
+    {
+      "text": "419 F.3d 501",
+      "name": "Kalish v. Liberty Mut./Liberty Life Assurance Co. of Bos",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kalish v. Liberty Mutual/Liberty Life Assurance Co., 419 F.3d 501 (6th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Kalish v. Liberty Mutual/Liberty Life Assurance Co."
+    },
+    {
+      "text": "473 F.3d 613",
+      "name": "Elliott v. Metro. Life Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Elliott v. Metropolitan Life Insurance, 473 F.3d 613 (6th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Elliott v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "538 U.S. 822",
+      "name": "Black & Decker Disability Plan v. Nord",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Black & Decker Disability Plan v. Nord, 538 U.S. 822 (2003). No overruling found in Redline's data. It mentions Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc. once in passing (later overruled by Loper Bright Enterprises v. Raimondo, 2024); a single mention is not counted as reliance.",
+      "case": "Black & Decker Disability Plan v. Nord"
+    },
+    {
+      "text": "409 F.3d 286",
+      "name": "Calvert v. Firstar Fin., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Calvert v. Firstar Finance, Inc., 409 F.3d 286 (6th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Calvert v. Firstar Finance, Inc."
+    },
+    {
+      "text": "419 F.3d at 508",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kalish v. Liberty Mutual/Liberty Life Assurance Co., 419 F.3d 501 (6th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Kalish v. Liberty Mutual/Liberty Life Assurance Co."
+    },
+    {
+      "text": "405 F.3d 373",
+      "name": "Moon v. Unum Provident Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Moon v. Unum Provident Corp., 405 F.3d 373 (6th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Moon v. Unum Provident Corp."
+    },
+    {
+      "text": "434 F.3d 866",
+      "name": "Evans v. UnumProvident Fin. Servs. Grp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Evans v. Unumprovident Corp., 434 F.3d 866 (6th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Evans v. Unumprovident Corp."
+    },
+    {
+      "text": "409 F.3d at 296",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Calvert v. Firstar Finance, Inc., 409 F.3d 286 (6th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Calvert v. Firstar Finance, Inc."
+    },
+    {
+      "text": "419 F.3d at 508",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kalish v. Liberty Mutual/Liberty Life Assurance Co., 419 F.3d 501 (6th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Kalish v. Liberty Mutual/Liberty Life Assurance Co."
+    },
+    {
+      "text": "473 F.3d at 621",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Elliott v. Metropolitan Life Insurance, 473 F.3d 613 (6th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Elliott v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "450 F.3d 253",
+      "name": "Smith v. Cont'l Cas. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smith v. Continental Casualty Co., 450 F.3d 253 (6th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Smith v. Continental Casualty Co."
+    },
+    {
+      "text": "514 F.3d 547",
+      "name": "Bennett v. Kemper National Services, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bennett v. Kemper National Services, Inc., 514 F.3d 547 (6th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Bennett v. Kemper National Services, Inc."
+    },
+    {
+      "text": "741 F.3d 686",
+      "name": "Javery v. Lucent Technologies, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Javery v. Lucent Technologies, Inc. Long Term Disability Plan for Management or LBA Employees, 741 F.3d 686 (6th Cir. 2014). No overruling found in Redline's data.",
+      "case": "Javery v. Lucent Technologies, Inc. Long Term Disability Plan for Management or LBA Employees"
+    },
+    {
+      "text": "461 F.3d at 666",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Glenn v. MetLife, 461 F.3d 660 (6th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Glenn v. MetLife"
+    },
+    {
+      "text": "434 F.3d at 877",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Evans v. Unumprovident Corp., 434 F.3d 866 (6th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Evans v. Unumprovident Corp."
+    },
+    {
+      "text": "473 F.3d at 621",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Elliott v. Metropolitan Life Insurance, 473 F.3d 613 (6th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Elliott v. Metropolitan Life Insurance"
+    },
+    {
+      "text": "461 F.3d at 666",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Glenn v. MetLife, 461 F.3d 660 (6th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Glenn v. MetLife"
+    }
+  ],
+  "judge": {},
+  "words": 793
+}

@@ -1,0 +1,155 @@
+{
+  "task": "m24",
+  "arm": "A",
+  "rep": 3,
+  "summary": {
+    "citations": 17,
+    "verified": 16,
+    "fabricated": 0,
+    "unverifiable": 1,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "562 U.S. 562",
+      "name": "Milner v. Dep't of the Navy",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Milner v. Department of the Navy, 562 U.S. 562 (2011). No overruling found in Redline's data.",
+      "case": "Milner v. Department of the Navy"
+    },
+    {
+      "text": "489 U.S. 749",
+      "name": "U.S. Dep't of Justice v. Reporters Comm. for Freedom of the Press",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States Department of Justice v. Reporters Committee for Freedom of the Press, 489 U.S. 749 (1989). No overruling found in Redline's data.",
+      "case": "United States Department of Justice v. Reporters Committee for Freedom of the Press"
+    },
+    {
+      "text": "473 F.3d 370",
+      "name": "Wolf v. CIA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wolf v. Central Intelligence Agency, 473 F.3d 370 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Wolf v. Central Intelligence Agency"
+    },
+    {
+      "text": "971 F.3d 364",
+      "name": "Machado Amadis v. U.S. Dep't of State",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 971 of F.3d is after volume 935 (2019), where Redline's F.3d data ends.",
+      "case": null
+    },
+    {
+      "text": "746 F.3d 1082",
+      "name": "Citizens for Responsibility & Ethics in Wash. v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice, 746 F.3d 1082 (D.C. Cir. 2014). No overruling found in Redline's data.",
+      "case": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice"
+    },
+    {
+      "text": "449 F.3d 141",
+      "name": "Judicial Watch, Inc. v. FDA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Judicial Watch, Inc. v. Food & Drug Administration, 449 F.3d 141 (D.C. Cir. 2006). No overruling found in Redline's data.",
+      "case": "Judicial Watch, Inc. v. Food & Drug Administration"
+    },
+    {
+      "text": "628 F.3d 612",
+      "name": "Am. Civil Liberties Union v. U.S. Dep't of Def",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Civil Liberties Union v. United States Department of Defense, 628 F.3d 612 (D.C. Cir. 2011). No overruling found in Redline's data.",
+      "case": "American Civil Liberties Union v. United States Department of Defense"
+    },
+    {
+      "text": "565 F.3d 857",
+      "name": "Larson v. Dep't of State",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Larson v. Department of State, 565 F.3d 857 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Larson v. Department of State"
+    },
+    {
+      "text": "164 F.3d 20",
+      "name": "Campbell v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Campbell v. United States Department of Justice, 164 F.3d 20 (D.C. Cir. 1998). No overruling found in Redline's data.",
+      "case": "Campbell v. United States Department of Justice"
+    },
+    {
+      "text": "508 F.3d 1108",
+      "name": "Morley v. CIA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Morley v. Central Intelligence Agency, 508 F.3d 1108 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Morley v. Central Intelligence Agency"
+    },
+    {
+      "text": "739 F.3d 1",
+      "name": "Elec. Frontier Found. v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Electronic Frontier Foundation v. United States Department of Justice, 739 F.3d 1 (D.C. Cir. 2014). No overruling found in Redline's data.",
+      "case": "Electronic Frontier Foundation v. United States Department of Justice"
+    },
+    {
+      "text": "164 F.3d at 30",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Campbell v. United States Department of Justice, 164 F.3d 20 (D.C. Cir. 1998). No overruling found in Redline's data.",
+      "case": "Campbell v. United States Department of Justice"
+    },
+    {
+      "text": "628 F.3d at 619",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Civil Liberties Union v. United States Department of Defense, 628 F.3d 612 (D.C. Cir. 2011). No overruling found in Redline's data.",
+      "case": "American Civil Liberties Union v. United States Department of Defense"
+    },
+    {
+      "text": "565 F.3d at 862",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Larson v. Department of State, 565 F.3d 857 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Larson v. Department of State"
+    },
+    {
+      "text": "508 F.3d at 1124",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Morley v. Central Intelligence Agency, 508 F.3d 1108 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Morley v. Central Intelligence Agency"
+    },
+    {
+      "text": "473 F.3d at 374",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wolf v. Central Intelligence Agency, 473 F.3d 370 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Wolf v. Central Intelligence Agency"
+    },
+    {
+      "text": "628 F.3d at 619",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Civil Liberties Union v. United States Department of Defense, 628 F.3d 612 (D.C. Cir. 2011). No overruling found in Redline's data.",
+      "case": "American Civil Liberties Union v. United States Department of Defense"
+    }
+  ],
+  "judge": {},
+  "words": 685
+}

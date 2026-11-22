@@ -1,0 +1,139 @@
+{
+  "task": "m16",
+  "arm": "C",
+  "rep": 2,
+  "summary": {
+    "citations": 15,
+    "verified": 15,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "407 U.S. 1",
+      "name": "M/S Bremen v. Zapata Off-Shore Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "The Bremen v. Zapata Off-Shore Co., 407 U.S. 1 (1972). No overruling found in Redline's data.",
+      "case": "The Bremen v. Zapata Off-Shore Co."
+    },
+    {
+      "text": "183 F.3d 750",
+      "name": "M.B. Rests., Inc. v. CKE Rests., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc., 183 F.3d 750 (8th Cir. 1999). No overruling found in Redline's data.",
+      "case": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc."
+    },
+    {
+      "text": "439 F.3d 786",
+      "name": "Servewell Plumbing, LLC v. Fed. Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Servewell Plumbing, LLC v. Federal Insurance, 439 F.3d 786 (8th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Servewell Plumbing, LLC v. Federal Insurance"
+    },
+    {
+      "text": "119 F.3d 688",
+      "name": "Terra Int'l, Inc. v. Miss. Chem. Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Terra International, Inc. v. Mississippi Chemical Corp., 119 F.3d 688 (8th Cir. 1997). No overruling found in Redline's data.",
+      "case": "Terra International, Inc. v. Mississippi Chemical Corp."
+    },
+    {
+      "text": "571 U.S. 49",
+      "name": "Atl. Marine Constr. Co. v. U.S. Dist. Court",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex., 571 U.S. 49 (2013). No overruling found in Redline's data.",
+      "case": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex."
+    },
+    {
+      "text": "119 F.3d at 691",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Terra International, Inc. v. Mississippi Chemical Corp., 119 F.3d 688 (8th Cir. 1997). No overruling found in Redline's data.",
+      "case": "Terra International, Inc. v. Mississippi Chemical Corp."
+    },
+    {
+      "text": "330 F.3d 1062",
+      "name": "Dunne v. Libbra",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Dunne v. Libbra, 330 F.3d 1062 (8th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Dunne v. Libbra"
+    },
+    {
+      "text": "689 F.3d 968",
+      "name": "Union Electric Co. v. Energy Insurance Mutual Ltd",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Union Electric Co. v. Energy Insurance Mutual Ltd., 689 F.3d 968 (8th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Union Electric Co. v. Energy Insurance Mutual Ltd."
+    },
+    {
+      "text": "648 F.3d 588",
+      "name": "K-V Pharm. Co. v. J. Uriach & CIA, S.A",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "K-V Pharmaceutical Co. v. J. Uriach & CIA, S.A., 648 F.3d 588 (8th Cir. 2011). No overruling found in Redline's data.",
+      "case": "K-V Pharmaceutical Co. v. J. Uriach & CIA, S.A."
+    },
+    {
+      "text": "254 F.3d 753",
+      "name": "Marano Enters. of Kan. v. Z-Teca Rests., L.P",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marano Enterprises of Kansas v. Z-Teca Restaurants, L.P., 254 F.3d 753 (8th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Marano Enterprises of Kansas v. Z-Teca Restaurants, L.P."
+    },
+    {
+      "text": "340 F.3d 544",
+      "name": "Rainforest Cafe, Inc. v. EklecCo, L.L.C",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rainforest Cafe, Inc. v. EklecCo, LLC, 340 F.3d 544 (8th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Rainforest Cafe, Inc. v. EklecCo, LLC"
+    },
+    {
+      "text": "183 F.3d at 752",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc., 183 F.3d 750 (8th Cir. 1999). No overruling found in Redline's data.",
+      "case": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc."
+    },
+    {
+      "text": "439 F.3d at 789",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Servewell Plumbing, LLC v. Federal Insurance, 439 F.3d 786 (8th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Servewell Plumbing, LLC v. Federal Insurance"
+    },
+    {
+      "text": "407 U.S. at 12",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "The Bremen v. Zapata Off-Shore Co., 407 U.S. 1 (1972). No overruling found in Redline's data.",
+      "case": "The Bremen v. Zapata Off-Shore Co."
+    },
+    {
+      "text": "571 U.S. at 64",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex., 571 U.S. 49 (2013). No overruling found in Redline's data.",
+      "case": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex."
+    }
+  ],
+  "judge": {},
+  "words": 676
+}

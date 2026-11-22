@@ -8,7 +8,7 @@
     "fabricated": 0,
     "unverifiable": 0,
     "overruled": 0,
-    "caution": 1
+    "caution": 0
   },
   "fabricated": [],
   "cites_overruled": [],
@@ -89,8 +89,8 @@
       "text": "538 U.S. 822",
       "name": "Black & Decker Disability Plan v. Nord",
       "verdict": "VERIFIED",
-      "status": "caution",
-      "reason": "Black & Decker Disability Plan v. Nord, 538 U.S. 822 (2003). Relies on Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, later overruled by Loper Bright Enterprises v. Raimondo (2024).",
+      "status": "good law",
+      "reason": "Black & Decker Disability Plan v. Nord, 538 U.S. 822 (2003). No overruling found in Redline's data. It mentions Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc. once in passing (later overruled by Loper Bright Enterprises v. Raimondo, 2024); a single mention is not counted as reliance.",
       "case": "Black & Decker Disability Plan v. Nord"
     },
     {

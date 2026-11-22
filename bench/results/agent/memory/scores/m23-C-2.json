@@ -1,0 +1,75 @@
+{
+  "task": "m23",
+  "arm": "C",
+  "rep": 2,
+  "summary": {
+    "citations": 7,
+    "verified": 7,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "579 F.3d 1",
+      "name": "Comcast Corp. v. FCC",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Comcast Corp. v. Federal Communications Commission, 579 F.3d 1 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Comcast Corp. v. Federal Communications Commission"
+    },
+    {
+      "text": "475 F.3d 319",
+      "name": "Williams Gas Processing-Gulf Coast Co. v. FERC",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Williams Gas Processing-Gulf Coast Co. v. Federal Energy Regulatory Commission, 475 F.3d 319 (D.C. Cir. 2006). No overruling found in Redline's data.",
+      "case": "Williams Gas Processing-Gulf Coast Co. v. Federal Energy Regulatory Commission"
+    },
+    {
+      "text": "71 F.3d 897",
+      "name": "ANR Pipeline Co. v. FERC",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "ANR Pipeline Co. v. Federal Energy Regulatory Commission, 71 F.3d 897 (D.C. Cir. 1995). No overruling found in Redline's data.",
+      "case": "ANR Pipeline Co. v. Federal Energy Regulatory Commission"
+    },
+    {
+      "text": "613 F.3d 1112",
+      "name": "Jicarilla Apache Nation v. U.S. Dep't of Interior",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jicarilla Apache Nation v. United States Department of the Interior, 613 F.3d 1112 (D.C. Cir. 2010). No overruling found in Redline's data.",
+      "case": "Jicarilla Apache Nation v. United States Department of the Interior"
+    },
+    {
+      "text": "346 F.3d 1121",
+      "name": "Ramaprakash v. FAA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ramaprakash v. Federal Aviation Administration, 346 F.3d 1121 (D.C. Cir. 2003). No overruling found in Redline's data.",
+      "case": "Ramaprakash v. Federal Aviation Administration"
+    },
+    {
+      "text": "22 F.3d 1164",
+      "name": "Petroleum Commc'ns, Inc. v. FCC",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Petroleum Communications, Inc. v. Federal Communications Commission, 22 F.3d 1164 (D.C. Cir. 1994). No overruling found in Redline's data.",
+      "case": "Petroleum Communications, Inc. v. Federal Communications Commission"
+    },
+    {
+      "text": "475 F.3d at 326",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Williams Gas Processing-Gulf Coast Co. v. Federal Energy Regulatory Commission, 475 F.3d 319 (D.C. Cir. 2006). No overruling found in Redline's data.",
+      "case": "Williams Gas Processing-Gulf Coast Co. v. Federal Energy Regulatory Commission"
+    }
+  ],
+  "judge": {},
+  "words": 702
+}

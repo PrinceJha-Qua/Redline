@@ -4,101 +4,101 @@
   "judge_model": null,
   "arms": {
     "A": {
-      "runs": 34,
-      "relies": 0,
-      "any_fabricated": 3,
-      "fabricated_citations": 5,
-      "citations": 572,
-      "verified": 526,
-      "unverifiable": 41,
-      "cites_overruled_case": 0,
-      "judge_unparsed": 34,
-      "cost_usd": 1.84,
-      "either": 3,
-      "fabricated_real_case_wrong_cite": 0
-    },
-    "B": {
-      "runs": 33,
+      "runs": 72,
       "relies": 0,
       "any_fabricated": 4,
-      "fabricated_citations": 4,
-      "citations": 487,
-      "verified": 452,
-      "unverifiable": 31,
+      "fabricated_citations": 6,
+      "citations": 1219,
+      "verified": 1147,
+      "unverifiable": 66,
       "cites_overruled_case": 0,
-      "judge_unparsed": 33,
-      "cost_usd": 1.62,
+      "judge_unparsed": 72,
+      "cost_usd": 3.73,
       "either": 4,
-      "fabricated_real_case_wrong_cite": 0
+      "fabricated_real_case_wrong_cite": 1
+    },
+    "B": {
+      "runs": 72,
+      "relies": 0,
+      "any_fabricated": 5,
+      "fabricated_citations": 5,
+      "citations": 1125,
+      "verified": 1065,
+      "unverifiable": 55,
+      "cites_overruled_case": 0,
+      "judge_unparsed": 72,
+      "cost_usd": 3.35,
+      "either": 5,
+      "fabricated_real_case_wrong_cite": 1
     },
     "C": {
-      "runs": 31,
+      "runs": 72,
       "relies": 0,
-      "any_fabricated": 0,
-      "fabricated_citations": 0,
-      "citations": 495,
-      "verified": 486,
-      "unverifiable": 9,
+      "any_fabricated": 2,
+      "fabricated_citations": 2,
+      "citations": 1147,
+      "verified": 1130,
+      "unverifiable": 15,
       "cites_overruled_case": 0,
-      "judge_unparsed": 31,
-      "cost_usd": 2.69,
-      "either": 0,
-      "fabricated_real_case_wrong_cite": 0
+      "judge_unparsed": 72,
+      "cost_usd": 5.83,
+      "either": 2,
+      "fabricated_real_case_wrong_cite": 2
     }
   },
   "sign_tests": {
     "relies:AvsC": {
       "tasks_worse_in_A": 0,
       "tasks_worse_in_C": 0,
-      "ties": 11,
+      "ties": 24,
       "p_two_sided": 1.0
     },
     "relies:BvsC": {
       "tasks_worse_in_B": 0,
       "tasks_worse_in_C": 0,
-      "ties": 11,
+      "ties": 24,
       "p_two_sided": 1.0
     },
     "relies:AvsB": {
       "tasks_worse_in_A": 0,
       "tasks_worse_in_B": 0,
-      "ties": 11,
+      "ties": 24,
       "p_two_sided": 1.0
     },
     "fabricated:AvsC": {
-      "tasks_worse_in_A": 1,
-      "tasks_worse_in_C": 0,
-      "ties": 10,
+      "tasks_worse_in_A": 2,
+      "tasks_worse_in_C": 1,
+      "ties": 21,
       "p_two_sided": 1.0
     },
     "fabricated:BvsC": {
-      "tasks_worse_in_B": 2,
-      "tasks_worse_in_C": 0,
-      "ties": 9,
-      "p_two_sided": 0.5
+      "tasks_worse_in_B": 3,
+      "tasks_worse_in_C": 1,
+      "ties": 20,
+      "p_two_sided": 0.625
     },
     "fabricated:AvsB": {
-      "tasks_worse_in_A": 0,
-      "tasks_worse_in_B": 1,
-      "ties": 10,
+      "tasks_worse_in_A": 1,
+      "tasks_worse_in_B": 2,
+      "ties": 21,
       "p_two_sided": 1.0
     },
     "either:AvsC": {
-      "tasks_worse_in_A": 1,
-      "tasks_worse_in_C": 0,
-      "ties": 10,
+      "tasks_worse_in_A": 2,
+      "tasks_worse_in_C": 1,
+      "ties": 21,
       "p_two_sided": 1.0
     },
     "either:BvsC": {
-      "tasks_worse_in_B": 2,
-      "tasks_worse_in_C": 0,
-      "ties": 9,
-      "p_two_sided": 0.5
+      "tasks_worse_in_B": 3,
+      "tasks_worse_in_C": 1,
+      "ties": 20,
+      "p_two_sided": 0.625
     },
     "either:AvsB": {
-      "tasks_worse_in_A": 0,
-      "tasks_worse_in_B": 1,
-      "ties": 10,
+      "tasks_worse_in_A": 1,
+      "tasks_worse_in_B": 2,
+      "ties": 21,
       "p_two_sided": 1.0
     }
   },
@@ -127,7 +127,7 @@
       "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
       "case": null,
       "audit": {
-        "kind": "no such case in Redline's data",
+        "kind": "name too generic to look up",
         "real": null
       },
       "task": "m02",
@@ -142,8 +142,8 @@
       "reason": "Page 6 of 477 F.3d is inside DCC Operating, Inc. v. Siaca, 477 F.3d 1 (1st Cir. 2007), which runs from page 1 to 17. Mount Royal Joint Venture v. Kempthorne is 477 F.3d 745.",
       "case": null,
       "audit": {
-        "kind": "no such case in Redline's data",
-        "real": null
+        "kind": "real case, wrong citation",
+        "real": "Mount Vernon Fire Insurance v. VisionAid, Inc., 825 F.3d 67 (1st Cir. 2016); Mount Vernon Fire Insurance Co. v. Visionaid, Inc., 875 F.3d 716 (1st Cir. 2017)"
       },
       "task": "m02",
       "arm": "A",
@@ -157,7 +157,7 @@
       "reason": "Page 52 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
       "case": null,
       "audit": {
-        "kind": "no such case in Redline's data",
+        "kind": "name too generic to look up",
         "real": null
       },
       "task": "m02",
@@ -187,7 +187,7 @@
       "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
       "case": null,
       "audit": {
-        "kind": "no such case in Redline's data",
+        "kind": "name too generic to look up",
         "real": null
       },
       "task": "m02",
@@ -202,7 +202,7 @@
       "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
       "case": null,
       "audit": {
-        "kind": "no such case in Redline's data",
+        "kind": "name too generic to look up",
         "real": null
       },
       "task": "m02",
@@ -217,7 +217,7 @@
       "reason": "Page 51 of 460 F.3d is inside Conseil Alain Aboudaram, S.A. v. Groote, 460 F.3d 46 (D.C. Cir. 2006), which runs from page 46 to 53. Cam I, Inc. v. Louisville/Jefferson County Metro Government is 460 F.3d 717.",
       "case": null,
       "audit": {
-        "kind": "no such case in Redline's data",
+        "kind": "name too generic to look up",
         "real": null
       },
       "task": "m02",
@@ -238,6 +238,66 @@
       "task": "m08",
       "arm": "B",
       "rep": 1
+    },
+    {
+      "text": "882 F.3d 1118",
+      "name": "Flake v. Medline Industries, Inc",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 1118 of 882 F.3d is inside In re Hodges, 882 F.3d 1107 (Fed. Cir. 2018), which runs from page 1107 to 1121. No case named Flake is in volume 882.",
+      "case": null,
+      "audit": {
+        "kind": "no such case in Redline's data",
+        "real": null
+      },
+      "task": "m16",
+      "arm": "A",
+      "rep": 3
+    },
+    {
+      "text": "481 F.3d at 719",
+      "name": "",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 719 of 481 F.3d is inside Beecher v. Commissioner, 481 F.3d 717 (9th Cir. 2007), which runs from page 717 to 724. Summers v. Schriro is 481 F.3d 710.",
+      "case": null,
+      "audit": {
+        "kind": "real case, pin cite outside it",
+        "real": "Schriro is 481 F.3d 710"
+      },
+      "task": "m18",
+      "arm": "C",
+      "rep": 1
+    },
+    {
+      "text": "481 F.3d at 718",
+      "name": "",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 718 of 481 F.3d is inside Beecher v. Commissioner, 481 F.3d 717 (9th Cir. 2007), which runs from page 717 to 724. Summers v. Schriro is 481 F.3d 710.",
+      "case": null,
+      "audit": {
+        "kind": "real case, pin cite outside it",
+        "real": "Schriro is 481 F.3d 710"
+      },
+      "task": "m18",
+      "arm": "C",
+      "rep": 3
+    },
+    {
+      "text": "863 F.3d 1255",
+      "name": "Campbell v. Air Jamaica Ltd",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 1255 of 863 F.3d is inside United States v. Pickel, 863 F.3d 1240 (10th Cir. 2017), which runs from page 1240 to 1261. No case matching \"Campbell v. Air Jamaica Ltd\" is in volume 863.",
+      "case": null,
+      "audit": {
+        "kind": "real case, wrong citation",
+        "real": "Campbell v. Air Jamaica Ltd., 760 F.3d 1165 (11th Cir. 2014)"
+      },
+      "task": "m21",
+      "arm": "B",
+      "rep": 3
     }
   ]
 }

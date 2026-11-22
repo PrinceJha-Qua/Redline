@@ -1,0 +1,187 @@
+{
+  "task": "m18",
+  "arm": "A",
+  "rep": 2,
+  "summary": {
+    "citations": 21,
+    "verified": 21,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 2
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "466 U.S. 668",
+      "name": "Strickland v. Washington",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Strickland v. Washington, 466 U.S. 668 (1984). No overruling found in Redline's data.",
+      "case": "Strickland v. Washington"
+    },
+    {
+      "text": "539 U.S. 510",
+      "name": "Wiggins v. Smith",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wiggins v. Smith, 539 U.S. 510 (2003). No overruling found in Redline's data. It mentions Teague v. Lane once in passing (later overruled by Edwards v. Vannoy, 2021); a single mention is not counted as reliance.",
+      "case": "Wiggins v. Smith"
+    },
+    {
+      "text": "529 U.S. 362",
+      "name": "Williams v. Taylor",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Williams v. Taylor, 529 U.S. 362 (2000). Relies on Teague v. Lane, 489 U.S. 288, later overruled by Edwards v. Vannoy (2021).",
+      "case": "Williams v. Taylor"
+    },
+    {
+      "text": "545 U.S. 374",
+      "name": "Rompilla v. Beard",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rompilla v. Beard, 545 U.S. 374 (2005). No overruling found in Redline's data.",
+      "case": "Rompilla v. Beard"
+    },
+    {
+      "text": "539 U.S. at 536",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wiggins v. Smith, 539 U.S. 510 (2003). No overruling found in Redline's data. It mentions Teague v. Lane once in passing (later overruled by Edwards v. Vannoy, 2021); a single mention is not counted as reliance.",
+      "case": "Wiggins v. Smith"
+    },
+    {
+      "text": "466 U.S. at 694",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Strickland v. Washington, 466 U.S. 668 (1984). No overruling found in Redline's data.",
+      "case": "Strickland v. Washington"
+    },
+    {
+      "text": "539 F.3d 938",
+      "name": "Correll v. Ryan",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Correll v. Ryan, 539 F.3d 938 (9th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Correll v. Ryan"
+    },
+    {
+      "text": "365 F.3d 706",
+      "name": "Stankewitz v. Woodford",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Stankewitz v. Woodford, 365 F.3d 706 (9th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Stankewitz v. Woodford"
+    },
+    {
+      "text": "481 F.3d 710",
+      "name": "Summers v. Schriro",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Summers v. Schriro, 481 F.3d 710 (9th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Summers v. Schriro"
+    },
+    {
+      "text": "490 F.3d 1103",
+      "name": "Lambright v. Schriro",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lambright v. Schriro, 490 F.3d 1103 (9th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Lambright v. Schriro"
+    },
+    {
+      "text": "539 U.S. at 526",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wiggins v. Smith, 539 U.S. 510 (2003). No overruling found in Redline's data. It mentions Teague v. Lane once in passing (later overruled by Edwards v. Vannoy, 2021); a single mention is not counted as reliance.",
+      "case": "Wiggins v. Smith"
+    },
+    {
+      "text": "558 U.S. 30",
+      "name": "Porter v. McCollum",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Porter v. McCollum, 558 U.S. 30 (2009). No overruling found in Redline's data.",
+      "case": "Porter v. McCollum"
+    },
+    {
+      "text": "279 F.3d 825",
+      "name": "Silva v. Woodford",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Silva v. Woodford, 279 F.3d 825 (9th Cir. 2002). Relies on Teague v. Lane, 489 U.S. 288, later overruled by Edwards v. Vannoy (2021).",
+      "case": "Silva v. Woodford"
+    },
+    {
+      "text": "316 F.3d 1079",
+      "name": "Douglas v. Woodford",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Douglas v. Woodford, 316 F.3d 1079 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Douglas v. Woodford"
+    },
+    {
+      "text": "539 U.S. at 534",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wiggins v. Smith, 539 U.S. 510 (2003). No overruling found in Redline's data. It mentions Teague v. Lane once in passing (later overruled by Edwards v. Vannoy, 2021); a single mention is not counted as reliance.",
+      "case": "Wiggins v. Smith"
+    },
+    {
+      "text": "428 F.3d 1181",
+      "name": "Daniels v. Woodford",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Daniels v. Woodford, 428 F.3d 1181 (9th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Daniels v. Woodford"
+    },
+    {
+      "text": "539 F.3d at 951",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Correll v. Ryan, 539 F.3d 938 (9th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Correll v. Ryan"
+    },
+    {
+      "text": "365 F.3d at 722",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Stankewitz v. Woodford, 365 F.3d 706 (9th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Stankewitz v. Woodford"
+    },
+    {
+      "text": "558 U.S. at 42",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Porter v. McCollum, 558 U.S. 30 (2009). No overruling found in Redline's data.",
+      "case": "Porter v. McCollum"
+    },
+    {
+      "text": "561 U.S. 945",
+      "name": "Sears v. Upton",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Sears v. Upton, 561 U.S. 945 (2010). No overruling found in Redline's data.",
+      "case": "Sears v. Upton"
+    },
+    {
+      "text": "563 U.S. 170",
+      "name": "Cullen v. Pinholster",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cullen v. Pinholster, 563 U.S. 170 (2011). No overruling found in Redline's data.",
+      "case": "Cullen v. Pinholster"
+    }
+  ],
+  "judge": {},
+  "words": 806
+}

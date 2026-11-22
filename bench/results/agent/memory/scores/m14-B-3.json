@@ -1,0 +1,147 @@
+{
+  "task": "m14",
+  "arm": "B",
+  "rep": 3,
+  "summary": {
+    "citations": 16,
+    "verified": 16,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "521 U.S. 591",
+      "name": "Amchem Prods., Inc. v. Windsor",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Amchem Products, Inc. v. Windsor, 521 U.S. 591 (1997). No overruling found in Redline's data.",
+      "case": "Amchem Products, Inc. v. Windsor"
+    },
+    {
+      "text": "564 U.S. 338",
+      "name": "Wal-Mart Stores, Inc. v. Dukes",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wal-Mart Stores, Inc. v. Dukes, 564 U.S. 338 (2011). No overruling found in Redline's data.",
+      "case": "Wal-Mart Stores, Inc. v. Dukes"
+    },
+    {
+      "text": "669 F.3d 802",
+      "name": "Messner v. Northshore Univ. HealthSystem",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Messner v. Northshore University HealthSystem, 669 F.3d 802 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Messner v. Northshore University HealthSystem"
+    },
+    {
+      "text": "669 F.3d at 815",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Messner v. Northshore University HealthSystem, 669 F.3d 802 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Messner v. Northshore University HealthSystem"
+    },
+    {
+      "text": "569 U.S. 27",
+      "name": "Comcast Corp. v. Behrend",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Comcast Corp. v. Behrend, 569 U.S. 27 (2013). No overruling found in Redline's data.",
+      "case": "Comcast Corp. v. Behrend"
+    },
+    {
+      "text": "564 U.S. at 366",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wal-Mart Stores, Inc. v. Dukes, 564 U.S. 338 (2011). No overruling found in Redline's data.",
+      "case": "Wal-Mart Stores, Inc. v. Dukes"
+    },
+    {
+      "text": "669 F.3d at 815",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Messner v. Northshore University HealthSystem, 669 F.3d 802 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Messner v. Northshore University HealthSystem"
+    },
+    {
+      "text": "727 F.3d 796",
+      "name": "Butler v. Sears, Roebuck & Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Butler v. Sears, Roebuck & Co., 727 F.3d 796 (7th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Butler v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "727 F.3d at 800",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Butler v. Sears, Roebuck & Co., 727 F.3d 796 (7th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Butler v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "569 U.S. at 35",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Comcast Corp. v. Behrend, 569 U.S. 27 (2013). No overruling found in Redline's data.",
+      "case": "Comcast Corp. v. Behrend"
+    },
+    {
+      "text": "764 F.3d 750",
+      "name": "Suchanek v. Sturm Foods, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Suchanek v. Sturm Foods, Inc., 764 F.3d 750 (7th Cir. 2014). No overruling found in Redline's data.",
+      "case": "Suchanek v. Sturm Foods, Inc."
+    },
+    {
+      "text": "739 F.3d 1083",
+      "name": "Parko v. Shell Oil Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Parko v. Shell Oil Co., 739 F.3d 1083 (7th Cir. 2014). No overruling found in Redline's data.",
+      "case": "Parko v. Shell Oil Co."
+    },
+    {
+      "text": "800 F.3d 360",
+      "name": "Likewise, in Bell v. PNC Bank, N.A",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bell v. PNC Bank, National Ass'n, 800 F.3d 360 (7th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Bell v. PNC Bank, National Ass'n"
+    },
+    {
+      "text": "907 F.3d 1018",
+      "name": "Beaton v. SpeedyPC Software",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Beaton v. Speedypc Software, 907 F.3d 1018 (7th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Beaton v. Speedypc Software"
+    },
+    {
+      "text": "727 F.3d at 800",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Butler v. Sears, Roebuck & Co., 727 F.3d 796 (7th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Butler v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "564 U.S. at 367",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wal-Mart Stores, Inc. v. Dukes, 564 U.S. 338 (2011). No overruling found in Redline's data.",
+      "case": "Wal-Mart Stores, Inc. v. Dukes"
+    }
+  ],
+  "judge": {},
+  "words": 816
+}

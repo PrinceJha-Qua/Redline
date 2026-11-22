@@ -1,0 +1,139 @@
+{
+  "task": "m14",
+  "arm": "C",
+  "rep": 3,
+  "summary": {
+    "citations": 15,
+    "verified": 15,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "669 F.3d 802",
+      "name": "Messner v. Northshore Univ. HealthSystem",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Messner v. Northshore University HealthSystem, 669 F.3d 802 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Messner v. Northshore University HealthSystem"
+    },
+    {
+      "text": "606 F.3d 391",
+      "name": "Pella Corp. v. Saltzman",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pella Corp. v. Saltzman, 606 F.3d 391 (7th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Pella Corp. v. Saltzman"
+    },
+    {
+      "text": "472 F.3d 506",
+      "name": "Oshana v. Coca-Cola Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Oshana v. Coca-Cola Co., 472 F.3d 506 (7th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Oshana v. Coca-Cola Co."
+    },
+    {
+      "text": "569 U.S. 27",
+      "name": "Comcast Corp. v. Behrend",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Comcast Corp. v. Behrend, 569 U.S. 27 (2013). No overruling found in Redline's data.",
+      "case": "Comcast Corp. v. Behrend"
+    },
+    {
+      "text": "764 F.3d 750",
+      "name": "Suchanek v. Sturm Foods, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Suchanek v. Sturm Foods, Inc., 764 F.3d 750 (7th Cir. 2014). No overruling found in Redline's data.",
+      "case": "Suchanek v. Sturm Foods, Inc."
+    },
+    {
+      "text": "727 F.3d 796",
+      "name": "Butler v. Sears, Roebuck & Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Butler v. Sears, Roebuck & Co., 727 F.3d 796 (7th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Butler v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "669 F.3d at 815",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Messner v. Northshore University HealthSystem, 669 F.3d 802 (7th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Messner v. Northshore University HealthSystem"
+    },
+    {
+      "text": "727 F.3d at 800",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Butler v. Sears, Roebuck & Co., 727 F.3d 796 (7th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Butler v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "545 F.3d 570",
+      "name": "Andrews v. Chevy Chase Bank",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Andrews v. Chevy Chase Bank, 545 F.3d 570 (7th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Andrews v. Chevy Chase Bank"
+    },
+    {
+      "text": "472 F.3d at 514",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Oshana v. Coca-Cola Co., 472 F.3d 506 (7th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Oshana v. Coca-Cola Co."
+    },
+    {
+      "text": "637 F.3d 721",
+      "name": "CE Design Ltd. v. King Architectural Metals, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "CE Design Ltd. v. King Architectural Metals, Inc., 637 F.3d 721 (7th Cir. 2011). No overruling found in Redline's data.",
+      "case": "CE Design Ltd. v. King Architectural Metals, Inc."
+    },
+    {
+      "text": "606 F.3d at 394",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pella Corp. v. Saltzman, 606 F.3d 391 (7th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Pella Corp. v. Saltzman"
+    },
+    {
+      "text": "547 F.3d 742",
+      "name": "Thorogood v. Sears, Roebuck & Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Thorogood v. Sears, Roebuck & Co., 547 F.3d 742 (7th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Thorogood v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "727 F.3d at 800",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Butler v. Sears, Roebuck & Co., 727 F.3d 796 (7th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Butler v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "831 F.3d 919",
+      "name": "Kleen Prods. LLC v. Int'l Paper Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kleen Products LLC v. International Paper Co., 831 F.3d 919 (7th Cir. 2016). No overruling found in Redline's data.",
+      "case": "Kleen Products LLC v. International Paper Co."
+    }
+  ],
+  "judge": {},
+  "words": 775
+}

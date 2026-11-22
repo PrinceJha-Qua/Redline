@@ -1,0 +1,139 @@
+{
+  "task": "m17",
+  "arm": "C",
+  "rep": 1,
+  "summary": {
+    "citations": 15,
+    "verified": 15,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "450 F.3d 445",
+      "name": "Marder v. Lopez",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marder v. Lopez, 450 F.3d 445 (9th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Marder v. Lopez"
+    },
+    {
+      "text": "342 F.3d 903",
+      "name": "United States v. Ritchie",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Ritchie, 342 F.3d 903 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "United States v. Ritchie"
+    },
+    {
+      "text": "393 F.3d 1068",
+      "name": "Knievel v. ESPN",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Knievel v. ESPN, 393 F.3d 1068 (9th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Knievel v. ESPN"
+    },
+    {
+      "text": "14 F.3d 449",
+      "name": "Branch v. Tunnell",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Branch v. Tunnell, 14 F.3d 449 (9th Cir. 1994). No overruling found in Redline's data.",
+      "case": "Branch v. Tunnell"
+    },
+    {
+      "text": "307 F.3d 1119",
+      "name": "Galbraith v. County of Santa Clara",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Galbraith v. County of Santa Clara, 307 F.3d 1119 (9th Cir. 2002). No overruling found in Redline's data.",
+      "case": "Galbraith v. County of Santa Clara"
+    },
+    {
+      "text": "593 F.3d 1031",
+      "name": "Coto Settlement v. Eisenberg",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Coto Settlement v. Eisenberg, 593 F.3d 1031 (9th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Coto Settlement v. Eisenberg"
+    },
+    {
+      "text": "691 F.3d 1152",
+      "name": "Davis v. HSBC Bank Nev., N.A",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Davis v. HSBC Bank Nevada, N.A., 691 F.3d 1152 (9th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Davis v. HSBC Bank Nevada, N.A."
+    },
+    {
+      "text": "899 F.3d 988",
+      "name": "Khoja v. Orexigen Therapeutics, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    },
+    {
+      "text": "342 F.3d at 908",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Ritchie, 342 F.3d 903 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "United States v. Ritchie"
+    },
+    {
+      "text": "899 F.3d at 1003",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    },
+    {
+      "text": "250 F.3d 668",
+      "name": "Lee v. City of Los Angeles",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lee v. City of Los Angeles, 250 F.3d 668 (9th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Lee v. City of Los Angeles"
+    },
+    {
+      "text": "393 F.3d at 1076",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Knievel v. ESPN, 393 F.3d 1068 (9th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Knievel v. ESPN"
+    },
+    {
+      "text": "450 F.3d at 448",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marder v. Lopez, 450 F.3d 445 (9th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Marder v. Lopez"
+    },
+    {
+      "text": "342 F.3d at 908",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Ritchie, 342 F.3d 903 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "United States v. Ritchie"
+    },
+    {
+      "text": "691 F.3d at 1160",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Davis v. HSBC Bank Nevada, N.A., 691 F.3d 1152 (9th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Davis v. HSBC Bank Nevada, N.A."
+    }
+  ],
+  "judge": {},
+  "words": 707
+}

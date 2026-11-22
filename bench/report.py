@@ -39,7 +39,7 @@ def agent_section(w):
         if k in a:
             x = a[k]
             w(f"| {k}: {names[k]} | {x['runs']} | **{x['any_fabricated']}** ({pct(x['any_fabricated'], x['runs'])}) | "
-              f"{x['fabricated_citations']} | {x['citations']} | {x['unverifiable']} | ${x['cost_usd']} |")
+              f"{x['fabricated_citations']} | {x['citations']:,} | {x['unverifiable']} | ${x['cost_usd']} |")
     w("")
     t = m["sign_tests"]
     for key in ("fabricated:AvsC", "fabricated:BvsC"):
@@ -51,8 +51,9 @@ def agent_section(w):
     real = sum(f["audit"]["kind"].startswith("real") for f in fabs)
     unclear = sum(f["audit"]["kind"].startswith("name too") for f in fabs)
     w(f"- Every one of the {len(fabs)} flagged citations was looked up by name in the store: {real} are real cases "
-      f"cited at the wrong place, {len(fabs) - real - unclear} name no case in Redline's data, and {unclear} have names "
-      f"too generic to look up (\"Metro. Prop. & Cas. Ins. Co.\").\n")
+      f"cited at the wrong place (or with a pin cite past the case's last page), {len(fabs) - real - unclear} name "
+      f"no case in Redline's data, and {unclear} have names too generic to look up "
+      f"(\"Metro. Prop. & Cas. Ins. Co.\").\n")
     if fabs:
         w("| Arm | Task | Cited | Redline's evidence | The real case |")
         w("|---|---|---|---|---|")
@@ -77,9 +78,19 @@ def agent_section(w):
         k = json.loads(kn.read_text())["summary"]
         w(f"**What the model knows without tools.** Asked whether each of the {k['overruled_cases']} overruled "
           f"Supreme Court cases in the store has been overruled, it said no for {k['model_says_good_law']}; those "
-          f"are cited by {k['missed_cited_by_f3d']} F.3d cases. Of {k['controls']} frequently cited cases no "
+          f"are cited by {k['missed_cited_by_f3d']:,} F.3d cases. Of {k['controls']} frequently cited cases no "
           f"overruling names, it called {k['controls_model_says_overruled']} overruled. Details: "
           f"`bench/results/agent/knowledge.json`.\n")
+        items = json.loads(kn.read_text())["items"]
+        missed = sorted((o for o in items if o["truth"] and not (o["answer"] or {}).get("overruled")),
+                        key=lambda o: -o["f3d_citing"])[:5]
+        if missed:
+            w("Most cited among the misses: " + "; ".join(
+                f"*{o['name']}* ({o['f3d_citing']:,} F.3d cases; overruled by *{o['by'][0]}*)" for o in missed) + ".\n")
+        w("Some misses are arguable: *Edwards v. Vannoy* ended *Teague v. Lane*'s watershed exception, not the whole "
+          "decision, and the one control the model called overruled, *Conley v. Gibson*, had its pleading standard "
+          "retired by *Twombly*, which the overruling list does not record. The answers are committed so the reader "
+          "can judge each one.\n")
 
 
 def load(name):

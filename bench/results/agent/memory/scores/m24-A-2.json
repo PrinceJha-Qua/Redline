@@ -1,0 +1,131 @@
+{
+  "task": "m24",
+  "arm": "A",
+  "rep": 2,
+  "summary": {
+    "citations": 14,
+    "verified": 13,
+    "fabricated": 0,
+    "unverifiable": 1,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "746 F.3d 1082",
+      "name": "Citizens for Responsibility & Ethics in Wash. v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice, 746 F.3d 1082 (D.C. Cir. 2014). No overruling found in Redline's data.",
+      "case": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice"
+    },
+    {
+      "text": "628 F.3d 612",
+      "name": "Am. Civil Liberties Union v. U.S. Dep't of Def",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Civil Liberties Union v. United States Department of Defense, 628 F.3d 612 (D.C. Cir. 2011). No overruling found in Redline's data.",
+      "case": "American Civil Liberties Union v. United States Department of Defense"
+    },
+    {
+      "text": "726 F.3d 208",
+      "name": "Judicial Watch, Inc. v. U.S. Secret Serv",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Judicial Watch, Inc. v. United States Secret Service, 726 F.3d 208 (D.C. Cir. 2013). No overruling found in Redline's data.",
+      "case": "Judicial Watch, Inc. v. United States Secret Service"
+    },
+    {
+      "text": "473 F.3d 370",
+      "name": "Wolf v. CIA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wolf v. Central Intelligence Agency, 473 F.3d 370 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Wolf v. Central Intelligence Agency"
+    },
+    {
+      "text": "565 F.3d 857",
+      "name": "Larson v. Dep't of State",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Larson v. Department of State, 565 F.3d 857 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Larson v. Department of State"
+    },
+    {
+      "text": "508 F.3d 1108",
+      "name": "Morley v. CIA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Morley v. Central Intelligence Agency, 508 F.3d 1108 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Morley v. Central Intelligence Agency"
+    },
+    {
+      "text": "449 F.3d 141",
+      "name": "Judicial Watch, Inc. v. FDA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Judicial Watch, Inc. v. Food & Drug Administration, 449 F.3d 141 (D.C. Cir. 2006). No overruling found in Redline's data.",
+      "case": "Judicial Watch, Inc. v. Food & Drug Administration"
+    },
+    {
+      "text": "565 F.3d at 864",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Larson v. Department of State, 565 F.3d 857 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Larson v. Department of State"
+    },
+    {
+      "text": "26 F.3d 168",
+      "name": "Gallant v. NLRB",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gallant v. National Labor Relations Board, 26 F.3d 168 (D.C. Cir. 1994). No overruling found in Redline's data.",
+      "case": "Gallant v. National Labor Relations Board"
+    },
+    {
+      "text": "628 F.3d at 619",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Civil Liberties Union v. United States Department of Defense, 628 F.3d 612 (D.C. Cir. 2011). No overruling found in Redline's data.",
+      "case": "American Civil Liberties Union v. United States Department of Defense"
+    },
+    {
+      "text": "473 F.3d at 374",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wolf v. Central Intelligence Agency, 473 F.3d 370 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Wolf v. Central Intelligence Agency"
+    },
+    {
+      "text": "484 F.2d 820",
+      "name": "Vaughn v. Rosen",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "F.2d is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    },
+    {
+      "text": "565 F.3d at 864",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Larson v. Department of State, 565 F.3d 857 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Larson v. Department of State"
+    },
+    {
+      "text": "26 F.3d at 172",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gallant v. National Labor Relations Board, 26 F.3d 168 (D.C. Cir. 1994). No overruling found in Redline's data.",
+      "case": "Gallant v. National Labor Relations Board"
+    }
+  ],
+  "judge": {},
+  "words": 756
+}

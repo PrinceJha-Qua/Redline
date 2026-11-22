@@ -1,0 +1,212 @@
+{
+  "task": "m18",
+  "arm": "C",
+  "rep": 3,
+  "summary": {
+    "citations": 22,
+    "verified": 21,
+    "fabricated": 1,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 2
+  },
+  "fabricated": [
+    {
+      "text": "481 F.3d at 718",
+      "name": "",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 718 of 481 F.3d is inside Beecher v. Commissioner, 481 F.3d 717 (9th Cir. 2007), which runs from page 717 to 724. Summers v. Schriro is 481 F.3d 710.",
+      "case": null,
+      "audit": {
+        "kind": "real case, pin cite outside it",
+        "real": "Schriro is 481 F.3d 710"
+      }
+    }
+  ],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "466 U.S. 668",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Strickland v. Washington, 466 U.S. 668 (1984). No overruling found in Redline's data.",
+      "case": "Strickland v. Washington"
+    },
+    {
+      "text": "539 U.S. 510",
+      "name": "Wiggins v. Smith",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wiggins v. Smith, 539 U.S. 510 (2003). No overruling found in Redline's data. It mentions Teague v. Lane once in passing (later overruled by Edwards v. Vannoy, 2021); a single mention is not counted as reliance.",
+      "case": "Wiggins v. Smith"
+    },
+    {
+      "text": "545 U.S. 374",
+      "name": "Rompilla v. Beard",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rompilla v. Beard, 545 U.S. 374 (2005). No overruling found in Redline's data.",
+      "case": "Rompilla v. Beard"
+    },
+    {
+      "text": "539 F.3d 938",
+      "name": "Correll v. Ryan",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Correll v. Ryan, 539 F.3d 938 (9th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Correll v. Ryan"
+    },
+    {
+      "text": "490 F.3d 1103",
+      "name": "Lambright v. Schriro",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lambright v. Schriro, 490 F.3d 1103 (9th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Lambright v. Schriro"
+    },
+    {
+      "text": "539 F.3d at 942",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Correll v. Ryan, 539 F.3d 938 (9th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Correll v. Ryan"
+    },
+    {
+      "text": "490 F.3d at 1117",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lambright v. Schriro, 490 F.3d 1103 (9th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Lambright v. Schriro"
+    },
+    {
+      "text": "481 F.3d 710",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Summers v. Schriro, 481 F.3d 710 (9th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Summers v. Schriro"
+    },
+    {
+      "text": "316 F.3d 1079",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Douglas v. Woodford, 316 F.3d 1079 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Douglas v. Woodford"
+    },
+    {
+      "text": "365 F.3d 706",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Stankewitz v. Woodford, 365 F.3d 706 (9th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Stankewitz v. Woodford"
+    },
+    {
+      "text": "539 U.S. at 526",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wiggins v. Smith, 539 U.S. 510 (2003). No overruling found in Redline's data. It mentions Teague v. Lane once in passing (later overruled by Edwards v. Vannoy, 2021); a single mention is not counted as reliance.",
+      "case": "Wiggins v. Smith"
+    },
+    {
+      "text": "283 F.3d 1117",
+      "name": "Karis v. Calderon",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Karis v. Calderon, 283 F.3d 1117 (9th Cir. 2002). No overruling found in Redline's data. It mentions Penry v. Lynaugh once in passing (later overruled by Atkins v. Virginia, 2002); a single mention is not counted as reliance.",
+      "case": "Karis v. Calderon"
+    },
+    {
+      "text": "545 U.S. at 391",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rompilla v. Beard, 545 U.S. 374 (2005). No overruling found in Redline's data.",
+      "case": "Rompilla v. Beard"
+    },
+    {
+      "text": "466 U.S. at 694",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Strickland v. Washington, 466 U.S. 668 (1984). No overruling found in Redline's data.",
+      "case": "Strickland v. Washington"
+    },
+    {
+      "text": "529 U.S. 362",
+      "name": "Williams v. Taylor",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Williams v. Taylor, 529 U.S. 362 (2000). Relies on Teague v. Lane, 489 U.S. 288, later overruled by Edwards v. Vannoy (2021).",
+      "case": "Williams v. Taylor"
+    },
+    {
+      "text": "539 U.S. at 534",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wiggins v. Smith, 539 U.S. 510 (2003). No overruling found in Redline's data. It mentions Teague v. Lane once in passing (later overruled by Edwards v. Vannoy, 2021); a single mention is not counted as reliance.",
+      "case": "Wiggins v. Smith"
+    },
+    {
+      "text": "539 F.3d at 951",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Correll v. Ryan, 539 F.3d 938 (9th Cir. 2008). No overruling found in Redline's data.",
+      "case": "Correll v. Ryan"
+    },
+    {
+      "text": "490 F.3d at 1121",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lambright v. Schriro, 490 F.3d 1103 (9th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Lambright v. Schriro"
+    },
+    {
+      "text": "481 F.3d at 718",
+      "name": "",
+      "verdict": "FABRICATED",
+      "status": null,
+      "reason": "Page 718 of 481 F.3d is inside Beecher v. Commissioner, 481 F.3d 717 (9th Cir. 2007), which runs from page 717 to 724. Summers v. Schriro is 481 F.3d 710.",
+      "case": null,
+      "audit": {
+        "kind": "real case, pin cite outside it",
+        "real": "Schriro is 481 F.3d 710"
+      }
+    },
+    {
+      "text": "316 F.3d at 1088",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Douglas v. Woodford, 316 F.3d 1079 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Douglas v. Woodford"
+    },
+    {
+      "text": "365 F.3d at 722",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Stankewitz v. Woodford, 365 F.3d 706 (9th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Stankewitz v. Woodford"
+    },
+    {
+      "text": "529 U.S. at 398",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "caution",
+      "reason": "Williams v. Taylor, 529 U.S. 362 (2000). Relies on Teague v. Lane, 489 U.S. 288, later overruled by Edwards v. Vannoy (2021).",
+      "case": "Williams v. Taylor"
+    }
+  ],
+  "judge": {},
+  "words": 711
+}

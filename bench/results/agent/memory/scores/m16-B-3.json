@@ -1,0 +1,139 @@
+{
+  "task": "m16",
+  "arm": "B",
+  "rep": 3,
+  "summary": {
+    "citations": 15,
+    "verified": 15,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "407 U.S. 1",
+      "name": "M/S Bremen v. Zapata Off-Shore Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "The Bremen v. Zapata Off-Shore Co., 407 U.S. 1 (1972). No overruling found in Redline's data.",
+      "case": "The Bremen v. Zapata Off-Shore Co."
+    },
+    {
+      "text": "499 U.S. 585",
+      "name": "Carnival Cruise Lines, Inc. v. Shute",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Carnival Cruise Lines, Inc. v. Shute, 499 U.S. 585 (1991). No overruling found in Redline's data.",
+      "case": "Carnival Cruise Lines, Inc. v. Shute"
+    },
+    {
+      "text": "571 U.S. 49",
+      "name": "Atl. Marine Constr. Co. v. U.S. Dist. Ct",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex., 571 U.S. 49 (2013). No overruling found in Redline's data.",
+      "case": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex."
+    },
+    {
+      "text": "183 F.3d 750",
+      "name": "M.B. Rests., Inc. v. CKE Rests., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc., 183 F.3d 750 (8th Cir. 1999). No overruling found in Redline's data.",
+      "case": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc."
+    },
+    {
+      "text": "119 F.3d 688",
+      "name": "Terra Int'l, Inc. v. Miss. Chem. Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Terra International, Inc. v. Mississippi Chemical Corp., 119 F.3d 688 (8th Cir. 1997). No overruling found in Redline's data.",
+      "case": "Terra International, Inc. v. Mississippi Chemical Corp."
+    },
+    {
+      "text": "248 F.3d 720",
+      "name": "Dominium Austin Partners, L.L.C. v. Emerson",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Dominium Austin Partners, L.L.C. v. Emerson, 248 F.3d 720 (8th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Dominium Austin Partners, L.L.C. v. Emerson"
+    },
+    {
+      "text": "439 F.3d 786",
+      "name": "Servewell Plumbing, LLC v. Fed. Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Servewell Plumbing, LLC v. Federal Insurance, 439 F.3d 786 (8th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Servewell Plumbing, LLC v. Federal Insurance"
+    },
+    {
+      "text": "254 F.3d 753",
+      "name": "Marano Enters. of Kan. v. Z-Teca Rests., L.P",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marano Enterprises of Kansas v. Z-Teca Restaurants, L.P., 254 F.3d 753 (8th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Marano Enterprises of Kansas v. Z-Teca Restaurants, L.P."
+    },
+    {
+      "text": "340 F.3d 544",
+      "name": "Rainforest Café, Inc. v. EklecCo, L.L.C",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rainforest Cafe, Inc. v. EklecCo, LLC, 340 F.3d 544 (8th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Rainforest Cafe, Inc. v. EklecCo, LLC"
+    },
+    {
+      "text": "407 U.S. at 12",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "The Bremen v. Zapata Off-Shore Co., 407 U.S. 1 (1972). No overruling found in Redline's data.",
+      "case": "The Bremen v. Zapata Off-Shore Co."
+    },
+    {
+      "text": "574 F.3d 527",
+      "name": "Fru-Con Constr. Corp. v. Controlled Air, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Fru-Con Construction Corp. v. Controlled Air, Inc., 574 F.3d 527 (8th Cir. 2009). No overruling found in Redline's data.",
+      "case": "Fru-Con Construction Corp. v. Controlled Air, Inc."
+    },
+    {
+      "text": "183 F.3d at 752",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc., 183 F.3d 750 (8th Cir. 1999). No overruling found in Redline's data.",
+      "case": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc."
+    },
+    {
+      "text": "407 U.S. at 16",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "The Bremen v. Zapata Off-Shore Co., 407 U.S. 1 (1972). No overruling found in Redline's data.",
+      "case": "The Bremen v. Zapata Off-Shore Co."
+    },
+    {
+      "text": "499 U.S. at 593",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Carnival Cruise Lines, Inc. v. Shute, 499 U.S. 585 (1991). No overruling found in Redline's data.",
+      "case": "Carnival Cruise Lines, Inc. v. Shute"
+    },
+    {
+      "text": "571 U.S. at 64",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex., 571 U.S. 49 (2013). No overruling found in Redline's data.",
+      "case": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex."
+    }
+  ],
+  "judge": {},
+  "words": 722
+}

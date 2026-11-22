@@ -1,0 +1,171 @@
+{
+  "task": "m22",
+  "arm": "A",
+  "rep": 2,
+  "summary": {
+    "citations": 19,
+    "verified": 16,
+    "fabricated": 0,
+    "unverifiable": 3,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "792 F.3d 1313",
+      "name": "Weiland v. Palm Beach Cnty. Sheriff's Off",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Weiland v. Palm Beach County Sheriff's Office, 792 F.3d 1313 (11th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Weiland v. Palm Beach County Sheriff's Office"
+    },
+    {
+      "text": "986 F.3d 1321",
+      "name": "Barmapov v. Amuial",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 986 of F.3d is after volume 935 (2019), where Redline's F.3d data ends.",
+      "case": null
+    },
+    {
+      "text": "792 F.3d at 1323",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Weiland v. Palm Beach County Sheriff's Office, 792 F.3d 1313 (11th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Weiland v. Palm Beach County Sheriff's Office"
+    },
+    {
+      "text": "986 F.3d at 1324",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 986 of F.3d is after volume 935 (2019), where Redline's F.3d data ends.",
+      "case": null
+    },
+    {
+      "text": "878 F.3d 1291",
+      "name": "Vibe Micro, Inc. v. Shabanets",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vibe Micro, Inc. v. Shabanets, 878 F.3d 1291 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Vibe Micro, Inc. v. Shabanets"
+    },
+    {
+      "text": "77 F.3d 364",
+      "name": "Anderson v. Dist. Bd. of Trs. of Cent. Fla. Cmty. Coll",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Anderson v. District Board of Trustees of Central Florida Community College, 77 F.3d 364 (11th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Anderson v. District Board of Trustees of Central Florida Community College"
+    },
+    {
+      "text": "256 F.3d 1282",
+      "name": "Magluta v. Samples",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Magluta v. Samples, 256 F.3d 1282 (11th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Magluta v. Samples"
+    },
+    {
+      "text": "748 F.3d 1117",
+      "name": "Paylor v. Hartford Fire Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Paylor v. Hartford Fire Insurance, 748 F.3d 1117 (11th Cir. 2014). No overruling found in Redline's data.",
+      "case": "Paylor v. Hartford Fire Insurance"
+    },
+    {
+      "text": "117 F.3d 1258",
+      "name": "Cramer v. Florida",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cramer v. Florida, 117 F.3d 1258 (11th Cir. 1997). No overruling found in Redline's data.",
+      "case": "Cramer v. Florida"
+    },
+    {
+      "text": "898 F.3d 1348",
+      "name": "Jackson v. Bank of Am., N.A",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jackson v. Bank of Am., N.A., 898 F.3d 1348 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Jackson v. Bank of Am., N.A."
+    },
+    {
+      "text": "878 F.3d at 1295",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vibe Micro, Inc. v. Shabanets, 878 F.3d 1291 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Vibe Micro, Inc. v. Shabanets"
+    },
+    {
+      "text": "898 F.3d at 1357",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jackson v. Bank of Am., N.A., 898 F.3d 1348 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Jackson v. Bank of Am., N.A."
+    },
+    {
+      "text": "464 F.3d 1273",
+      "name": "Wagner v. First Horizon Pharm. Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wagner v. First Horizon Pharmaceutical Corp., 464 F.3d 1273 (11th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Wagner v. First Horizon Pharmaceutical Corp."
+    },
+    {
+      "text": "878 F.3d at 1296",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vibe Micro, Inc. v. Shabanets, 878 F.3d 1291 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Vibe Micro, Inc. v. Shabanets"
+    },
+    {
+      "text": "898 F.3d at 1357",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jackson v. Bank of Am., N.A., 898 F.3d 1348 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Jackson v. Bank of Am., N.A."
+    },
+    {
+      "text": "986 F.3d at 1324",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 986 of F.3d is after volume 935 (2019), where Redline's F.3d data ends.",
+      "case": null
+    },
+    {
+      "text": "792 F.3d at 1323",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Weiland v. Palm Beach County Sheriff's Office, 792 F.3d 1313 (11th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Weiland v. Palm Beach County Sheriff's Office"
+    },
+    {
+      "text": "878 F.3d at 1296",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vibe Micro, Inc. v. Shabanets, 878 F.3d 1291 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Vibe Micro, Inc. v. Shabanets"
+    },
+    {
+      "text": "898 F.3d at 1358",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jackson v. Bank of Am., N.A., 898 F.3d 1348 (11th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Jackson v. Bank of Am., N.A."
+    }
+  ],
+  "judge": {},
+  "words": 741
+}

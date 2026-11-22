@@ -1,0 +1,107 @@
+{
+  "task": "m11",
+  "arm": "C",
+  "rep": 3,
+  "summary": {
+    "citations": 11,
+    "verified": 11,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "555 U.S. 223",
+      "name": "Pearson v. Callahan",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "563 U.S. 731",
+      "name": "Ashcroft v. al-Kidd",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. al-Kidd, 563 U.S. 731 (2011). No overruling found in Redline's data.",
+      "case": "Ashcroft v. al-Kidd"
+    },
+    {
+      "text": "490 U.S. 386",
+      "name": "Graham v. Connor",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Graham v. Connor, 490 U.S. 386 (1989). No overruling found in Redline's data.",
+      "case": "Graham v. Connor"
+    },
+    {
+      "text": "695 F.3d 505",
+      "name": "Hagans v. Franklin Cnty. Sheriff's Off",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Hagans v. Franklin County Sheriff's Office, 695 F.3d 505 (6th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Hagans v. Franklin County Sheriff's Office"
+    },
+    {
+      "text": "791 F.3d 638",
+      "name": "Rudlaff v. Gillispie",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rudlaff v. Gillispie, 791 F.3d 638 (6th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Rudlaff v. Gillispie"
+    },
+    {
+      "text": "695 F.3d at 509",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Hagans v. Franklin County Sheriff's Office, 695 F.3d 505 (6th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Hagans v. Franklin County Sheriff's Office"
+    },
+    {
+      "text": "791 F.3d at 641",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rudlaff v. Gillispie, 791 F.3d 638 (6th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Rudlaff v. Gillispie"
+    },
+    {
+      "text": "810 F.3d 384",
+      "name": "Kent v. Oakland County",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kent v. Oakland County, 810 F.3d 384 (6th Cir. 2016). No overruling found in Redline's data.",
+      "case": "Kent v. Oakland County"
+    },
+    {
+      "text": "781 F.3d 314",
+      "name": "Goodwin ex rel. Nall v. City of Painesville",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Goodwin ex rel. Nall v. City of Painesville, 781 F.3d 314 (6th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Goodwin ex rel. Nall v. City of Painesville"
+    },
+    {
+      "text": "641 F.3d 743",
+      "name": "Bletz v. Gribble",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bletz v. Gribble, 641 F.3d 743 (6th Cir. 2011). No overruling found in Redline's data.",
+      "case": "Bletz v. Gribble"
+    },
+    {
+      "text": "805 F.3d 760",
+      "name": "Mullins v. Cyranek",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Mullins v. Cyranek, 805 F.3d 760 (6th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Mullins v. Cyranek"
+    }
+  ],
+  "judge": {},
+  "words": 693
+}

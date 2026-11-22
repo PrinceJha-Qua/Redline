@@ -1,0 +1,115 @@
+{
+  "task": "m17",
+  "arm": "B",
+  "rep": 3,
+  "summary": {
+    "citations": 12,
+    "verified": 12,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "342 F.3d 903",
+      "name": "United States v. Ritchie",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Ritchie, 342 F.3d 903 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "United States v. Ritchie"
+    },
+    {
+      "text": "899 F.3d 988",
+      "name": "Khoja v. Orexigen Therapeutics, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    },
+    {
+      "text": "450 F.3d 445",
+      "name": "Marder v. Lopez",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marder v. Lopez, 450 F.3d 445 (9th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Marder v. Lopez"
+    },
+    {
+      "text": "393 F.3d 1068",
+      "name": "Knievel v. ESPN",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Knievel v. ESPN, 393 F.3d 1068 (9th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Knievel v. ESPN"
+    },
+    {
+      "text": "450 F.3d at 448",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marder v. Lopez, 450 F.3d 445 (9th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Marder v. Lopez"
+    },
+    {
+      "text": "593 F.3d 1031",
+      "name": "Coto Settlement v. Eisenberg",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Coto Settlement v. Eisenberg, 593 F.3d 1031 (9th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Coto Settlement v. Eisenberg"
+    },
+    {
+      "text": "629 F.3d 992",
+      "name": "Daniels-Hall v. Nat'l Educ. Ass'n",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Daniels-Hall v. National Education Ass'n, 629 F.3d 992 (9th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Daniels-Hall v. National Education Ass'n"
+    },
+    {
+      "text": "14 F.3d 449",
+      "name": "Branch v. Tunnell",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Branch v. Tunnell, 14 F.3d 449 (9th Cir. 1994). No overruling found in Redline's data.",
+      "case": "Branch v. Tunnell"
+    },
+    {
+      "text": "307 F.3d 1119",
+      "name": "Galbraith v. County of Santa Clara",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Galbraith v. County of Santa Clara, 307 F.3d 1119 (9th Cir. 2002). No overruling found in Redline's data.",
+      "case": "Galbraith v. County of Santa Clara"
+    },
+    {
+      "text": "899 F.3d at 1002",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    },
+    {
+      "text": "450 F.3d at 448",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marder v. Lopez, 450 F.3d 445 (9th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Marder v. Lopez"
+    },
+    {
+      "text": "899 F.3d at 1003",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    }
+  ],
+  "judge": {},
+  "words": 782
+}

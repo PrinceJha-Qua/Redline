@@ -1,0 +1,147 @@
+{
+  "task": "m13",
+  "arm": "A",
+  "rep": 2,
+  "summary": {
+    "citations": 16,
+    "verified": 16,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "75 F.3d 1130",
+      "name": "Beck v. Univ. of Wis. Bd. of Regents",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Beck v. University of Wisconsin Board of Regents, 75 F.3d 1130 (7th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Beck v. University of Wisconsin Board of Regents"
+    },
+    {
+      "text": "95 F.3d 492",
+      "name": "Gile v. United Airlines, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gile v. United Airlines, Inc., 95 F.3d 492 (7th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Gile v. United Airlines, Inc."
+    },
+    {
+      "text": "100 F.3d 1281",
+      "name": "Bultemeyer v. Fort Wayne Cmty. Schs",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bultemeyer v. Fort Wayne Community Schools, 100 F.3d 1281 (7th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Bultemeyer v. Fort Wayne Community Schools"
+    },
+    {
+      "text": "417 F.3d 789",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co., 417 F.3d 789 (7th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "75 F.3d at 1135",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Beck v. University of Wisconsin Board of Regents, 75 F.3d 1130 (7th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Beck v. University of Wisconsin Board of Regents"
+    },
+    {
+      "text": "414 F.3d 806",
+      "name": "Jackson v. City of Chicago",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jackson v. City of Chicago, 414 F.3d 806 (7th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Jackson v. City of Chicago"
+    },
+    {
+      "text": "207 F.3d 1009",
+      "name": "Rehling v. City of Chicago",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rehling v. City of Chicago, 207 F.3d 1009 (7th Cir. 2000). No overruling found in Redline's data.",
+      "case": "Rehling v. City of Chicago"
+    },
+    {
+      "text": "207 F.3d at 1016",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rehling v. City of Chicago, 207 F.3d 1009 (7th Cir. 2000). No overruling found in Redline's data.",
+      "case": "Rehling v. City of Chicago"
+    },
+    {
+      "text": "714 F.3d 1034",
+      "name": "Basden v. Prof'l Transp., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Basden v. Professional Transportation, Inc., 714 F.3d 1034 (7th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Basden v. Professional Transportation, Inc."
+    },
+    {
+      "text": "417 F.3d at 806",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co., 417 F.3d 789 (7th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "583 F.3d 972",
+      "name": "Ekstrand v. Sch. Dist. of Somerset",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ekstrand v. School District, 583 F.3d 972 (7th Cir. 2009). No overruling found in Redline's data.",
+      "case": "Ekstrand v. School District"
+    },
+    {
+      "text": "100 F.3d at 1285",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bultemeyer v. Fort Wayne Community Schools, 100 F.3d 1281 (7th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Bultemeyer v. Fort Wayne Community Schools"
+    },
+    {
+      "text": "414 F.3d at 813",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jackson v. City of Chicago, 414 F.3d 806 (7th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Jackson v. City of Chicago"
+    },
+    {
+      "text": "714 F.3d at 1038",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Basden v. Professional Transportation, Inc., 714 F.3d 1034 (7th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Basden v. Professional Transportation, Inc."
+    },
+    {
+      "text": "417 F.3d at 806",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co., 417 F.3d 789 (7th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "75 F.3d at 1135",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Beck v. University of Wisconsin Board of Regents, 75 F.3d 1130 (7th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Beck v. University of Wisconsin Board of Regents"
+    }
+  ],
+  "judge": {},
+  "words": 657
+}

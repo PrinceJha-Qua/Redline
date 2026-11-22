@@ -1,0 +1,75 @@
+{
+  "task": "m21",
+  "arm": "B",
+  "rep": 2,
+  "summary": {
+    "citations": 7,
+    "verified": 7,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "498 U.S. 89",
+      "name": "Irwin v. Dep't of Veterans Affairs",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Irwin v. Department of Veterans Affairs, 498 U.S. 89 (1990). No overruling found in Redline's data.",
+      "case": "Irwin v. Department of Veterans Affairs"
+    },
+    {
+      "text": "560 U.S. 631",
+      "name": "Holland v. Florida",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Holland v. Florida, 560 U.S. 631 (11th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Holland v. Florida"
+    },
+    {
+      "text": "177 F.3d 1269",
+      "name": "Sandvik v. United States",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Sandvik v. United States, 177 F.3d 1269 (11th Cir. 1999). No overruling found in Redline's data.",
+      "case": "Sandvik v. United States"
+    },
+    {
+      "text": "434 F.3d 1254",
+      "name": "Arce v. Garcia",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Arce v. Garcia, 434 F.3d 1254 (11th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Arce v. Garcia"
+    },
+    {
+      "text": "6 F.3d 1474",
+      "name": "Justice v. United States",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Justice v. United States, 6 F.3d 1474 (11th Cir. 1993). No overruling found in Redline's data.",
+      "case": "Justice v. United States"
+    },
+    {
+      "text": "372 F.3d 1233",
+      "name": "Bost v. Fed. Express Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bost v. Federal Express Corp., 372 F.3d 1233 (11th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Bost v. Federal Express Corp."
+    },
+    {
+      "text": "92 F.3d 1539",
+      "name": "Jove Eng'g, Inc. v. IRS",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jove Engineering, Inc. v. Internal Revenue Service, 92 F.3d 1539 (11th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Jove Engineering, Inc. v. Internal Revenue Service"
+    }
+  ],
+  "judge": {},
+  "words": 878
+}

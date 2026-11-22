@@ -1,0 +1,179 @@
+{
+  "task": "m15",
+  "arm": "C",
+  "rep": 2,
+  "summary": {
+    "citations": 20,
+    "verified": 20,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "552 U.S. 38",
+      "name": "Gall v. United States",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    },
+    {
+      "text": "572 F.3d 455",
+      "name": "United States v. Feemster",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Feemster, 572 F.3d 455 (8th Cir. 2009). No overruling found in Redline's data. It mentions Harris v. United States once in passing (later overruled by Alleyne v. United States, 2013); a single mention is not counted as reliance.",
+      "case": "United States v. Feemster"
+    },
+    {
+      "text": "552 U.S. at 51",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    },
+    {
+      "text": "572 F.3d at 461",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Feemster, 572 F.3d 455 (8th Cir. 2009). No overruling found in Redline's data. It mentions Harris v. United States once in passing (later overruled by Alleyne v. United States, 2013); a single mention is not counted as reliance.",
+      "case": "United States v. Feemster"
+    },
+    {
+      "text": "544 F.3d 930",
+      "name": "United States v. Miner",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Miner, 544 F.3d 930 (8th Cir. 2008). No overruling found in Redline's data.",
+      "case": "United States v. Miner"
+    },
+    {
+      "text": "572 F.3d at 461",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Feemster, 572 F.3d 455 (8th Cir. 2009). No overruling found in Redline's data. It mentions Harris v. United States once in passing (later overruled by Alleyne v. United States, 2013); a single mention is not counted as reliance.",
+      "case": "United States v. Feemster"
+    },
+    {
+      "text": "552 U.S. at 51",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    },
+    {
+      "text": "572 F.3d at 461",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Feemster, 572 F.3d 455 (8th Cir. 2009). No overruling found in Redline's data. It mentions Harris v. United States once in passing (later overruled by Alleyne v. United States, 2013); a single mention is not counted as reliance.",
+      "case": "United States v. Feemster"
+    },
+    {
+      "text": "552 F.3d 686",
+      "name": "United States v. Hill",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hill, 552 F.3d 686 (8th Cir. 2009). No overruling found in Redline's data.",
+      "case": "United States v. Hill"
+    },
+    {
+      "text": "552 U.S. at 50",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    },
+    {
+      "text": "572 F.3d at 461",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Feemster, 572 F.3d 455 (8th Cir. 2009). No overruling found in Redline's data. It mentions Harris v. United States once in passing (later overruled by Alleyne v. United States, 2013); a single mention is not counted as reliance.",
+      "case": "United States v. Feemster"
+    },
+    {
+      "text": "552 F.3d 748",
+      "name": "United States v. Kane",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Kane, 552 F.3d 748 (8th Cir. 2009). No overruling found in Redline's data.",
+      "case": "United States v. Kane"
+    },
+    {
+      "text": "517 F.3d 990",
+      "name": "United States v. Roberson",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Roberson, 517 F.3d 990 (8th Cir. 2008). No overruling found in Redline's data.",
+      "case": "United States v. Roberson"
+    },
+    {
+      "text": "594 F.3d 614",
+      "name": "United States v. Hodge",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hodge, 594 F.3d 614 (8th Cir. 2010). No overruling found in Redline's data.",
+      "case": "United States v. Hodge"
+    },
+    {
+      "text": "552 U.S. at 50",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    },
+    {
+      "text": "572 F.3d at 461",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Feemster, 572 F.3d 455 (8th Cir. 2009). No overruling found in Redline's data. It mentions Harris v. United States once in passing (later overruled by Alleyne v. United States, 2013); a single mention is not counted as reliance.",
+      "case": "United States v. Feemster"
+    },
+    {
+      "text": "552 U.S. at 50",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    },
+    {
+      "text": "552 F.3d at 691",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hill, 552 F.3d 686 (8th Cir. 2009). No overruling found in Redline's data.",
+      "case": "United States v. Hill"
+    },
+    {
+      "text": "544 F.3d at 932",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Miner, 544 F.3d 930 (8th Cir. 2008). No overruling found in Redline's data.",
+      "case": "United States v. Miner"
+    },
+    {
+      "text": "552 U.S. at 51",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gall v. United States, 552 U.S. 38 (2007). No overruling found in Redline's data.",
+      "case": "Gall v. United States"
+    }
+  ],
+  "judge": {},
+  "words": 792
+}

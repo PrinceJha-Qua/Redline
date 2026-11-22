@@ -1,0 +1,155 @@
+{
+  "task": "m24",
+  "arm": "B",
+  "rep": 2,
+  "summary": {
+    "citations": 17,
+    "verified": 15,
+    "fabricated": 0,
+    "unverifiable": 2,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "502 U.S. 164",
+      "name": "U.S. Dep't of State v. Ray",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States Department of State v. Ray, 502 U.S. 164 (1991). No overruling found in Redline's data.",
+      "case": "United States Department of State v. Ray"
+    },
+    {
+      "text": "746 F.3d 1082",
+      "name": "Citizens for Responsibility & Ethics in Wash. v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice, 746 F.3d 1082 (D.C. Cir. 2014). No overruling found in Redline's data.",
+      "case": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice"
+    },
+    {
+      "text": "565 F.3d 857",
+      "name": "Larson v. Dep't of State",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Larson v. Department of State, 565 F.3d 857 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Larson v. Department of State"
+    },
+    {
+      "text": "449 F.3d 141",
+      "name": "Judicial Watch, Inc. v. FDA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Judicial Watch, Inc. v. Food & Drug Administration, 449 F.3d 141 (D.C. Cir. 2006). No overruling found in Redline's data.",
+      "case": "Judicial Watch, Inc. v. Food & Drug Administration"
+    },
+    {
+      "text": "3 F.4th 350",
+      "name": "Reporters Comm. for Freedom of the Press v. FBI",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "F.4th is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    },
+    {
+      "text": "565 F.3d at 862",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Larson v. Department of State, 565 F.3d 857 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Larson v. Department of State"
+    },
+    {
+      "text": "508 F.3d 1108",
+      "name": "Morley v. CIA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Morley v. Central Intelligence Agency, 508 F.3d 1108 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Morley v. Central Intelligence Agency"
+    },
+    {
+      "text": "628 F.3d 612",
+      "name": "ACLU v. U.S. Dep't of Def",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Civil Liberties Union v. United States Department of Defense, 628 F.3d 612 (D.C. Cir. 2011). No overruling found in Redline's data.",
+      "case": "American Civil Liberties Union v. United States Department of Defense"
+    },
+    {
+      "text": "164 F.3d 20",
+      "name": "Campbell v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Campbell v. United States Department of Justice, 164 F.3d 20 (D.C. Cir. 1998). No overruling found in Redline's data.",
+      "case": "Campbell v. United States Department of Justice"
+    },
+    {
+      "text": "185 F.3d 898",
+      "name": "Pub. Citizen Health Research Grp. v. FDA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Public Citizen Health Research Group v. Food & Drug Administration, 185 F.3d 898 (D.C. Cir. 1999). No overruling found in Redline's data. It mentions Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc. once in passing (later overruled by Loper Bright Enterprises v. Raimondo, 2024); a single mention is not counted as reliance.",
+      "case": "Public Citizen Health Research Group v. Food & Drug Administration"
+    },
+    {
+      "text": "449 F.3d at 146",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Judicial Watch, Inc. v. Food & Drug Administration, 449 F.3d 141 (D.C. Cir. 2006). No overruling found in Redline's data.",
+      "case": "Judicial Watch, Inc. v. Food & Drug Administration"
+    },
+    {
+      "text": "628 F.3d at 619",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Civil Liberties Union v. United States Department of Defense, 628 F.3d 612 (D.C. Cir. 2011). No overruling found in Redline's data.",
+      "case": "American Civil Liberties Union v. United States Department of Defense"
+    },
+    {
+      "text": "508 F.3d at 1122",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Morley v. Central Intelligence Agency, 508 F.3d 1108 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Morley v. Central Intelligence Agency"
+    },
+    {
+      "text": "164 F.3d at 30",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Campbell v. United States Department of Justice, 164 F.3d 20 (D.C. Cir. 1998). No overruling found in Redline's data.",
+      "case": "Campbell v. United States Department of Justice"
+    },
+    {
+      "text": "185 F.3d at 905",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Public Citizen Health Research Group v. Food & Drug Administration, 185 F.3d 898 (D.C. Cir. 1999). No overruling found in Redline's data. It mentions Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc. once in passing (later overruled by Loper Bright Enterprises v. Raimondo, 2024); a single mention is not counted as reliance.",
+      "case": "Public Citizen Health Research Group v. Food & Drug Administration"
+    },
+    {
+      "text": "565 F.3d at 862",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Larson v. Department of State, 565 F.3d 857 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Larson v. Department of State"
+    },
+    {
+      "text": "484 F.2d 820",
+      "name": "Vaughn v. Rosen",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "F.2d is outside Redline's data, so this citation cannot be checked. Redline holds U.S. vols. 1–572 (1754–2014), F.3d vols. 1–935 (1990–2019).",
+      "case": null
+    }
+  ],
+  "judge": {},
+  "words": 754
+}
