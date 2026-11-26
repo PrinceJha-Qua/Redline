@@ -4,9 +4,7 @@ import json
 from pathlib import Path
 
 import pytest
-from fastapi.testclient import TestClient
 
-from redline.api import app
 from redline.store import store_path
 
 BRIEFS = Path(__file__).parent / "fixtures" / "briefs"
@@ -18,12 +16,6 @@ def store_hash():
         h.update(f.relative_to(store_path()).as_posix().encode())
         h.update(f.read_bytes())
     return h.hexdigest()
-
-
-@pytest.fixture(scope="module")
-def client():
-    with TestClient(app, base_url="http://localhost:8000") as c:
-        yield c
 
 
 def test_check_and_store_unchanged(client):
@@ -66,7 +58,8 @@ def test_mcp_lists_and_calls_tools(client):
             "params": {"protocolVersion": "2025-03-26", "capabilities": {}, "clientInfo": {"name": "test", "version": "0"}}}
     assert client.post("/mcp/", json=init, headers=headers).status_code == 200
     tools = client.post("/mcp/", json={"jsonrpc": "2.0", "id": 2, "method": "tools/list"}, headers=headers).json()
-    assert {t["name"] for t in tools["result"]["tools"]} == {"check_citations", "get_case", "search_cases", "coverage"}
+    assert {t["name"] for t in tools["result"]["tools"]} == {"check_citations", "get_case", "search_cases", "coverage",
+                                                                  "find_authority", "related_authority", "what_if_overruled"}
     call = {"jsonrpc": "2.0", "id": 3, "method": "tools/call",
             "params": {"name": "check_citations", "arguments": {"text": "Varghese v. China S. Airlines, 925 F.3d 1339 (11th Cir. 2019)."}}}
     body = client.post("/mcp/", json=call, headers=headers).json()

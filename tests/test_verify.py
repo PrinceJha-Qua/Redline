@@ -183,7 +183,7 @@ def test_names_disagree(cited, actual):
 @pytest.mark.parametrize("text", ["", "   ", "\n\n", "No citations here at all."])
 def test_text_without_citations(text):
     assert service.check_text(text) == {"summary": {"citations": 0, "verified": 0, "fabricated": 0, "unverifiable": 0,
-                                                    "overruled": 0, "caution": 0}, "citations": []}
+                                                    "overruled": 0, "caution": 0}, "as_of": None, "citations": []}
 
 
 def test_a_passing_mention_is_not_reliance():

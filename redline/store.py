@@ -2,6 +2,11 @@
 
 Relate connections belong to the thread that opened them, so a web server or MCP server hands
 every query to one worker thread that owns the connection.
+
+`hypothetical` runs a function inside a transaction on that read-only connection: Relate accepts the
+writes, answers queries against them, and refuses to commit them. Redline rolls back every time, so a
+what-if ("overrule this case, then check the brief") uses the production code and leaves the store
+untouched.
 """
 import atexit
 import os
@@ -47,23 +52,44 @@ class Store:
             ready.set_exception(e)
             return
         ready.set_result(True)
-        cur = con.cursor()
+        self._con, self._cur = con, con.cursor()
         while True:
             job = self._jobs.get()
             if job is None:
                 con.close()
                 return
-            fut, query, params = job
+            fut, fn = job
             try:
-                cur.execute(query, params or {})
-                fut.set_result([{k: _plain(v) for k, v in dict(r).items()} for r in cur.fetchall()])
+                fut.set_result(fn())
             except Exception as e:
                 fut.set_exception(e)
 
-    def query(self, query, params=None):
+    def _run(self, query, params=None):
+        self._cur.execute(query, params or {})
+        return [{k: _plain(v) for k, v in dict(r).items()} for r in self._cur.fetchall()]
+
+    def _submit(self, fn):
+        if threading.current_thread() is self._thread:  # already on the worker: inside `hypothetical`
+            return fn()
         fut = Future()
-        self._jobs.put((fut, query, params))
+        self._jobs.put((fut, fn))
         return fut.result()
+
+    def query(self, query, params=None):
+        return self._submit(lambda: self._run(query, params))
+
+    def hypothetical(self, writes, fn):
+        """Apply `writes` (a list of (cypher, params)) inside a transaction, return fn(), then roll back."""
+        def job():
+            self._con.autocommit = False
+            try:
+                for q, p in writes:
+                    self._run(q, p)
+                return fn()
+            finally:
+                self._con.rollback()
+                self._con.autocommit = True
+        return self._submit(job)
 
     def close(self):
         if self._thread.is_alive():

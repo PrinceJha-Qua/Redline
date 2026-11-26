@@ -1,6 +1,7 @@
 """The operations every surface shares: the HTTP API, the MCP tools and the command line."""
 import re
 
+from . import agent
 from .status import status_of
 from .store import Store
 from .verify import check, coverage
@@ -16,10 +17,35 @@ def store():
     return _store
 
 
-def check_text(text):
+def as_of_year(value):
+    """2023, "2023" or "2023-05-01" -> 2023. Overrulings are recorded by year."""
+    if value in (None, ""):
+        return None
+    m = re.match(r"\s*(\d{4})", str(value))
+    if not m or not (1754 <= int(m.group(1)) <= 2100):
+        raise ValueError(f"as_of must be a year or a date, such as 2023 or 2023-05-01; got {value!r}.")
+    return int(m.group(1))
+
+
+def check_text(text, as_of=None, suggest=True):
     if len(text) > MAX_TEXT:
         raise ValueError(f"The text is {len(text):,} characters; the limit is {MAX_TEXT:,}.")
-    return check(store(), text)
+    result = check(store(), text, as_of_year(as_of))
+    return agent.suggest_for(store(), result) if suggest else result
+
+
+def find_authority(proposition, circuit=None, limit=5, as_of=None):
+    return agent.find_authority(store(), proposition, circuit, max(1, min(int(limit), 10)), as_of_year(as_of))
+
+
+def related(case_ids, limit=5):
+    return agent.related(store(), case_ids, max(1, min(int(limit), 20)))
+
+
+def what_if(case_id, text=None):
+    if text and len(text) > MAX_TEXT:
+        raise ValueError(f"The text is {len(text):,} characters; the limit is {MAX_TEXT:,}.")
+    return agent.what_if(store(), case_id, text)
 
 
 def get_case(case_id):

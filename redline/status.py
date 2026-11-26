@@ -3,7 +3,10 @@
 overruled  the case itself was overruled (explicit OVERRULES edge)
 caution    the case relies on a case that was later overruled: it cites one directly, more than in
            passing (see relies_on), and was decided before that overruling
-good law   neither, in Redline's data. A passing mention of a later-overruled case is reported in
+good law   neither, in Redline's data.
+
+With `as_of` (a year), only overrulings decided by then count: a 2023 brief citing Chevron cited good
+law, and the overruling that came later (Loper Bright, 2024) is reported in `later`, not as the status. A passing mention of a later-overruled case is reported in
            `mentions` but does not make a case yellow: United States v. Lopez (Commerce Clause) cites
            Planned Parenthood v. Casey once, and does not rest on it.
 """
@@ -42,11 +45,28 @@ def relies_on(case_id, weight, parenthetical):
     return (weight or 0) > SINGLE_MENTION.get(case_id.split(":")[0], 1)
 
 
-def status_of(store, case):
-    overruled_by = store.query(_OVERRULED_BY, {"id": case["id"]})
+def _by(as_of, year):
+    return as_of is None or (year or 0) <= as_of
+
+
+def status_of(store, case, as_of=None):
+    every = store.query(_OVERRULED_BY, {"id": case["id"]})
+    overruled_by = [o for o in every if _by(as_of, o["year"])]
+    later = [{"id": o["id"], "name": o["name"], "cite": o["cite"], "year": o["year"], "partial": o["partial"]}
+             for o in every if not _by(as_of, o["year"])]
+    out = _status(store, case, as_of, overruled_by)
+    out["later"] = later
+    if later and out["status"] != "overruled":
+        o = later[0]
+        out["reason"] += (f" Overruled{' in part' if o['partial'] else ''} later, by {o['name']}, {o['cite']} "
+                          f"({o['year']}), after {as_of}.")
+    return out
+
+
+def _status(store, case, as_of, overruled_by):
     chains, mentions, seen = [], [], set()
     for row in store.query(STANDS_ON, {"id": case["id"]}):
-        if row["id"] in seen:
+        if row["id"] in seen or not _by(as_of, row["by_year"]):
             continue
         seen.add(row["id"])
         (chains if relies_on(case["id"], row["weight"], row["parenthetical"]) else mentions).append({
@@ -69,7 +89,7 @@ def status_of(store, case):
                   f"later overruled by {top['overruled_by']['name']} ({top['overruled_by']['year']}).")
         return {"status": "caution", "reason": reason, "overruled_by": [], "stands_on": chains[:LIMIT],
                 "stands_on_total": len(chains), "mentions": mentions[:LIMIT]}
-    reason = "No overruling found in Redline's data."
+    reason = f"No overruling by {as_of} in Redline's data." if as_of else "No overruling found in Redline's data."
     if mentions:
         m = mentions[0]
         reason += (f" It mentions {m['case']['name']} once in passing (later overruled by "

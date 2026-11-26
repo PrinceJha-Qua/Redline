@@ -147,6 +147,13 @@ def _slug(name):
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")[:60]
 
 
+def add_indexes(run):
+    """Full-text indexes: case names, and the parentheticals courts write about the cases they cite
+    ("holding that temporal proximity alone is insufficient"), which an agent searches for authority."""
+    run("CREATE FULLTEXT INDEX case_name IF NOT EXISTS FOR (c:Case) ON EACH [c.name]")
+    run("CREATE FULLTEXT INDEX cites_parenthetical IF NOT EXISTS FOR ()-[r:CITES]-() ON EACH [r.parenthetical]")
+
+
 def build(pack="core", out=None, reporters=("us", "f3d")):
     spec = PACKS[pack]
     out = Path(out).resolve() if out else spec["out"]
@@ -292,7 +299,7 @@ def build(pack="core", out=None, reporters=("us", "f3d")):
         "CREATE (a)-[:OVERRULES {partial: r.partial, topic: r.topic, source: r.source}]->(b)", overrulings)
     print(f"  wrote {len(edges):,} citations, {len(overrulings)} overrulings ({time.time() - t0:.0f}s)", flush=True)
 
-    run("CREATE FULLTEXT INDEX case_name IF NOT EXISTS FOR (c:Case) ON EACH [c.name]")
+    add_indexes(run)
     db.execute("CREATE (m:Meta) SET m = $m", {"m": {
         "pack": pack, "built": date.today().isoformat(), "cases": len(case_rows), "citations": len(edges),
         "overrulings": len(overrulings), "volumes": len(volumes),

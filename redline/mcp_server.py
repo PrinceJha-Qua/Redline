@@ -17,21 +17,49 @@ _HOSTS = ["127.0.0.1", "127.0.0.1:*", "localhost", "localhost:*", "[::1]:*"] + \
 
 mcp = FastMCP("redline", stateless_http=True, json_response=True,
               transport_security=TransportSecuritySettings(allowed_hosts=_HOSTS),
-              instructions="Check US case citations against a citation graph of every Supreme Court case "
-                           "(1754-2014) and every F.3d appeals case (1990-2019). Call check_citations on any "
-                           "text before relying on its citations. FABRICATED means the citation cannot exist; "
-                           "UNVERIFIABLE means it is outside coverage, not that it is fake.")
+              instructions="A citation graph of every Supreme Court case (1754-2014) and every F.3d appeals "
+                           "case (1990-2019). Before citing a case from memory, call find_authority with the "
+                           "proposition: it returns real cases in the words of the courts that cited them. Call "
+                           "check_citations on any text before relying on its citations; for a FABRICATED "
+                           "citation, use its suggestions or drop it. UNVERIFIABLE means outside coverage, not "
+                           "fake. Never cite a case marked overruled; for caution, read what it stands on.")
 mcp.settings.streamable_http_path = "/"
 
 
 @mcp.tool()
-def check_citations(text: str) -> dict:
+def check_citations(text: str, as_of: str | None = None) -> dict:
     """Check every case citation in `text`. Returns a verdict per citation (VERIFIED, FABRICATED,
-    UNVERIFIABLE), its status (good law, caution, overruled), the reason, and what it stands on."""
-    result = service.check_text(text)
+    UNVERIFIABLE), its status (good law, caution, overruled), the reason, what it stands on, and for a
+    fabricated citation the real cases with that name (`suggestions`). `as_of` (a year or date, such as
+    the filing date) asks whether each case was good law then."""
+    result = service.check_text(text, as_of)
     for c in result["citations"]:
         c.pop("evidence", None)
     return result
+
+
+@mcp.tool()
+def find_authority(proposition: str, circuit: str | None = None, limit: int = 5, as_of: str | None = None) -> dict:
+    """Real cases that courts have cited for `proposition`, each with the courts' own descriptions of it
+    ("holding that ..."), its status, and, with `circuit` (such as "Third" or "9th"), that circuit's own
+    F.3d opinions saying it. Use this instead of recalling citations from memory."""
+    result = service.find_authority(proposition, circuit, limit, as_of)
+    result.pop("query", None)
+    return result
+
+
+@mcp.tool()
+def related_authority(case_ids: list[str], limit: int = 5) -> list:
+    """Good-law cases that courts cite together with `case_ids` (ids such as US:467:837): where to look
+    for more authority on the same point."""
+    return service.related(case_ids, limit)
+
+
+@mcp.tool()
+def what_if_overruled(case_id: str, text: str | None = None) -> dict:
+    """Overrule `case_id` hypothetically: how many decisions rely on it, by court, and which citations in
+    `text` would change status. Runs in a rolled-back transaction; the store is never changed."""
+    return service.what_if(case_id, text) or {"error": f"No case with id {case_id}."}
 
 
 @mcp.tool()

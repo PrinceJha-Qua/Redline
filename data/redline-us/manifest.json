@@ -2,8 +2,8 @@
   "format_version": 5,
   "next_node_id": 219772,
   "next_rel_id": 1374372,
-  "checkpoint_lsn": 336,
-  "commit_ts": 336,
+  "checkpoint_lsn": 337,
+  "commit_ts": 337,
   "node_parts": [
     {
       "path": "nodes/0-262144-08ccace2ed4bb017df93e497df0bcd57.parquet",
@@ -36,8 +36,8 @@
       "bytes": 17690084
     }
   ],
-  "bytes_per_node": 101.27362315491784,
-  "bytes_per_rel": 18.27037017669383,
+  "bytes_per_node": 100.07383342666441,
+  "bytes_per_rel": 20.492528553234266,
   "codec": "parquet",
   "indexes": [
     {
@@ -59,6 +59,11 @@
       "name": "citation_text",
       "label": "Citation",
       "property": "text#RANGE#citation_text"
+    },
+    {
+      "name": "cites_parenthetical",
+      "label": "CITES",
+      "property": "parenthetical#FULLTEXT#cites_parenthetical"
     },
     {
       "name": "court_id",
@@ -188,6 +193,17 @@
         ],
         "with_properties": []
       },
+      "cites_parenthetical": {
+        "kind": "Fulltext",
+        "relationship": true,
+        "labels": [
+          "CITES"
+        ],
+        "properties": [
+          "parenthetical"
+        ],
+        "with_properties": []
+      },
       "court_id": {
         "kind": "Range",
         "relationship": false,
@@ -241,6 +257,21 @@
       },
       "case_status": {},
       "citation_text": {},
+      "cites_parenthetical": {
+        "indexConfig": {
+          "t": "map",
+          "v": {
+            "fulltext.analyzer": {
+              "t": "string",
+              "v": "standard-no-stop-words"
+            },
+            "fulltext.eventually_consistent": {
+              "t": "bool",
+              "v": false
+            }
+          }
+        }
+      },
       "court_id": {},
       "reporter_abbr": {},
       "volume_key": {}

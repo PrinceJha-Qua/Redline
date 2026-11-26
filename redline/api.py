@@ -1,6 +1,9 @@
 """HTTP API.
 
-    POST /api/check          {"text": "..."}  -> verdict for every citation
+    POST /api/check          {"text": "...", "as_of": 2023}  -> verdict for every citation
+    GET  /api/authority?q=   real cases courts have cited for a proposition (&circuit=3d&as_of=2019)
+    GET  /api/related?ids=   cases courts cite together with these
+    POST /api/what-if        {"case_id": "...", "text": "..."}  -> overrule a case hypothetically
     GET  /api/case/{id}      one case, its status and neighbours
     GET  /api/search?q=      cases by name
     GET  /api/coverage       what Redline holds (also the health check)
@@ -32,14 +35,48 @@ app = FastAPI(title="Redline", version="0.1.0", lifespan=lifespan)
 
 class CheckRequest(BaseModel):
     text: str = Field(..., description="Brief or memo text containing case citations.")
+    as_of: str | int | None = Field(None, description="Check as of this year or date, such as 2023.")
+
+
+class WhatIfRequest(BaseModel):
+    case_id: str = Field(..., description="The case to overrule hypothetically, such as US:545:967.")
+    text: str | None = Field(None, description="A brief to re-check under the hypothetical overruling.")
+
+
+def _bad(e):
+    raise HTTPException(413 if "limit" in str(e) else 422, str(e))
 
 
 @app.post("/api/check")
 def api_check(req: CheckRequest):
     try:
-        return service.check_text(req.text)
+        return service.check_text(req.text, req.as_of)
     except ValueError as e:
-        raise HTTPException(413, str(e))
+        _bad(e)
+
+
+@app.get("/api/authority")
+def api_authority(q: str, circuit: str | None = None, limit: int = 5, as_of: str | None = None):
+    try:
+        return service.find_authority(q, circuit, limit, as_of)
+    except ValueError as e:
+        _bad(e)
+
+
+@app.get("/api/related")
+def api_related(ids: str, limit: int = 5):
+    return service.related([i.strip() for i in ids.split(",")], limit)
+
+
+@app.post("/api/what-if")
+def api_what_if(req: WhatIfRequest):
+    try:
+        found = service.what_if(req.case_id, req.text)
+    except ValueError as e:
+        _bad(e)
+    if not found:
+        raise HTTPException(404, f"No case with id {req.case_id}.")
+    return found
 
 
 @app.get("/api/case/{case_id}")

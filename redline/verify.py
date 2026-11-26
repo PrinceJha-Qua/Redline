@@ -79,8 +79,10 @@ def _evidence_case(case, role):
     return {"id": case["id"], "label": case["name"], "cite": case["cite"], "year": case.get("year"), "role": role}
 
 
-def _verified(store, cite, case, warnings, note=""):
-    st = status_of(store, case)
+def _verified(store, cite, case, warnings, note="", as_of=None):
+    st = status_of(store, case, as_of)
+    if as_of and case.get("year") and case["year"] > as_of:
+        warnings = warnings + [f"Decided in {case['year']}, after {as_of}: a brief dated {as_of} could not cite it."]
     nodes = [_evidence_case(case, "cited")]
     edges = []
     for o in st["overruled_by"]:
@@ -101,7 +103,7 @@ def _verified(store, cite, case, warnings, note=""):
             "warnings": warnings, "case": {k: case[k] for k in ("id", "name", "cite", "court", "year")},
             "overruled_by": st["overruled_by"], "stands_on": st["stands_on"],
             "stands_on_total": st.get("stands_on_total", len(st["stands_on"])),
-            "mentions": st.get("mentions", []),
+            "mentions": st.get("mentions", []), "later": st.get("later", []),
             "evidence": {"nodes": uniq, "edges": edges, "query": _query(STANDS_ON, id=case["id"])}}
 
 
@@ -155,7 +157,7 @@ def _readings(cite):
     return [x for x in (cite["name"] or cite.get("short_name", ""), cite.get("parties", "")) if x and comparable(x)]
 
 
-def verify(store, cite):
+def verify(store, cite, as_of=None):
     reporter, vol, page = cite["reporter"], cite["volume"], cite["page"]
     cov = coverage(store)
     common = common_words(store)
@@ -177,7 +179,7 @@ def verify(store, cite):
         rows = store.query(_PARALLEL, {"text": f"{vol} {PARALLEL[reporter]} {page}"})
         if rows:
             return _verified(store, cite, rows[0], _warnings(cite, rows[0]),
-                             note=f"Parallel citation of {rows[0]['cite']}.")
+                             note=f"Parallel citation of {rows[0]['cite']}.", as_of=as_of)
         return _unverifiable(cite, f"{cite['text']} is a parallel Supreme Court citation that Redline cannot match "
                                    f"to a U.S. Reports page. Redline holds {_coverage_text(store)}.")
 
@@ -189,7 +191,7 @@ def verify(store, cite):
     if not rep or not (rep["first_vol"] <= vol <= rep["last_vol"]):
         stub = store.query(_BY_ID, {"id": f"{prefix}:{vol}:{page}"})
         if stub:
-            return _verified(store, cite, stub[0], [])
+            return _verified(store, cite, stub[0], [], as_of=as_of)
         last = f"{rep['last_vol']} ({rep['last_year']})" if rep else "?"
         return _unverifiable(cite, f"Volume {vol} of {reporter} is after volume {last}, where Redline's "
                                    f"{reporter} data ends.")
@@ -205,7 +207,7 @@ def verify(store, cite):
     starts = [] if cite.get("short") else [c for c in at_page if c["first_page"] == page]
     for case in starts:
         if names_agree(cite, _names(case)):
-            return _verified(store, cite, case, _warnings(cite, case))
+            return _verified(store, cite, case, _warnings(cite, case), as_of=as_of)
     raw_name = cite["name"] or cite.get("short_name")
     # A name read from the brief itself, not guessed. "In re" captions don't count: the data names those
     # cases by their parties.
@@ -237,9 +239,9 @@ def verify(store, cite):
     if at_page and not starts and (not named or agreeing):
         case = (agreeing or at_page)[0]  # a pin cite: "Havens Realty Corp., 455 U.S. 366" or "Fowler, 344 F.3d at 1211"
         note = [] if cite.get("short") else [f"Cited at page {page}, inside the case, which starts at page {case['first_page']}."]
-        return _verified(store, cite, case, _warnings(cite, case) + note)
+        return _verified(store, cite, case, _warnings(cite, case) + note, as_of=as_of)
     if starts and not named:
-        return _verified(store, cite, starts[0], _warnings(cite, starts[0]))
+        return _verified(store, cite, starts[0], _warnings(cite, starts[0]), as_of=as_of)
 
     # Everything below would call the citation fabricated. Only a page map that agrees with how courts
     # cite this volume can prove that.
@@ -301,8 +303,9 @@ def verify(store, cite):
                                f"be a table of decisions without published opinions, which Redline does not hold.")
 
 
-def check(store, text):
-    results = [verify(store, c) for c in extract(text)]
+def check(store, text, as_of=None):
+    """Check every citation in `text`. `as_of` (a year) asks whether each case was good law then."""
+    results = [verify(store, c, as_of) for c in extract(text)]
     summary = {"citations": len(results), "verified": 0, "fabricated": 0, "unverifiable": 0,
                "overruled": 0, "caution": 0}
     for r in results:
@@ -311,4 +314,4 @@ def check(store, text):
             summary["overruled"] += 1
         elif r["status"] == "caution":
             summary["caution"] += 1
-    return {"summary": summary, "citations": results}
+    return {"summary": summary, "as_of": as_of, "citations": results}
