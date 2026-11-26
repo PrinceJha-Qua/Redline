@@ -138,3 +138,10 @@ def test_agent_endpoints(client):
     assert w.status_code == 200 and w.json()["rolled_back"] is True
     assert client.post("/api/what-if", json={"case_id": "US:0:0"}).status_code == 404
     assert client.post("/api/check", json={"text": CHEVRON, "as_of": "nope"}).status_code == 422
+
+
+def test_a_shared_word_does_not_name_another_case():
+    # "Mount Royal Joint Venture v. Kempthorne" shares one word with the cited name; it is not the case.
+    c = only("Mount Vernon Fire Ins. Co. v. Visionaid, Inc., 477 F.3d 6, 9 (1st Cir. 2007).")
+    assert c["verdict"] == "FABRICATED"
+    assert "Kempthorne" not in c["reason"]

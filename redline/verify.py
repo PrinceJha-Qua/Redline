@@ -276,7 +276,11 @@ def verify(store, cite, as_of=None):
                  if len(w.strip(",.")) > 3 and w[0].isupper() and w.strip(",.").lower() not in {"united", "states"}][:1]
         if words:
             any_word = store.query(_NAMED_IN_VOLUME, {"key": key, "word": words[0].lower()})
-            hits = [h for h in any_word if names_agree(cite, h["name"])]
+            # Naming another case as "the" case needs both parties to match, not one shared word
+            # ("Mount Royal Joint Venture" is not "Mount Vernon Fire Ins.").
+            from .agent import same_parties
+            hits = [h for h in any_word if names_agree(cite, h["name"])
+                    and (not cite["name"] or same_parties(cite["name"], h["name"]))]
             if not any_word:
                 missing = f" No case named {words[0]} is in volume {vol}."
             elif not hits:

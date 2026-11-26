@@ -59,6 +59,9 @@ RETURN a.id AS a_id, a.name AS a_name, a.cite AS a_cite, a.court AS a_court, a.y
 """
 
 
+RELEVANCE = 0.35  # a result must score at least this share of the best one
+
+
 def find_authority(store, proposition, circuit=None, limit=5, as_of=None):
     """Cases courts have cited for `proposition`, ranked by how well and how often the courts' own
     descriptions match it. With `circuit`, that circuit's descriptions come first, and its opinions are
@@ -79,7 +82,12 @@ def find_authority(store, proposition, circuit=None, limit=5, as_of=None):
         e["described_as"].append({"by": {"id": r["a_id"], "name": r["a_name"], "cite": r["a_cite"],
                                          "court": r["a_court"], "year": r["a_year"]},
                                   "parenthetical": r["parenthetical"], "score": round(r["score"], 2)})
-    ranked = sorted(by_case.values(), key=lambda e: -e["score"])[:limit]
+    ranked = sorted(by_case.values(), key=lambda e: -e["score"])
+    # Keep what is close to the best match: a case found through one common word ("alone") is noise.
+    if ranked:
+        floor = RELEVANCE * ranked[0]["score"]
+        ranked = [e for e in ranked if e["score"] >= floor]
+    ranked = ranked[:limit]
     for e in ranked:
         st = status_of(store, e["case"], as_of)
         e["status"], e["status_reason"] = st["status"], st["reason"]
@@ -91,7 +99,10 @@ def find_authority(store, proposition, circuit=None, limit=5, as_of=None):
     opinions = []
     if court:
         seen = set()
+        best = max((r["score"] for r in rows), default=0)
         for r in sorted(rows, key=lambda r: -r["score"]):
+            if r["score"] < RELEVANCE * best:
+                break
             if r["a_court"] == court and r["a_id"] not in seen:
                 seen.add(r["a_id"])
                 opinions.append({"case": {"id": r["a_id"], "name": r["a_name"], "cite": r["a_cite"],
@@ -155,6 +166,11 @@ def _same_parties(parties, candidate):
     if len(parties) != len(theirs):
         return len(parties) == 1 and _covers(candidate, _words(parties[0]))
     return all(_covers(t, _words(p)) for p, t in zip(parties, theirs))
+
+
+def same_parties(name, candidate):
+    parties = [p for p in re.split(r"\s+v\.?\s+", name or "") if p.strip()][:2]
+    return _same_parties(parties, candidate)
 
 
 def did_you_mean(store, name, exclude=None, limit=3):

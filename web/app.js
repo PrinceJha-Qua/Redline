@@ -9,6 +9,7 @@
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const fmt = (n) => Number(n).toLocaleString("en-US");
+  const unq = (s) => String(s || "").trim().replace(/^["“'”]+|["”'“]+$/g, "");  // the page adds its own quotes
 
   function kind(c) {
     if (c.verdict === "FABRICATED") return "fab";
@@ -127,7 +128,11 @@
     if (i < 0) { detail.hidden = true; return; }
     document.querySelectorAll(`[data-i="${i}"]`).forEach((el) => el.classList.add("sel"));
     const span = doc.querySelector(`.cite[data-i="${i}"]`);
-    if (span) span.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    if (span) {  // scroll the brief pane only, never the page
+      const top = span.offsetTop, bottom = top + span.offsetHeight;
+      if (top < doc.scrollTop || bottom > doc.scrollTop + doc.clientHeight)
+        doc.scrollTo({ top: Math.max(0, top - doc.clientHeight / 3), behavior: "smooth" });
+    }
     showDetail(result.citations[i]);
   }
 
@@ -163,7 +168,7 @@
     }
     if (c.case) {
       parts.push(`<div class="row-btns"><button class="case-link" type="button" data-case="${esc(c.case.id)}">Open ${esc(c.case.name)} in the graph</button>
-        ${c.status !== "overruled" ? `<button class="ghost small" type="button" data-whatif="${esc(c.case.id)}">What if it were overruled?</button>` : ""}</div>
+        ${c.status !== "overruled" && c.case.id.startsWith("US:") ? `<button class="ghost small" type="button" data-whatif="${esc(c.case.id)}">What if it were overruled?</button>` : ""}</div>
         <div id="whatif-box"></div><div id="case-box"></div>`);
     }
     if (c.evidence && c.evidence.query) {
@@ -268,7 +273,8 @@
     let before = body.slice(0, a), after = body.slice(b);
     if (c.name) {
       const at = before.lastIndexOf(c.name);
-      if (at >= 0 && a - at < c.name.length + 40) before = before.slice(0, at) + g.name + before.slice(at + c.name.length);
+      const name = c.name.endsWith(".") ? g.name : g.name.replace(/\.$/, "");  // no "Ltd.." when the brief adds the period
+      if (at >= 0 && a - at < c.name.length + 40) before = before.slice(0, at) + name + before.slice(at + c.name.length);
     }
     text.value = before + g.cite + after;
     run();
@@ -287,7 +293,7 @@
       const max = Math.max(1, ...courts.map(([, n]) => n));
       box.innerHTML = `<div class="whatif">
         <p class="reason">If <b>${esc(d.case.name)}</b> were overruled, <b>${fmt(d.relying)}</b> of the ${fmt(d.citing)} decisions that cite it rely on it and would turn amber.</p>
-        <div class="bars">${courts.map(([k, n]) => `<div class="bar-row"><span>${esc(k)}</span><span class="bar"><i style="width:${(100 * n / max).toFixed(1)}%"></i></span><span>${fmt(n)}</span></div>`).join("")}</div>
+        <div class="bars">${courts.map(([k, n]) => `<div class="bar-row"><span>${esc(k)}</span><span class="meter"><i style="width:${(100 * n / max).toFixed(1)}%"></i></span><span>${fmt(n)}</span></div>`).join("")}</div>
         ${d.brief && d.brief.changed.length ? `<p class="warn">In this brief: ${d.brief.changed.map((ch) => `${esc(ch.text)} goes from ${esc(ch.before)} to ${esc(ch.after)}`).join("; ")}.</p>` : ""}
         <p class="hint">${esc(d.how)} ${d.rolled_back ? "Nothing was saved." : ""}</p></div>`;
     } catch (e) {
@@ -324,12 +330,12 @@
       const auth = d.authorities.map((a) => `<li class="auth"><div class="item-top">
           ${chip(STATUS_CHIP[a.status] || "v-ok", a.status)}<span class="item-cite">${esc(a.case.cite)}</span></div>
           <span class="item-name">${esc(a.case.name)} (${esc(a.case.year)})</span>
-          ${a.described_as.map((x) => `<span class="paren">“${esc(x.parenthetical)}”</span>
+          ${a.described_as.map((x) => `<span class="paren">“${esc(unq(x.parenthetical))}”</span>
             <span class="by">${esc(x.by.court)}, ${esc(x.by.name)}, ${esc(x.by.cite)} (${esc(x.by.year)})</span>`).join("")}
           ${a.status !== "good law" ? `<span class="warn">${esc(a.status_reason)}</span>` : ""}</li>`).join("");
       const ops = d.circuit_opinions.length ? `<li class="auth"><div class="k">${esc(d.circuit)} opinions that said it</div>
         ${d.circuit_opinions.map((o) => `<span><b>${esc(o.case.name)}</b>, ${esc(o.case.cite)} (${esc(o.case.year)})</span>
-          <span class="paren">“${esc(o.said)}” (citing ${esc(o.citing)})</span>`).join("")}</li>` : "";
+          <span class="paren">“${esc(unq(o.said))}” (citing ${esc(o.citing)})</span>`).join("")}</li>` : "";
       list.innerHTML = auth + ops || `<li class="hint">Nothing found. Try other words.</li>`;
       empty.hidden = true;
       summary.insertAdjacentHTML("beforeend", `<span class="hint">${ms} ms · ${esc(d.note)}</span>`);

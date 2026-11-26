@@ -35,30 +35,7 @@ html, body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5
 button { font: inherit; }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 
-.bar, .layout, .brand { color: inherit; text-decoration: none; }
-.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--rule); margin: -4px 0 2px; }
-.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 6px 10px 8px; color: var(--muted); cursor: pointer; font-weight: 600; font-size: 14px; }
-.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--red); }
-.mode { display: grid; gap: 12px; min-width: 0; }
-.asof { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: 13px; }
-.asof input, .find select { width: 86px; border: 1px solid var(--rule); border-radius: 6px; padding: 6px 8px; background: var(--panel); color: var(--ink); font: inherit; font-variant-numeric: tabular-nums; }
-.find select { width: auto; }
-.find textarea { min-height: 96px; font-size: 15px; }
-.item-fix { font-size: 13px; color: var(--focus); }
-.fix { background: var(--ink); color: var(--panel); border: 0; border-radius: 6px; padding: 4px 10px; cursor: pointer; font-size: 13px; font-weight: 600; }
-.row-btns { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
-.whatif { display: grid; gap: 8px; border: 1px solid var(--rule); border-radius: 8px; padding: 12px; background: var(--soft); }
-.whatif .reason { font-size: 15px; }
-.bars { display: grid; gap: 4px; font-size: 12.5px; font-variant-numeric: tabular-nums; }
-.bar-row { display: grid; grid-template-columns: 72px 1fr 44px; gap: 8px; align-items: center; }
-.bar-row > span:last-child { text-align: right; color: var(--muted); }
-.bar { height: 8px; background: var(--grey-soft); border-radius: 4px; overflow: hidden; }
-.bar i { display: block; height: 100%; background: var(--amber); border-radius: 4px; }
-.auth { border: 1px solid var(--rule); border-left: 4px solid var(--green); border-radius: 8px; padding: 10px 12px; display: grid; gap: 4px; }
-.auth .paren { font: italic 14px/1.45 var(--serif); color: var(--ink); }
-.auth .by { font-size: 12.5px; color: var(--muted); margin-bottom: 4px; }
-
-.foot { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.bar, .layout, .foot { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 24px; padding-block: 14px; border-bottom: 1px solid var(--rule); background: var(--panel); }
 .brand { display: flex; align-items: center; gap: 10px 14px; flex-wrap: wrap; min-width: 0; }
 .mark { width: 28px; height: 28px; border-radius: 6px; background: var(--ink); position: relative; flex: none; }
@@ -91,7 +68,7 @@ button { font: inherit; }
 textarea, .doc { width: 100%; min-height: 380px; max-height: 64vh; overflow: auto; border: 1px solid var(--rule); border-radius: 8px;
   padding: 16px 18px; font: 16px/1.75 var(--serif); color: var(--ink); background: var(--panel); white-space: pre-wrap; overflow-wrap: anywhere; }
 textarea { resize: vertical; display: block; }
-.doc { cursor: default; }
+.doc { cursor: default; position: relative; }
 
 /* Citations marked in place */
 .cite { border-radius: 3px; padding: 0 2px; cursor: pointer; text-decoration-thickness: 2px; text-underline-offset: 3px; transition: background-color .15s; }
@@ -176,8 +153,8 @@ details.cypher pre { margin: 8px 0 0; padding: 10px 12px; border-radius: 6px; ba
 .bars { display: grid; gap: 4px; font-size: 12.5px; font-variant-numeric: tabular-nums; }
 .bar-row { display: grid; grid-template-columns: 72px 1fr 44px; gap: 8px; align-items: center; }
 .bar-row > span:last-child { text-align: right; color: var(--muted); }
-.bar { height: 8px; background: var(--grey-soft); border-radius: 4px; overflow: hidden; }
-.bar i { display: block; height: 100%; background: var(--amber); border-radius: 4px; }
+.meter { height: 8px; background: var(--grey-soft); border-radius: 4px; overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--amber); border-radius: 4px; }
 .auth { border: 1px solid var(--rule); border-left: 4px solid var(--green); border-radius: 8px; padding: 10px 12px; display: grid; gap: 4px; }
 .auth .paren { font: italic 14px/1.45 var(--serif); color: var(--ink); }
 .auth .by { font-size: 12.5px; color: var(--muted); margin-bottom: 4px; }
