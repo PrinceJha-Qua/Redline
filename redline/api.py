@@ -117,3 +117,7 @@ if WEB.is_dir():
     @app.get("/app", include_in_schema=False)
     def checker():
         return FileResponse(WEB / "app.html")
+
+    @app.get("/replay", include_in_schema=False)
+    def replay():
+        return FileResponse(WEB / "replay.html")

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redline · Real sanctions cases, replayed</title>
+<meta name="description" content="Citations that US courts found fabricated, checked by Redline as if before filing.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23172033'/%3E%3Cpath d='M7 17h18' stroke='%23e23d3d' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="static/style.css">
+<link rel="stylesheet" href="static/landing.css">
+<style>
+  .filters { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0 18px; }
+  .filters button { border: 1px solid var(--rule); background: var(--panel); color: var(--ink); border-radius: 999px; padding: 4px 12px; cursor: pointer; font-size: 13.5px; }
+  .filters button[aria-pressed="true"] { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+  .filing { background: var(--panel); border: 1px solid var(--rule); border-left: 4px solid var(--grey); border-radius: 10px; padding: 14px 16px; display: grid; gap: 10px; margin-bottom: 12px; }
+  .filing.caught { border-left-color: var(--red); }
+  .filing h3 { margin: 0; font: 600 17px/1.3 var(--serif); }
+  .filing .when { color: var(--muted); font-size: 13px; }
+  .rc { display: grid; gap: 6px; border-top: 1px solid var(--rule); padding-top: 10px; }
+  .rc .court { font: italic 14.5px/1.5 var(--serif); color: var(--muted); }
+  .rc .fix { background: var(--green-soft); color: var(--ink); border-radius: 6px; padding: 6px 10px; font-size: 13.5px; cursor: default; font-weight: 400; }
+  .notes { display: grid; gap: 10px; font-size: 14.5px; line-height: 1.55; max-width: 860px; }
+  .notes p { margin: 0; }
+  .big { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 26px 0; }
+  @media (max-width: 760px) { .big { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body class="landing">
+<nav class="top">
+  <a class="brand" href="./"><span class="mark" aria-hidden="true"></span><b>Redline</b></a>
+  <div class="links"><a href="./#evidence">Evidence</a><a href="https://github.com/PrinceJha-Qua/Redline">GitHub</a><a class="btn small" href="app">Check a brief</a></div>
+</nav>
+
+<header class="hero">
+  <p class="eyebrow">Replay · real sanctions cases</p>
+  <h1 id="headline">Briefs that courts caught. Redline would have caught them first.</h1>
+  <p class="lede">Every citation below was found fabricated by a US court, as recorded in Damien Charlotin's AI Hallucination Cases database. We kept the ones Redline's data could judge (U.S. Reports, F.3d, or a reporter series that was never printed) and checked each as if before filing.</p>
+  <div class="big stats" style="padding:0">
+    <div class="stat"><b id="n-caught">–</b><span id="t-caught">sanctioned filings in which Redline proves at least one citation fabricated</span></div>
+    <div class="stat"><b id="n-fab">–</b><span id="t-fab">court-identified citations proved fabricated from page evidence alone</span></div>
+    <div class="stat good"><b id="n-fix">–</b><span id="t-fix">fabricated citations for which Redline finds a real case with the same name, at another citation</span></div>
+  </div>
+</header>
+
+<section>
+  <div class="filters" role="group" aria-label="Filter">
+    <button type="button" data-f="all" aria-pressed="true">All filings</button>
+    <button type="button" data-f="caught" aria-pressed="false">Caught</button>
+    <button type="button" data-f="missed" aria-pressed="false">Not caught</button>
+  </div>
+  <div id="rows"><p class="hint">Loading…</p></div>
+</section>
+
+<section class="notes">
+  <h2>What this does and does not show</h2>
+  <p><b>Unverifiable is not a miss in disguise.</b> A citation without a case name, or to a page after a volume's last opinion, cannot be proved fake from the data, so Redline says so rather than guess. A lawyer still sees it flagged for checking.</p>
+  <p><b>Verified means the case exists at that citation.</b> Most citations Redline verified here are real cases that the brief quoted or described falsely (the court's own words say so). Redline checks that a citation exists and what it stands on, not what the case says.</p>
+  <p><b>Read from the court's description, not the brief.</b> Each citation is checked inside the database's sentence about it, which sometimes adds words before the case name. One citation is affected: "Parker v. Blauvelt Volunteer Fire Co., 93 F.3d 65" is verified here, and fabricated when checked as it appeared in the brief.</p>
+  <p class="hint">Regenerate with <code>python bench/wild.py replay</code>. Source: AI Hallucination Cases database, Damien Charlotin (CC BY 4.0).</p>
+</section>
+
+<footer class="foot">Verdicts come from graph queries on a Relate store, never from a language model.</footer>
+
+<script>
+"use strict";
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const CHIP = { FABRICATED: "v-fab", VERIFIED: "v-ok", UNVERIFIABLE: "v-unk" };
+  let data = null, filter = "all";
+  function draw() {
+    const rows = data.rows.filter((f) => filter === "all" || (filter === "caught") === f.caught);
+    $("rows").innerHTML = rows.map((f) => `<article class="filing${f.caught ? " caught" : ""}">
+      <div class="item-top"><h3>${esc(f.case)}</h3>${f.caught ? '<span class="chip v-fab">caught before filing</span>' : '<span class="chip v-unk">not proved</span>'}</div>
+      <div class="when">${esc(f.court)} · ${esc(f.date)}</div>
+      ${f.citations.map((c) => `<div class="rc">
+        <div class="item-top"><span class="chip ${CHIP[c.verdict]}">${esc(c.verdict.toLowerCase())}</span><span class="item-cite">${esc(c.citation)}</span></div>
+        <span>${esc(c.reason)}</span>
+        <span class="court">The court: “${esc(c.court_said)}”</span>
+        ${c.suggestion.length ? `<span class="fix">Redline's repair: ${c.suggestion.map((s) => `<b>${esc(s.name)}</b>, ${esc(s.cite)} (${esc(s.court)} ${esc(s.year)})`).join(" or ")}</span>` : ""}
+      </div>`).join("")}</article>`).join("") || `<p class="hint">None.</p>`;
+  }
+  fetch("static/data/replay.json").then((r) => r.json()).then((d) => {
+    data = d;
+    $("headline").textContent = `${d.filings} sanctioned filings. Redline would have flagged ${d.caught} before they were filed.`;
+    $("n-caught").textContent = `${d.caught} of ${d.filings}`;
+    $("n-fab").textContent = `${d.verdicts.FABRICATED} of ${d.citations}`;
+    $("n-fix").textContent = `${d.suggestions}`;
+    draw();
+  }).catch(() => { $("rows").innerHTML = '<p class="warn">Could not load the replay data.</p>'; });
+  document.querySelector(".filters").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-f]");
+    if (!b) return;
+    filter = b.dataset.f;
+    for (const x of e.currentTarget.children) x.setAttribute("aria-pressed", String(x === b));
+    draw();
+  });
+})();
+</script>
+</body>
+</html>

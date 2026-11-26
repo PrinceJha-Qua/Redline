@@ -53,6 +53,7 @@ def test_did_you_mean_finds_the_real_case(name, cite):
     "Varghese v. China Southern Airlines",   # invented in Mata v. Avianca
     "Miller v. United Airlines, Inc",        # "Miller v. American Airlines" is a different case
     "Metro. Prop. & Cas. Ins. Co. v. Smith",  # nothing distinctive enough to look up
+    "Ford v. Browning",                      # "Ford v. Brown" is not it: "Brown" is no abbreviation
 ])
 def test_did_you_mean_suggests_nothing_rather_than_the_wrong_case(name):
     assert agent.did_you_mean(service.store(), name) == []

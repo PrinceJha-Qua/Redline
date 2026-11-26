@@ -6,7 +6,8 @@ CBE Grp., 827 F.3d 129 (5th Cir. 2016); ...". For every "Fabricated: Case Law" i
 first citation the item quotes is the one the court could not find. Redline checks it with the item's
 own wording around it, so the cited case name is read the same way it would be in a brief.
 
-    python bench/wild.py      # downloads the CSV once -> bench/results/wild.json
+    python bench/wild.py          # downloads the CSV once -> bench/results/wild.json
+    python bench/wild.py replay   # -> web/data/replay.json, the page at /replay
 """
 import collections
 import csv
@@ -65,5 +66,46 @@ def main():
     return out
 
 
+
+
+REPLAY = ROOT / "web" / "data" / "replay.json"
+
+
+def replay():
+    """The sanctions cases, one filing at a time: what Redline would have said before the brief was
+    filed, with the repair it suggests. Re-checked with the current code from the stored item text."""
+    from redline.agent import did_you_mean
+    data = json.loads(OUT.read_text())
+    store = Store()
+    filings, changed = {}, 0
+    for r in data["results"]:
+        c = check(store, r["item"])["citations"][0]
+        changed += c["verdict"] != r["verdict"]
+        fix = did_you_mean(store, c["name"]) if c["verdict"] == "FABRICATED" and c.get("name") else []
+        f = filings.setdefault((r["case"], r["court"], r["date"]), {
+            "case": r["case"], "court": r["court"], "date": r["date"], "citations": []})
+        f["citations"].append({"citation": c["text"], "name": c.get("name"), "verdict": c["verdict"],
+                               "reason": c["reason"], "court_said": r["item"],
+                               "suggestion": [{"name": s["name"], "cite": s["cite"], "court": s["court"],
+                                               "year": s["year"]} for s in fix[:3]]})
+    rows = sorted(filings.values(), key=lambda f: f["date"], reverse=True)
+    for f in rows:
+        f["caught"] = any(c["verdict"] == "FABRICATED" for c in f["citations"])
+    # Where the court named the case the lawyer meant, did Redline suggest that case?
+    named = [c for f in rows for c in f["citations"] if c["suggestion"]]
+    agree = [c for c in named if any(s["cite"] in c["court_said"] for s in c["suggestion"])]
+    out = {"source": data["source"], "filings": len(rows), "caught": sum(f["caught"] for f in rows),
+           "citations": sum(len(f["citations"]) for f in rows),
+           "verdicts": dict(collections.Counter(c["verdict"] for f in rows for c in f["citations"])),
+           "suggestions": len(named), "suggestion_matches_court": len(agree),
+           "changed_since_benchmark": changed, "rows": rows}
+    REPLAY.parent.mkdir(parents=True, exist_ok=True)
+    REPLAY.write_text(json.dumps(out, indent=1, ensure_ascii=False))
+    print(f"{out['caught']} of {out['filings']} sanctioned filings caught; verdicts {out['verdicts']}; "
+          f"{len(named)} repairs suggested, {len(agree)} name the citation the court gave; "
+          f"{changed} verdicts differ from wild.json")
+    return out
+
+
 if __name__ == "__main__":
-    main()
+    replay() if sys.argv[1:] == ["replay"] else main()

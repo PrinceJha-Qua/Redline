@@ -14,7 +14,7 @@ Every answer is a graph query. Nothing is generated.
 import math
 import re
 
-from .citations import extract
+from .citations import _ABBREVIATIONS as ABBREVIATIONS, extract
 from .status import relies_on, status_of
 from .verify import check
 
@@ -138,10 +138,19 @@ def _distinct(party):
 _SUFFIX = {"inc", "co", "corp", "corporation", "company", "llc", "ltd", "the", "and", "of", "for", "et", "al", "v", "vs"}
 
 
-def _words(name):
+def _tokens(name):
+    """(word, written as an abbreviation) pairs: "Ins." and "Nat'l" are abbreviations, "Brown" is not."""
     name = re.sub(r"\b(?:[A-Za-z]\.\s?){2,}", lambda m: re.sub(r"[.\s]", "", m.group()) + " ", name or "")
-    return [w for w in (x.strip(".,'()").lower() for x in re.findall(r"[A-Za-z][A-Za-z'.]*", name))
-            if w and w not in _SUFFIX]
+    out = []
+    for raw in re.findall(r"[A-Za-z][A-Za-z'’.]*", name):
+        w = raw.strip(".,'()").lower()
+        if w and w not in _SUFFIX:
+            out.append((w, raw.endswith(".") or "'" in raw or "’" in raw or w.replace("'", "") in ABBREVIATIONS))
+    return out
+
+
+def _words(name):
+    return [w for w, _ in _tokens(name)]
 
 
 def _abbreviates(short, word):
@@ -155,17 +164,23 @@ def _abbreviates(short, word):
 
 
 def _covers(candidate, words):
-    """Every word of the cited name appears in the candidate's name, in full or abbreviated."""
-    have = _words(candidate)
-    return all(any(_abbreviates(w, h) or _abbreviates(h, w) for h in have) for w in words if len(w) >= 3)
+    """Every word of the cited name appears in the candidate's name, in full or abbreviated. Only a word
+    written as an abbreviation may stand for a longer one: "Ins." for "Insurance", never "Brown" for
+    "Browning"."""
+    have = _tokens(candidate)
+    mine = {w: a for w, a in words} if words and isinstance(words[0], tuple) else {w: True for w in words}
+
+    def same(w, aw, h, ah):
+        return w == h or (aw and len(w) < len(h) and _abbreviates(w, h)) or (ah and len(h) < len(w) and _abbreviates(h, w))
+    return all(any(same(w, aw, h, ah) for h, ah in have) for w, aw in mine.items() if len(w) >= 3)
 
 
 def _same_parties(parties, candidate):
     """Each side of the cited "v." matches the same side of the candidate's name."""
     theirs = [p for p in re.split(r"\s+v\.?\s+", candidate or "") if p.strip()]
     if len(parties) != len(theirs):
-        return len(parties) == 1 and _covers(candidate, _words(parties[0]))
-    return all(_covers(t, _words(p)) for p, t in zip(parties, theirs))
+        return len(parties) == 1 and _covers(candidate, _tokens(parties[0]))
+    return all(_covers(t, _tokens(p)) for p, t in zip(parties, theirs))
 
 
 def same_parties(name, candidate):

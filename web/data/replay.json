@@ -1,0 +1,1266 @@
+{
+ "source": "AI Hallucination Cases database, Damien Charlotin (CC BY 4.0)",
+ "filings": 66,
+ "caught": 38,
+ "citations": 86,
+ "verdicts": {
+  "UNVERIFIABLE": 28,
+  "FABRICATED": 47,
+  "VERIFIED": 11
+ },
+ "suggestions": 4,
+ "suggestion_matches_court": 1,
+ "changed_since_benchmark": 0,
+ "rows": [
+  {
+   "case": "Clifford v. Neidle et al.",
+   "court": "D. Wyoming",
+   "date": "2026-10-28",
+   "citations": [
+    {
+     "citation": "752 F.3d 188",
+     "name": "",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 188 of 752 F.3d is inside City of Pontiac Policemen's & Firemen's Retirement System v. UBS AG, 752 F.3d 173 (2d Cir. 2014), which starts at page 173. Without a case name Redline cannot tell whether this is a pin cite to that case or a wrong citation.",
+     "court_said": "The Court could not locate Tammy Fu at the cited reporter location; 752 F.3d 188 corresponds to part of City of Pontiac Policemen’s and Firemen’s Retirement System v. UBS AG.",
+     "suggestion": []
+    },
+    {
+     "citation": "196 F.3d 1538",
+     "name": "",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 1538 is after the last opinion in volume 196 of F.3d (page 1384). Tables of decisions without published opinions are printed there and are not in Redline's data.",
+     "court_said": "The Court found that 196 F.3d 1538 corresponds to part of U.S. Test, Inc. v. NDE Env’t Corp., not Harrison; Plaintiff apparently intended to cite Harrison v. Wahatoyas, L.L.C., 253 F.3d 552 (10th Cir. 2001).",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Virgil v. Experian Information Solutions, et al.",
+   "court": "S.D. Indiana",
+   "date": "2026-09-11",
+   "citations": [
+    {
+     "citation": "827 F.3d 129",
+     "name": "Hinkle v. CBE Grp",
+     "verdict": "FABRICATED",
+     "reason": "Page 129 of 827 F.3d is inside United Airlines, Inc. v. Federal Energy Regulatory Commission, 827 F.3d 122 (D.C. Cir. 2016), which runs from page 122 to 137. No case matching \"Hinkle v. CBE Grp\" is in volume 827.",
+     "court_said": "Counsel cited Hinkle v. CBE Grp., 827 F.3d 129 (5th Cir. 2016); court determined the cited opinion does not exist.",
+     "suggestion": []
+    },
+    {
+     "citation": "750 F.3d 910",
+     "name": "Myers v. Asset Acceptance, LLC",
+     "verdict": "FABRICATED",
+     "reason": "Page 910 of 750 F.3d is inside Monroe Energy, LLC v. Environmental Protection Agency, 750 F.3d 909 (D.C. Cir. 2014), which runs from page 909 to 921. No case matching \"Myers v. Asset Acceptance, LLC\" is in volume 750.",
+     "court_said": "Counsel cited Myers v. Asset Acceptance, LLC, 750 F.3d 910, 915-17 (11th Cir. 2014); court found this specific citation does not exist.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Peter Williams, et al. v. Dallas-Fort Worth International Airport Board, et al.",
+   "court": "N.D. Texas",
+   "date": "2026-08-27",
+   "citations": [
+    {
+     "citation": "354 F.3d 392",
+     "name": "'Dawkins v. Fields",
+     "verdict": "FABRICATED",
+     "reason": "Page 392 of 354 F.3d is inside United States v. Smith, 354 F.3d 390 (5th Cir. 2003), which runs from page 390 to 400. No case named Fields is in volume 354.",
+     "court_said": "Plaintiffs cited 'Dawkins v. Fields, 354 F.3d 392 (5th Cir. 2003)' to support clearly established law; the Court found no such controlling authority and treated the citation as erroneous.",
+     "suggestion": []
+    },
+    {
+     "citation": "122 F.3d 707",
+     "name": "'Iko v. Shreve",
+     "verdict": "FABRICATED",
+     "reason": "Page 707 of 122 F.3d is inside Coalition for Economic Equity v. Wilson, 122 F.3d 692 (9th Cir. 1997), which runs from page 692 to 718. No case named Shreve is in volume 122.",
+     "court_said": "Plaintiffs cited 'Iko v. Shreve, 122 F.3d 707 (4th Cir. 1997)'; the Court identified this as a miscitation (likely meant Iko v. Shreve, 535 F.3d 225 (4th Cir. 2008)) and found the cited authority out-of-circuit and inapposite.",
+     "suggestion": []
+    },
+    {
+     "citation": "817 F.3d 877",
+     "name": "'Yates v. Terry",
+     "verdict": "VERIFIED",
+     "reason": "Yates v. Terry, 817 F.3d 877 (4th Cir. 2016). No overruling found in Redline's data.",
+     "court_said": "Plaintiffs relied on 'Yates v. Terry, 817 F.3d 877 (4th Cir. 2016)' to show a clearly established rule for tasing a nonresisting arrestee; the Court treated the citation as non-controlling/out-of-circuit and materially dissimilar to the facts here.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Krystal Faye Potterf, et al. v. Drew F. Wessels, et al.",
+   "court": "E.D. Michigan",
+   "date": "2026-08-26",
+   "citations": [
+    {
+     "citation": "827 F.3d 533",
+     "name": "",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 533 of 827 F.3d is inside Van Houten v. City of Fort Worth, 827 F.3d 530 (5th Cir. 2016), which starts at page 530. Without a case name Redline cannot tell whether this is a pin cite to that case or a wrong citation.",
+     "court_said": "Cited a non-existent Sixth Circuit opinion United States v. Abdi at 827 F.3d 533 for a docket-management proposition.",
+     "suggestion": []
+    },
+    {
+     "citation": "814 F.3d 408",
+     "name": "Listed Hill v. Synder",
+     "verdict": "FABRICATED",
+     "reason": "Page 408 of 814 F.3d is inside United States v. Mize, 814 F.3d 401 (6th Cir. 2016), which runs from page 401 to 417. No case named Listed is in volume 814.",
+     "court_said": "Listed Hill v. Synder, 814 F.3d 408 (6th Cir. 2016) in index of authorities though the court could not locate such a decision.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Shantell Robinson v. Oglala Sioux Tribe et al.",
+   "court": "CA 10th Cir.",
+   "date": "2026-07-29",
+   "citations": [
+    {
+     "citation": "62 F.3d 1421",
+     "name": "'Reynolds v. Smith",
+     "verdict": "UNVERIFIABLE",
+     "reason": "No case in Redline's data begins or runs on page 1421 of 62 F.3d. It may be a table of decisions without published opinions, which Redline does not hold.",
+     "court_said": "Plaintiff cited a non-existent case 'Reynolds v. Smith, 62 F.3d 1421 (10th Cir. 1995)'; the court identified this as a fabricated authority.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Khan v. Howard County BAP",
+   "court": "CA Maryland",
+   "date": "2026-07-20",
+   "citations": [
+    {
+     "citation": "141 U.S. 589",
+     "name": "Marshall v. Holmes",
+     "verdict": "VERIFIED",
+     "reason": "Marshall v. Holmes, 141 U.S. 589 (1891). No overruling found in Redline's data.",
+     "court_said": "Court found the cited case name does not exist at the cited citation; actual case is Marshall v. Holmes, 141 U.S. 589 (1891).",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Tekway, Inc. v. AT&T Services, Inc.",
+   "court": "N.D. Illinois",
+   "date": "2026-07-14",
+   "citations": [
+    {
+     "citation": "392 F.3d 815",
+     "name": "Webb v. Frawley",
+     "verdict": "FABRICATED",
+     "reason": "Page 815 of 392 F.3d is inside Wiwa v. Royal Dutch Petroleum Co., 392 F.3d 812 (5th Cir. 2004), which runs from page 812 to 822. No case named Webb is in volume 392.",
+     "court_said": "Plaintiff cited a non-existent case Webb v. Frawley, 392 F.3d 815, 819 (7th Cir. 2004); the court observed that this citation is incorrect and that the real Webb v. Frawley is 906 F.3d 569 (7th Cir. 2018), which does not support the cited proposition.",
+     "suggestion": [
+      {
+       "name": "Webb v. Frawley",
+       "cite": "858 F.3d 459",
+       "court": "7th Cir.",
+       "year": 2017
+      },
+      {
+       "name": "Webb v. Frawley",
+       "cite": "906 F.3d 569",
+       "court": "7th Cir.",
+       "year": 2018
+      }
+     ]
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Gregory Ashley Moyer v. James V. Murray, et al.",
+   "court": "10th Cir. CA",
+   "date": "2026-07-01",
+   "citations": [
+    {
+     "citation": "630 F.3d 1029",
+     "name": "\"United States v. Tittsworth",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Redline's page map for volume 630 of F.3d disagrees with how courts cite it, so Redline does not prove fabrications in this volume.",
+     "court_said": "Moyer cited a nonexistent case \"United States v. Tittsworth, 630 F.3d 1029 (10th Cir. 2011)\" in multiple motions; the court found the citation fabricated, noted the violation of 10th Cir. R. 46.5(B)(2), and warned of possible sanctions.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Allahgehovah Jones v. City of Moore, et al.",
+   "court": "W.D. Oklahoma",
+   "date": "2026-06-24",
+   "citations": [
+    {
+     "citation": "113 F.3d 891",
+     "name": "Van Scoy v. Process Control Corp",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Redline's page map for volume 113 of F.3d disagrees with how courts cite it, so Redline does not prove fabrications in this volume.",
+     "court_said": "Plaintiff cited Van Scoy v. Process Control Corp., 113 F.3d 891 (8th Cir. 1997), which the Court found to be a non-existent/incorrect citation.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Rodney Herod v. Hobby Lobby Stores, Inc.",
+   "court": "N.D. Texas",
+   "date": "2026-06-23",
+   "citations": [
+    {
+     "citation": "825 F.3d 256",
+     "name": "'Cargill Inc. v. Zurich Am. Ins. Co",
+     "verdict": "FABRICATED",
+     "reason": "Page 256 of 825 F.3d is inside Sealed Appellee v. Sealed Appellant, 825 F.3d 247 (5th Cir. 2016), which runs from page 247 to 257. No case named Zurich is in volume 825.",
+     "court_said": "Plaintiff cited 'Cargill Inc. v. Zurich Am. Ins. Co., 825 F.3d 256 (5th Cir. 2016)'; the court found the case does not exist and counsel admitted the citation was generated by generative AI and unverified (see Notice of Errata, ECF No. 45).",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Euphoric, LLC et al. v. Westport Community Improvement District, et al. (2)",
+   "court": "W.D. Missouri",
+   "date": "2026-06-22",
+   "citations": [
+    {
+     "citation": "823 F.3d 593",
+     "name": "Citation 'Rodriguez v. United States",
+     "verdict": "FABRICATED",
+     "reason": "Page 593 of 823 F.3d is inside Foudy v. Miami-Dade County, 823 F.3d 590 (11th Cir. 2016), which runs from page 590 to 594. No case named Citation is in volume 823.",
+     "court_said": "Citation 'Rodriguez v. United States, 823 F.3d 593, 600-01 (8th Cir. 2016)' appears not to exist and misreferences 823 F.3d 593 (which is an 11th Cir. decision, Foudy v. Miami-Dade County); the Court could not locate the cited Eighth Circuit case.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Paulk v. Larva Labs, LLC",
+   "court": "S.D. Florida",
+   "date": "2026-06-18",
+   "citations": [
+    {
+     "citation": "523 U.S. 83",
+     "name": "v. Redan",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Redline's page map for volume 523 of U.S. disagrees with how courts cite it, so Redline does not prove fabrications in this volume.",
+     "court_said": "Plaintiff cited a nonexistent case for the proposition that notice to a company's chief legal representative prevents vacatur of a default based on administrative breakdown. The Court verified that “Snapper v. Redan, 523 U.S. 83 (1998)” does not exist.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Patrick C. Shaltry v. Donna Collins, et al.",
+   "court": "E.D. Michigan",
+   "date": "2026-06-02",
+   "citations": [
+    {
+     "citation": "844 F.3d 172",
+     "name": "'Parris v. Pappas",
+     "verdict": "FABRICATED",
+     "reason": "Page 172 of 844 F.3d is inside Polsky v. United States, 844 F.3d 170 (3d Cir. 2016), which runs from page 170 to 174. No case named Pappas is in volume 844.",
+     "court_said": "Plaintiff cited a non-existent Sixth Circuit case 'Parris v. Pappas, 844 F.3d 172 (6th Cir. 2016)', which the court found does not exist and characterized as a false/fabricated citation.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Brock et al. v. Hamilton County JFS Children Services et al.",
+   "court": "S.D. Ohio",
+   "date": "2026-05-15",
+   "citations": [
+    {
+     "citation": "904 F.3d 336",
+     "name": "Jansen v. City of Cincinnati",
+     "verdict": "FABRICATED",
+     "reason": "904 F.3d 336 is Gilkers v. Vannoy, 904 F.3d 336 (5th Cir. 2018), not the case named in the brief (\"Jansen v. City of Cincinnati\").",
+     "court_said": "Plaintiff cited Jansen v. City of Cincinnati, 904 F.3d 336, claiming it held that §1983 claims against child welfare workers for fabricating evidence are not barred by Rooker-Feldman; the Court found the citation incorrect (904 F.3d 336 corresponds to Gilkers v. Vannoy, a Fifth Circuit case) and that Jansen is 904 F.2d 336 (1990) and does not address child welfare or that holding.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Jones v. Department of the Army",
+   "court": "Fed. Cir.",
+   "date": "2026-05-13",
+   "citations": [
+    {
+     "citation": "301 F.3d 1356",
+     "name": "Lipscomb v. Dep’t of the Army",
+     "verdict": "FABRICATED",
+     "reason": "Page 1356 of 301 F.3d is inside Andre v. Principi, 301 F.3d 1354 (Fed. Cir. 2002), which runs from page 1354 to 1364. No case named Lipscomb is in volume 301.",
+     "court_said": "Petitioner cited Lipscomb v. Dep’t of the Army, 301 F.3d 1356 (Fed. Cir. 2002), which the court found does not appear to exist.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Bathsheba Nichole Adams v. Kiewit Infrastructure West Company, et al.",
+   "court": "D. Arizona",
+   "date": "2026-04-29",
+   "citations": [
+    {
+     "citation": "780 F.3d 1101",
+     "name": "",
+     "verdict": "VERIFIED",
+     "reason": "Lary v. Trinity Physician Financial & Insurance Services, 780 F.3d 1101 (11th Cir. 2015). No overruling found in Redline's data.",
+     "court_said": "Plaintiff cited “Aguilar v. ASARCO” at 780 F.3d 1101 as a Ninth Circuit case; the Court noted no such Ninth Circuit opinion exists and that 780 F.3d 1101 corresponds to Lary v. Trinity Phys. Fin. & Ins. Services (11th Cir. 2015).",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Tekoma Chaney v. Transdev Services Inc. et al.",
+   "court": "C.D. California",
+   "date": "2026-04-28",
+   "citations": [
+    {
+     "citation": "799 F.3d 1124",
+     "name": "In re Shubert",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 1124 of 799 F.3d is in Cause of Action v. Federal Trade Commission, 799 F.3d 1108 (D.C. Cir. 2015). Redline cannot match \"In re Shubert\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+     "court_said": "Attributed 'In re Shubert, 799 F.3d 1124, 1129 (9th Cir. 2015)' as authority in Plaintiff's Opposition to Ogilvie's MSJ (p.17); Court found the case fabricated and the reporter/pincite corresponds to an unrelated real case.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Philip D. Dennison v. June Caudill et al.",
+   "court": "S.D. Indiana",
+   "date": "2026-04-23",
+   "citations": [
+    {
+     "citation": "682 F3d 775",
+     "name": "'Coleman v. Hudson",
+     "verdict": "FABRICATED",
+     "reason": "Page 775 of 682 F.3d is inside United States v. White Twin, 682 F.3d 773 (8th Cir. 2012), which runs from page 773 to 779. No case named Hudson is in volume 682.",
+     "court_said": "Plaintiff cited 'Coleman v. Hudson, 682 F3d 775 (7th Cir. 2012)'; the Court could find no such case and noted the citation appears fabricated.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Alishia Monique Jones v. Ahmed Taylor, et al.",
+   "court": "E.D. Michigan",
+   "date": "2026-04-22",
+   "citations": [
+    {
+     "citation": "35 F.3d 1134",
+     "name": "Tokio Marine & Fire Insurance Company v. Flota Mercante Grancolombiana, S.A",
+     "verdict": "FABRICATED",
+     "reason": "35 F.3d 1134 is Gateway Eastern Railway Co. v. Terminal Railroad, 35 F.3d 1134 (7th Cir. 1994), not the case named in the brief (\"Tokio Marine & Fire Insurance Company v. Flota Mercante Grancolombiana, S.A\").",
+     "court_said": "Court found the citation to a case titled Tokio Marine & Fire Insurance Company v. Flota Mercante Grancolombiana, S.A., 35 F.3d 1134 (6th Cir. 1994) is not a real case and likely AI-generated; court warned that citing fake cases is sanctionable.",
+     "suggestion": []
+    },
+    {
+     "citation": "305 F.3d 732",
+     "name": "United States v. Robinson",
+     "verdict": "FABRICATED",
+     "reason": "Page 732 of 305 F.3d is inside Tinder v. Pinkerton Security, 305 F.3d 728 (7th Cir. 2002), which runs from page 728 to 736. No case matching \"United States v. Robinson\" is in volume 305.",
+     "court_said": "Court noted United States v. Robinson, 305 F.3d 732 (6th Cir. 2002) appears to be a fabricated citation generated by AI and warned the plaintiff may be sanctioned for continued use of fake citations.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "James Jordan v. USA, Clinicas Del Camino Real, Inc., et al.",
+   "court": "C.D. California",
+   "date": "2026-04-06",
+   "citations": [
+    {
+     "citation": "151 F.3d 1201",
+     "name": "Nevada Power Co. v. Monsanto Co",
+     "verdict": "FABRICATED",
+     "reason": "151 F.3d 1201 is McKeon v. United States, 151 F.3d 1201 (9th Cir. 1998), not the case named in the brief (\"Nevada Power Co. v. Monsanto Co\").",
+     "court_said": "Plaintiff cites Nevada Power Co. v. Monsanto Co., 151 F.3d 1201, 1205 (9th Cir. 1998); the reporter/pincite (151 F.3d 1201) actually corresponds to McKeon v. United States, and Nevada Power is at a different reporter citation—court calls this an \"apparently fake citation.\"",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Elbert Coleman, III; Elbert Coleman, IV v. Nexo Capital Inc.",
+   "court": "S.D. Indiana",
+   "date": "2026-03-31",
+   "citations": [
+    {
+     "citation": "24 F.3d 1001",
+     "name": "\"Kramer v. Trans-Lux Corp",
+     "verdict": "FABRICATED",
+     "reason": "Page 1001 of 24 F.3d is inside Zeisler v. Neese, 24 F.3d 1000 (7th Cir. 1994), which runs from page 1000 to 1002. No case named Trans-Lux is in volume 24.",
+     "court_said": "Plaintiffs cited \"Kramer v. Trans-Lux Corp., 24 F.3d 1001 (7th Cir. 1994)\"; the court found no such Seventh Circuit opinion and noted a District of Connecticut decision with that name instead.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Staley v. City of Elba, et al.",
+   "court": "M.D. Alabama",
+   "date": "2026-03-31",
+   "citations": [
+    {
+     "citation": "731 F.3d 1196",
+     "name": "'Kidd v. Mando Am. Corp",
+     "verdict": "VERIFIED",
+     "reason": "Kidd v. Mando American Corp., 731 F.3d 1196 (11th Cir. 2013). No overruling found in Redline's data.",
+     "court_said": "Plaintiff's response (doc. 43 at 23) purports to quote and cite 'Kidd v. Mando Am. Corp., 731 F.3d 1196, 1200 (11th Cir. 2013)', which Defendants and the court identify as a non-existent citation.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Kevin Lee Biglow v. Dell Technologies Inc.",
+   "court": "10th Cir. CA",
+   "date": "2026-03-24",
+   "citations": [
+    {
+     "citation": "961 F.3d 1084",
+     "name": "Cited 'Burton v. Ghosh",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Volume 961 of F.3d is after volume 935 (2019), where Redline's F.3d data ends.",
+     "court_said": "Cited 'Burton v. Ghosh, 961 F.3d 1084, 1092 (7th Cir. 2020)'; the court determined the citation does not correspond to that case and is a fabrication.",
+     "suggestion": []
+    },
+    {
+     "citation": "41 F.3d 593",
+     "name": "Cited 'Bentley v. United States",
+     "verdict": "FABRICATED",
+     "reason": "Page 593 of 41 F.3d is inside Ramirez v. Oklahoma Department of Mental Health, 41 F.3d 584 (10th Cir. 1994), which runs from page 584 to 597. No case named Cited is in volume 41.",
+     "court_said": "Cited 'Bentley v. United States, 41 F.3d 593, 604 (10th Cir. 1994)' and 'Clean Boat v. United States, 833 F.3d 1224 (10th Cir. 2016)'; court found the pin cites lead to different actual cases and treated them as fabricated or mis-cited.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Fabian Antonio Thomas v. Officer Skylar Sillivent, et al.",
+   "court": "E.D. Texas",
+   "date": "2026-03-02",
+   "citations": [
+    {
+     "citation": "817 F.3d 541",
+     "name": "United States v. Lopez",
+     "verdict": "FABRICATED",
+     "reason": "817 F.3d 541 is Ciarpaglini v. Norwood, 817 F.3d 541 (7th Cir. 2016), not the case named in the brief (\"United States v. Lopez\").",
+     "court_said": "Plaintiff cited United States v. Lopez, 817 F.3d 541, 545 (5th Cir. 2016); the Court found this to be a phantom case that does not exist.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Hardy v. Whitaker",
+   "court": "E.D. Michigan",
+   "date": "2026-03-02",
+   "citations": [
+    {
+     "citation": "308 F.3d 511",
+     "name": "'Patel v. City of Ferndale",
+     "verdict": "FABRICATED",
+     "reason": "Page 511 of 308 F.3d is inside United States v. Tarwater, 308 F.3d 494 (6th Cir. 2002), which runs from page 494 to 523. No case matching \"'Patel v. City of Ferndale\" is in volume 308.",
+     "court_said": "Plaintiff's MSJ included the citation 'Patel v. City of Ferndale, 308 F.3d 511, 517 (6th Cir. 2002)'; the court identified it as a fabricated/phantom case likely produced by generative AI and flagged it as a hallucination.",
+     "suggestion": []
+    },
+    {
+     "citation": "813 F.3d 318",
+     "name": "'Thompson v. City of Lebanon",
+     "verdict": "FABRICATED",
+     "reason": "Page 318 of 813 F.3d is inside Moreland v. Robinson, 813 F.3d 315 (6th Cir. 2016), which runs from page 315 to 330. No case matching \"'Thompson v. City of Lebanon\" is in volume 813.",
+     "court_said": "Plaintiff's MSJ included the citation 'Thompson v. City of Lebanon, 813 F.3d 318, 323 (6th Cir. 2016)'; the court identified it as a fabricated citation likely resulting from AI and noted it among fake citations.",
+     "suggestion": [
+      {
+       "name": "Thompson v. City of Lebanon",
+       "cite": "831 F.3d 366",
+       "court": "6th Cir.",
+       "year": 2016
+      }
+     ]
+    },
+    {
+     "citation": "167 F.3d 915",
+     "name": "'Spurlock v. Satterfield",
+     "verdict": "FABRICATED",
+     "reason": "Page 915 of 167 F.3d is inside Perez v. United States, 167 F.3d 913 (5th Cir. 1999), which runs from page 913 to 919. Spurlock v. Satterfield is 167 F.3d 995.",
+     "court_said": "Plaintiff's MSJ included the citation 'Spurlock v. Satterfield, 167 F.3d 915 (5th Cir. 1999)'; the court listed this as one of several fake citations and suspected AI-generated hallucination.",
+     "suggestion": [
+      {
+       "name": "Spurlock v. Satterfield",
+       "cite": "167 F.3d 995",
+       "court": "6th Cir.",
+       "year": 1999
+      }
+     ]
+    },
+    {
+     "citation": "860 F.3d 931",
+     "name": "'Wesley v. Rigney",
+     "verdict": "FABRICATED",
+     "reason": "Page 931 of 860 F.3d is inside United States v. Ogoke, 860 F.3d 924 (7th Cir. 2017), which runs from page 924 to 933. No case named Rigney is in volume 860.",
+     "court_said": "Plaintiff's MSJ included the citation 'Wesley v. Rigney, 860 F.3d 931 (6th Cir. 2017)'; the court characterized this as a fake citation likely produced by generative AI and cited it as an example of 'phantom cases.'",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Perry v. Exeter Finance LLC",
+   "court": "D. Arizona",
+   "date": "2026-02-26",
+   "citations": [
+    {
+     "citation": "306 F.3d 726",
+     "name": "'Anderson v. Dean Witter Reynolds, Inc",
+     "verdict": "FABRICATED",
+     "reason": "306 F.3d 726 is Cavanaugh v. United States District Court for the Northern District of California, 306 F.3d 726 (9th Cir. 2002), not the case named in the brief (\"'Anderson v. Dean Witter Reynolds, Inc\").",
+     "court_said": "Court observed the citation 'Anderson v. Dean Witter Reynolds, Inc., 306 F.3d 726 (9th Cir. 2002)' provided by Plaintiff does not return the case identified.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Zlatkin v. Gladwin County, et al.",
+   "court": "E.D. Michigan",
+   "date": "2026-02-20",
+   "citations": [
+    {
+     "citation": "123 F.3d 456",
+     "name": "'ABC Corp. v. XYZ Inc",
+     "verdict": "FABRICATED",
+     "reason": "123 F.3d 456 is Santaella v. Metropolitan Life Insurance, 123 F.3d 456 (7th Cir. 1997), not the case named in the brief (\"'ABC Corp. v. XYZ Inc\").",
+     "court_said": "Plaintiff cited 'ABC Corp. v. XYZ Inc., 123 F.3d 456 (6th Cir. 2019)'; the Court found that citation to be nonexistent and not a valid binding authority.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Thomas Carl Dodds, Jr. v. Carrie Bridges",
+   "court": "10th Cir. CA",
+   "date": "2026-02-11",
+   "citations": [
+    {
+     "citation": "476 F.3d 179",
+     "name": "'United States v. Mateo",
+     "verdict": "FABRICATED",
+     "reason": "Page 179 of 476 F.3d is inside In re O'Lexa, 476 F.3d 177 (3d Cir. 2007), which runs from page 177 to 180. No case named Mateo is in volume 476.",
+     "court_said": "Dodds cited 'United States v. Mateo, 476 F.3d 179, 184 (3d Cir. 2007)' for a proposition and quotation; the reporter pages actually correspond to unrelated cases (In re O'Lexa and Wishkin v. Potter) and do not support the cited proposition.",
+     "suggestion": []
+    },
+    {
+     "citation": "7 F.3d 1552",
+     "name": "'United States v. Matthews",
+     "verdict": "FABRICATED",
+     "reason": "7 F.3d 1552 is Post v. City of Fort Lauderdale, 7 F.3d 1552 (11th Cir. 1993), not the case named in the brief (\"'United States v. Matthews\").",
+     "court_said": "Dodds cited an apparently fictitious case 'United States v. Matthews, 7 F.3d 1552, 1555 (11th Cir. 1993)' and attributed a quotation to it; the panel found the citation to be entirely fictitious and the quotation fabricated.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Bettis v. Gaston",
+   "court": "N.D. Illinois",
+   "date": "2026-02-09",
+   "citations": [
+    {
+     "citation": "941 F.3d 936",
+     "name": "'Dvorak v. Metropolitan Pier & Exposition Authority",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Volume 941 of F.3d is after volume 935 (2019), where Redline's F.3d data ends.",
+     "court_said": "Plaintiff cited 'Dvorak v. Metropolitan Pier & Exposition Authority, 941 F.3d 936 (7th Cir. 2019)', which the court (as defendants pointed out) appears not to exist; court flagged this as an AI-style fabricated citation.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Flycatcher v. Affable Avenue (2)",
+   "court": "S.D. New York",
+   "date": "2026-02-05",
+   "citations": [
+    {
+     "citation": "908 F.3d 49",
+     "name": "\"Himmelstein v. Comcast of the D.C., LLC",
+     "verdict": "FABRICATED",
+     "reason": "Page 49 of 908 F.3d is inside United States v. Camara, 908 F.3d 41 (4th Cir. 2018), which runs from page 41 to 50. No case named Comcast is in volume 908.",
+     "court_said": "Proposed reply brief cited a nonexistent \"Himmelstein v. Comcast of the D.C., LLC, 908 F.3d 49; aff'g 44 F. Supp. 3d 1 (D.D.C. 2012)\"—citations that do not exist and were inconsistent with the intended New York Court of Appeals decision.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "SEC v. Joseph Nantomah et al.",
+   "court": "E.D. Wisconsin",
+   "date": "2026-01-30",
+   "citations": [
+    {
+     "citation": "155 F.3d 465",
+     "name": "Cited 'Goldberg v. 401 North Washakie Venture LLC",
+     "verdict": "FABRICATED",
+     "reason": "Page 465 of 155 F.3d is inside Condon v. Reno, 155 F.3d 453 (4th Cir. 1998), which runs from page 453 to 470. No case named Cited is in volume 155.",
+     "court_said": "Cited 'Goldberg v. 401 North Washakie Venture LLC, 155 F.3d 465 (7th Cir. 2014)'; court found the citation incorrect/nonexistent and noted 155 F.3d 465 corresponds to Condon v. Reno; court located a different Seventh Circuit Goldberg decision at 755 F.3d 456.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Dennis Thornton v. Flathead County, et al.",
+   "court": "D. Montana",
+   "date": "2026-01-23",
+   "citations": [
+    {
+     "citation": "629 F.3d 1082",
+     "name": "'United States v. Smith",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 1082 of 629 F.3d is the last page of Lands Council v. McNair, 629 F.3d 1070 (9th Cir. 2010); another opinion may begin on the same page, so Redline cannot tell.",
+     "court_said": "Thornton cited 'United States v. Smith, 629 F.3d 1082, 1084 (9th Cir. 2011)'; the Court identified this citation as nonexistent in the form cited and treated it as a fabricated authority in Thornton's briefing.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Peter J. Allsot v. Naseem Latif",
+   "court": "M.D. Florida",
+   "date": "2026-01-20",
+   "citations": [
+    {
+     "citation": "74 F.3d 857",
+     "name": "M.S. ex rel. S.S. v. Wermers",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 857 of 74 F.3d is in Rine & Rine Auctioneers, Inc. v. Douglas County Bank & Trust Co., 74 F.3d 854 (8th Cir. 1996). Redline cannot match \"M.S. ex rel. S.S. v. Wermers\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+     "court_said": "Plaintiff cited M.S. ex rel. S.S. v. Wermers, 74 F.3d 857 (8th Cir. 1996); the Court determined the citation appears incorrect or that the case does not exist.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Tafah et al. v. Lake Village Townhomes et al.",
+   "court": "D. Maryland",
+   "date": "2026-01-16",
+   "citations": [
+    {
+     "citation": "380 F.3d 848",
+     "name": "'Bourne v. Gatliff Building Co",
+     "verdict": "FABRICATED",
+     "reason": "Page 848 of 380 F.3d is inside Matchett v. Dretke, 380 F.3d 844 (5th Cir. 2004), which runs from page 844 to 849. No case named Gatliff is in volume 380.",
+     "court_said": "Plaintiffs cited 'Bourne v. Gatliff Building Co., 380 F.3d 848 (5th Cir. 2004)', a citation the court found does not appear to exist and noted the closest match is Matchett v. Dretke, 380 F.3d 844 (5th Cir. 2004).",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Suday v. Suday",
+   "court": "CA Texas",
+   "date": "2026-01-14",
+   "citations": [
+    {
+     "citation": "11 U.S. 225",
+     "name": "Ex parte Hudson",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 225 of 11 U.S. is in Conway's Executors & Devisees v. Alexander, 11 U.S. 218 (1812). Redline cannot match \"Ex parte Hudson\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+     "court_said": "Supplemental brief cited 'Ex parte Hudson, 11 U.S. 225, 234 (1812)', which court could not locate and deemed likely fictitious.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Zaykariya v. Freedom Mortgage Corporation, et al.",
+   "court": "W.D. Oklahoma",
+   "date": "2026-01-09",
+   "citations": [
+    {
+     "citation": "67 F.3d 1299",
+     "name": "Edwards v. First Nat’l Bank of Anchorage",
+     "verdict": "FABRICATED",
+     "reason": "67 F.3d 1299 is S.L. v. Whitburn, 67 F.3d 1299 (7th Cir. 1995), not the case named in the brief (\"Edwards v. First Nat’l Bank of Anchorage\").",
+     "court_said": "Court identified Edwards v. First Nat’l Bank of Anchorage, 67 F.3d 1299 as a fake case cited by Plaintiffs.",
+     "suggestion": []
+    },
+    {
+     "citation": "475 F.3d 820",
+     "name": "Williams v. Lowndes Cnty",
+     "verdict": "FABRICATED",
+     "reason": "Page 820 of 475 F.3d is inside Call v. Ameritech Management Pension Plan, 475 F.3d 816 (7th Cir. 2007), which runs from page 816 to 824. No case matching \"Williams v. Lowndes Cnty\" is in volume 475.",
+     "court_said": "Court identified Williams v. Lowndes Cnty., 475 F.3d 820 as a fake case cited by Plaintiffs.",
+     "suggestion": []
+    },
+    {
+     "citation": "560 F.3d 837",
+     "name": "Smith v. Aegis Mortg. Corp",
+     "verdict": "FABRICATED",
+     "reason": "Page 837 of 560 F.3d is inside Sungwook Kim v. Holder, 560 F.3d 833 (8th Cir. 2009), which runs from page 833 to 839. No case matching \"Smith v. Aegis Mortg. Corp\" is in volume 560.",
+     "court_said": "Court identified Smith v. Aegis Mortg. Corp., 560 F.3d 837 as a fake case cited by Plaintiffs.",
+     "suggestion": []
+    },
+    {
+     "citation": "60 F.3d 365",
+     "name": "United States v. Signatone Corp",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Redline's page map for volume 60 of F.3d disagrees with how courts cite it, so Redline does not prove fabrications in this volume.",
+     "court_said": "Court identified United States v. Signatone Corp., 60 F.3d 365 as a fake case cited by Plaintiffs.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Cesareo v. Port Authority of New York and New Jersey",
+   "court": "D. New Jersey",
+   "date": "2025-12-31",
+   "citations": [
+    {
+     "citation": "93 F.3d 544",
+     "name": "'Doe v. Bogan",
+     "verdict": "FABRICATED",
+     "reason": "Page 544 of 93 F.3d is inside Macri v. Chater, 93 F.3d 540 (9th Cir. 1996), which runs from page 540 to 547. No case named Bogan is in volume 93.",
+     "court_said": "Plaintiff cited a Ninth Circuit opinion 'Doe v. Bogan, 93 F.3d 544, 551 (9th Cir. 1996),' which the Court was unable to locate and concluded does not appear to exist as cited.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Levy v. Google LLC",
+   "court": "W.D. Washington",
+   "date": "2025-12-22",
+   "citations": [
+    {
+     "citation": "555 F.3d 630",
+     "name": "Kelley v. Conan",
+     "verdict": "FABRICATED",
+     "reason": "Page 630 of 555 F.3d is inside United States v. Montgomery, 555 F.3d 623 (7th Cir. 2009), which runs from page 623 to 635. No case named Kelley is in volume 555.",
+     "court_said": "Plaintiff cited Kelley v. Conan, 555 F.3d 630, 634 (8th Cir. 2009); the court could not locate this case and found the citation appears to be nonexistent.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Smith v. Clarence Smith et al.",
+   "court": "N.D. New York",
+   "date": "2025-12-22",
+   "citations": [
+    {
+     "citation": "352 F.3d 29",
+     "name": "In re B.W",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 29 of 352 F.3d is in Federal Refinance Co. v. Klock, 352 F.3d 16 (1st Cir. 2003). Redline cannot match \"In re B.W\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+     "court_said": "Plaintiff cited 'In re B.W., 352 F.3d 29 (2d Cir. 2003),' which the court determined does not exist and appears to be AI-generated.",
+     "suggestion": []
+    },
+    {
+     "citation": "13 F.3d 855",
+     "name": "'Wilkinson v. United States",
+     "verdict": "FABRICATED",
+     "reason": "13 F.3d 855 is United States v. Boutte, 13 F.3d 855 (5th Cir. 1994), not the case named in the brief (\"'Wilkinson v. United States\").",
+     "court_said": "Plaintiff cited 'Wilkinson v. United States, 13 F.3d 855 (2d Cir. 1994),' which the court found to be nonexistent and unrelated to any real opinion at that reporter citation.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Gerou v. George, Whitten, and United States",
+   "court": "E.D. Wisconsin",
+   "date": "2025-12-18",
+   "citations": [
+    {
+     "citation": "154 U.S. 617",
+     "name": "Commercial Bank of Cleveland v. Iola",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Redline's page map for volume 154 of U.S. disagrees with how courts cite it, so Redline does not prove fabrications in this volume.",
+     "court_said": "Petitioners cited 'Commercial Bank of Cleveland v. Ely (1853)'; court could not locate that case and found the similar Commercial Bank of Cleveland v. Iola, 154 U.S. 617 (1875) does not contain the quoted language.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Sayali Kulkarni & Abhijit Kulkarni v. Merit Systems Protection Board",
+   "court": "CA Federal Circuit",
+   "date": "2025-12-15",
+   "citations": [
+    {
+     "citation": "654 F.3d 1376",
+     "name": "Counsel v. Hatch",
+     "verdict": "FABRICATED",
+     "reason": "Page 1376 of 654 F.3d is inside CyberSource Corp. v. Retail Decisions, Inc., 654 F.3d 1366 (Fed. Cir. 2011), which runs from page 1366 to 1377. No case named Counsel is in volume 654.",
+     "court_said": "Reply brief cites “Special Counsel v. Hatch, 654 F.3d 1376, 1382 (Fed. Cir. 2011),” a citation the court identifies as incorrect (reporter citation actually corresponds to CyberSource Corp. v. Retail Decisions, Inc., 654 F.3d 1366 (Fed. Cir. 2011)). Court treated this as a fictitious/misleading citation in the briefing and relied on it as basis to strike the briefs.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Thomas Duncan v. Gridhawk et al.",
+   "court": "W.D. Texas",
+   "date": "2025-12-06",
+   "citations": [
+    {
+     "citation": "201 F.3d 447",
+     "name": "'Valdez v. Joy Techs",
+     "verdict": "UNVERIFIABLE",
+     "reason": "No case in Redline's data begins or runs on page 447 of 201 F.3d. It may be a table of decisions without published opinions, which Redline does not hold.",
+     "court_said": "Plaintiff cited 'Valdez v. Joy Techs., 201 F.3d 447 (5th Cir. 2000)'; the court determined this case does not exist and the citation was fabricated.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Rashonna Moore v. City of Del City",
+   "court": "10th Cir. CA",
+   "date": "2025-12-03",
+   "citations": [
+    {
+     "citation": "201 F.3d 109",
+     "name": "'Cohen v. United States",
+     "verdict": "FABRICATED",
+     "reason": "Page 109 of 201 F.3d is inside Kalwasinski v. Morse, 201 F.3d 103 (2d Cir. 1999), which runs from page 103 to 110.",
+     "court_said": "Moore cited 'Cohen v. United States, 201 F.3d 109'; court found this citation fabricated (the reporter page corresponds to Kalwasinski v. Morse, 201 F.3d 103) and treated it as an AI-generated hallucination.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "In re: Avi Schwalb",
+   "court": "D. Colorado (Bankruptcy)",
+   "date": "2025-12-02",
+   "citations": [
+    {
+     "citation": "911 F.3d 820",
+     "name": "In re Plaza de Diego Shopping Ctr",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 820 of 911 F.3d is in United States v. Higgins-Vogt, 911 F.3d 814 (7th Cir. 2018). Redline cannot match \"In re Plaza de Diego Shopping Ctr\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+     "court_said": "Debtor cited 'In re Plaza de Diego Shopping Ctr., 911 F.3d 820 (1st Cir. 2018)'; the Court determined that citation does not exist and noted a similarly named 1990 opinion at 911 F.2d 820 was inapplicable.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Ali Taj Bey v. Mark Glass",
+   "court": "M.D. Florida",
+   "date": "2025-12-01",
+   "citations": [
+    {
+     "citation": "568 F.3d 1175",
+     "name": "'Ford v. Browning",
+     "verdict": "FABRICATED",
+     "reason": "Page 1175 of 568 F.3d is inside Zango, Inc. v. Kaspersky Lab, Inc., 568 F.3d 1169 (9th Cir. 2009), which runs from page 1169 to 1180. No case named Browning is in volume 568.",
+     "court_said": "Plaintiff's complaint cites 'Ford v. Browning, 568 F.3d 1175 (11th Cir. 2009)'; the Court could not find this Eleventh Circuit case and described the citation as a likely AI-generated hallucination.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Carlos Maturin v. T-Mobile USA, Inc.",
+   "court": "D. New Mexico",
+   "date": "2025-11-25",
+   "citations": [
+    {
+     "citation": "709 F.3d 715",
+     "name": "'Ford v. BNSF Ry. Co",
+     "verdict": "FABRICATED",
+     "reason": "Page 715 of 709 F.3d is inside United States v. Fast, 709 F.3d 712 (8th Cir. 2013), which runs from page 712 to 728. No case named BNSF is in volume 709.",
+     "court_said": "Plaintiff cited 'Ford v. BNSF Ry. Co., 709 F.3d 715 (10th Cir. 2013)' in multiple filings; the court found this reported Tenth Circuit citation does not exist (similar-named but different case exists in another court).",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "In re Bryant",
+   "court": "M.D. North Carolina (Bankruptcy)",
+   "date": "2025-11-18",
+   "citations": [
+    {
+     "citation": "22 F.3d 135",
+     "name": "In re Weiman",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 135 of 22 F.3d is in Kirk v. Federal Property Management Corp., 22 F.3d 135 (7th Cir. 1994). Redline cannot match \"In re Weiman\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+     "court_said": "Debtors cited 'In re Weiman, 22 F.3d 135 (7th Cir. 1994)', but the case and caption are incorrect (the cited opinion corresponds to Kirk v. Fed. Prop. Mgmt. Corp.); Court found the citation does not support Debtors' proposition.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Moorehead v. Goodwill Industries of Northeast Texas",
+   "court": "E.D. Texas",
+   "date": "2025-11-18",
+   "citations": [
+    {
+     "citation": "67 F.3d 815",
+     "name": "",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 815 of 67 F.3d is inside Nome Eskimo Community v. Babbitt, 67 F.3d 813 (9th Cir. 1995), which starts at page 813. Without a case name Redline cannot tell whether this is a pin cite to that case or a wrong citation.",
+     "court_said": "Court found no In re Caterpillar Inc. decision that matches the cited authority or supports the plaintiff's proposition; the particular citation (67 F.3d 815 (5th Cir. 1995)) does not correspond to a controlling or supportive Fifth Circuit decision as used by plaintiff.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "David Angel Sifuentes, III v. Christian Brothers Automotive",
+   "court": "W.D. Michigan",
+   "date": "2025-11-06",
+   "citations": [
+    {
+     "citation": "225 F.3d 1234",
+     "name": "'Bolin v. Story",
+     "verdict": "VERIFIED",
+     "reason": "Bolin v. Story, 225 F.3d 1234 (11th Cir. 2000). No overruling found in Redline's data.",
+     "court_said": "Plaintiff relied on a nonexistent case citation; court noted 'Bolin v. Story, 225 F.3d 1234, 1239 (6th Cir. 2000)' does not exist and had been previously warned.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Mitchell Taylor Button & Dusty Button v. Juliet Doherty et al.",
+   "court": "S.D. New York",
+   "date": "2025-10-18",
+   "citations": [
+    {
+     "citation": "282 F.3d 147",
+     "name": "Chambers v. Time Warner, Inc",
+     "verdict": "VERIFIED",
+     "reason": "Chambers v. Time Warner, Inc., 282 F.3d 147 (2d Cir. 2002). No overruling found in Redline's data.",
+     "court_said": "Objections purportedly quoted Chambers v. Time Warner, Inc., 282 F.3d 147, 152-53 (2d Cir. 2002) — the court found the cited quotation/case did not exist in the form presented.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Serafin v. United States Department of State, et al.",
+   "court": "E.D. Missouri",
+   "date": "2025-10-16",
+   "citations": [
+    {
+     "citation": "548 F.3d 1",
+     "name": "'Flores-Torres v. DHS",
+     "verdict": "FABRICATED",
+     "reason": "548 F.3d 1 is United States v. Ford, 548 F.3d 1 (1st Cir. 2008), not the case named in the brief (\"'Flores-Torres v. DHS\").",
+     "court_said": "Defendants noted the cited case 'Flores-Torres v. DHS, 548 F.3d 1, 6 (1st Cir. 2008)' does not exist.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Robert Allen Reed et al. v. Community Health Care et al.",
+   "court": "W.D. Washington",
+   "date": "2025-10-14",
+   "citations": [
+    {
+     "citation": "189 F.3d 477",
+     "name": "v. United States",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Courts cite a case starting on page 477 of 189 F.3d, but Redline's data has no case starting there, so this citation cannot be checked.",
+     "court_said": "Plaintiffs cited “Flores v. United States, 189 F.3d 477, 481 (9th Cir. 1999)”; the Court found this decision does not exist and identified it as part of a pattern of fictitious citations.",
+     "suggestion": []
+    },
+    {
+     "citation": "44 F.3d at 1265",
+     "name": "",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 1265 of 44 F.3d is in United States v. Smith, 44 F.3d 1259 (4th Cir. 1995). Redline cannot match \"Urrutia\" to that case: it may be a short name, a relator or an \"In re\" caption the data does not use, so the citation is not called fabricated.",
+     "court_said": "Plaintiffs cited “Urrutia, 44 F.3d at 1265” as authority; the Court identified this citation among decisions that do not exist and treated it as fabricated.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "United States of America v. Lorenzio Reshaud Simmons",
+   "court": "E.D. North Carolina",
+   "date": "2025-10-03",
+   "citations": [
+    {
+     "citation": "696 F.3d 473",
+     "name": "'United States v. Hazel",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 473 of 696 F.3d is the last page of RYO Machine, LLC v. United States Department of Treasury, 696 F.3d 467 (6th Cir. 2012); another opinion may begin on the same page, so Redline cannot tell.",
+     "court_said": "Memorandum cited 'United States v. Hazel, 696 F.3d 473, 478 (4th Cir. 2012)' — court found no such Fourth Circuit case (citation appears fabricated).",
+     "suggestion": []
+    },
+    {
+     "citation": "102 F.3d 1066",
+     "name": "'United States v. Angel",
+     "verdict": "FABRICATED",
+     "reason": "Page 1066 of 102 F.3d is inside United States v. Wiles, 102 F.3d 1043 (10th Cir. 1996), which runs from page 1043 to 1075. No case matching \"'United States v. Angel\" is in volume 102.",
+     "court_said": "Memorandum cited 'United States v. Angel, 102 F.3d 1066 (4th Cir. 1996)' for a quoted rule; court found no such Fourth Circuit decision or matching quoted language.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "USA v. Brewer",
+   "court": "M.D. Florida",
+   "date": "2025-09-11",
+   "citations": [
+    {
+     "citation": "708 F.3d 245",
+     "name": "",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Page 245 of 708 F.3d is inside MBIA Insurance v. Federal Deposit Insurance, 708 F.3d 234 (D.C. Cir. 2013), which starts at page 234. Without a case name Redline cannot tell whether this is a pin cite to that case or a wrong citation.",
+     "court_said": "United States v. Noel (708 F.3d 245, 254 (1st Cir. 2013)) is entirely fabricated and does not exist as cited.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Shantell Robinson v. Oglala Sioux Tribe, et al.",
+   "court": "W.D. Oklahoma",
+   "date": "2025-09-09",
+   "citations": [
+    {
+     "citation": "277 F.3d 535",
+     "name": "'Henlsey v. Alcon Labs",
+     "verdict": "VERIFIED",
+     "reason": "Hensley v. Alcon Laboratories, Inc., 277 F.3d 535 (4th Cir. 2002). No overruling found in Redline's data.",
+     "court_said": "Plaintiff cited a non-existent opinion, 'Henlsey v. Alcon Labs, 277 F.3d 535 (4th Cir. 2002)'; Court noted it was non-existent and that fake opinions are not existing law.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Blake Lewis v. Entergy Mississippi, LLC",
+   "court": "S.D. Mississippi",
+   "date": "2025-09-03",
+   "citations": [
+    {
+     "citation": "156 F.3d 181",
+     "name": "Von Drake v. Nat'l Sec. Agency",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Redline's page map for volume 156 of F.3d disagrees with how courts cite it, so Redline does not prove fabrications in this volume.",
+     "court_said": "Counsel cited Von Drake v. Nat'l Sec. Agency, 156 F.3d 181, 1998 WL 546172, at *2 (5th Cir. 1998) for the proposition that an appellate court reversed a stay; the Court's searches did not locate such an opinion.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Lothamer Tax Resolution, Inc. v. Paul Kimmel (1)",
+   "court": "W.D. Michigan",
+   "date": "2025-08-29",
+   "citations": [
+    {
+     "citation": "584 U.S. 147",
+     "name": "Hall v. Hall",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Volume 584 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+     "court_said": "Court noted the citation to Hall v. Hall, 584 U.S. 147 (2018) was cited at a location that could not be verified and flagged it among other suspect citations.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Thackston v. Driscoll",
+   "court": "W.D. Texas",
+   "date": "2025-08-28",
+   "citations": [
+    {
+     "citation": "595 F.3d 1006",
+     "name": "United States v. City of Los Angeles",
+     "verdict": "FABRICATED",
+     "reason": "Page 1006 of 595 F.3d is inside United States v. Edwards, 595 F.3d 1004 (9th Cir. 2010), which runs from page 1004 to 1025. No case matching \"United States v. City of Los Angeles\" is in volume 595.",
+     "court_said": "Asserted a Ninth Circuit opinion and quotation (United States v. City of Los Angeles, 595 F.3d 1006 (9th Cir. 2010)) that the court found does not exist in that reporter citation or elsewhere.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "United States v. Michael Shane DeBaere (1)",
+   "court": "W.D. Virginia",
+   "date": "2025-08-27",
+   "citations": [
+    {
+     "citation": "939 F.3d 740",
+     "name": "United States v. Zai",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Volume 939 of F.3d is after volume 935 (2019), where Redline's F.3d data ends.",
+     "court_said": "DeBaere relied on a fabricated Sixth Circuit decision cited as United States v. Zai, 939 F.3d 740, 746 (6th Cir. 2019), including a quoted passage that the court determined was invented; court rejected the authority as non-existent/misleading.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Garces v. Hernandez",
+   "court": "Fifth Circuit CA",
+   "date": "2025-08-19",
+   "citations": [
+    {
+     "citation": "655 F.3d 154",
+     "name": "Ermine v. Frank",
+     "verdict": "FABRICATED",
+     "reason": "Page 154 of 655 F.3d is inside United States v. Isaac, 655 F.3d 148 (3d Cir. 2011), which runs from page 148 to 158. No case named Ermine is in volume 655.",
+     "court_said": "Court notes Ermine v. Frank, 655 F.3d 154 (3d Cir. 2011) does not exist though cited to support Garces's argument.",
+     "suggestion": []
+    },
+    {
+     "citation": "215 F.3d 1085",
+     "name": "Gulf Islands Leasing, Inc. v. Bombardier Capital, Inc",
+     "verdict": "UNVERIFIABLE",
+     "reason": "Redline's page map for volume 215 of F.3d disagrees with how courts cite it, so Redline does not prove fabrications in this volume.",
+     "court_said": "Court lists Gulf Islands Leasing, Inc. v. Bombardier Capital, Inc., 215 F.3d 1085 (5th Cir. 2000) among suspect authorities cited by Garces.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Advani v. Appellate Term",
+   "court": "S.D. New York",
+   "date": "2025-08-01",
+   "citations": [
+    {
+     "citation": "93 F.3d 65",
+     "name": "Plaintiff's Sur-Reply: 'Parker v. Blauvelt Volunteer Fire Co",
+     "verdict": "VERIFIED",
+     "reason": "Mount Vernon Fire Insurance v. Creative Housing Ltd., 93 F.3d 63 (2d Cir. 1996). No overruling found in Redline's data.",
+     "court_said": "Nonexistent case cited in Plaintiff's Sur-Reply: 'Parker v. Blauvelt Volunteer Fire Co., 93 F.3d 65, 69 (2d Cir. 1996)' (Pl.'s Sur-Reply 4); the Court found it does not exist.",
+     "suggestion": []
+    },
+    {
+     "citation": "43 F.3d 807",
+     "name": "Plaintiff's Sur-Reply: 'Guggenheimer v. Ginzburg",
+     "verdict": "FABRICATED",
+     "reason": "Page 807 of 43 F.3d is inside United States v. One 1973 Rolls Royce, V.I.N. SRH-16266 ex rel. Goodman, 43 F.3d 794 (3d Cir. 1994), which runs from page 794 to 823. No case named Plaintiff's is in volume 43.",
+     "court_said": "Nonexistent case cited in Plaintiff's Sur-Reply: 'Guggenheimer v. Ginzburg, 43 F.3d 807, 812 (3d Cir. 1994)' (Pl.'s Sur-Reply 4); the Court found it does not exist.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "In re Eugene Ezra Perkins",
+   "court": "D. Oregon (Bankruptcy)",
+   "date": "2025-07-07",
+   "citations": [
+    {
+     "citation": "597 F.3d 1",
+     "name": "'Segarra-Miranda v. Acosta-Rivera",
+     "verdict": "FABRICATED",
+     "reason": "597 F.3d 1 is Indigo America, Inc. v. Big Impressions, LLC., 597 F.3d 1 (1st Cir. 2010), not the case named in the brief (\"'Segarra-Miranda v. Acosta-Rivera\").",
+     "court_said": "Debtor cited 'Segarra-Miranda v. Acosta-Rivera, 597 F.3d 1' but the cited reporter/number corresponds to a different case; court found the citation incorrect/misleading.",
+     "suggestion": [
+      {
+       "name": "Segarra-Miranda v. Acosta-Rivera",
+       "cite": "557 F.3d 8",
+       "court": "1st Cir.",
+       "year": 2009
+      }
+     ]
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Powhatan County School Board v. Skinger et al",
+   "court": "E.D. Virginia",
+   "date": "2025-06-02",
+   "citations": [
+    {
+     "citation": "489 F.3d 126",
+     "name": "Lin Zhong v. DOJ",
+     "verdict": "VERIFIED",
+     "reason": "Lin Zhong v. United States Department of Justice, 489 F.3d 126 (2d Cir. 2007). No overruling found in Redline's data.",
+     "court_said": "Cited an unfindable Second Circuit case; closest match is Lin Zhong v. DOJ, 489 F.3d 126 (2d Cir. 2007); court found the cited case nonexistent.",
+     "suggestion": []
+    },
+    {
+     "citation": "315 F.3d 256",
+     "name": "Young v. New Haven Advocate",
+     "verdict": "VERIFIED",
+     "reason": "Young v. New Haven Advocate, 315 F.3d 256 (4th Cir. 2002). No overruling found in Redline's data.",
+     "court_said": "Cited a Fourth Circuit case at a reporter page that does not exist; closest match is Young v. New Haven Advocate, 315 F.3d 256 (4th Cir. 2002), on unrelated issues; court found no Beeman case in the Fourth Circuit.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  },
+  {
+   "case": "Saxena v. Martinez-Hernandez et al.",
+   "court": "D. Nevada",
+   "date": "2025-02-18",
+   "citations": [
+    {
+     "citation": "800 F.3d 1075",
+     "name": "Spokane v. Douglass",
+     "verdict": "FABRICATED",
+     "reason": "Page 1075 of 800 F.3d is inside Avendano-Hernandez v. Lynch, 800 F.3d 1072 (9th Cir. 2015), which runs from page 1072 to 1082. No case named Spokane is in volume 800.",
+     "court_said": "Plaintiff cited Spokane v. Douglass, 800 F.3d 1075 (2015), for ‘under color of state law’; the court found no such case exists and that the citation corresponds to Avendano-Hernandez v. Lynch, which does not address that topic.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Martin v. Hawai'i",
+   "court": "D. Hawaii",
+   "date": "2024-08-20",
+   "citations": [
+    {
+     "citation": "891 F.3d 1338",
+     "name": "Crenshaw v. City of Defuniak Springs",
+     "verdict": "FABRICATED",
+     "reason": "891 F.3d 1338 is Martin v. O'Rourke, 891 F.3d 1338 (Fed. Cir. 2018), not the case named in the brief (\"Crenshaw v. City of Defuniak Springs\").",
+     "court_said": "Petitioner cited Crenshaw v. City of Defuniak Springs, 891 F.3d 1338 (11th Cir. 2018); the Court stated this citation is not accurate and appears fictitious.",
+     "suggestion": []
+    }
+   ],
+   "caught": true
+  },
+  {
+   "case": "Mata v. Avianca, Inc",
+   "court": "S.D. New York",
+   "date": "2023-06-22",
+   "citations": [
+    {
+     "citation": "92 F.3d 1074",
+     "name": "",
+     "verdict": "VERIFIED",
+     "reason": "Grilli v. Metropolitan Life Insurance, 92 F.3d 1074 (11th Cir. 1996). No overruling found in Redline's data.",
+     "court_said": "Internal citation in the fake Varghese opinion to a non-existent Eleventh Circuit case at 92 F.3d 1074.",
+     "suggestion": []
+    }
+   ],
+   "caught": false
+  }
+ ]
+}
