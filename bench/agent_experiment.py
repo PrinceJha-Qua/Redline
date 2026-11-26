@@ -57,7 +57,7 @@ def use(exp):
 MODEL = os.getenv("REDLINE_EXP_MODEL", "sonnet")
 JUDGE_MODEL = os.getenv("REDLINE_JUDGE_MODEL", "sonnet")
 TODAY = "November 19, 2026"
-ARMS = ("A", "B", "C")
+ARMS = ("A", "B", "C", "D")
 TIMEOUT = 900
 
 SYSTEM = "You are a legal drafting assistant working for a US litigation attorney."
@@ -68,6 +68,10 @@ TOOLS = ("You have Redline tools that check US case citations against a citation
          "Court case and every F.3d appeals case. Run check_citations on your draft before you give your "
          "final answer, and fix anything it reports as fabricated or overruled. Use search_cases and "
          "get_case to look authorities up.")
+# Arm D: the same check, plus a way to find real authority instead of recalling it.
+RESEARCH = ("Before you cite anything, call find_authority with the proposition and the circuit: it returns real "
+            "cases that courts have cited for it, in the courts' own words, and that circuit's own F.3d opinions "
+            "saying so. Cite from those results rather than from memory.")
 NOISE = re.compile(r"^\s*(quoting|citing|see|cf\.)\b|omitted|emphasis|alteration|brackets|citations? and|quotation|internal|^\s*$", re.I)
 
 
@@ -116,10 +120,12 @@ def prompt(task, arm, packet):
                  f"Cite at least six decisions of the {task['circuit']} Circuit reported in F.3d, with full "
                  "Bluebook citations and pin cites. Output only the argument section, with no notes about "
                  "your process."]
-        if arm in ("B", "C"):
+        if arm in ("B", "C", "D"):
             parts.append(WARNING)
-        if arm == "C":
+        if arm in ("C", "D"):
             parts.append(TOOLS)
+        if arm == "D":
+            parts.append(RESEARCH)
         return "\n\n".join(parts)
     parts = [f"Today is {TODAY}.",
              f"Court: {task['court']}.", f"We represent: {task['side']}.", f"Facts: {task['facts']}",
@@ -137,12 +143,11 @@ def prompt(task, arm, packet):
 
 # ---------------------------------------------------------------- running claude
 
-def claude(text, model, mcp=None):
+def claude(text, model, mcp=None, tools=("check_citations", "get_case", "search_cases")):
     cmd = ["claude", "-p", text, "--model", model, "--system-prompt", SYSTEM, "--tools", "",
            "--strict-mcp-config", "--no-session-persistence", "--output-format", "json"]
     if mcp:
-        cmd += ["--mcp-config", json.dumps(mcp), "--allowedTools",
-                "mcp__redline__check_citations", "mcp__redline__get_case", "mcp__redline__search_cases"]
+        cmd += ["--mcp-config", json.dumps(mcp), "--allowedTools", *[f"mcp__redline__{t}" for t in tools]]
     else:
         cmd += ["--mcp-config", '{"mcpServers":{}}']
     with tempfile.TemporaryDirectory(prefix="redline-exp-") as cwd:
@@ -162,7 +167,8 @@ def run_one(task, arm, rep, packet):
     if path.exists():
         return path, "cached"
     text = prompt(task, arm, packet)
-    res = claude(text, MODEL, mcp_config() if arm == "C" else None)
+    res = claude(text, MODEL, mcp_config() if arm in ("C", "D") else None,
+                 tools=("check_citations", "get_case", "search_cases") + (("find_authority",) if arm == "D" else ()))
     rec = {"task": task["id"], "doctrine": task.get("doctrine"), "arm": arm, "rep": rep, "model": MODEL,
            "prompt": text, "answer": res.get("result", ""), "num_turns": res.get("num_turns"),
            "cost_usd": res.get("total_cost_usd"), "is_error": res.get("is_error"),
@@ -341,9 +347,11 @@ def report(args):
 
     tests = {}
     for key in ("relies", "fabricated", "either"):
-        for x, y in (("A", "C"), ("B", "C"), ("A", "B")):
+        for x, y in (("A", "C"), ("B", "C"), ("A", "B"), ("A", "D"), ("B", "D"), ("C", "D")):
             tx, ty = per_task(x, key), per_task(y, key)
             common = set(tx) & set(ty)
+            if not common:
+                continue
             w = sum(tx[t] > ty[t] for t in common)
             l = sum(tx[t] < ty[t] for t in common)
             tests[f"{key}:{x}vs{y}"] = {"tasks_worse_in_" + x: w, "tasks_worse_in_" + y: l,

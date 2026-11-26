@@ -34,6 +34,10 @@ def check_text(text, as_of=None, suggest=True):
     return agent.suggest_for(store(), result) if suggest else result
 
 
+def suggest(name):
+    return agent.did_you_mean(store(), name[:300])
+
+
 def find_authority(proposition, circuit=None, limit=5, as_of=None):
     return agent.find_authority(store(), proposition, circuit, max(1, min(int(limit), 10)), as_of_year(as_of))
 

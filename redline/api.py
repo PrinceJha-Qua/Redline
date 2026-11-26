@@ -1,6 +1,7 @@
 """HTTP API.
 
     POST /api/check          {"text": "...", "as_of": 2023}  -> verdict for every citation
+    GET  /api/suggest?name=  the real cases with a name (the repair for a fabricated citation)
     GET  /api/authority?q=   real cases courts have cited for a proposition (&circuit=3d&as_of=2019)
     GET  /api/related?ids=   cases courts cite together with these
     POST /api/what-if        {"case_id": "...", "text": "..."}  -> overrule a case hypothetically
@@ -35,6 +36,7 @@ app = FastAPI(title="Redline", version="0.1.0", lifespan=lifespan)
 
 class CheckRequest(BaseModel):
     text: str = Field(..., description="Brief or memo text containing case citations.")
+    suggest: bool = Field(True, description="Look up the real case behind each fabricated citation.")
     as_of: str | int | None = Field(None, description="Check as of this year or date, such as 2023.")
 
 
@@ -50,9 +52,15 @@ def _bad(e):
 @app.post("/api/check")
 def api_check(req: CheckRequest):
     try:
-        return service.check_text(req.text, req.as_of)
+        return service.check_text(req.text, req.as_of, req.suggest)
     except ValueError as e:
         _bad(e)
+
+
+@app.get("/api/suggest")
+def api_suggest(name: str):
+    """The real cases with this name: the repair for a fabricated citation."""
+    return service.suggest(name)
 
 
 @app.get("/api/authority")
@@ -104,4 +112,8 @@ if WEB.is_dir():
 
     @app.get("/", include_in_schema=False)
     def index():
-        return FileResponse(WEB / "index.html")
+        return FileResponse(WEB / ("index.html" if (WEB / "index.html").exists() else "app.html"))
+
+    @app.get("/app", include_in_schema=False)
+    def checker():
+        return FileResponse(WEB / "app.html")

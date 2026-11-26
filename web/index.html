@@ -3,69 +3,139 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Redline</title>
-<meta name="description" content="Catch fabricated and overruled case citations before you file.">
+<title>Redline · Catch fabricated and overruled citations before you file</title>
+<meta name="description" content="Redline checks every case citation in a brief against a Relate graph of 170,651 US cases, on your machine. It proves fabrications from page evidence and finds reliance on overruled law.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23172033'/%3E%3Cpath d='M7 17h18' stroke='%23e23d3d' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="static/style.css">
+<link rel="stylesheet" href="static/landing.css">
 </head>
-<body>
-<header class="bar">
-  <div class="brand">
-    <span class="mark" aria-hidden="true"></span>
-    <h1>Redline</h1>
-    <p class="tag">Catch fabricated and overruled case citations before you file.</p>
+<body class="landing">
+
+<nav class="top">
+  <a class="brand" href="./"><span class="mark" aria-hidden="true"></span><b>Redline</b></a>
+  <div class="links">
+    <a href="#agents">For agents</a>
+    <a href="#evidence">Evidence</a>
+    <a href="https://github.com/PrinceJha-Qua/Redline">GitHub</a>
+    <a class="btn small" href="app">Check a brief</a>
   </div>
-  <p class="store" id="store">Loading the store…</p>
+</nav>
+
+<header class="hero">
+  <p class="eyebrow">Built on Relate by Neo4j · runs on your machine</p>
+  <h1>925 F.3d 1339 looks like a real citation.<br><span class="strike">Page 1339 belongs to another case.</span></h1>
+  <p class="lede">In <i>Mata v. Avianca</i>, lawyers were sanctioned for citing <i>Varghese v. China Southern Airlines</i>, a case an AI tool invented. Redline checks every citation in a brief against a graph of 170,651 US cases and proves which ones cannot exist, page by page, before you file.</p>
+  <div class="cta">
+    <a class="btn" href="app">Check a brief</a>
+    <a class="btn ghost" href="#agents">Give it to your agent</a>
+  </div>
+
+  <div class="split" aria-label="What the brief says, and what the graph says">
+    <div class="side said">
+      <div class="k">What the brief says</div>
+      <p class="quote">The limitations period was tolled. <span class="cited">Varghese v. China Southern Airlines Co., 925 F.3d 1339, 1345 (11th Cir. 2019)</span>.</p>
+      <p class="meta">Filed in the Southern District of New York, March 2023.</p>
+    </div>
+    <div class="side graph-says">
+      <div class="k">What the graph says <span class="live" id="live" title="Checked live against the store">live</span></div>
+      <p class="verdict"><span class="chip v-fab">Fabricated</span></p>
+      <p class="quote" id="varghese">Page 1339 of 925 F.3d is inside <b>J.D. v. Azar</b>, 925 F.3d 1291 (D.C. Cir. 2019), which runs from page 1291 to 1349. No case named Varghese is in volume 925.</p>
+      <pre class="cy">MATCH (:Volume {key:'F3d:925'})-[:CONTAINS]->(c:Case)
+WHERE c.first_page &lt;= 1339 AND c.last_page &gt;= 1339
+RETURN c.name, c.first_page, c.last_page</pre>
+    </div>
+  </div>
+  <p class="strip" id="strip">Relate directory store · read-only · 170,651 cases · 983,247 citations · 144 overrulings · U.S. Reports 1754–2014 · F.3d 1990–2019</p>
 </header>
 
-<main class="layout">
-  <section class="pane brief" aria-labelledby="brief-h">
-    <div class="pane-head">
-      <h2 id="brief-h">Brief</h2>
-      <div class="samples" role="group" aria-label="Sample briefs" id="samples"></div>
-    </div>
-    <div class="doc-wrap">
-      <textarea id="text" spellcheck="false" aria-label="Brief text"></textarea>
-      <div id="doc" class="doc" hidden></div>
-    </div>
-    <div class="actions">
-      <button id="check" class="primary" type="button">Check citations</button>
-      <button id="edit" class="ghost" type="button" hidden>Edit text</button>
-      <span class="hint" id="hint">Paste a brief or pick a sample. Runs on this machine; nothing is sent anywhere.</span>
-    </div>
-  </section>
+<section class="stats" aria-label="Why it matters">
+  <div class="stat"><b>1,058</b><span>US court cases involving AI-hallucinated content by June 2026</span><a href="https://library.law.unc.edu/2026/06/handling-hallucinations-a-reflection/">UNC Law Library, from Charlotin's database</a></div>
+  <div class="stat"><b>26 of 142</b><span>overruled Supreme Court decisions that Claude Sonnet, asked without tools, said were still good law</span><a href="https://github.com/PrinceJha-Qua/Redline/blob/main/docs/BENCHMARK.md">our knowledge probe</a></div>
+  <div class="stat"><b>5,342</b><span>federal appellate decisions that rely on a Supreme Court case later overruled; 2,616 of them on <i>Chevron</i></span><a href="#ripple">see the ripple</a></div>
+  <div class="stat good"><b>0 of 60,431</b><span>real citations from published opinions that Redline calls fake</span><a href="https://github.com/PrinceJha-Qua/Redline/blob/main/docs/BENCHMARK.md">first-run errors published too</a></div>
+</section>
 
-  <section class="pane results" aria-labelledby="res-h">
-    <div class="pane-head">
-      <h2 id="res-h">Citations</h2>
-      <div class="summary" id="summary"></div>
-    </div>
-    <ol class="list" id="list"></ol>
-    <div class="empty" id="empty">
-      <p>Each citation gets one of three verdicts.</p>
-      <dl class="legend">
-        <div><dt><span class="chip v-fab">Fabricated</span></dt><dd>Points into a volume Redline holds in full, and cannot be right.</dd></div>
-        <div><dt><span class="chip v-ok">Verified</span></dt><dd>The case exists. Then: good law, caution (it rests on an overruled case), or overruled.</dd></div>
-        <div><dt><span class="chip v-unk">Unverifiable</span></dt><dd>Outside Redline's data. Never called fake.</dd></div>
-      </dl>
-    </div>
-  </section>
+<section class="verdicts">
+  <h2>Three verdicts, each with its evidence</h2>
+  <div class="cards">
+    <div class="card fab"><span class="chip v-fab">Fabricated</span><p>The citation cannot be right: the page belongs to another case, another case starts there, or the reporter series was never printed. Redline names the real case, and the real citation when the case exists elsewhere.</p></div>
+    <div class="card ok"><span class="chip v-ok">Verified</span><p>The case exists. Then <b>good law</b>, <b>overruled</b>, or <b>caution</b>: it relies on a case that was later overruled, and Redline shows the chain in the court's own words. Set the filing year and it judges by the law of that day.</p></div>
+    <div class="card unk"><span class="chip v-unk">Unverifiable</span><p>Outside Redline's data, or not provable from it. Never called fake. A wrong "fabricated" is worse than a missed one, so every doubt goes here.</p></div>
+  </div>
+</section>
 
-  <section class="pane detail" id="detail" aria-labelledby="det-h" hidden>
-    <div class="pane-head">
-      <h2 id="det-h">Evidence</h2>
-      <button class="ghost small" id="close" type="button" aria-label="Close evidence">Close</button>
-    </div>
-    <div id="detail-body"></div>
-  </section>
-</main>
+<section class="ripple" id="ripple">
+  <div class="ripple-text">
+    <h2>One overruling moves thousands of cases</h2>
+    <p><i>Chevron</i> was overruled in 2024. Every decision that relied on it, and every decision that relied on those, now rests on law that no longer exists. Redline walks that chain in the graph.</p>
+    <button class="btn" id="play" type="button">Play the ripple</button>
+    <ol class="hops">
+      <li><b id="h1">0</b><span class="what">cite <i>Chevron</i> directly</span><span class="ms">1 ms</span></li>
+      <li><b id="h2">0</b><span class="what">within two hops</span><span class="ms">14 ms</span></li>
+      <li><b id="h3">0</b><span class="what">within three hops</span><span class="ms">86 ms</span></li>
+    </ol>
+    <p class="hint">Counts and timings measured on the committed store (median of 20 runs).</p>
+  </div>
+  <svg class="rings" viewBox="0 0 400 400" aria-hidden="true">
+    <circle class="ring r3" cx="200" cy="200" r="190"/>
+    <circle class="ring r2" cx="200" cy="200" r="128"/>
+    <circle class="ring r1" cx="200" cy="200" r="70"/>
+    <circle class="core" cx="200" cy="200" r="26"/>
+    <text x="200" y="205" text-anchor="middle">Chevron</text>
+    <g id="dots"></g>
+  </svg>
+</section>
+
+<section class="agents" id="agents">
+  <h2>For agents: find real authority instead of recalling it</h2>
+  <p class="lede">An AI drafter invents citations because it cites from memory. Redline gives it a graph to cite from. The same tools serve Claude Code, any MCP client, the command line and the HTTP API.</p>
+  <div class="tools">
+    <div class="tool"><code>find_authority</code><p>A proposition in, real cases out, each described in the words of the courts that cited it, with that circuit's own F.3d opinions. Overruled cases are ranked last.</p></div>
+    <div class="tool"><code>check_citations</code><p>Every citation in a draft, with its verdict, its evidence, and for a fabricated one the real case with that name. Pass the filing date to judge by the law of that day.</p></div>
+    <div class="tool"><code>what_if_overruled</code><p>Overrule a case inside a Relate transaction on the read-only store, re-check the brief with the same code, count who relied on it by circuit, and roll back. Relate refuses to commit it.</p></div>
+    <div class="tool"><code>related_authority</code><p>Good-law cases courts cite together with yours, by co-citation, so an agent can widen its research without guessing.</p></div>
+  </div>
+  <div class="term">
+    <div class="term-head"><span></span><span></span><span></span>terminal</div>
+<pre>$ claude mcp add redline -- "$PWD/.venv/bin/redline" mcp
+$ redline authority "temporal proximity alone is insufficient to establish causation" --circuit Third
+
+Clark County School District v. Breeden, 532 U.S. 268 (2001)  [good law]
+    3d Cir.: (temporal proximity alone, when "very close," can in some instances
+             establish a prima facie case of retaliation)
+
+3d Cir. opinions:
+    LeBoon v. Lancaster Jewish Community Center Ass'n, 503 F.3d 217 (2007)
+
+$ redline what-if US:545:967 --brief brief.txt
+If Brand X (545 U.S. 967) were overruled: 222 of the 390 decisions citing it rely on it.
+  brief: 545 U.S. 967: caution → overruled
+(Ran inside a Relate transaction on the read-only store ... Rolled back: True.)</pre>
+  </div>
+</section>
+
+<section class="evidence" id="evidence">
+  <h2>Measured, with the misses published</h2>
+  <div class="ev">
+    <div><b>129 / 129</b><span>citations to reporter series that were never printed, caught on LePhantomCite (Princeton, 2026)</span></div>
+    <div><b>47 of 86</b><span>citations that US courts found fabricated, and that fall in Redline's data, proved fake from page evidence alone</span></div>
+    <div><b>9 → 0</b><span>false "fabricated" verdicts on 31,877 real citations from 495 unseen opinions: first run, then after fixing each one</span></div>
+    <div><b>17–45 ms</b><span>to check a brief, on a laptop, with no server, key or network</span></div>
+  </div>
+  <p class="hint">Every number is regenerated by <code>make bench</code>. The full method, the first-run errors and the null results are in <a href="https://github.com/PrinceJha-Qua/Redline/blob/main/docs/BENCHMARK.md">BENCHMARK.md</a>.</p>
+</section>
+
+<section class="close">
+  <h2>Check your brief before the court does.</h2>
+  <a class="btn" href="app">Check a brief</a>
+  <p class="hint">Evidence for a lawyer to review, not legal advice. Coverage: U.S. Reports to 2014 and F.3d 1990–2019; everything else is reported as unverifiable.</p>
+</section>
 
 <footer class="foot">
-  Data: Caselaw Access Project, Harvard Law School Library; overrulings from Wikipedia (CC BY-SA 4.0).
-  Graph: Relate by Neo4j, opened read-only. Verdicts come from graph queries, never from a language model.
+  Data: Caselaw Access Project, Harvard Law School Library; overrulings from Wikipedia (CC BY-SA 4.0). Graph: Relate by Neo4j.
+  Verdicts come from graph queries, never from a language model.
 </footer>
 
-<script src="/static/samples.js"></script>
-<script src="/static/app.js"></script>
+<script src="static/landing.js"></script>
 </body>
 </html>

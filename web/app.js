@@ -3,7 +3,7 @@
   const $ = (id) => document.getElementById(id);
   const text = $("text"), doc = $("doc"), list = $("list"), summary = $("summary");
   const checkBtn = $("check"), editBtn = $("edit"), hint = $("hint");
-  const detail = $("detail"), detailBody = $("detail-body"), empty = $("empty");
+  const detail = $("detail"), detailBody = $("detail-body"), empty = $("empty"), asof = $("asof");
   let result = null, selected = -1;
 
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) =>
@@ -35,6 +35,7 @@
     if (!s) return;
     for (const b of $("samples").children) b.setAttribute("aria-pressed", String(b.dataset.id === id));
     text.value = s.text;
+    asof.value = s.as_of || "";
     run();
   }
   for (const s of samples) {
@@ -52,20 +53,38 @@
     const started = performance.now();
     try {
       const r = await fetch("/api/check", { method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text: body }) });
+        body: JSON.stringify({ text: body, as_of: asof.value || null, suggest: false }) });
       const data = await r.json();
       if (!r.ok) throw new Error(data.detail || `The check failed (${r.status}).`);
       result = { text: body, ...data };
       const ms = Math.round(performance.now() - started);
-      hint.textContent = `Checked ${data.summary.citations} citation${data.summary.citations === 1 ? "" : "s"} in ${ms} ms, on this machine.`;
+      hint.textContent = `Checked ${data.summary.citations} citation${data.summary.citations === 1 ? "" : "s"} in ${ms} ms, on this machine` +
+        (data.as_of ? `, as of ${data.as_of}.` : ".");
       render();
       const first = data.citations.findIndex((c) => kind(c) === "fab");
       select(first >= 0 ? first : (data.citations.length ? 0 : -1));
+      repairs(result);
     } catch (e) {
       hint.textContent = e.message || "The check failed. Is the server running?";
     } finally {
       checkBtn.disabled = false; checkBtn.textContent = "Check citations";
     }
+  }
+
+  // Verdicts come back in milliseconds; the name lookups behind each repair follow.
+  function repairs(res) {
+    res.citations.forEach((c, i) => {
+      if (c.verdict !== "FABRICATED" || !c.name) return;
+      c.suggestions = null;
+      fetch(`/api/suggest?name=${encodeURIComponent(c.name)}`).then((r) => r.json()).then((s) => {
+        if (result !== res) return;
+        c.suggestions = s;
+        const item = list.querySelector(`.item[data-i="${i}"]`);
+        if (item && s.length) item.insertAdjacentHTML("beforeend",
+          `<span class="item-fix">Did you mean ${esc(s[0].name)}, ${esc(s[0].cite)}?</span>`);
+        if (selected === i) showDetail(c);
+      }).catch(() => { c.suggestions = []; });
+    });
   }
 
   function render() {
@@ -119,6 +138,16 @@
       ${c.status ? chip(STATUS_CHIP[c.status] || "v-ok", c.status) : ""}<span class="item-cite">${esc(c.text)}</span></div>`);
     parts.push(`<p class="reason">${esc(c.reason)}</p>`);
     for (const w of c.warnings || []) parts.push(`<p class="warn">${esc(w)}</p>`);
+    if ((c.suggestions || []).length) {
+      parts.push(`<div class="k">The real case${c.suggestions.length > 1 ? "s" : ""} with this name</div>`);
+      parts.push(`<ol class="chain fixes">${c.suggestions.map((g, j) => `
+        <li><span><b>${esc(g.name)}</b>, ${esc(g.cite)} (${esc(g.court)} ${esc(g.year)})</span>
+        <span><button class="fix" type="button" data-fix="${j}">Replace in the brief</button></span></li>`).join("")}</ol>`);
+    } else if (c.verdict === "FABRICATED" && c.suggestions === null) {
+      parts.push(`<p class="hint">Looking for the real case with this name…</p>`);
+    } else if (c.verdict === "FABRICATED") {
+      parts.push(`<p class="hint">No real case with this name is in Redline's data. Find authority for the proposition instead.</p>`);
+    }
     if (c.evidence && c.evidence.nodes.length) parts.push(`<div class="graph">${graph(c)}</div>`);
     if (c.stands_on && c.stands_on.length) {
       parts.push(`<div class="k">What it stands on${c.stands_on_total > c.stands_on.length ? ` (top ${c.stands_on.length} of ${c.stands_on_total})` : ""}</div>`);
@@ -132,7 +161,11 @@
       parts.push(`<ul class="mentions">${c.mentions.map((m) => `
         <li>${esc(m.case.name)}, ${esc(m.case.cite)}: later overruled by ${esc(m.overruled_by.name)} (${esc(m.overruled_by.year)})</li>`).join("")}</ul>`);
     }
-    if (c.case) parts.push(`<div><button class="case-link" type="button" data-case="${esc(c.case.id)}">Open ${esc(c.case.name)} in the graph</button></div><div id="case-box"></div>`);
+    if (c.case) {
+      parts.push(`<div class="row-btns"><button class="case-link" type="button" data-case="${esc(c.case.id)}">Open ${esc(c.case.name)} in the graph</button>
+        ${c.status !== "overruled" ? `<button class="ghost small" type="button" data-whatif="${esc(c.case.id)}">What if it were overruled?</button>` : ""}</div>
+        <div id="whatif-box"></div><div id="case-box"></div>`);
+    }
     if (c.evidence && c.evidence.query) {
       parts.push(`<details class="cypher"><summary>The Cypher behind this verdict</summary><pre>${esc(c.evidence.query.cypher)}\n\n// params ${esc(JSON.stringify(c.evidence.query.params))}</pre></details>`);
     }
@@ -222,6 +255,87 @@
   detailBody.addEventListener("click", (e) => {
     const b = e.target.closest("[data-case]");
     if (b) openCase(b.dataset.case);
+    const f = e.target.closest("[data-fix]");
+    if (f) applyFix(result.citations[selected], Number(f.dataset.fix));
+    const w = e.target.closest("[data-whatif]");
+    if (w) whatIf(w.dataset.whatif, w);
+  });
+
+  // Replace a fabricated citation with the real one: the reporter citation, and the case name before it.
+  function applyFix(c, j) {
+    const g = c.suggestions[j], body = result.text;
+    const [a, b] = c.span;
+    let before = body.slice(0, a), after = body.slice(b);
+    if (c.name) {
+      const at = before.lastIndexOf(c.name);
+      if (at >= 0 && a - at < c.name.length + 40) before = before.slice(0, at) + g.name + before.slice(at + c.name.length);
+    }
+    text.value = before + g.cite + after;
+    run();
+  }
+
+  async function whatIf(id, btn) {
+    const box = $("whatif-box");
+    btn.disabled = true;
+    box.innerHTML = `<p class="hint">Overruling it inside a transaction…</p>`;
+    try {
+      const r = await fetch("/api/what-if", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ case_id: id, text: result.text }) });
+      const d = await r.json();
+      if (!r.ok) throw new Error(d.detail || "failed");
+      const courts = Object.entries(d.relying_by_court).slice(0, 8);
+      const max = Math.max(1, ...courts.map(([, n]) => n));
+      box.innerHTML = `<div class="whatif">
+        <p class="reason">If <b>${esc(d.case.name)}</b> were overruled, <b>${fmt(d.relying)}</b> of the ${fmt(d.citing)} decisions that cite it rely on it and would turn amber.</p>
+        <div class="bars">${courts.map(([k, n]) => `<div class="bar-row"><span>${esc(k)}</span><span class="bar"><i style="width:${(100 * n / max).toFixed(1)}%"></i></span><span>${fmt(n)}</span></div>`).join("")}</div>
+        ${d.brief && d.brief.changed.length ? `<p class="warn">In this brief: ${d.brief.changed.map((ch) => `${esc(ch.text)} goes from ${esc(ch.before)} to ${esc(ch.after)}`).join("; ")}.</p>` : ""}
+        <p class="hint">${esc(d.how)} ${d.rolled_back ? "Nothing was saved." : ""}</p></div>`;
+    } catch (e) {
+      box.innerHTML = `<p class="warn">The what-if failed.</p>`;
+    } finally { btn.disabled = false; }
+  }
+
+  // ---- find authority ---------------------------------------------------------------------
+  function mode(which) {
+    const find = which === "find";
+    $("tab-check").setAttribute("aria-selected", String(!find));
+    $("tab-find").setAttribute("aria-selected", String(find));
+    $("mode-check").hidden = find; $("mode-find").hidden = !find;
+    $("res-h").textContent = find ? "Authority" : "Citations";
+    list.innerHTML = ""; summary.innerHTML = ""; detail.hidden = true; empty.hidden = find || !!result;
+    if (!find && result) { render(); select(selected); }
+  }
+  $("tab-check").addEventListener("click", () => mode("check"));
+  $("tab-find").addEventListener("click", () => mode("find"));
+
+  $("find-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const btn = $("find-btn"), q = $("prop").value.trim();
+    if (!q) return;
+    btn.disabled = true; btn.textContent = "Searching…";
+    const started = performance.now();
+    try {
+      const params = new URLSearchParams({ q, limit: "6" });
+      if ($("circuit").value) params.set("circuit", $("circuit").value);
+      const d = await (await fetch(`/api/authority?${params}`)).json();
+      const ms = Math.round(performance.now() - started);
+      summary.innerHTML = chip("v-ok", `${d.authorities.length} authorities`) +
+        (d.circuit_opinions.length ? chip("v-unk", `${d.circuit_opinions.length} ${d.circuit} opinions`) : "");
+      const auth = d.authorities.map((a) => `<li class="auth"><div class="item-top">
+          ${chip(STATUS_CHIP[a.status] || "v-ok", a.status)}<span class="item-cite">${esc(a.case.cite)}</span></div>
+          <span class="item-name">${esc(a.case.name)} (${esc(a.case.year)})</span>
+          ${a.described_as.map((x) => `<span class="paren">“${esc(x.parenthetical)}”</span>
+            <span class="by">${esc(x.by.court)}, ${esc(x.by.name)}, ${esc(x.by.cite)} (${esc(x.by.year)})</span>`).join("")}
+          ${a.status !== "good law" ? `<span class="warn">${esc(a.status_reason)}</span>` : ""}</li>`).join("");
+      const ops = d.circuit_opinions.length ? `<li class="auth"><div class="k">${esc(d.circuit)} opinions that said it</div>
+        ${d.circuit_opinions.map((o) => `<span><b>${esc(o.case.name)}</b>, ${esc(o.case.cite)} (${esc(o.case.year)})</span>
+          <span class="paren">“${esc(o.said)}” (citing ${esc(o.citing)})</span>`).join("")}</li>` : "";
+      list.innerHTML = auth + ops || `<li class="hint">Nothing found. Try other words.</li>`;
+      empty.hidden = true;
+      summary.insertAdjacentHTML("beforeend", `<span class="hint">${ms} ms · ${esc(d.note)}</span>`);
+    } catch (err) {
+      list.innerHTML = `<li class="warn">The search failed.</li>`;
+    } finally { btn.disabled = false; btn.textContent = "Find authority"; }
   });
   $("close").addEventListener("click", () => select(-1));
 
