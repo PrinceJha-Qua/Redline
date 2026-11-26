@@ -1,0 +1,102 @@
+{
+  "mutations": 12,
+  "killed": 6,
+  "results": [
+    {
+      "mutation": "a volume whose page map disagrees with the courts is still used as proof",
+      "file": "redline/verify.py",
+      "killed": false,
+      "caught_by": [],
+      "seconds": 37.8
+    },
+    {
+      "mutation": "a page courts cite as a case start, missing from the data, is called fabricated",
+      "file": "redline/verify.py",
+      "killed": false,
+      "caught_by": [],
+      "seconds": 36.1
+    },
+    {
+      "mutation": "a page of short orders is called fabricated",
+      "file": "redline/verify.py",
+      "killed": false,
+      "caught_by": [],
+      "seconds": 34.5
+    },
+    {
+      "mutation": "a shared last page between two opinions is called fabricated",
+      "file": "redline/verify.py",
+      "killed": false,
+      "caught_by": [],
+      "seconds": 34.3
+    },
+    {
+      "mutation": "names never agree",
+      "file": "redline/verify.py",
+      "killed": false,
+      "caught_by": [],
+      "seconds": 34.3
+    },
+    {
+      "mutation": "a passing mention counts as reliance",
+      "file": "redline/status.py",
+      "killed": true,
+      "caught_by": [
+        "tests/test_verify.py::test_a_passing_mention_is_not_reliance"
+      ],
+      "seconds": 34.8
+    },
+    {
+      "mutation": "a case cited after it was overruled counts as resting on it",
+      "file": "redline/status.py",
+      "killed": true,
+      "caught_by": [
+        "tests/test_verify.py::test_a_passing_mention_is_not_reliance"
+      ],
+      "seconds": 34.4
+    },
+    {
+      "mutation": "checking as of a date ignores the date",
+      "file": "redline/status.py",
+      "killed": true,
+      "caught_by": [
+        "tests/test_agent.py::test_chevron_was_good_law_in_2023"
+      ],
+      "seconds": 5.9
+    },
+    {
+      "mutation": "a repair ignores which side of the 'v.' a party is on",
+      "file": "redline/agent.py",
+      "killed": true,
+      "caught_by": [
+        "tests/test_agent.py::test_did_you_mean_suggests_nothing_rather_than_the_wrong_case[Miller"
+      ],
+      "seconds": 9.4
+    },
+    {
+      "mutation": "a repair accepts any shorter word as an abbreviation",
+      "file": "redline/agent.py",
+      "killed": true,
+      "caught_by": [
+        "tests/test_agent.py::test_did_you_mean_suggests_nothing_rather_than_the_wrong_case[Ford"
+      ],
+      "seconds": 10.0
+    },
+    {
+      "mutation": "a what-if is not rolled back",
+      "file": "redline/store.py",
+      "killed": true,
+      "caught_by": [
+        "tests/test_agent.py::test_what_if_rolls_back_and_never_touches_the_store"
+      ],
+      "seconds": 14.1
+    },
+    {
+      "mutation": "find_authority ranks overruled cases first",
+      "file": "redline/agent.py",
+      "killed": false,
+      "caught_by": [],
+      "seconds": 34.4
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "store": "data/redline-us",
+  "nodes": 219772,
+  "relationships": 1374372,
+  "page_lookups": 264100,
+  "page_disagreements": [],
+  "chain_cases": 15685,
+  "chain_disagreements": [],
+  "agree": true,
+  "seconds": 80.3
+}
