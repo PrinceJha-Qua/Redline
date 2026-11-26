@@ -14,6 +14,7 @@
     }).catch(() => {});
 
   fetch("api/coverage").then((r) => (r.ok ? r.json() : Promise.reject())).then((c) => {
+    if (c.hosted) document.querySelector(".eyebrow").textContent = "Built on Relate by Neo4j · hosted demo · install it to run on your own machine";
     $("strip").textContent = `Relate directory store · read-only · ${fmt(c.cases)} cases · ${fmt(c.citations)} citations · ` +
       `${fmt(c.overrulings)} overrulings · ` + c.reporters.map((r) => `${r.abbr} ${r.first_year}–${r.last_year}`).join(" · ");
   }).catch(() => {});

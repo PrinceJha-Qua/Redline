@@ -1,4 +1,5 @@
 """The operations every surface shares: the HTTP API, the MCP tools and the command line."""
+import os
 import re
 
 from . import agent
@@ -89,7 +90,7 @@ def search(q, limit=10):
 def get_coverage():
     s = store()
     meta = s.query("MATCH (m:Meta) RETURN m AS meta")[0]["meta"]
-    return {"engine": "Relate", "store": str(s.path), "pack": meta["pack"], "built": meta["built"],
+    return {"engine": "Relate", "store": str(s.path), "hosted": os.getenv("REDLINE_HOSTED") == "1", "pack": meta["pack"], "built": meta["built"],
             "cases": meta["cases"], "citations": meta["citations"], "overrulings": meta["overrulings"],
             "reporters": list(coverage(s).values()), "sources": meta["sources"],
             "verdicts": {"VERIFIED": "The case exists. Status: good law, caution or overruled.",

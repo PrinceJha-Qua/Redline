@@ -24,6 +24,7 @@
 
   // ---- store line -------------------------------------------------------------------------
   fetch("/api/coverage").then((r) => r.json()).then((c) => {
+    if (c.hosted) hint.textContent = "Hosted demo: text you check is sent to this demo server. For client documents, install Redline and run it on your own machine.";
     const where = c.store.split(/[\\/]/).slice(-2).join("/");
     $("store").textContent = `Relate store ${where} · ${fmt(c.cases)} cases · ${fmt(c.citations)} citations · ` +
       c.reporters.map((r) => `${r.abbr} ${r.first_year}–${r.last_year}`).join(", ");
