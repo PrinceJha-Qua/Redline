@@ -45,9 +45,45 @@ The relationships that matter:
 Every verdict comes from a graph query, and the UI shows the Cypher behind each one. No language
 model writes or changes a verdict.
 
+Beyond the verdicts:
+
+- **Repairs.** A fabricated citation comes with the real case of that name, when there is one: Claude
+  Sonnet cited *Campbell v. Air Jamaica* at 863 F.3d 1255; Redline offers 760 F.3d 1165, one click
+  away. A name that fits several cases, or fits only loosely, gets no suggestion.
+- **Good law on the filing date.** Give a year and only overrulings decided by then count: a 2023
+  brief citing *Chevron* cited good law, and Redline says it was overruled later. A case decided after
+  that year is flagged: the brief could not have cited it.
+- **What if.** Overrule any Supreme Court case hypothetically and see who relied on it, by court, and
+  which citations in your brief change status (*Miranda*: 688 of the 1,754 decisions citing it rely on
+  it). It runs inside a Relate transaction on the read-only store, which Relate refuses to commit.
+
+## For agents
+
+An AI drafter invents citations because it cites from memory. Redline gives it a graph to cite from.
+The same tools serve MCP (stdio and HTTP), the HTTP API and the command line:
+
+| Tool | What it does |
+|---|---|
+| `find_authority` | A proposition in, real cases out, each described in the words of the courts that cited it (241,801 parentheticals, full-text indexed), with that circuit's own F.3d opinions. Overruled cases rank last. |
+| `check_citations` | Every citation in a draft, with verdict, evidence and repair; `as_of` judges by the law of that date. |
+| `what_if_overruled` | A hypothetical overruling, measured and rolled back. |
+| `related_authority` | Good-law cases courts cite together with yours (co-citation, Salton's cosine). |
+| `get_case`, `search_cases`, `coverage` | Look up cases and what Redline holds. |
+
+```bash
+redline authority "temporal proximity alone is insufficient to establish causation" --circuit Third
+# Clark County School District v. Breeden, 532 U.S. 268 (2001)  [good law]
+#     3d Cir.: (temporal proximity alone, when "very close," can in some instances establish ...)
+# 3d Cir. opinions: LeBoon v. Lancaster Jewish Community Center Ass'n, 503 F.3d 217 (2007) ...
+```
+
 ## How it uses Relate
 
 - **Mode: directory.** The store is `data/redline-us/`, opened read-only.
+- **Relate features it leans on:** Cypher multi-hop traversals; full-text indexes on case names and on
+  a *relationship* property (the courts' parentheticals on `CITES`), which is how `find_authority`
+  searches; and transactions on a read-only connection: Relate accepts the writes, answers queries
+  against them, and refuses to commit, which makes `what_if_overruled` safe on the committed store.
 - **Why this mode:**
   - *Persistent and inspectable.* Judges and users get the whole graph in the repo, with no
     download and no server.
@@ -86,16 +122,21 @@ make setup          # or: python3 -m venv .venv && .venv/bin/pip install -e ".[d
 make run            # http://127.0.0.1:8000
 ```
 
-Open http://127.0.0.1:8000. A sample brief is loaded; press **Check citations**. Click any
-citation to see its evidence graph, what it stands on, and the Cypher behind the verdict.
+Open http://127.0.0.1:8000 for the overview, or go straight to http://127.0.0.1:8000/app: a sample
+brief is loaded and checked. Click any citation to see its evidence graph, what it stands on, the
+Cypher behind the verdict, its repair, and a what-if. The **Find authority** tab searches for real
+cases by proposition. http://127.0.0.1:8000/replay replays real sanctions cases.
 
 From the command line:
 
 ```bash
 .venv/bin/redline check tests/fixtures/briefs/mata.txt     # exits 1 if anything is fabricated
-.venv/bin/redline check - < my-brief.txt --json
-make test                                                 # 59 tests against the committed store
+.venv/bin/redline check - < my-brief.txt --json --as-of 2023  # good law on the filing date?
+.venv/bin/redline authority "proposition" --circuit Ninth   # real authority, in the courts' words
+.venv/bin/redline what-if US:545:967 --brief my-brief.txt   # overrule Brand X, then roll back
+make test                                                 # 92 tests against the committed store
 make bench                                                # every benchmark -> docs/BENCHMARK.md
+make verify                                               # independent reimplementation + mutation tests
 ```
 
 As MCP tools for an agent (`check_citations`, `get_case`, `search_cases`, `coverage`). Open Claude
@@ -107,8 +148,12 @@ claude mcp add redline -- "$PWD/.venv/bin/redline" mcp     # stdio
 # or, with `make run` going, point any MCP client at http://127.0.0.1:8000/mcp/
 ```
 
-HTTP API: `POST /api/check {"text": "..."}`, `GET /api/case/{id}`, `GET /api/search?q=`,
-`GET /api/coverage`.
+HTTP API: `POST /api/check {"text": "...", "as_of": 2023}`, `GET /api/authority?q=&circuit=`,
+`POST /api/what-if {"case_id": "..."}`, `GET /api/related?ids=`, `GET /api/suggest?name=`,
+`GET /api/case/{id}`, `GET /api/search?q=`, `GET /api/coverage`.
+
+Hosted copy: `docker build -t redline . && docker run -p 7860:7860 redline` runs the same app, API and
+MCP over HTTP; [docs/DEPLOY.md](docs/DEPLOY.md) puts it on Hugging Face Spaces.
 
 ## Where the data lives
 
@@ -160,9 +205,17 @@ Full method and every number: [docs/BENCHMARK.md](docs/BENCHMARK.md), regenerate
   within Redline's data, it proves 47 fake from page evidence alone.
 - **It helps an AI drafter.** Asked to cite circuit authority from memory, Claude Sonnet filed a
   provably wrong citation in 4 of 72 briefs with no help and 5 of 72 when told to verify its
-  citations, against 2 of 72 with Redline over MCP; both remaining errors were pin cites past the end of
-  a real case. A small sample, not statistically significant. Without tools, the same model said 26 of
-  142 overruled Supreme Court decisions were still good law.
+  citations; 2 of 72 with Redline's check over MCP, and **0 of 72 (0 of 935 citations)** with the check
+  plus `find_authority`. A small sample, not statistically significant (p = 0.25 against the warning),
+  and the full toolset costs about four times as much per brief. Without tools, the same model said 26
+  of 142 overruled Supreme Court decisions were still good law.
+- **It works on real sanctions cases, filing by filing.** Of 66 sanctioned filings with a citation in
+  Redline's data, 38 contain one Redline proves fabricated: it would have flagged them before filing.
+  See `/replay`.
+- **An independent implementation agrees.** `bench/crosscheck.py` reads the store's Parquet files
+  without Relate or Cypher and recomputes page ownership (264,100 lookups) and what each case stands on
+  (15,685 cases): 0 disagreements. `bench/mutations.py` removes each of 12 safeguards in turn; the tests
+  catch all 12.
 - **It knows its limits.** Agents catch more (GPT-5 found every injected wrong name), but flag 11–25% of
   correct citations. Redline is meant to sit underneath an agent as a tool, not replace it.
 - **It audits its own data.** Courts cite 4,056 pages as the start of a case where the Harvard data has
