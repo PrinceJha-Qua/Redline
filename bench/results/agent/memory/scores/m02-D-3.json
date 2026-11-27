@@ -1,0 +1,75 @@
+{
+  "task": "m02",
+  "arm": "D",
+  "rep": 3,
+  "summary": {
+    "citations": 7,
+    "verified": 7,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "307 F.3d 11",
+      "name": "Open Software Found., Inc. v. U.S. Fid. & Guar. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "562 F.3d 399",
+      "name": "Essex Ins. Co. v. BloomSouth Flooring Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Essex Insurance v. Bloomsouth Flooring Corp., 562 F.3d 399 (1st Cir. 2009). No overruling found in Redline's data.",
+      "case": "Essex Insurance v. Bloomsouth Flooring Corp."
+    },
+    {
+      "text": "142 F.3d 512",
+      "name": "Med. Records Assocs., Inc. v. Am. Empire Surplus Lines Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Medical Records Associates, Inc. v. American Empire Surplus Lines Insurance, 142 F.3d 512 (1st Cir. 1998). No overruling found in Redline's data.",
+      "case": "Medical Records Associates, Inc. v. American Empire Surplus Lines Insurance"
+    },
+    {
+      "text": "220 F.3d 1",
+      "name": "Brazas Sporting Arms, Inc. v. Am. Empire Surplus Lines Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Brazas Sporting Arms, Inc. v. American Empire Surplus Lines Insurance, 220 F.3d 1 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Brazas Sporting Arms, Inc. v. American Empire Surplus Lines Insurance"
+    },
+    {
+      "text": "734 F.3d 51",
+      "name": "Clark Sch. for Creative Learning, Inc. v. Phila. Indem. Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Clark School for Creative Learning, Inc. v. Philadelphia Indemnity Insurance, 734 F.3d 51 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Clark School for Creative Learning, Inc. v. Philadelphia Indemnity Insurance"
+    },
+    {
+      "text": "797 F.3d 116",
+      "name": "U.S. Liab. Ins. Co. v. Benchmark Constr. Servs., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States Liability Insurance v. Benchmark Construction Services, Inc., 797 F.3d 116 (1st Cir. 2015). No overruling found in Redline's data.",
+      "case": "United States Liability Insurance v. Benchmark Construction Services, Inc."
+    },
+    {
+      "text": "220 F.3d at 4",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Brazas Sporting Arms, Inc. v. American Empire Surplus Lines Insurance, 220 F.3d 1 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Brazas Sporting Arms, Inc. v. American Empire Surplus Lines Insurance"
+    }
+  ],
+  "judge": {},
+  "words": 743
+}

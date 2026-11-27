@@ -1,0 +1,163 @@
+{
+  "task": "m16",
+  "arm": "D",
+  "rep": 2,
+  "summary": {
+    "citations": 18,
+    "verified": 18,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "183 F.3d 750",
+      "name": "M.B. Rests., Inc. v. CKE Rests., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc., 183 F.3d 750 (8th Cir. 1999). No overruling found in Redline's data.",
+      "case": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc."
+    },
+    {
+      "text": "407 U.S. 1",
+      "name": "M/S Bremen v. Zapata Off-Shore Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "The Bremen v. Zapata Off-Shore Co., 407 U.S. 1 (1972). No overruling found in Redline's data.",
+      "case": "The Bremen v. Zapata Off-Shore Co."
+    },
+    {
+      "text": "183 F.3d at 752",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc., 183 F.3d 750 (8th Cir. 1999). No overruling found in Redline's data.",
+      "case": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc."
+    },
+    {
+      "text": "439 F.3d 786",
+      "name": "Servewell Plumbing, LLC v. Fed. Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Servewell Plumbing, LLC v. Federal Insurance, 439 F.3d 786 (8th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Servewell Plumbing, LLC v. Federal Insurance"
+    },
+    {
+      "text": "340 F.3d 544",
+      "name": "Rainforest Cafe, Inc. v. EklecCo, L.L.C",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rainforest Cafe, Inc. v. EklecCo, LLC, 340 F.3d 544 (8th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Rainforest Cafe, Inc. v. EklecCo, LLC"
+    },
+    {
+      "text": "487 U.S. 22",
+      "name": "Stewart Org., Inc. v. Ricoh Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Stewart Organization, Inc. v. Ricoh Corp., 487 U.S. 22 (1988). No overruling found in Redline's data.",
+      "case": "Stewart Organization, Inc. v. Ricoh Corp."
+    },
+    {
+      "text": "407 U.S. at 15",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "The Bremen v. Zapata Off-Shore Co., 407 U.S. 1 (1972). No overruling found in Redline's data.",
+      "case": "The Bremen v. Zapata Off-Shore Co."
+    },
+    {
+      "text": "439 F.3d at 789",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Servewell Plumbing, LLC v. Federal Insurance, 439 F.3d 786 (8th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Servewell Plumbing, LLC v. Federal Insurance"
+    },
+    {
+      "text": "407 U.S. at 15",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "The Bremen v. Zapata Off-Shore Co., 407 U.S. 1 (1972). No overruling found in Redline's data.",
+      "case": "The Bremen v. Zapata Off-Shore Co."
+    },
+    {
+      "text": "183 F.3d at 752",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc., 183 F.3d 750 (8th Cir. 1999). No overruling found in Redline's data.",
+      "case": "M.B. Restaurants, Inc. v. CKE Restaurants, Inc."
+    },
+    {
+      "text": "407 U.S. at 17",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "The Bremen v. Zapata Off-Shore Co., 407 U.S. 1 (1972). No overruling found in Redline's data.",
+      "case": "The Bremen v. Zapata Off-Shore Co."
+    },
+    {
+      "text": "439 F.3d at 789",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Servewell Plumbing, LLC v. Federal Insurance, 439 F.3d 786 (8th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Servewell Plumbing, LLC v. Federal Insurance"
+    },
+    {
+      "text": "499 U.S. 585",
+      "name": "Carnival Cruise Lines, Inc. v. Shute",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Carnival Cruise Lines, Inc. v. Shute, 499 U.S. 585 (1991). No overruling found in Redline's data.",
+      "case": "Carnival Cruise Lines, Inc. v. Shute"
+    },
+    {
+      "text": "119 F.3d 688",
+      "name": "Terra Int'l, Inc. v. Miss. Chem. Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Terra International, Inc. v. Mississippi Chemical Corp., 119 F.3d 688 (8th Cir. 1997). No overruling found in Redline's data.",
+      "case": "Terra International, Inc. v. Mississippi Chemical Corp."
+    },
+    {
+      "text": "248 F.3d 720",
+      "name": "Dominium Austin Partners, L.L.C. v. Emerson",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Dominium Austin Partners, L.L.C. v. Emerson, 248 F.3d 720 (8th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Dominium Austin Partners, L.L.C. v. Emerson"
+    },
+    {
+      "text": "571 U.S. 49",
+      "name": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex., 571 U.S. 49 (2013). No overruling found in Redline's data.",
+      "case": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex."
+    },
+    {
+      "text": "867 F.3d 875",
+      "name": "City of Benkelman v. Baseline Eng'g Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "City of Benkelman v. Baseline Engineering Corp., 867 F.3d 875 (8th Cir. 2017). No overruling found in Redline's data.",
+      "case": "City of Benkelman v. Baseline Engineering Corp."
+    },
+    {
+      "text": "571 U.S. at 59",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex., 571 U.S. 49 (2013). No overruling found in Redline's data.",
+      "case": "Atl. Marine Constr. Co. v. U.S. Dist. Court for the W. Dist. of Tex."
+    }
+  ],
+  "judge": {},
+  "words": 676
+}

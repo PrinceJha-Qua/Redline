@@ -1,0 +1,155 @@
+{
+  "task": "m07",
+  "arm": "D",
+  "rep": 2,
+  "summary": {
+    "citations": 17,
+    "verified": 17,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "556 U.S. 662",
+      "name": "Ashcroft v. Iqbal",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. Iqbal, 556 U.S. 662 (2009). No overruling found in Redline's data.",
+      "case": "Ashcroft v. Iqbal"
+    },
+    {
+      "text": "550 U.S. 544",
+      "name": "Bell Atl. Corp. v. Twombly",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bell Atlantic Corp. v. Twombly, 550 U.S. 544 (2007). No overruling found in Redline's data.",
+      "case": "Bell Atlantic Corp. v. Twombly"
+    },
+    {
+      "text": "411 U.S. 792",
+      "name": "McDonnell Douglas Corp. v. Green",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McDonnell Douglas Corp. v. Green, 411 U.S. 792 (1973). No overruling found in Redline's data.",
+      "case": "McDonnell Douglas Corp. v. Green"
+    },
+    {
+      "text": "534 U.S. 506",
+      "name": "Swierkiewicz v. Sorema N.A",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Swierkiewicz v. Sorema N. A., 534 U.S. 506 (2002). No overruling found in Redline's data.",
+      "case": "Swierkiewicz v. Sorema N. A."
+    },
+    {
+      "text": "550 U.S. at 569",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bell Atlantic Corp. v. Twombly, 550 U.S. 544 (2007). No overruling found in Redline's data.",
+      "case": "Bell Atlantic Corp. v. Twombly"
+    },
+    {
+      "text": "780 F.3d 582",
+      "name": "McCleary-Evans v. Md. Dep't of Transp., State Highway Admin",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration, 780 F.3d 582 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration"
+    },
+    {
+      "text": "855 F.3d 639",
+      "name": "Woods v. City of Greensboro",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Woods v. City of Greensboro, 855 F.3d 639 (4th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Woods v. City of Greensboro"
+    },
+    {
+      "text": "780 F.3d at 585",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration, 780 F.3d 582 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration"
+    },
+    {
+      "text": "324 F.3d 761",
+      "name": "Bass v. E.I. DuPont de Nemours & Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bass v. E.I. Dupont de Nemours & Co., 324 F.3d 761 (4th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Bass v. E.I. Dupont de Nemours & Co."
+    },
+    {
+      "text": "591 F.3d 250",
+      "name": "Nemet Chevrolet, Ltd. v. Consumeraffairs.com, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Nemet Chevrolet, Ltd. v. Consumeraffairs.com, Inc., 591 F.3d 250 (4th Cir. 2009). No overruling found in Redline's data.",
+      "case": "Nemet Chevrolet, Ltd. v. Consumeraffairs.com, Inc."
+    },
+    {
+      "text": "626 F.3d 187",
+      "name": "Coleman v. Md. Ct. of Appeals",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Coleman v. Maryland Court of Appeals, 626 F.3d 187 (4th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Coleman v. Maryland Court of Appeals"
+    },
+    {
+      "text": "566 U.S. 30",
+      "name": "Coleman v. Ct. of Appeals of Md",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Coleman v. Court of Appeals of Maryland, 566 U.S. 30 (2012). No overruling found in Redline's data.",
+      "case": "Coleman v. Court of Appeals of Maryland"
+    },
+    {
+      "text": "780 F.3d at 585",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration, 780 F.3d 582 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "McCleary-Evans v. Maryland Department of Transportation, State Highway Administration"
+    },
+    {
+      "text": "556 U.S. at 678",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. Iqbal, 556 U.S. 662 (2009). No overruling found in Redline's data.",
+      "case": "Ashcroft v. Iqbal"
+    },
+    {
+      "text": "822 F.3d 159",
+      "name": "Goines v. Valley Cmty. Servs. Bd",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Goines v. Valley Community Services Board, 822 F.3d 159 (4th Cir. 2016). No overruling found in Redline's data.",
+      "case": "Goines v. Valley Community Services Board"
+    },
+    {
+      "text": "791 F.3d 473",
+      "name": "Houck v. Substitute Tr. Servs., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Houck v. Substitute Trustee Services, Inc., 791 F.3d 473 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Houck v. Substitute Trustee Services, Inc."
+    },
+    {
+      "text": "801 F.3d 412",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "SD3, LLC v. Black & Decker (U.S.) Inc., 801 F.3d 412 (4th Cir. 2015). No overruling found in Redline's data.",
+      "case": "SD3, LLC v. Black & Decker (U.S.) Inc."
+    }
+  ],
+  "judge": {},
+  "words": 704
+}

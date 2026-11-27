@@ -1,0 +1,131 @@
+{
+  "task": "m21",
+  "arm": "D",
+  "rep": 1,
+  "summary": {
+    "citations": 14,
+    "verified": 14,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "652 F.3d 1257",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lindo v. NCL (Bahamas), Ltd., 652 F.3d 1257 (11th Cir. 2011). No overruling found in Redline's data.",
+      "case": "Lindo v. NCL (Bahamas), Ltd."
+    },
+    {
+      "text": "552 U.S. 491",
+      "name": "Medellín v. Texas",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Medellin v. Texas, 552 U.S. 491 (2008). No overruling found in Redline's data.",
+      "case": "Medellin v. Texas"
+    },
+    {
+      "text": "400 F.3d 1340",
+      "name": "Arce v. Garcia",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Arce v. Garcia, 400 F.3d 1340 (11th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Arce v. Garcia"
+    },
+    {
+      "text": "89 F.3d 1562",
+      "name": "Forehand v. Fla. State Hosp. at Chattahoochee",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Forehand v. Florida State Hospital at Chattahoochee, 89 F.3d 1562 (11th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Forehand v. Florida State Hospital at Chattahoochee"
+    },
+    {
+      "text": "22 F.3d 1059",
+      "name": "Sims v. Trus Joist MacMillan",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Sims v. Trus Joist MacMillan, 22 F.3d 1059 (11th Cir. 1994). No overruling found in Redline's data.",
+      "case": "Sims v. Trus Joist MacMillan"
+    },
+    {
+      "text": "132 F.3d 138",
+      "name": "Fishman v. Delta Air Lines, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Fishman v. Delta Air Lines, Inc., 132 F.3d 138 (2d Cir. 1998). No overruling found in Redline's data.",
+      "case": "Fishman v. Delta Air Lines, Inc."
+    },
+    {
+      "text": "572 U.S. 1",
+      "name": "Lozano v. Montoya Alvarez",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lozano v. Montoya Alvarez, 572 U.S. 1 (2014). No overruling found in Redline's data.",
+      "case": "Lozano v. Montoya Alvarez"
+    },
+    {
+      "text": "177 F.3d 1269",
+      "name": "Sandvik v. United States",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Sandvik v. United States, 177 F.3d 1269 (11th Cir. 1999). No overruling found in Redline's data.",
+      "case": "Sandvik v. United States"
+    },
+    {
+      "text": "506 F.3d 1349",
+      "name": "Jackson v. Astrue",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jackson v. Astrue, 506 F.3d 1349 (11th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Jackson v. Astrue"
+    },
+    {
+      "text": "297 F.3d 1278",
+      "name": "Drew v. Dep't of Corr",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Drew v. Department of Corrections, 297 F.3d 1278 (11th Cir. 2002). No overruling found in Redline's data.",
+      "case": "Drew v. Department of Corrections"
+    },
+    {
+      "text": "400 F.3d at 1349",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Arce v. Garcia, 400 F.3d 1340 (11th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Arce v. Garcia"
+    },
+    {
+      "text": "158 F.3d 530",
+      "name": "In re Pugh",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pugh v. Brook, 158 F.3d 530 (11th Cir. 1998). No overruling found in Redline's data.",
+      "case": "Pugh v. Brook"
+    },
+    {
+      "text": "92 F.3d 1539",
+      "name": "Jove Eng'g, Inc. v. IRS",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jove Engineering, Inc. v. Internal Revenue Service, 92 F.3d 1539 (11th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Jove Engineering, Inc. v. Internal Revenue Service"
+    },
+    {
+      "text": "73 U.S. 532",
+      "name": "Hanger v. Abbott",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Hanger v. Abbott, 73 U.S. 532 (1867). No overruling found in Redline's data.",
+      "case": "Hanger v. Abbott"
+    }
+  ],
+  "judge": {},
+  "words": 906
+}

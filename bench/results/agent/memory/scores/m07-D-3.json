@@ -1,0 +1,18 @@
+{
+  "task": "m07",
+  "arm": "D",
+  "rep": 3,
+  "summary": {
+    "citations": 0,
+    "verified": 0,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [],
+  "judge": {},
+  "words": 19
+}

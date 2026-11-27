@@ -1,6 +1,6 @@
 PY ?= .venv/bin/python
 
-.PHONY: setup fetch data pack test run bench scale clean
+.PHONY: setup fetch data pack test run bench verify scale clean
 
 setup:            ## create the virtualenv and install Redline
 	uv venv --python 3.12 .venv
@@ -29,6 +29,12 @@ bench:            ## every benchmark, then docs/BENCHMARK.md (downloads the data
 	$(PY) bench/phantom.py aux_train
 	$(PY) bench/false_alarms.py
 	$(PY) bench/wild.py
+	$(PY) bench/wild.py replay
+	$(PY) bench/report.py
+
+verify:           ## an independent Parquet reimplementation, and mutation testing (needs pyarrow: pip install -e ".[audit]")
+	$(PY) bench/crosscheck.py
+	$(PY) bench/mutations.py
 	$(PY) bench/report.py
 
 scale:            ## time the multi-hop queries on a store

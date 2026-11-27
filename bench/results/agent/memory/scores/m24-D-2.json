@@ -1,0 +1,139 @@
+{
+  "task": "m24",
+  "arm": "D",
+  "rep": 2,
+  "summary": {
+    "citations": 15,
+    "verified": 15,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "502 U.S. 164",
+      "name": "U.S. Dep't of State v. Ray",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States Department of State v. Ray, 502 U.S. 164 (1991). No overruling found in Redline's data.",
+      "case": "United States Department of State v. Ray"
+    },
+    {
+      "text": "492 U.S. 136",
+      "name": "U.S. Dep't of Just. v. Tax Analysts",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States Department of Justice v. Tax Analysts, 492 U.S. 136 (1989). No overruling found in Redline's data.",
+      "case": "United States Department of Justice v. Tax Analysts"
+    },
+    {
+      "text": "746 F.3d 1082",
+      "name": "Citizens for Resp. & Ethics in Wash. v. U.S. Dep't of Just",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice, 746 F.3d 1082 (D.C. Cir. 2014). No overruling found in Redline's data.",
+      "case": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice"
+    },
+    {
+      "text": "140 F.3d 1077",
+      "name": "Summers v. Dep't of Just",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Summers v. Department of Justice, 140 F.3d 1077 (D.C. Cir. 1998). No overruling found in Redline's data.",
+      "case": "Summers v. Department of Justice"
+    },
+    {
+      "text": "562 U.S. 562",
+      "name": "Milner v. Dep't of the Navy",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Milner v. Department of the Navy, 562 U.S. 562 (2011). No overruling found in Redline's data.",
+      "case": "Milner v. Department of the Navy"
+    },
+    {
+      "text": "746 F.3d at 1088",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice, 746 F.3d 1082 (D.C. Cir. 2014). No overruling found in Redline's data.",
+      "case": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice"
+    },
+    {
+      "text": "565 F.3d 857",
+      "name": "Larson v. Dep't of State",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Larson v. Department of State, 565 F.3d 857 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Larson v. Department of State"
+    },
+    {
+      "text": "628 F.3d 612",
+      "name": "ACLU v. U.S. Dep't of Def",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Civil Liberties Union v. United States Department of Defense, 628 F.3d 612 (D.C. Cir. 2011). No overruling found in Redline's data.",
+      "case": "American Civil Liberties Union v. United States Department of Defense"
+    },
+    {
+      "text": "473 F.3d 370",
+      "name": "Wolf v. CIA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wolf v. Central Intelligence Agency, 473 F.3d 370 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Wolf v. Central Intelligence Agency"
+    },
+    {
+      "text": "565 F.3d at 862",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Larson v. Department of State, 565 F.3d 857 (D.C. Cir. 2009). No overruling found in Redline's data.",
+      "case": "Larson v. Department of State"
+    },
+    {
+      "text": "86 F.3d 1222",
+      "name": "Quiñon v. FBI",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Quiñon v. Federal Bureau of Investigation, 86 F.3d 1222 (D.C. Cir. 1996). No overruling found in Redline's data.",
+      "case": "Quiñon v. Federal Bureau of Investigation"
+    },
+    {
+      "text": "164 F.3d 20",
+      "name": "Campbell v. U.S. Dep't of Just",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Campbell v. United States Department of Justice, 164 F.3d 20 (D.C. Cir. 1998). No overruling found in Redline's data.",
+      "case": "Campbell v. United States Department of Justice"
+    },
+    {
+      "text": "449 F.3d 141",
+      "name": "Jud. Watch, Inc. v. FDA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Judicial Watch, Inc. v. Food & Drug Administration, 449 F.3d 141 (D.C. Cir. 2006). No overruling found in Redline's data.",
+      "case": "Judicial Watch, Inc. v. Food & Drug Administration"
+    },
+    {
+      "text": "177 F.3d 1022",
+      "name": "Trans-Pac. Policing Agreement v. U.S. Customs Serv",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Trans-Pacific Policing Agreement v. United States Customs Service, 177 F.3d 1022 (D.C. Cir. 1999). No overruling found in Redline's data.",
+      "case": "Trans-Pacific Policing Agreement v. United States Customs Service"
+    },
+    {
+      "text": "494 F.3d 1106",
+      "name": "Sussman v. U.S. Marshals Serv",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Sussman v. United States Marshals Service, 494 F.3d 1106 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Sussman v. United States Marshals Service"
+    }
+  ],
+  "judge": {},
+  "words": 756
+}

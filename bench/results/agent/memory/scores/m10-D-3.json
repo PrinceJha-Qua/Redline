@@ -1,0 +1,171 @@
+{
+  "task": "m10",
+  "arm": "D",
+  "rep": 3,
+  "summary": {
+    "citations": 19,
+    "verified": 19,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "385 F.3d 568",
+      "name": "Smallwood v. Ill. Cent. R.R. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    },
+    {
+      "text": "544 U.S. 992",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Christopher Village, L. P. v. United States, 544 U.S. 992 (2005). No overruling found in Redline's data.",
+      "case": "Christopher Village, L. P. v. United States"
+    },
+    {
+      "text": "326 F.3d 644",
+      "name": "Travis v. Irby",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Travis v. Irby, 326 F.3d 644 (5th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Travis v. Irby"
+    },
+    {
+      "text": "648 F.3d 242",
+      "name": "Cuevas v. BAC Home Loans Servicing, LP",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cuevas v. Bac Home Loans Servicing, LP, 648 F.3d 242 (5th Cir. 2011). No overruling found in Redline's data.",
+      "case": "Cuevas v. Bac Home Loans Servicing, LP"
+    },
+    {
+      "text": "719 F.3d 392",
+      "name": "Mumfrey v. CVS Pharmacy, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Mumfrey v. CVS Pharmacy, Inc., 719 F.3d 392 (5th Cir. 2013). No overruling found in Redline's data.",
+      "case": "Mumfrey v. CVS Pharmacy, Inc."
+    },
+    {
+      "text": "385 F.3d at 573",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    },
+    {
+      "text": "819 F.3d 132",
+      "name": "Flagg v. Stryker Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Flagg v. Stryker Corp., 819 F.3d 132 (5th Cir. 2016). No overruling found in Redline's data.",
+      "case": "Flagg v. Stryker Corp."
+    },
+    {
+      "text": "385 F.3d at 573",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    },
+    {
+      "text": "313 F.3d 305",
+      "name": "Great Plains Tr. Co. v. Morgan Stanley Dean Witter & Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Great Plains Trust Co. v. Morgan Stanley Dean Witter & Co., 313 F.3d 305 (5th Cir. 2002). No overruling found in Redline's data.",
+      "case": "Great Plains Trust Co. v. Morgan Stanley Dean Witter & Co."
+    },
+    {
+      "text": "326 F.3d at 648",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Travis v. Irby, 326 F.3d 644 (5th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Travis v. Irby"
+    },
+    {
+      "text": "385 F.3d at 573",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    },
+    {
+      "text": "434 F.3d 303",
+      "name": "Guillory v. PPG Indus., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Guillory v. PPG Industries, Inc., 434 F.3d 303 (5th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Guillory v. PPG Industries, Inc."
+    },
+    {
+      "text": "818 F.3d 193",
+      "name": "Int'l Energy Ventures Mgmt., L.L.C. v. United Energy Grp., Ltd",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "International Energy Ventures Management, L.L.C. v. United Energy Group, Ltd., 818 F.3d 193 (5th Cir. 2016). No overruling found in Redline's data.",
+      "case": "International Energy Ventures Management, L.L.C. v. United Energy Group, Ltd."
+    },
+    {
+      "text": "385 F.3d at 573",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    },
+    {
+      "text": "326 F.3d at 649",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Travis v. Irby, 326 F.3d 644 (5th Cir. 2003). No overruling found in Redline's data.",
+      "case": "Travis v. Irby"
+    },
+    {
+      "text": "491 F.3d 278",
+      "name": "Gasch v. Hartford Accident & Indem. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gasch ex rel. Z.G. v. Hartford Accident & Indemnity Co., 491 F.3d 278 (5th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Gasch ex rel. Z.G. v. Hartford Accident & Indemnity Co."
+    },
+    {
+      "text": "491 F.3d at 281",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gasch ex rel. Z.G. v. Hartford Accident & Indemnity Co., 491 F.3d 278 (5th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Gasch ex rel. Z.G. v. Hartford Accident & Indemnity Co."
+    },
+    {
+      "text": "385 F.3d at 574",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smallwood v. Illinois Central Railroad, 385 F.3d 568 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "Smallwood v. Illinois Central Railroad"
+    },
+    {
+      "text": "358 F.3d 329",
+      "name": "McKee v. Kan. City S. Ry. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McKee v. Kansas City Southern Railway Co., 358 F.3d 329 (5th Cir. 2004). No overruling found in Redline's data.",
+      "case": "McKee v. Kansas City Southern Railway Co."
+    }
+  ],
+  "judge": {},
+  "words": 757
+}

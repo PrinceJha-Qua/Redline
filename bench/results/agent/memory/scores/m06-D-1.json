@@ -1,0 +1,123 @@
+{
+  "task": "m06",
+  "arm": "D",
+  "rep": 1,
+  "summary": {
+    "citations": 13,
+    "verified": 13,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "109 F.3d 173",
+      "name": "Kachmar v. SunGard Data Sys., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kachmar v. Sungard Data Systems, Inc., 109 F.3d 173 (3d Cir. 1997). No overruling found in Redline's data.",
+      "case": "Kachmar v. Sungard Data Systems, Inc."
+    },
+    {
+      "text": "776 F.3d 181",
+      "name": "Daniels v. Sch. Dist. of Phila",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Daniels v. School District of Philadelphia, 776 F.3d 181 (3d Cir. 2015). No overruling found in Redline's data.",
+      "case": "Daniels v. School District of Philadelphia"
+    },
+    {
+      "text": "570 U.S. 338",
+      "name": "Univ. of Tex. Sw. Med. Ctr. v. Nassar",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Univ. of Tex. Sw. Med. Ctr. v. Nassar, 570 U.S. 338 (2013). No overruling found in Redline's data.",
+      "case": "Univ. of Tex. Sw. Med. Ctr. v. Nassar"
+    },
+    {
+      "text": "851 F.3d 249",
+      "name": "Carvalho-Grevious v. Del. State Univ",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Carvalho-Grevious v. Delaware State University, 851 F.3d 249 (3d Cir. 2017). No overruling found in Redline's data.",
+      "case": "Carvalho-Grevious v. Delaware State University"
+    },
+    {
+      "text": "126 F.3d 494",
+      "name": "Krouse v. Am. Sterilizer Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Krouse v. American Sterilizer Co., 126 F.3d 494 (3d Cir. 1997). No overruling found in Redline's data.",
+      "case": "Krouse v. American Sterilizer Co."
+    },
+    {
+      "text": "532 U.S. 268",
+      "name": "Clark Cnty. Sch. Dist. v. Breeden",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Clark County School District v. Breeden, 532 U.S. 268 (2001). No overruling found in Redline's data.",
+      "case": "Clark County School District v. Breeden"
+    },
+    {
+      "text": "380 F.3d 751",
+      "name": "Williams v. Philadelphia Housing Authority Police Department",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Williams v. Philadelphia Housing Authoity Police Department, 380 F.3d 751 (3d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Williams v. Philadelphia Housing Authoity Police Department"
+    },
+    {
+      "text": "503 F.3d 217",
+      "name": "LeBoon v. Lancaster Jewish Community Center Ass'n",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Leboon v. Lancaster Jewish Community Center Ass'n, 503 F.3d 217 (3d Cir. 2007). No overruling found in Redline's data. It mentions Lemon v. Kurtzman once in passing (later overruled by Kennedy v. Bremerton School District, 2022); a single mention is not counted as reliance.",
+      "case": "Leboon v. Lancaster Jewish Community Center Ass'n"
+    },
+    {
+      "text": "796 F.3d 323",
+      "name": "Jones v. Se. Pa. Transp. Auth",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Jones v. Southeastern Pennsylvania Transportation Authority, 796 F.3d 323 (3d Cir. 2015). No overruling found in Redline's data.",
+      "case": "Jones v. Southeastern Pennsylvania Transportation Authority"
+    },
+    {
+      "text": "497 F.3d 286",
+      "name": "Marra v. Phila. Hous. Auth",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marra v. Philadelphia Housing Authority, 497 F.3d 286 (3d Cir. 2007). No overruling found in Redline's data.",
+      "case": "Marra v. Philadelphia Housing Authority"
+    },
+    {
+      "text": "206 F.3d 271",
+      "name": "Farrell v. Planters Lifesavers Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Farrell v. Planters Lifesavers Co., 206 F.3d 271 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Farrell v. Planters Lifesavers Co."
+    },
+    {
+      "text": "109 F.3d at 178",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kachmar v. Sungard Data Systems, Inc., 109 F.3d 173 (3d Cir. 1997). No overruling found in Redline's data.",
+      "case": "Kachmar v. Sungard Data Systems, Inc."
+    },
+    {
+      "text": "206 F.3d at 280",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Farrell v. Planters Lifesavers Co., 206 F.3d 271 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Farrell v. Planters Lifesavers Co."
+    }
+  ],
+  "judge": {},
+  "words": 634
+}

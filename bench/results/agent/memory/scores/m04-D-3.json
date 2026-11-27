@@ -1,0 +1,99 @@
+{
+  "task": "m04",
+  "arm": "D",
+  "rep": 3,
+  "summary": {
+    "citations": 10,
+    "verified": 10,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "331 F.3d 297",
+      "name": "Secaida-Rosales v. INS",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Secaida-Rosales v. Immigration & Naturalization Service, 331 F.3d 297 (2d Cir. 2003). No overruling found in Redline's data.",
+      "case": "Secaida-Rosales v. Immigration & Naturalization Service"
+    },
+    {
+      "text": "534 F.3d 162",
+      "name": "Xiu Xia Lin v. Mukasey",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Xiu Xia Lin v. Mukasey, 534 F.3d 162 (2d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Xiu Xia Lin v. Mukasey"
+    },
+    {
+      "text": "357 F.3d 169",
+      "name": "Ramsameachire v. Ashcroft",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ramsameachire v. Ashcroft, 357 F.3d 169 (2d Cir. 2004). No overruling found in Redline's data. It mentions Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc. once in passing (later overruled by Loper Bright Enterprises v. Raimondo, 2024); a single mention is not counted as reliance.",
+      "case": "Ramsameachire v. Ashcroft"
+    },
+    {
+      "text": "534 F.3d at 167",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Xiu Xia Lin v. Mukasey, 534 F.3d 162 (2d Cir. 2008). No overruling found in Redline's data.",
+      "case": "Xiu Xia Lin v. Mukasey"
+    },
+    {
+      "text": "891 F.3d 67",
+      "name": "Hong Fei Gao v. Sessions",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gao v. Sessions, 891 F.3d 67 (2nd Cir. 2018). No overruling found in Redline's data.",
+      "case": "Gao v. Sessions"
+    },
+    {
+      "text": "480 F.3d 160",
+      "name": "Siewe v. Gonzales",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Siewe v. Gonzales, 480 F.3d 160 (2d Cir. 2007). No overruling found in Redline's data.",
+      "case": "Siewe v. Gonzales"
+    },
+    {
+      "text": "471 F.3d 315",
+      "name": "Xiao Ji Chen v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Xiao Ji Chen v. United States Department of Justice, 471 F.3d 315 (2d Cir. 2006). No overruling found in Redline's data.",
+      "case": "Xiao Ji Chen v. United States Department of Justice"
+    },
+    {
+      "text": "428 F.3d 391",
+      "name": "Cao He Lin v. U.S. Dep't of Justice",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cao He Lin v. United States Department of Justice, 428 F.3d 391 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Cao He Lin v. United States Department of Justice"
+    },
+    {
+      "text": "428 F.3d at 400",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Cao He Lin v. United States Department of Justice, 428 F.3d 391 (2d Cir. 2005). No overruling found in Redline's data.",
+      "case": "Cao He Lin v. United States Department of Justice"
+    },
+    {
+      "text": "318 U.S. 80",
+      "name": "SEC v. Chenery Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Securities & Exchange Commission v. Chenery Corp., 318 U.S. 80 (1943). No overruling found in Redline's data.",
+      "case": "Securities & Exchange Commission v. Chenery Corp."
+    }
+  ],
+  "judge": {},
+  "words": 713
+}

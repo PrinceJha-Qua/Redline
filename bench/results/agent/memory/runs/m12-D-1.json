@@ -1,0 +1,15 @@
+{
+  "task": "m12",
+  "doctrine": null,
+  "arm": "D",
+  "rep": 1,
+  "model": "sonnet",
+  "prompt": "Today is November 19, 2026.\n\nCourt: U.S. Court of Appeals for the Sixth Circuit.\n\nWe represent: plaintiff ERISA participant.\n\nAssignment: draft the argument (about 600 words) that a plan administrator's decision is arbitrary and capricious when it relies on a file-only review and disregards treating physicians without explanation.\n\nCite at least six decisions of the Sixth Circuit reported in F.3d, with full Bluebook citations and pin cites. Output only the argument section, with no notes about your process.\n\nBefore relying on any authority, make sure it is still good law and that every citation is accurate. Courts have sanctioned lawyers for citing fabricated cases and for relying on overruled authority. Do not cite a case unless you are confident it exists at that citation.\n\nYou have Redline tools that check US case citations against a citation graph of every Supreme Court case and every F.3d appeals case. Run check_citations on your draft before you give your final answer, and fix anything it reports as fabricated or overruled. Use search_cases and get_case to look authorities up.\n\nBefore you cite anything, call find_authority with the proposition and the circuit: it returns real cases that courts have cited for it, in the courts' own words, and that circuit's own F.3d opinions saying so. Cite from those results rather than from memory.",
+  "answer": "Citation check passed on all 11 citations with none flagged; I'm now finalizing the argument, with a short note on what the check couldn't verify.",
+  "num_turns": 23,
+  "cost_usd": 0.34526439999999997,
+  "is_error": false,
+  "models": [
+    "claude-sonnet-5-5"
+  ]
+}

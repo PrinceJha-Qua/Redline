@@ -1,0 +1,147 @@
+{
+  "task": "m17",
+  "arm": "D",
+  "rep": 1,
+  "summary": {
+    "citations": 16,
+    "verified": 16,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "342 F.3d 903",
+      "name": "United States v. Ritchie",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Ritchie, 342 F.3d 903 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "United States v. Ritchie"
+    },
+    {
+      "text": "551 U.S. 308",
+      "name": "Tellabs, Inc. v. Makor Issues & Rights, Ltd",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U.S. 308 (2007). No overruling found in Redline's data. It mentions Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc. once in passing (later overruled by Loper Bright Enterprises v. Raimondo, 2024); a single mention is not counted as reliance.",
+      "case": "Tellabs, Inc. v. Makor Issues & Rights, Ltd."
+    },
+    {
+      "text": "593 F.3d 1031",
+      "name": "Coto Settlement v. Eisenberg",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Coto Settlement v. Eisenberg, 593 F.3d 1031 (9th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Coto Settlement v. Eisenberg"
+    },
+    {
+      "text": "342 F.3d at 908",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Ritchie, 342 F.3d 903 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "United States v. Ritchie"
+    },
+    {
+      "text": "899 F.3d 988",
+      "name": "Khoja v. Orexigen Therapeutics, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    },
+    {
+      "text": "450 F.3d 445",
+      "name": "Marder v. Lopez",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Marder v. Lopez, 450 F.3d 445 (9th Cir. 2006). No overruling found in Redline's data.",
+      "case": "Marder v. Lopez"
+    },
+    {
+      "text": "629 F.3d 992",
+      "name": "Daniels-Hall v. Nat'l Educ. Ass'n",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Daniels-Hall v. National Education Ass'n, 629 F.3d 992 (9th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Daniels-Hall v. National Education Ass'n"
+    },
+    {
+      "text": "393 F.3d 1068",
+      "name": "Knievel v. ESPN",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Knievel v. ESPN, 393 F.3d 1068 (9th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Knievel v. ESPN"
+    },
+    {
+      "text": "691 F.3d 1152",
+      "name": "Similarly, Davis v. HSBC Bank Nevada, N.A",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Davis v. HSBC Bank Nevada, N.A., 691 F.3d 1152 (9th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Davis v. HSBC Bank Nevada, N.A."
+    },
+    {
+      "text": "899 F.3d at 1002",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    },
+    {
+      "text": "342 F.3d at 908",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Ritchie, 342 F.3d 903 (9th Cir. 2003). No overruling found in Redline's data.",
+      "case": "United States v. Ritchie"
+    },
+    {
+      "text": "266 F.3d 979",
+      "name": "Sprewell v. Golden State Warriors",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Sprewell v. Golden State Warriors, 266 F.3d 979 (9th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Sprewell v. Golden State Warriors"
+    },
+    {
+      "text": "275 F.3d 1187",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Sprewell v. Golden State Warriors, 275 F.3d 1187 (9th Cir. 2001). No overruling found in Redline's data.",
+      "case": "Sprewell v. Golden State Warriors"
+    },
+    {
+      "text": "629 F.3d at 998",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Daniels-Hall v. National Education Ass'n, 629 F.3d 992 (9th Cir. 2010). No overruling found in Redline's data.",
+      "case": "Daniels-Hall v. National Education Ass'n"
+    },
+    {
+      "text": "476 F.3d 756",
+      "name": "Swartz v. KPMG LLP",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Swartz v. KPMG LLP, 476 F.3d 756 (9th Cir. 2007). No overruling found in Redline's data.",
+      "case": "Swartz v. KPMG LLP"
+    },
+    {
+      "text": "899 F.3d at 1003",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Khoja v. Orexigen Therapeutics, Inc., 899 F.3d 988 (9th Cir. 2018). No overruling found in Redline's data.",
+      "case": "Khoja v. Orexigen Therapeutics, Inc."
+    }
+  ],
+  "judge": {},
+  "words": 700
+}

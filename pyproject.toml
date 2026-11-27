@@ -17,6 +17,7 @@ redline = "redline.cli:main"
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "httpx>=0.27"]
+audit = ["pyarrow>=15"]
 
 [tool.setuptools]
 packages = ["redline", "ingest"]

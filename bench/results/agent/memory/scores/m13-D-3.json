@@ -1,0 +1,99 @@
+{
+  "task": "m13",
+  "arm": "D",
+  "rep": 3,
+  "summary": {
+    "citations": 10,
+    "verified": 10,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "75 F.3d 1130",
+      "name": "Beck v. Univ. of Wis. Bd. of Regents",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Beck v. University of Wisconsin Board of Regents, 75 F.3d 1130 (7th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Beck v. University of Wisconsin Board of Regents"
+    },
+    {
+      "text": "154 F.3d 685",
+      "name": "Hendricks-Robinson v. Excel Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Hendricks-Robinson v. Excel Corp., 154 F.3d 685 (7th Cir. 1998). No overruling found in Redline's data. It mentions Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc. once in passing (later overruled by Loper Bright Enterprises v. Raimondo, 2024); a single mention is not counted as reliance.",
+      "case": "Hendricks-Robinson v. Excel Corp."
+    },
+    {
+      "text": "207 F.3d 1009",
+      "name": "Rehling v. City of Chicago",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rehling v. City of Chicago, 207 F.3d 1009 (7th Cir. 2000). No overruling found in Redline's data.",
+      "case": "Rehling v. City of Chicago"
+    },
+    {
+      "text": "417 F.3d 789",
+      "name": "EEOC v. Sears, Roebuck & Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co., 417 F.3d 789 (7th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "417 F.3d at 805",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co., 417 F.3d 789 (7th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "100 F.3d 1281",
+      "name": "Bultemeyer v. Fort Wayne Community Schools",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Bultemeyer v. Fort Wayne Community Schools, 100 F.3d 1281 (7th Cir. 1996). No overruling found in Redline's data.",
+      "case": "Bultemeyer v. Fort Wayne Community Schools"
+    },
+    {
+      "text": "417 F.3d at 805",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co., 417 F.3d 789 (7th Cir. 2005). No overruling found in Redline's data.",
+      "case": "Equal Employment Opportunity Commission v. Sears, Roebuck & Co."
+    },
+    {
+      "text": "739 F.3d 1055",
+      "name": "Spurling v. C & M Fine Pack, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Spurling v. C & M Fine Pack, Inc., 739 F.3d 1055 (7th Cir. 2014). No overruling found in Redline's data.",
+      "case": "Spurling v. C & M Fine Pack, Inc."
+    },
+    {
+      "text": "837 F.3d 779",
+      "name": "Lawler v. Peoria Sch. Dist. No. 150",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lawler v. Peoria School District No. 150, 837 F.3d 779 (7th Cir. 2016). No overruling found in Redline's data.",
+      "case": "Lawler v. Peoria School District No. 150"
+    },
+    {
+      "text": "207 F.3d at 1015",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rehling v. City of Chicago, 207 F.3d 1009 (7th Cir. 2000). No overruling found in Redline's data.",
+      "case": "Rehling v. City of Chicago"
+    }
+  ],
+  "judge": {},
+  "words": 801
+}

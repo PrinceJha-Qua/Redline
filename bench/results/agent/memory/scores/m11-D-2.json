@@ -1,0 +1,99 @@
+{
+  "task": "m11",
+  "arm": "D",
+  "rep": 2,
+  "summary": {
+    "citations": 10,
+    "verified": 10,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "585 F.3d 901",
+      "name": "Chappell v. City of Cleveland",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Chappell v. City of Cleveland, 585 F.3d 901 (6th Cir. 2009). No overruling found in Redline's data. It mentions Saucier v. Katz once in passing (later overruled by Pearson v. Callahan, 2009); a single mention is not counted as reliance.",
+      "case": "Chappell v. City of Cleveland"
+    },
+    {
+      "text": "555 U.S. 223",
+      "name": "Pearson v. Callahan",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "563 U.S. 731",
+      "name": "Ashcroft v. al-Kidd",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. al-Kidd, 563 U.S. 731 (2011). No overruling found in Redline's data.",
+      "case": "Ashcroft v. al-Kidd"
+    },
+    {
+      "text": "572 U.S. 765",
+      "name": "Plumhoff v. Rickard",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Plumhoff v. Rickard, 572 U.S. 765 (2014). No overruling found in Redline's data.",
+      "case": "Plumhoff v. Rickard"
+    },
+    {
+      "text": "490 U.S. 386",
+      "name": "Graham v. Connor",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Graham v. Connor, 490 U.S. 386 (1989). No overruling found in Redline's data.",
+      "case": "Graham v. Connor"
+    },
+    {
+      "text": "695 F.3d 505",
+      "name": "Hagans v. Franklin County Sheriff's Office",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Hagans v. Franklin County Sheriff's Office, 695 F.3d 505 (6th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Hagans v. Franklin County Sheriff's Office"
+    },
+    {
+      "text": "791 F.3d 638",
+      "name": "Rudlaff v. Gillispie",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rudlaff v. Gillispie, 791 F.3d 638 (6th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Rudlaff v. Gillispie"
+    },
+    {
+      "text": "814 F.3d 447",
+      "name": "Brown v. Chapman",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Brown ex rel. Estate of Brown v. Chapman, 814 F.3d 447 (6th Cir. 2016). No overruling found in Redline's data.",
+      "case": "Brown ex rel. Estate of Brown v. Chapman"
+    },
+    {
+      "text": "874 F.3d 938",
+      "name": "Smith v. City of Troy",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smith v. City of Troy, 874 F.3d 938 (6th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Smith v. City of Troy"
+    },
+    {
+      "text": "810 F.3d 384",
+      "name": "Plaintiff. Kent v. Oakland County",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kent v. Oakland County, 810 F.3d 384 (6th Cir. 2016). No overruling found in Redline's data.",
+      "case": "Kent v. Oakland County"
+    }
+  ],
+  "judge": {},
+  "words": 719
+}

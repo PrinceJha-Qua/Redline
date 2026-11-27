@@ -1,0 +1,107 @@
+{
+  "task": "m11",
+  "arm": "D",
+  "rep": 3,
+  "summary": {
+    "citations": 11,
+    "verified": 11,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "799 F.3d 600",
+      "name": "Baynes v. Cleland",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Baynes v. Cleland, 799 F.3d 600 (6th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Baynes v. Cleland"
+    },
+    {
+      "text": "555 U.S. 223",
+      "name": "Pearson v. Callahan",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Pearson v. Callahan, 555 U.S. 223 (2009). No overruling found in Redline's data.",
+      "case": "Pearson v. Callahan"
+    },
+    {
+      "text": "483 U.S. 635",
+      "name": "Anderson v. Creighton",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Anderson v. Creighton, 483 U.S. 635 (1987). No overruling found in Redline's data.",
+      "case": "Anderson v. Creighton"
+    },
+    {
+      "text": "563 U.S. 731",
+      "name": "Ashcroft v. al-Kidd",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Ashcroft v. al-Kidd, 563 U.S. 731 (2011). No overruling found in Redline's data.",
+      "case": "Ashcroft v. al-Kidd"
+    },
+    {
+      "text": "517 F.3d 389",
+      "name": "Dorsey v. Barber",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Dorsey v. Barber, 517 F.3d 389 (6th Cir. 2008). No overruling found in Redline's data. It mentions Saucier v. Katz once in passing (later overruled by Pearson v. Callahan, 2009); a single mention is not counted as reliance.",
+      "case": "Dorsey v. Barber"
+    },
+    {
+      "text": "695 F.3d 505",
+      "name": "Hagans v. Franklin County Sheriff's Office",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Hagans v. Franklin County Sheriff's Office, 695 F.3d 505 (6th Cir. 2012). No overruling found in Redline's data.",
+      "case": "Hagans v. Franklin County Sheriff's Office"
+    },
+    {
+      "text": "791 F.3d 638",
+      "name": "Rudlaff v. Gillispie",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rudlaff v. Gillispie, 791 F.3d 638 (6th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Rudlaff v. Gillispie"
+    },
+    {
+      "text": "874 F.3d 938",
+      "name": "Smith v. City of Troy",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Smith v. City of Troy, 874 F.3d 938 (6th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Smith v. City of Troy"
+    },
+    {
+      "text": "870 F.3d 471",
+      "name": "Roell v. Hamilton County",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Roell v. Hamilton County, 870 F.3d 471 (6th Cir. 2017). No overruling found in Redline's data.",
+      "case": "Roell v. Hamilton County"
+    },
+    {
+      "text": "810 F.3d 384",
+      "name": "Kent v. Oakland County",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kent v. Oakland County, 810 F.3d 384 (6th Cir. 2016). No overruling found in Redline's data.",
+      "case": "Kent v. Oakland County"
+    },
+    {
+      "text": "791 F.3d at 641",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Rudlaff v. Gillispie, 791 F.3d 638 (6th Cir. 2015). No overruling found in Redline's data.",
+      "case": "Rudlaff v. Gillispie"
+    }
+  ],
+  "judge": {},
+  "words": 759
+}

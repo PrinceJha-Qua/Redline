@@ -1,0 +1,115 @@
+{
+  "task": "m06",
+  "arm": "D",
+  "rep": 2,
+  "summary": {
+    "citations": 12,
+    "verified": 12,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "570 U.S. 338",
+      "name": "Univ. of Tex. Sw. Med. Ctr. v. Nassar",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Univ. of Tex. Sw. Med. Ctr. v. Nassar, 570 U.S. 338 (2013). No overruling found in Redline's data.",
+      "case": "Univ. of Tex. Sw. Med. Ctr. v. Nassar"
+    },
+    {
+      "text": "851 F.3d 249",
+      "name": "Carvalho-Grevious v. Del. State Univ",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Carvalho-Grevious v. Delaware State University, 851 F.3d 249 (3d Cir. 2017). No overruling found in Redline's data.",
+      "case": "Carvalho-Grevious v. Delaware State University"
+    },
+    {
+      "text": "480 F.3d 259",
+      "name": "Lauren W. ex rel. Jean W. v. DeFlaminis",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Lauren W. ex rel. Jean W. v. Deflaminis, 480 F.3d 259 (3d Cir. 2007). No overruling found in Redline's data.",
+      "case": "Lauren W. ex rel. Jean W. v. Deflaminis"
+    },
+    {
+      "text": "765 F.3d 245",
+      "name": "Budhun v. Reading Hosp. & Med. Ctr",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Budhun v. Reading Hospital & Medical Center, 765 F.3d 245 (3d Cir. 2014). No overruling found in Redline's data.",
+      "case": "Budhun v. Reading Hospital & Medical Center"
+    },
+    {
+      "text": "126 F.3d 494",
+      "name": "Krouse v. Am. Sterilizer Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Krouse v. American Sterilizer Co., 126 F.3d 494 (3d Cir. 1997). No overruling found in Redline's data.",
+      "case": "Krouse v. American Sterilizer Co."
+    },
+    {
+      "text": "120 F.3d 1286",
+      "name": "Robinson v. City of Pittsburgh",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Robinson v. City of Pittsburgh, 120 F.3d 1286 (3d Cir. 1997). No overruling found in Redline's data.",
+      "case": "Robinson v. City of Pittsburgh"
+    },
+    {
+      "text": "548 U.S. 53",
+      "name": "Burlington N. & Santa Fe Ry. Co. v. White",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Burlington Northern & Santa Fe Railway Co. v. White, 548 U.S. 53 (2006). No overruling found in Redline's data.",
+      "case": "Burlington Northern & Santa Fe Railway Co. v. White"
+    },
+    {
+      "text": "351 F.3d 108",
+      "name": "Thomas v. Town of Hammonton",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Thomas v. Town of Hammonton, 351 F.3d 108 (3d Cir. 2003). No overruling found in Redline's data.",
+      "case": "Thomas v. Town of Hammonton"
+    },
+    {
+      "text": "503 F.3d 217",
+      "name": "LeBoon v. Lancaster Jewish Cmty. Ctr. Ass'n",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Leboon v. Lancaster Jewish Community Center Ass'n, 503 F.3d 217 (3d Cir. 2007). No overruling found in Redline's data. It mentions Lemon v. Kurtzman once in passing (later overruled by Kennedy v. Bremerton School District, 2022); a single mention is not counted as reliance.",
+      "case": "Leboon v. Lancaster Jewish Community Center Ass'n"
+    },
+    {
+      "text": "380 F.3d 751",
+      "name": "Williams v. Phila. Hous. Auth. Police Dep't",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Williams v. Philadelphia Housing Authoity Police Department, 380 F.3d 751 (3d Cir. 2004). No overruling found in Redline's data.",
+      "case": "Williams v. Philadelphia Housing Authoity Police Department"
+    },
+    {
+      "text": "206 F.3d 271",
+      "name": "Farrell v. Planters Lifesavers Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Farrell v. Planters Lifesavers Co., 206 F.3d 271 (3d Cir. 2000). No overruling found in Redline's data.",
+      "case": "Farrell v. Planters Lifesavers Co."
+    },
+    {
+      "text": "109 F.3d 173",
+      "name": "Kachmar v. SunGard Data Sys., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kachmar v. Sungard Data Systems, Inc., 109 F.3d 173 (3d Cir. 1997). No overruling found in Redline's data.",
+      "case": "Kachmar v. Sungard Data Systems, Inc."
+    }
+  ],
+  "judge": {},
+  "words": 687
+}

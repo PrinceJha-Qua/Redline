@@ -19,6 +19,32 @@ AGENTS = {"GPT-5 agent": {"non_existent_citation": 100.0, "case_name_mismatch": 
           "Claude Code (Opus 4.8)": {"non_existent_citation": 93.5, "case_name_mismatch": 83.8, "fp": 10.9}}
 
 
+def verification_section(w):
+    """bench/crosscheck.py and bench/mutations.py: is the code right, and would the tests notice if not?"""
+    cc, mu = RES / "crosscheck.json", RES / "mutations.json"
+    if not cc.exists() and not mu.exists():
+        return
+    w("## Checking the checker\n")
+    if cc.exists():
+        c = json.loads(cc.read_text())
+        w(f"**An independent implementation.** `bench/crosscheck.py` reads the store's Parquet files directly with "
+          f"pyarrow ({c['nodes']:,} nodes, {c['relationships']:,} relationships), with no Relate and no Cypher, and "
+          f"recomputes the two answers every verdict rests on. Which case owns a page: {c['page_lookups']:,} "
+          f"lookups (every case's first and last page, and 40 random pages per volume), "
+          f"{len(c['page_disagreements'])} disagreements with the Cypher in `redline/verify.py`. What a case stands "
+          f"on: {c['chain_cases']:,} cases citing an overruled case, {len(c['chain_disagreements'])} disagreements "
+          f"with `redline/status.py`.\n")
+    if mu.exists():
+        m = json.loads(mu.read_text())
+        w(f"**Would the tests notice?** `bench/mutations.py` breaks one safeguard at a time in a copy of the code "
+          f"and runs the test suite: {m['killed']} of {m['mutations']} mutations are caught.\n")
+        w("| Safeguard removed | Caught by |")
+        w("|---|---|")
+        for r in m["results"]:
+            w(f"| {r['mutation']} | {('`' + r['caught_by'][0].split('::')[-1] + '`') if r['caught_by'] else '**not caught**'} |")
+        w("")
+
+
 def agent_section(w):
     """bench/agent_experiment.py: does Redline change what a model files?"""
     base = RES / "agent"
@@ -27,7 +53,8 @@ def agent_section(w):
         return
     m = json.loads(mem.read_text())
     a = m["arms"]
-    names = {"A": "Task only", "B": "+ \"verify your citations\" warning", "C": "+ warning + Redline over MCP"}
+    names = {"A": "Task only", "B": "+ \"verify your citations\" warning", "C": "+ warning + Redline's check over MCP",
+             "D": "+ warning + check + `find_authority` over MCP"}
     w("## 6. Does Redline change what a model files?\n")
     w(f"`bench/agent_experiment.py`. Model: Claude {m['model'].capitalize()}, run through the `claude` CLI in an "
       "empty directory with no built-in tools, no settings and no other MCP servers. Each of 24 tasks asks for an "
@@ -35,14 +62,16 @@ def agent_section(w):
       "*Mata v. Avianca*. Every prompt and answer is in `bench/results/agent/memory/`.\n")
     w("| Arm | Briefs | Briefs with a citation Redline proves wrong | Wrong citations | Citations | Unverifiable | Cost |")
     w("|---|---:|---:|---:|---:|---:|---:|")
-    for k in ("A", "B", "C"):
+    for k in ("A", "B", "C", "D"):
         if k in a:
             x = a[k]
             w(f"| {k}: {names[k]} | {x['runs']} | **{x['any_fabricated']}** ({pct(x['any_fabricated'], x['runs'])}) | "
               f"{x['fabricated_citations']} | {x['citations']:,} | {x['unverifiable']} | ${x['cost_usd']} |")
     w("")
     t = m["sign_tests"]
-    for key in ("fabricated:AvsC", "fabricated:BvsC"):
+    for key in ("fabricated:AvsC", "fabricated:BvsC", "fabricated:AvsD", "fabricated:BvsD", "fabricated:CvsD"):
+        if key not in t:
+            continue
         x, y = key.split(":")[1].split("vs")
         v = t[key]
         w(f"- Sign test {x} vs {y}, per task: {v['tasks_worse_in_' + x]} tasks worse in {x}, "
@@ -61,9 +90,17 @@ def agent_section(w):
             w(f"| {f['arm']} | {f['task']} | `{f['text']}` {f.get('name') or ''} | {f['reason'][:160]} | "
               f"{f['audit']['real'] or '—'} |")
         w("")
+    if "D" in a:
+        d = a["D"]
+        w(f"Arm D adds `find_authority`, which returns real cases for a proposition in the words of the courts that "
+          f"cited them, and that circuit's own F.3d opinions. With it, {d['any_fabricated']} of {d['runs']} briefs "
+          f"held a citation Redline proves wrong ({d['fabricated_citations']} of {d['citations']:,} citations), and "
+          f"{d['unverifiable']} citations fell outside Redline's data. It is also the most expensive arm "
+          f"(${d['cost_usd']} for {d['runs']} briefs, against ${a['C']['cost_usd']} for arm C): the model makes more "
+          f"tool calls. Arm D was run on 2026-11-26 and 27, a week after arms A to C, with the same model alias.\n")
     w("Caveats: one model; tasks were written by us; the outcome counts only errors Redline can prove (U.S. Reports "
-      "and F.3d), so arm C is scored by the tool it used. The flagged citations are listed above so anyone can "
-      "check them by hand.\n")
+      "and F.3d), so arms C and D are scored by the tool they used. The differences are not statistically "
+      "significant at this sample size. The flagged citations are listed above so anyone can check them by hand.\n")
     pk = base / "packet" / "summary.json"
     if pk.exists():
         p = json.loads(pk.read_text())["arms"]
@@ -225,6 +262,16 @@ def main():
         w("The item text is the database's summary, not the brief: several items quote the real case the court "
           "found instead of the fake name, and some fakes were invented quotations from real cases. Those come "
           "back verified. Read the per-citation results in `bench/results/wild.json`.\n")
+        rp = ROOT / "web" / "data" / "replay.json"
+        if rp.exists():
+            r = json.loads(rp.read_text())
+            w(f"Grouped by filing (`python bench/wild.py replay`, shown at `/replay`): {r['caught']} of {r['filings']} "
+              f"sanctioned filings contain at least one citation Redline proves fabricated, so Redline would have "
+              f"flagged them before filing. For {r['suggestions']} fabricated citations Redline finds a real case with "
+              f"the same name at another citation; where the court named the case meant, "
+              f"{r['suggestion_matches_court']} of those suggestions include it. One verified citation is an artifact "
+              f"of the database's wording: \"Parker v. Blauvelt Volunteer Fire Co., 93 F.3d 65\" is read with "
+              f"\"Plaintiff's Sur-Reply:\" before the name, and is fabricated when checked as written in a brief.\n")
 
     audit_doc = json.loads((ROOT / "data" / "pagemap_audit.json").read_text())
     w("## 5. Auditing the data before trusting it\n")
@@ -252,6 +299,7 @@ def main():
         w(f"- {line}")
     w("")
 
+    verification_section(w)
     agent_section(w)
 
     w("## Adjudicated errors in the sources\n")

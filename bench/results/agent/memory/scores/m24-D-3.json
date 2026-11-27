@@ -1,0 +1,131 @@
+{
+  "task": "m24",
+  "arm": "D",
+  "rep": 3,
+  "summary": {
+    "citations": 14,
+    "verified": 14,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "502 U.S. 164",
+      "name": "U.S. Dep't of State v. Ray",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States Department of State v. Ray, 502 U.S. 164 (1991). No overruling found in Redline's data.",
+      "case": "United States Department of State v. Ray"
+    },
+    {
+      "text": "771 F.3d 1",
+      "name": "FOIA, Pub. Invs. Arb. Bar Ass'n v. SEC",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Public Investors Arbitration Bar Ass'n v. Securities & Exchange Commission, 771 F.3d 1 (D.C. Cir. 2014). No overruling found in Redline's data.",
+      "case": "Public Investors Arbitration Bar Ass'n v. Securities & Exchange Commission"
+    },
+    {
+      "text": "425 U.S. 352",
+      "name": "Dep't of the Air Force v. Rose",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Department of the Air Force v. Rose, 425 U.S. 352 (1976). No overruling found in Redline's data.",
+      "case": "Department of the Air Force v. Rose"
+    },
+    {
+      "text": "746 F.3d 1082",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice, 746 F.3d 1082 (D.C. Cir. 2014). No overruling found in Redline's data.",
+      "case": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice"
+    },
+    {
+      "text": "456 U.S. 615",
+      "name": "FBI v. Abramson",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Federal Bureau of Investigation v. Abramson, 456 U.S. 615 (1982). No overruling found in Redline's data.",
+      "case": "Federal Bureau of Investigation v. Abramson"
+    },
+    {
+      "text": "628 F.3d 612",
+      "name": "Am. C.L. Union v. U.S. Dep't of Def",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "American Civil Liberties Union v. United States Department of Defense, 628 F.3d 612 (D.C. Cir. 2011). No overruling found in Redline's data.",
+      "case": "American Civil Liberties Union v. United States Department of Defense"
+    },
+    {
+      "text": "455 F.3d 283",
+      "name": "Consumer Fed'n of Am. v. Dep't of Agric",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Consumer Federation of America v. Department of Agriculture, 455 F.3d 283 (D.C. Cir. 2006). No overruling found in Redline's data.",
+      "case": "Consumer Federation of America v. Department of Agriculture"
+    },
+    {
+      "text": "473 F.3d 370",
+      "name": "Wolf v. CIA",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Wolf v. Central Intelligence Agency, 473 F.3d 370 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Wolf v. Central Intelligence Agency"
+    },
+    {
+      "text": "164 F.3d 20",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Campbell v. United States Department of Justice, 164 F.3d 20 (D.C. Cir. 1998). No overruling found in Redline's data.",
+      "case": "Campbell v. United States Department of Justice"
+    },
+    {
+      "text": "746 F.3d at 1096",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice, 746 F.3d 1082 (D.C. Cir. 2014). No overruling found in Redline's data.",
+      "case": "Citizens for Responsibility & Ethics in Washington v. United States Department of Justice"
+    },
+    {
+      "text": "79 F.3d 1172",
+      "name": "Oglesby v. U.S. Dep't of the Army",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Oglesby v. United States Department of the Army, 79 F.3d 1172 (D.C. Cir. 1996). No overruling found in Redline's data.",
+      "case": "Oglesby v. United States Department of the Army"
+    },
+    {
+      "text": "310 F.3d 771",
+      "name": "Johnson v. Exec. Off. for U.S. Att'ys",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Johnson v. Executive Office for United States Attorneys, 310 F.3d 771 (D.C. Cir. 2002). No overruling found in Redline's data.",
+      "case": "Johnson v. Executive Office for United States Attorneys"
+    },
+    {
+      "text": "177 F.3d 1022",
+      "name": "Trans-Pac. Policing Agreement v. U.S. Customs Serv",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Trans-Pacific Policing Agreement v. United States Customs Service, 177 F.3d 1022 (D.C. Cir. 1999). No overruling found in Redline's data.",
+      "case": "Trans-Pacific Policing Agreement v. United States Customs Service"
+    },
+    {
+      "text": "494 F.3d 1106",
+      "name": "Sussman v. U.S. Marshals Serv",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Sussman v. United States Marshals Service, 494 F.3d 1106 (D.C. Cir. 2007). No overruling found in Redline's data.",
+      "case": "Sussman v. United States Marshals Service"
+    }
+  ],
+  "judge": {},
+  "words": 760
+}

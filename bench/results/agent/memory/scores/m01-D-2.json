@@ -1,0 +1,123 @@
+{
+  "task": "m01",
+  "arm": "D",
+  "rep": 2,
+  "summary": {
+    "citations": 13,
+    "verified": 13,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "411 U.S. 792",
+      "name": "McDonnell Douglas Corp. v. Green",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "McDonnell Douglas Corp. v. Green, 411 U.S. 792 (1973). No overruling found in Redline's data.",
+      "case": "McDonnell Douglas Corp. v. Green"
+    },
+    {
+      "text": "331 F.3d 207",
+      "name": "Kosereis v. Rhode Island",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Kosereis v. Rhode Island, 331 F.3d 207 (1st Cir. 2003). No overruling found in Redline's data.",
+      "case": "Kosereis v. Rhode Island"
+    },
+    {
+      "text": "626 F.3d 654",
+      "name": "Gómez-González v. Rural Opportunities, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Gómez-González v. Rural Opportunities, Inc., 626 F.3d 654 (1st Cir. 2010). No overruling found in Redline's data.",
+      "case": "Gómez-González v. Rural Opportunities, Inc."
+    },
+    {
+      "text": "217 F.3d 46",
+      "name": "Santiago-Ramos v. Centennial P.R. Wireless Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Santiago-Ramos v. Centennial P.R. Wireless Corp., 217 F.3d 46 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Santiago-Ramos v. Centennial P.R. Wireless Corp."
+    },
+    {
+      "text": "202 F.3d 424",
+      "name": "Domínguez-Cruz v. Suttle Caribe, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Domínguez-Cruz v. Suttle Caribe, Inc., 202 F.3d 424 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Domínguez-Cruz v. Suttle Caribe, Inc."
+    },
+    {
+      "text": "585 F.3d 441",
+      "name": "Vélez v. Thermo King de P.R., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vélez v. Thermo King De Puerto Rico, Inc., 585 F.3d 441 (1st Cir. 2009). No overruling found in Redline's data.",
+      "case": "Vélez v. Thermo King De Puerto Rico, Inc."
+    },
+    {
+      "text": "217 F.3d at 56",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Santiago-Ramos v. Centennial P.R. Wireless Corp., 217 F.3d 46 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Santiago-Ramos v. Centennial P.R. Wireless Corp."
+    },
+    {
+      "text": "530 U.S. 133",
+      "name": "Reeves v. Sanderson Plumbing Prods., Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133 (2000). No overruling found in Redline's data.",
+      "case": "Reeves v. Sanderson Plumbing Products, Inc."
+    },
+    {
+      "text": "277 F.3d 40",
+      "name": "Zapata-Matos v. Reckitt & Colman, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Zapata-Matos v. Reckitt & Colman, Inc., 277 F.3d 40 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Zapata-Matos v. Reckitt & Colman, Inc."
+    },
+    {
+      "text": "530 U.S. at 148",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133 (2000). No overruling found in Redline's data.",
+      "case": "Reeves v. Sanderson Plumbing Products, Inc."
+    },
+    {
+      "text": "585 F.3d at 449",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vélez v. Thermo King De Puerto Rico, Inc., 585 F.3d 441 (1st Cir. 2009). No overruling found in Redline's data.",
+      "case": "Vélez v. Thermo King De Puerto Rico, Inc."
+    },
+    {
+      "text": "202 F.3d at 432",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Domínguez-Cruz v. Suttle Caribe, Inc., 202 F.3d 424 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Domínguez-Cruz v. Suttle Caribe, Inc."
+    },
+    {
+      "text": "696 F.3d 128",
+      "name": "Acevedo-Parrilla v. Novartis Ex-Lax, Inc",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Acevedo-Parrilla v. Novartis Ex-Lax, Inc., 696 F.3d 128 (1st Cir. 2012). No overruling found in Redline's data.",
+      "case": "Acevedo-Parrilla v. Novartis Ex-Lax, Inc."
+    }
+  ],
+  "judge": {},
+  "words": 716
+}

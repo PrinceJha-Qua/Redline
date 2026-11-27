@@ -44,6 +44,20 @@
       "cost_usd": 5.83,
       "either": 2,
       "fabricated_real_case_wrong_cite": 2
+    },
+    "D": {
+      "runs": 72,
+      "relies": 0,
+      "any_fabricated": 0,
+      "fabricated_citations": 0,
+      "citations": 935,
+      "verified": 899,
+      "unverifiable": 36,
+      "cites_overruled_case": 0,
+      "judge_unparsed": 72,
+      "cost_usd": 24.69,
+      "either": 0,
+      "fabricated_real_case_wrong_cite": 0
     }
   },
   "sign_tests": {
@@ -65,6 +79,24 @@
       "ties": 24,
       "p_two_sided": 1.0
     },
+    "relies:AvsD": {
+      "tasks_worse_in_A": 0,
+      "tasks_worse_in_D": 0,
+      "ties": 24,
+      "p_two_sided": 1.0
+    },
+    "relies:BvsD": {
+      "tasks_worse_in_B": 0,
+      "tasks_worse_in_D": 0,
+      "ties": 24,
+      "p_two_sided": 1.0
+    },
+    "relies:CvsD": {
+      "tasks_worse_in_C": 0,
+      "tasks_worse_in_D": 0,
+      "ties": 24,
+      "p_two_sided": 1.0
+    },
     "fabricated:AvsC": {
       "tasks_worse_in_A": 2,
       "tasks_worse_in_C": 1,
@@ -83,6 +115,24 @@
       "ties": 21,
       "p_two_sided": 1.0
     },
+    "fabricated:AvsD": {
+      "tasks_worse_in_A": 2,
+      "tasks_worse_in_D": 0,
+      "ties": 22,
+      "p_two_sided": 0.5
+    },
+    "fabricated:BvsD": {
+      "tasks_worse_in_B": 3,
+      "tasks_worse_in_D": 0,
+      "ties": 21,
+      "p_two_sided": 0.25
+    },
+    "fabricated:CvsD": {
+      "tasks_worse_in_C": 1,
+      "tasks_worse_in_D": 0,
+      "ties": 23,
+      "p_two_sided": 1.0
+    },
     "either:AvsC": {
       "tasks_worse_in_A": 2,
       "tasks_worse_in_C": 1,
@@ -99,6 +149,24 @@
       "tasks_worse_in_A": 1,
       "tasks_worse_in_B": 2,
       "ties": 21,
+      "p_two_sided": 1.0
+    },
+    "either:AvsD": {
+      "tasks_worse_in_A": 2,
+      "tasks_worse_in_D": 0,
+      "ties": 22,
+      "p_two_sided": 0.5
+    },
+    "either:BvsD": {
+      "tasks_worse_in_B": 3,
+      "tasks_worse_in_D": 0,
+      "ties": 21,
+      "p_two_sided": 0.25
+    },
+    "either:CvsD": {
+      "tasks_worse_in_C": 1,
+      "tasks_worse_in_D": 0,
+      "ties": 23,
       "p_two_sided": 1.0
     }
   },

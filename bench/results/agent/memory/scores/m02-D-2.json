@@ -1,0 +1,75 @@
+{
+  "task": "m02",
+  "arm": "D",
+  "rep": 2,
+  "summary": {
+    "citations": 7,
+    "verified": 7,
+    "fabricated": 0,
+    "unverifiable": 0,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "562 F.3d 399",
+      "name": "Essex Ins. Co. v. BloomSouth Flooring Corp",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Essex Insurance v. Bloomsouth Flooring Corp., 562 F.3d 399 (1st Cir. 2009). No overruling found in Redline's data.",
+      "case": "Essex Insurance v. Bloomsouth Flooring Corp."
+    },
+    {
+      "text": "307 F.3d 11",
+      "name": "Open Software Found., Inc. v. U.S. Fid. & Guar. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co., 307 F.3d 11 (1st Cir. 2002). No overruling found in Redline's data.",
+      "case": "Open Software Foundation, Inc. v. United States Fidelity & Guaranty Co."
+    },
+    {
+      "text": "220 F.3d 1",
+      "name": "Brazas Sporting Arms, Inc. v. Am. Empire Surplus Lines Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Brazas Sporting Arms, Inc. v. American Empire Surplus Lines Insurance, 220 F.3d 1 (1st Cir. 2000). No overruling found in Redline's data.",
+      "case": "Brazas Sporting Arms, Inc. v. American Empire Surplus Lines Insurance"
+    },
+    {
+      "text": "734 F.3d 51",
+      "name": "Clark Sch. for Creative Learning, Inc. v. Phila. Indem. Ins. Co",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Clark School for Creative Learning, Inc. v. Philadelphia Indemnity Insurance, 734 F.3d 51 (1st Cir. 2013). No overruling found in Redline's data.",
+      "case": "Clark School for Creative Learning, Inc. v. Philadelphia Indemnity Insurance"
+    },
+    {
+      "text": "699 F.3d 544",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Saint Consulting Group, Inc. v. Endurance American Specialty Insurance, 699 F.3d 544 (1st Cir. 2012). No overruling found in Redline's data.",
+      "case": "Saint Consulting Group, Inc. v. Endurance American Specialty Insurance"
+    },
+    {
+      "text": "892 F.3d 25",
+      "name": "AIG Property Casualty Co. v. Cosby",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Aig Prop. Cas. Co. v. Cosby, 892 F.3d 25 (1st Cir. 2018). No overruling found in Redline's data.",
+      "case": "Aig Prop. Cas. Co. v. Cosby"
+    },
+    {
+      "text": "562 F.3d at 403",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Essex Insurance v. Bloomsouth Flooring Corp., 562 F.3d 399 (1st Cir. 2009). No overruling found in Redline's data.",
+      "case": "Essex Insurance v. Bloomsouth Flooring Corp."
+    }
+  ],
+  "judge": {},
+  "words": 735
+}

@@ -1,0 +1,139 @@
+{
+  "task": "m20",
+  "arm": "D",
+  "rep": 2,
+  "summary": {
+    "citations": 15,
+    "verified": 14,
+    "fabricated": 0,
+    "unverifiable": 1,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "392 U.S. 1",
+      "name": "Terry v. Ohio",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Terry v. Ohio, 392 U.S. 1 (1968). No overruling found in Redline's data. It mentions Aguilar v. Texas once in passing (later overruled by Illinois v. Gates, 1983); a single mention is not counted as reliance.",
+      "case": "Terry v. Ohio"
+    },
+    {
+      "text": "71 F.3d 783",
+      "name": "United States v. Botero-Ospina",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Botero-Ospina, 71 F.3d 783 (10th Cir. 1995). No overruling found in Redline's data.",
+      "case": "United States v. Botero-Ospina"
+    },
+    {
+      "text": "14 F.3d 1479",
+      "name": "United States v. Gonzalez-Lerma",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Gonzalez-Lerma, 14 F.3d 1479 (10th Cir. 1994). No overruling found in Redline's data.",
+      "case": "United States v. Gonzalez-Lerma"
+    },
+    {
+      "text": "44 F.3d 860",
+      "name": "United States v. Jones",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Jones, 44 F.3d 860 (10th Cir. 1995). No overruling found in Redline's data.",
+      "case": "United States v. Jones"
+    },
+    {
+      "text": "135 F.3d 1345",
+      "name": "United States v. Hunnicutt",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hunnicutt, 135 F.3d 1345 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Hunnicutt"
+    },
+    {
+      "text": "14 F.3d at 1483",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Gonzalez-Lerma, 14 F.3d 1479 (10th Cir. 1994). No overruling found in Redline's data.",
+      "case": "United States v. Gonzalez-Lerma"
+    },
+    {
+      "text": "44 F.3d at 872",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Jones, 44 F.3d 860 (10th Cir. 1995). No overruling found in Redline's data.",
+      "case": "United States v. Jones"
+    },
+    {
+      "text": "575 U.S. 348",
+      "name": "Rodriguez v. United States",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 575 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "543 U.S. 405",
+      "name": "Illinois v. Caballes",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Illinois v. Caballes, 543 U.S. 405 (2005). No overruling found in Redline's data.",
+      "case": "Illinois v. Caballes"
+    },
+    {
+      "text": "460 U.S. 491",
+      "name": "Florida v. Royer",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Florida v. Royer, 460 U.S. 491 (1983). No overruling found in Redline's data.",
+      "case": "Florida v. Royer"
+    },
+    {
+      "text": "490 U.S. 1",
+      "name": "United States v. Sokolow",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Sokolow, 490 U.S. 1 (1989). No overruling found in Redline's data.",
+      "case": "United States v. Sokolow"
+    },
+    {
+      "text": "534 U.S. 266",
+      "name": "United States v. Arvizu",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Arvizu, 534 U.S. 266 (2002). No overruling found in Redline's data.",
+      "case": "United States v. Arvizu"
+    },
+    {
+      "text": "106 F.3d 942",
+      "name": "United States v. Wood",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Wood, 106 F.3d 942 (10th Cir. 1997). No overruling found in Redline's data.",
+      "case": "United States v. Wood"
+    },
+    {
+      "text": "158 F.3d 1107",
+      "name": "Likewise, United States v. Salzano",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Salzano, 158 F.3d 1107 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Salzano"
+    },
+    {
+      "text": "392 U.S. at 21",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Terry v. Ohio, 392 U.S. 1 (1968). No overruling found in Redline's data. It mentions Aguilar v. Texas once in passing (later overruled by Illinois v. Gates, 1983); a single mention is not counted as reliance.",
+      "case": "Terry v. Ohio"
+    }
+  ],
+  "judge": {},
+  "words": 736
+}

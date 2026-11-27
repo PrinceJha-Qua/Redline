@@ -1,0 +1,139 @@
+{
+  "task": "m20",
+  "arm": "D",
+  "rep": 1,
+  "summary": {
+    "citations": 15,
+    "verified": 12,
+    "fabricated": 0,
+    "unverifiable": 3,
+    "overruled": 0,
+    "caution": 0
+  },
+  "fabricated": [],
+  "cites_overruled": [],
+  "citations": [
+    {
+      "text": "135 F.3d 1345",
+      "name": "United States v. Hunnicutt",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hunnicutt, 135 F.3d 1345 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Hunnicutt"
+    },
+    {
+      "text": "71 F.3d 783",
+      "name": "United States v. Botero-Ospina",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Botero-Ospina, 71 F.3d 783 (10th Cir. 1995). No overruling found in Redline's data.",
+      "case": "United States v. Botero-Ospina"
+    },
+    {
+      "text": "543 U.S. 405",
+      "name": "Illinois v. Caballes",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Illinois v. Caballes, 543 U.S. 405 (2005). No overruling found in Redline's data.",
+      "case": "Illinois v. Caballes"
+    },
+    {
+      "text": "575 U.S. 348",
+      "name": "Rodriguez v. United States",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 575 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "106 F.3d 942",
+      "name": "United States v. Wood",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Wood, 106 F.3d 942 (10th Cir. 1997). No overruling found in Redline's data.",
+      "case": "United States v. Wood"
+    },
+    {
+      "text": "14 F.3d 1479",
+      "name": "United States v. Gonzalez-Lerma",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Gonzalez-Lerma, 14 F.3d 1479 (10th Cir. 1994). No overruling found in Redline's data.",
+      "case": "United States v. Gonzalez-Lerma"
+    },
+    {
+      "text": "135 F.3d at 1349",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Hunnicutt, 135 F.3d 1345 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Hunnicutt"
+    },
+    {
+      "text": "106 F.3d at 945",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Wood, 106 F.3d 942 (10th Cir. 1997). No overruling found in Redline's data.",
+      "case": "United States v. Wood"
+    },
+    {
+      "text": "575 U.S. at 355",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 575 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    },
+    {
+      "text": "106 F.3d at 946",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Wood, 106 F.3d 942 (10th Cir. 1997). No overruling found in Redline's data.",
+      "case": "United States v. Wood"
+    },
+    {
+      "text": "18 F.3d 874",
+      "name": "United States v. Fernandez",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Fernandez, 18 F.3d 874 (10th Cir. 1994). No overruling found in Redline's data.",
+      "case": "United States v. Fernandez"
+    },
+    {
+      "text": "106 F.3d at 946",
+      "name": "",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Wood, 106 F.3d 942 (10th Cir. 1997). No overruling found in Redline's data.",
+      "case": "United States v. Wood"
+    },
+    {
+      "text": "158 F.3d 1107",
+      "name": "Likewise, United States v. Salzano",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "United States v. Salzano, 158 F.3d 1107 (10th Cir. 1998). No overruling found in Redline's data.",
+      "case": "United States v. Salzano"
+    },
+    {
+      "text": "834 F.3d 1132",
+      "name": "Vasquez v. Lewis",
+      "verdict": "VERIFIED",
+      "status": "good law",
+      "reason": "Vasquez v. Lewis, 834 F.3d 1132 (10th Cir. 2016). No overruling found in Redline's data.",
+      "case": "Vasquez v. Lewis"
+    },
+    {
+      "text": "575 U.S. at 354",
+      "name": "",
+      "verdict": "UNVERIFIABLE",
+      "status": null,
+      "reason": "Volume 575 of U.S. is after volume 572 (2014), where Redline's U.S. data ends.",
+      "case": null
+    }
+  ],
+  "judge": {},
+  "words": 739
+}
