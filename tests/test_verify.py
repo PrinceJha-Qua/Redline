@@ -200,3 +200,27 @@ def test_reliance_rule():
     assert relies_on("F3d:1:1", 6, None)                # cited twice
     assert not relies_on("US:1:1", 1, "quoting X")      # a parenthetical that says nothing
     assert relies_on("US:1:1", 1, "holding that agencies get deference")
+
+
+# Each guard below keeps a real citation from being called fabricated when the data cannot prove it.
+# The name is invented, so without the guard each would be FABRICATED (bench/mutations.py checks this).
+@pytest.mark.parametrize("cite, says", [
+    ("6 U.S. 255 (1804)", "disagrees with how courts cite it"),               # volume's page map is suspect
+    ("2 U.S. 408 (1793)", "Courts cite a case starting on page 408"),          # a start page missing from the data
+    ("1 U.S. 471 (1789)", "holds several short orders"),                       # order pages
+    ("1 F.3d 1585 (9th Cir. 1993)", "is the last page of United States v. Adams"),  # a shared last page
+])
+def test_guards_keep_unprovable_citations_unverifiable(cite, says):
+    c = service.check_text(f"Zzyzx Holdings v. Quorvane Corp., {cite}.", suggest=False)["citations"][0]
+    assert c["verdict"] == "UNVERIFIABLE", c["reason"]
+    assert says in c["reason"]
+
+
+@pytest.mark.parametrize("text, cite", [
+    ("Chevron U.S.A. Inc. v. Natural Res. Def. Council, Inc., 467 U.S. 837 (1984).", "467 U.S. 837"),
+    ("Nat'l Cable & Telecomms. Ass'n v. Brand X Internet Servs., 545 U.S. 967 (2005).", "545 U.S. 967"),
+    ("Campbell v. Air Jamaica Ltd., 760 F.3d 1165 (11th Cir. 2014).", "760 F.3d 1165"),
+])
+def test_a_correct_citation_is_verified_under_its_short_or_abbreviated_name(text, cite):
+    c = service.check_text(text, suggest=False)["citations"][0]
+    assert c["verdict"] == "VERIFIED" and c["case"]["cite"] == cite

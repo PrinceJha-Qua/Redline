@@ -83,7 +83,10 @@ def test_find_authority_returns_real_cases_in_the_courts_words():
 
 
 def test_find_authority_puts_overruled_cases_last():
-    r = service.find_authority("deference to an agency's reasonable interpretation of an ambiguous statute", limit=8)
+    # Saucier v. Katz matches better than most good-law cases here, and was overruled by Pearson (2009).
+    r = service.find_authority("whether a constitutional right was clearly established must be decided first "
+                               "in qualified immunity", limit=8)
+    assert "Saucier v. Katz" in [a["case"]["name"] for a in r["authorities"]]
     statuses = [a["status"] for a in r["authorities"]]
     bad = [i for i, s in enumerate(statuses) if s in ("overruled", "overruled in part")]
     assert bad, statuses  # Chevron is found ...

@@ -26,7 +26,7 @@ MUTATIONS = [
     ("a shared last page between two opinions is called fabricated", "redline/verify.py",
      "if at_page and not strictly_inside:", "if False:"),
     ("names never agree", "redline/verify.py",
-     "return _agree(cited, actual, common)", "return False"),
+     "return any(_agree(r, actual, common) for r in _readings(cite)) if _readings(cite) else True", "return False"),
     ("a passing mention counts as reliance", "redline/status.py",
      "if parenthetical and not _NOISE.search(parenthetical):", "if True:"),
     ("a case cited after it was overruled counts as resting on it", "redline/status.py",
